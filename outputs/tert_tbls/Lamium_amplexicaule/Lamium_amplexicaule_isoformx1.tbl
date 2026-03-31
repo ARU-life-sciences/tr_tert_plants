@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              975    1461 34894888 34895331 34894868 34895351 50494679    +       3e-44  154.0  10.9  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              344     919 34893326 34894003 34893305 34894023 50494679    +     1.6e-28  101.8  31.2  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1457    1812 34896201 34897581 34896194 34897582 50494679    +     7.1e-16   59.9  15.6  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1561    1727 34893088 34893236 34893068 34893242 50494679    +      0.0025   18.3   5.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Lamium_amplexicaule/assembly/curated/daLamAmpl1.1/daLamAmpl1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Lamium_amplexicaule/Lamium_amplexicaule_isoformx1.tbl --dna --cpu 20 ../original_data/tert/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Lamium_amplexicaule/assembly/curated/daLamAmpl1.1/daLamAmpl1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 05:48:50 2025
+# [ok]

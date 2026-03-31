@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2520    3029 49072846 49072298 49072855 49072279 62263623    -     2.3e-35  125.5  16.4  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3218 49071720 49071525 49071729 49071505 62263623    -     3.3e-19   71.8   5.6  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1553    1953 49074009 49073645 49074029 49073625 62263623    -     4.7e-18   68.0  18.0  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2158    2360 49073337 49073118 49073357 49073098 62263623    -     3.9e-08   35.1  11.0  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3378    3561 49071238 49071055 49071258 49071051 62263623    -     3.9e-08   35.1   2.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Teucrium_scorodonia/assembly/curated/daTeuScoo1.1/daTeuScoo1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Teucrium_scorodonia/Teucrium_scorodonia_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Teucrium_scorodonia/assembly/curated/daTeuScoo1.1/daTeuScoo1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 00:29:18 2025
+# [ok]

@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_7              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2539    3029 2901270 2901826 2901250 2901846 43611580    +     1.3e-23   85.4  20.6  -
+SUPER_7              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3228 2902466 2902671 2902454 2902691 43611580    +     3.7e-18   67.3   7.7  -
+SUPER_7              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1537    2147 2899642 2900286 2899628 2900306 43611580    +     7.5e-14   53.0  25.9  -
+SUPER_7              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2407 2900405 2900638 2900385 2900658 43611580    +     1.4e-06   28.8  11.4  -
+SUPER_7              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3351    3563 2903684 2903896 2903664 2903898 43611580    +       0.019   15.1   2.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Mercurialis_annua/assembly/curated/ddMerAnnu1.2/ddMerAnnu1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Mercurialis_annua/Mercurialis_annua_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Mercurialis_annua/assembly/curated/ddMerAnnu1.2/ddMerAnnu1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 00:25:21 2025
+# [ok]

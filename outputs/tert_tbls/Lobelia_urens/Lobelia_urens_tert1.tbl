@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2782    3239 14549598 14549090 14549618 14549069 56406421    -     1.7e-36  127.7  11.9  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1749    2322 14554682 14554073 14554704 14554052 56406421    -     1.3e-26   95.0  23.6  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3443 14548363 14548148 14548379 14548126 56406421    -     4.4e-22   79.9   4.9  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2379    2564 14553918 14553732 14553940 14553712 56406421    -     3.9e-13   50.2   7.2  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3499    3770 14547722 14547454 14547743 14547453 56406421    -     5.6e-13   49.7   9.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Lobelia_urens/assembly/curated/daLobUren4.1/daLobUren4.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Lobelia_urens/Lobelia_urens_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Lobelia_urens/assembly/curated/daLobUren4.1/daLobUren4.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 01:32:14 2025
+# [ok]

@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          TR                   -                1     316  7353243  7353542  7353243  7353546 19242147    +     8.1e-27  101.5   0.8  -
+SUPER_6              -          TR                   -              118     200  2686366  2686275  2686386  2686274 28977121    -       0.028   20.9   0.6  -
+SUPER_6              -          TR                   -              118     200  2804580  2804489  2804600  2804488 28977121    -       0.028   20.9   0.6  -
+SUPER_12             -          TR                   -              160     224 14502054 14501979 14502060 14501957 25728966    -         5.7   13.3   0.5  -
+SUPER_10             -          TR                   -                2      90 20074318 20074409 20074317 20074425 26768659    +         6.8   13.1   2.5  -
+SUPER_10             -          TR                   -               82     166   593159   593270   593138   593271 26768659    +         7.1   13.0   4.6  -
+SUPER_18             -          TR                   -                2      83 20567071 20567153 20567070 20567174 20568811    +           8   12.9   3.2  -
+SUPER_15             -          TR                   -               19     137 17906225 17906109 17906235 17906090 21846856    -         8.4   12.8   1.7  -
+SUPER_19             -          TR                   -               67     130   624964   624881   624984   624860 19242147    -         9.3   12.7   0.3  -
+SUPER_1              -          TR                   -                1      64 22096172 22096235 22096172 22096255 44690059    +         9.5   12.6   0.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Malva_neglecta/assembly/curated/ddMalNegl1.2/ddMalNegl1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Malva_neglecta.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Malva_neglecta/assembly/curated/ddMalNegl1.2/ddMalNegl1.hap1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:30:07 2025
+# [ok]

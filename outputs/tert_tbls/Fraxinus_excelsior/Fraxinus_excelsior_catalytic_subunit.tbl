@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2524    3029 11368521 11369110 11368501 11369119 32999388    +     8.7e-37  129.8  17.6  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1540    2126 11366456 11367068 11366433 11367089 32999388    +     2.6e-23   85.1  26.0  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3087    3229 11370236 11370378 11370216 11370387 32999388    +     1.8e-20   75.7   4.5  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3291    3563 11370573 11370845 11370567 11370847 32999388    +     2.6e-17   65.2  10.0  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2407 11367222 11367455 11367202 11367466 32999388    +     3.6e-13   51.4  13.9  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1345    1423 11365606 11365684 11365586 11365696 32999388    +        0.36   11.6   1.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Fraxinus_excelsior/assembly/curated/daFraExce3.1/daFraExce3.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Fraxinus_excelsior/Fraxinus_excelsior_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Fraxinus_excelsior/assembly/curated/daFraExce3.1/daFraExce3.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:56:40 2025
+# [ok]

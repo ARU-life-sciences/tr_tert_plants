@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2586    3034 32703970 32703501 32703990 32703483 77467772    -       8e-32  112.8  18.5  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3089    3228 32702856 32702717 32702877 32702697 77467772    -     2.2e-18   68.2   7.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    1961 32705349 32704974 32705361 32704954 77467772    -     2.5e-15   58.0  15.1  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2169    2317 32704663 32704510 32704683 32704490 77467772    -       1e-05   26.1   7.6  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3281    3554 32702538 32702254 32702559 32702243 77467772    -      0.0045   17.3   2.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_triphyllos/assembly/curated/daVerTrip1.1/daVerTrip1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Veronica_triphyllos/Veronica_triphyllos_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Veronica_triphyllos/assembly/curated/daVerTrip1.1/daVerTrip1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 04:42:36 2025
+# [ok]

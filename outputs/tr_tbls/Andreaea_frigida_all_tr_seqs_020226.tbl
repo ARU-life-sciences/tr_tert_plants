@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_7              -          all_tr_seqs          -               85     261 20826153 20826314 20826130 20826344 22373846    +     1.6e-06   33.6   1.1  -
+SUPER_3              -          all_tr_seqs          -              129     268  6765782  6765649  6765800  6765629 25383555    -      0.0081   21.4   2.0  -
+SUPER_7              -          all_tr_seqs          -              127     189 10530247 10530184 10530260 10530177 22373846    -        0.77   14.9   1.3  -
+SUPER_7              -          all_tr_seqs          -               51     145  9428648  9428553  9428658  9428533 22373846    -           1   14.5   0.6  -
+SUPER_10             -          all_tr_seqs          -              115     172    78263    78207    78282    78203 14721873    -         2.1   13.5   0.9  -
+SUPER_1              -          all_tr_seqs          -               45     123 21096134 21096063 21096146 21096042 31803595    -         3.3   12.8   1.4  -
+SUPER_9              -          all_tr_seqs          -               83     149  5512939  5513006  5512918  5513018 18938845    +         3.6   12.7   0.4  -
+SUPER_3              -          all_tr_seqs          -              126     158  2780430  2780463  2780409  2780482 25383555    +         3.8   12.6   3.1  -
+SUPER_1              -          all_tr_seqs          -               84     143 22716227 22716285 22716208 22716305 31803595    +         4.9   12.2   1.3  -
+SUPER_2              -          all_tr_seqs          -               99     177 25917769 25917852 25917749 25917856 28751554    +         5.1   12.2   0.0  -
+SUPER_8              -          all_tr_seqs          -              122     157 18944601 18944639 18944581 18944655 20289402    +         5.2   12.2   0.4  -
+SUPER_3              -          all_tr_seqs          -               87     146 11004555 11004618 11004533 11004639 25383555    +         7.1   11.7   0.0  -
+SUPER_7              -          all_tr_seqs          -              127     177 10772585 10772641 10772565 10772662 22373846    +         7.6   11.6   1.1  -
+SUPER_9              -          all_tr_seqs          -              120     157 18865661 18865624 18865681 18865604 18938845    -         7.9   11.6   0.7  -
+SUPER_3              -          all_tr_seqs          -              213     280 19847347 19847279 19847349 19847265 25383555    -         8.4   11.5   4.1  -
+SUPER_3              -          all_tr_seqs          -              119     159  1312850  1312885  1312833  1312906 25383555    +         8.7   11.4   1.7  -
+SUPER_1              -          all_tr_seqs          -              117     160 15799412 15799457 15799392 15799477 31803595    +         9.7   11.3   1.4  -
+SUPER_2              -          all_tr_seqs          -              127     173 28741247 28741196 28741267 28741194 28751554    -         9.9   11.2   0.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Andreaea_frigida/assembly/curated/caAndFrig2.1/caAndFrig2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Andreaea_frigida_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Andreaea_frigida/assembly/curated/caAndFrig2.1/caAndFrig2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:24 2026
+# [ok]

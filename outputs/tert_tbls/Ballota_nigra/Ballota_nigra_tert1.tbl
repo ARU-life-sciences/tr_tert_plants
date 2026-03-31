@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3239 24979862 24980387 24979841 24980407 140828634    +     9.7e-34  120.2  13.6  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3300    3769 24981560 24982100 24981532 24982106 140828634    +     3.5e-26   95.1  14.7  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2374    2636 24979368 24979623 24979347 24979633 140828634    +     8.1e-14   54.1  13.5  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    2163 24978685 24979051 24978668 24979071 140828634    +     2.8e-13   52.3  17.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ballota_nigra/assembly/curated/daBalNigr1.1/daBalNigr1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Ballota_nigra/Ballota_nigra_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Ballota_nigra/assembly/curated/daBalNigr1.1/daBalNigr1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:34:45 2025
+# [ok]

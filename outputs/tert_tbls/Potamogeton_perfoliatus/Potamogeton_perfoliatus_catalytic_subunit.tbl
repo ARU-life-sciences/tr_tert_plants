@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2764    3029 22209429 22209697 22209408 22209718 24480100    +     1.3e-34  122.5  13.4  -
+SUPER_16             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2764    3029  2548545  2548277  2548565  2548258 19697647    -     6.3e-34  120.2  10.8  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1541    2118 22207123 22207727 22207110 22207733 24480100    +     1.9e-26   95.4  25.3  -
+SUPER_16             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3039    3228  2548161  2547969  2548176  2547948 19697647    -     5.7e-21   77.2   7.4  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3039    3228 22209821 22210013 22209806 22210034 24480100    +       2e-19   72.1   9.4  -
+SUPER_16             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3349    3564  2547634  2547422  2547655  2547421 19697647    -     2.9e-12   48.3   4.1  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3349    3564 22210350 22210562 22210329 22210563 24480100    +     7.8e-12   46.9   4.2  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2165    2373 22207894 22208102 22207873 22208122 24480100    +     9.3e-09   36.7  15.9  -
+SUPER_16             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2168    2337  2549830  2549649  2549853  2549629 19697647    -     1.2e-08   36.3  14.0  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    2693 22208979 22209127 22208958 22209147 24480100    +      0.0027   18.6   9.2  -
+SUPER_16             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    2693  2548995  2548847  2549016  2548829 19697647    -       0.054   14.3   9.7  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1301    1422 22206400 22206533 22206380 22206539 24480100    +        0.91   10.2   3.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/monocots/Potamogeton_perfoliatus/assembly/curated/laPotPerf1.1/laPotPerf1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Potamogeton_perfoliatus/Potamogeton_perfoliatus_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/monocots/Potamogeton_perfoliatus/assembly/curated/laPotPerf1.1/laPotPerf1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:14:32 2025
+# [ok]

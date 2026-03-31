@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          TR                   -                1     315 61896170 61896496 61896170 61896506 71373542    +     5.4e-35  128.1   1.3  -
+SUPER_1              -          TR                   -              166     308   508831   508678   508898   508668 78734616    -     6.4e-10   45.9   4.7  -
+SUPER_2              -          TR                   -              184     315 27967116 27966990 27967126 27966988 89481139    -        0.22   17.8   2.4  -
+SUPER_3              -          TR                   -               24     124 63502879 63502983 63502862 63503003 71373542    +        0.22   17.8   0.0  -
+SUPER_4              -          TR                   -              146     204  5199033  5198966  5199054  5198939 71357145    -         1.6   15.0   5.6  -
+SUPER_4              -          TR                   -               28     124 36298055 36298149 36298039 36298169 71357145    +         2.2   14.6   4.6  -
+SUPER_2              -          TR                   -               19     123 46081215 46081331 46081208 46081346 89481139    +         2.2   14.5   5.2  -
+SUPER_1              -          TR                   -              168     244 56446063 56445987 56446067 56445975 78734616    -         2.8   14.2   3.8  -
+SUPER_7              -          TR                   -               71     125 38333487 38333541 38333464 38333561 51003056    +         4.9   13.4   4.5  -
+SUPER_6              -          TR                   -               68     126 51981177 51981122 51981197 51981101 71249837    -         5.9   13.2   3.6  -
+SUPER_5              -          TR                   -                1      85 47695876 47695790 47695876 47695767 69504040    -         5.9   13.1   3.5  -
+SUPER_1              -          TR                   -              169     205 33347888 33347846 33347909 33347819 78734616    -         6.7   13.0   0.1  -
+SUPER_3              -          TR                   -               68     125 45420129 45420076 45420149 45420056 71373542    -         7.1   12.9   1.6  -
+SUPER_3              -          TR                   -               22     139 50054871 50054756 50054881 50054735 71373542    -         7.3   12.8   0.3  -
+SUPER_1              -          TR                   -              102     128  7001469  7001509  7001389  7001529 78734616    +         7.3   12.8   1.1  -
+SUPER_7              -          TR                   -               81     162 46450018 46450116 46449991 46450122 51003056    +         7.6   12.8   7.4  -
+SUPER_4              -          TR                   -               21     122 14348307 14348440 14348294 14348460 71357145    +         9.1   12.5   1.3  -
+SUPER_1              -          TR                   -              169     205 32087298 32087256 32087301 32087231 78734616    -         9.2   12.5   0.4  -
+SUPER_7              -          TR                   -               57     132 29879254 29879326 29879223 29879339 51003056    +         9.8   12.4   3.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Rosa_canina/assembly/curated/drRosCani1.1/drRosCani1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Rosa_canina.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Rosa_canina/assembly/curated/drRosCani1.1/drRosCani1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:36 2025
+# [ok]

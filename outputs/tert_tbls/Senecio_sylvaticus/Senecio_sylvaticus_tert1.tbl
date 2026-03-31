@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    3450 18611245 18613084 18611225 18613104 97028408    +       1e-64  223.6 100.5  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    3450 58814379 58812539 58814399 58812519 78465258    -     2.2e-64  222.5  97.3  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -              485     587 58815565 58815465 58815585 58815441 78465258    -        0.11   14.4   5.8  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3583    3769 18613294 18613481 18613274 18613483 97028408    +        0.16   13.8  10.0  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -              485     586 18610057 18610158 18610037 18610182 97028408    +         1.6   10.5   6.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Senecio_sylvaticus/assembly/curated/daSenSylv1.1/daSenSylv1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Senecio_sylvaticus/Senecio_sylvaticus_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Senecio_sylvaticus/assembly/curated/daSenSylv1.1/daSenSylv1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 00:02:52 2025
+# [ok]

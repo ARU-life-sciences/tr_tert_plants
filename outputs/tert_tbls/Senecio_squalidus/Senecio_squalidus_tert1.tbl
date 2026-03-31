@@ -1,0 +1,15 @@
+# target name                accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#        ------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    3450 52478357 52480196 52478337 52480216 68525979    +     1.7e-65  224.7  95.8  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3583    3769 52480406 52480593 52480386 52480595 68525979    +        0.14   12.6  10.1  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -              485     588 52477169 52477272 52477149 52477296 68525979    +        0.54   10.7   6.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Senecio_squalidus/assembly/curated/dSenSqu2.1/dSenSqu2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Senecio_squalidus/Senecio_squalidus_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Senecio_squalidus/assembly/curated/dSenSqu2.1/dSenSqu2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:01:27 2025
+# [ok]

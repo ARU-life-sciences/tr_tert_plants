@@ -1,0 +1,25 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+HAP1_SCAFFOLD_556    -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2816    3242     31997     31577     32017     31556     37196    -     1.7e-30  111.1  19.5  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2816    3242   1415472   1415892   1415452   1415913 362866187    +     1.7e-30  111.1  19.5  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2816    3238 361939873 361939457 361939893 361939435 363605009    -     6.3e-30  109.2  16.8  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2776    3238 271782399 271782852 271782379 271782874 289449648    +     9.9e-28  101.9  16.2  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3233    3444 271783432 271783649 271783411 271783671 289449648    +     1.6e-21   81.3   6.9  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2565 271780744 271781553 271780727 271781574 289449648    +     1.6e-21   81.3  23.3  -
+HAP1_SCAFFOLD_556    -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2618     33353     32475     33373     32454     37196    -     1.1e-20   78.5  22.2  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2618   1414116   1414994   1414096   1415015 362866187    +     1.1e-20   78.5  22.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2618 361941233 361940355 361941248 361940334 363605009    -     3.3e-20   77.0  20.4  -
+HAP1_SCAFFOLD_556    -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3451     31342     31119     31349     31097     37196    -     6.3e-20   76.0   4.9  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3451   1416127   1416350   1416120   1416372 362866187    +     6.3e-20   76.0   4.9  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3451 361938683 361938460 361938691 361938439 363605009    -     9.8e-20   75.4   3.8  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3593    3681 271784084 271784172 271784064 271784193 289449648    +       0.018   18.1   3.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Carlina_vulgaris/assembly/curated/daCarVulg1.1/daCarVulg1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Carlina_vulgaris/Carlina_vulgaris_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Carlina_vulgaris/assembly/curated/daCarVulg1.1/daCarVulg1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 04:51:19 2025
+# [ok]

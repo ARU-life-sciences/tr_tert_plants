@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              177    1483 8767651 8765928 8767671 8765922 66973584    -     8.3e-70  240.5  36.3  -
+SUPER_8              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              182    1483 4040721 4042418 4040699 4042424 77165264    +     1.1e-68  236.7  35.5  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1453    1813 8765854 8765234 8765876 8765234 66973584    -     3.5e-26   95.8   6.4  -
+SUPER_8              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1457    1813 4042493 4043103 4042471 4043103 77165264    +     2.4e-24   89.7   6.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Agrostemma_githago/assembly/curated/dcAgrGith1.1/dcAgrGith1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Agrostemma_githago/Agrostemma_githago_isoformx1.tbl --dna --cpu 20 ../original_data/tert/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Agrostemma_githago/assembly/curated/dcAgrGith1.1/dcAgrGith1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 06:54:28 2025
+# [ok]

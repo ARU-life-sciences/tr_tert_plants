@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              952    1460 32613843 32614386 32613735 32614407 74547878    +     8.4e-51  176.4  20.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              233     933 32611148 32612058 32611147 32612093 74547878    +     1.8e-42  148.8  34.1  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1456    1812 32615412 32616186 32615407 32616187 74547878    +     1.7e-33  119.0  13.5  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1542    1691 32611017 32611142 32611008 32611144 74547878    +     6.8e-05   24.2   6.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Cornus_suecica/assembly/curated/drCorSuec2.1/drCorSuec2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Cornus_suecica/Cornus_suecica_isoformx1.tbl --dna --cpu 20 ../original_data/tert/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Cornus_suecica/assembly/curated/drCorSuec2.1/drCorSuec2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 01:22:33 2025
+# [ok]

@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          TR                   -                2     316  2798788  2798462  2798789  2798458 32916660    -       3e-26   98.4   1.1  -
+SUPER_3              -          TR                   -               77     122       48       83        3       93 33176863    +         1.5   14.1   5.4  -
+SUPER_5              -          TR                   -               68     122  8482752  8482675  8482772  8482647 32489678    -         1.8   13.8   0.0  -
+SUPER_2              -          TR                   -               79     126    85741    85706    85774    85686 34558442    -           3   13.1   2.3  -
+SUPER_2              -          TR                   -               79     142   202557   202625   202537   202646 34558442    +         3.3   12.9   3.6  -
+SUPER_1              -          TR                   -               36     157   953547   953670   953527   953677 36807667    +         4.4   12.5   2.0  -
+SUPER_1              -          TR                   -               67     122 10793826 10793750 10793851 10793730 36807667    -         8.2   11.6   0.4  -
+SUPER_3              -          TR                   -              108     162 14156650 14156599 14156672 14156579 33176863    -         8.6   11.5   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Myriophyllum_alterniflorum/assembly/curated/drMyrAlte1.1/drMyrAlte1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Myriophyllum_alterniflorum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Myriophyllum_alterniflorum/assembly/curated/drMyrAlte1.1/drMyrAlte1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:08 2025
+# [ok]

@@ -1,0 +1,15 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -                1     312  63974257  63973912  63974257  63973909 224067570    -     7.6e-32  120.1   1.8  -
+SUPER_4              -          TR                   -               62     134  43124731  43124808  43124702  43124828 251527947    +        0.47   19.0   3.0  -
+SUPER_5              -          TR                   -               35     128 138549568 138549695 138549548 138549716 246038259    +         6.8   15.2   5.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Humulus_lupulus/assembly/curated/drHumLupu1.1/drHumLupu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Humulus_lupulus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Humulus_lupulus/assembly/curated/drHumLupu1.1/drHumLupu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:30:16 2025
+# [ok]

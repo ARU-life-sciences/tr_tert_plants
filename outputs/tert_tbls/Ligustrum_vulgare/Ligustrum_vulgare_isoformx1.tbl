@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              949    1460 37204513 37203958 37204550 37203938 58053754    -     3.6e-56  194.9  17.1  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231     922 37206514 37205619 37206517 37205596 58053754    -     2.2e-39  139.2  26.3  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1457    1813 37203003 37202292 37203023 37202292 58053754    -     3.2e-28  102.2  12.2  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1530    1701 37206655 37206508 37206663 37206507 58053754    -     0.00048   22.1   5.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ligustrum_vulgare/assembly/curated/daLigVulg1.1/daLigVulg1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Ligustrum_vulgare/Ligustrum_vulgare_isoformx1.tbl --dna --cpu 20 ../original_data/tert/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Ligustrum_vulgare/assembly/curated/daLigVulg1.1/daLigVulg1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Wed Jul  9 23:47:52 2025
+# [ok]

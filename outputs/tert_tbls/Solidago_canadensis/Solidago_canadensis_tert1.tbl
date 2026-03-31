@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2766    3241 53626606 53627072 53626576 53627093 81930397    +       1e-30  111.2  22.2  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2766    3241 52470859 52471325 52470829 52471346 80646205    +     1.9e-29  107.0  22.2  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3241 50421508 50421966 50421470 50421987 79371950    +     2.3e-29  106.7  23.2  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1750    2566 50420379 50421189 50420358 50421201 79371950    +     8.4e-26   94.9  33.3  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1755    2566 52469743 52470548 52469722 52470568 80646205    +     1.4e-25   94.1  33.2  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1750    2566 53625479 53626289 53625458 53626310 81930397    +     5.7e-25   92.1  33.3  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3235    3451 53627180 53627402 53627169 53627425 81930397    +       1e-19   74.7   7.7  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3235    3451 52471434 52471656 52471423 52471682 80646205    +     1.1e-19   74.7   7.8  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3235    3451 50422073 50422295 50422066 50422321 79371950    +     2.1e-19   73.7   6.8  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3770 52472432 52472702 52472412 52472703 80646205    +     1.7e-05   27.6  15.9  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3770 50423415 50423685 50423394 50423686 79371950    +     2.4e-05   27.0  18.3  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3770 53628214 53628484 53628194 53628485 81930397    +     6.5e-05   25.6  15.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Solidago_canadensis/assembly/curated/daSolCann1.1/daSolCann1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Solidago_canadensis/Solidago_canadensis_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Solidago_canadensis/assembly/curated/daSolCann1.1/daSolCann1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:29:02 2025
+# [ok]

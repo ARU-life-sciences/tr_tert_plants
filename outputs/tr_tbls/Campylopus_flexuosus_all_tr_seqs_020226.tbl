@@ -1,0 +1,44 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          all_tr_seqs          -              127     219 36449834 36449925 36449811 36449945 45726823    +       0.004   22.6   2.0  -
+SUPER_10             -          all_tr_seqs          -              103     219  6101466  6101335  6101486  6101314 15621924    -       0.011   21.1   0.3  -
+SUPER_2              -          all_tr_seqs          -              125     189 18256989 18256922 18257004 18256902 45726823    -        0.15   17.4   2.8  -
+SUPER_6              -          all_tr_seqs          -               95     143  8423838  8423886  8423817  8423909 18829701    +         0.2   17.0   1.0  -
+SUPER_2              -          all_tr_seqs          -              114     176 28285546 28285618 28285541 28285627 45726823    +        0.54   15.6   1.5  -
+SUPER_10             -          all_tr_seqs          -               94     147 15598401 15598346 15598423 15598340 15621924    -        0.63   15.4   3.2  -
+SUPER_2              -          all_tr_seqs          -              126     188  8225166  8225102  8225185  8225100 45726823    -        0.73   15.2   0.2  -
+SUPER_6              -          all_tr_seqs          -              132     205 13401010 13401090 13400998 13401103 18829701    +           1   14.7   1.3  -
+SUPER_10             -          all_tr_seqs          -               98     143 15598339 15598399 15598316 15598419 15621924    +         1.1   14.6   0.4  -
+SUPER_9              -          all_tr_seqs          -              106     146  6821343  6821306  6821363  6821286 16030480    -         1.2   14.5   0.0  -
+SUPER_9              -          all_tr_seqs          -              106     146  6900240  6900203  6900261  6900183 16030480    -         1.2   14.5   0.0  -
+SUPER_3              -          all_tr_seqs          -               59     177 18595664 18595539 18595684 18595537 25148363    -         1.6   14.0   2.7  -
+SUPER_2              -          all_tr_seqs          -              115     176  7540610  7540539  7540616  7540530 45726823    -         2.2   13.6   0.5  -
+SUPER_5              -          all_tr_seqs          -              115     175 13001852 13001922 13001847 13001932 20359629    +         2.9   13.2   0.4  -
+SUPER_9              -          all_tr_seqs          -              109     147  6630996  6630962  6631016  6630943 16030480    -           3   13.2   0.5  -
+SUPER_9              -          all_tr_seqs          -              109     146  6793607  6793574  6793627  6793554 16030480    -         3.1   13.1   0.4  -
+SUPER_8              -          all_tr_seqs          -              113     151 11152946 11152911 11152958 11152891 18335809    -         3.3   13.0   0.6  -
+SUPER_9              -          all_tr_seqs          -              109     147  6837896  6837862  6837915  6837843 16030480    -         3.5   13.0   0.5  -
+SUPER_1              -          all_tr_seqs          -              127     187 38366070 38365988 38366082 38365968 50137147    -         4.8   12.5   1.1  -
+SUPER_9              -          all_tr_seqs          -              109     146  6956712  6956679  6956731  6956659 16030480    -         5.1   12.4   0.3  -
+SUPER_9              -          all_tr_seqs          -               87     149 14146654 14146601 14146676 14146581 16030480    -         5.3   12.4   0.6  -
+SUPER_11             -          all_tr_seqs          -               95     143  2597055  2597005  2597075  2596985 15368062    -         5.9   12.2   0.5  -
+SUPER_7              -          all_tr_seqs          -               95     143 15145537 15145480 15145563 15145469 18381106    -         6.4   12.1   1.0  -
+SUPER_2              -          all_tr_seqs          -              100     149 37447160 37447102 37447180 37447081 45726823    -         6.4   12.1   0.9  -
+SUPER_2              -          all_tr_seqs          -              118     158 15883585 15883546 15883601 15883526 45726823    -         6.9   12.0   4.4  -
+SUPER_4              -          all_tr_seqs          -              101     146    80190    80238    80173    80258 22376548    +         6.9   12.0   1.9  -
+SUPER_3              -          all_tr_seqs          -              115     174  7245120  7245065  7245125  7245046 25148363    -           7   12.0   2.0  -
+SUPER_7              -          all_tr_seqs          -               99     144  6850510  6850462  6850534  6850442 18381106    -         7.4   11.9   1.4  -
+SUPER_4              -          all_tr_seqs          -              123     149 20729741 20729767 20729708 20729797 22376548    +         7.5   11.9   0.0  -
+SUPER_7              -          all_tr_seqs          -              104     143 18140893 18140857 18140913 18140837 18381106    -         8.6   11.7   0.0  -
+SUPER_5              -          all_tr_seqs          -              165     219  1970396  1970336  1970421  1970325 20359629    -         8.6   11.7   1.1  -
+SUPER_2              -          all_tr_seqs          -              117     177 15622644 15622720 15622633 15622726 45726823    +           9   11.6   0.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Campylopus_flexuosus/assembly/curated/cbCamFlex1.1/cbCamFlex1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Campylopus_flexuosus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Campylopus_flexuosus/assembly/curated/cbCamFlex1.1/cbCamFlex1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:15:19 2026
+# [ok]

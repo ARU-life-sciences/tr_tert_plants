@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_17             -          TR                   -                1     316  7147482  7147782  7147482  7147790 21380167    +     2.4e-28  106.7   1.0  -
+SUPER_6              -          TR                   -              118     200 30690556 30690646 30690528 30690647 33343926    +      0.0016   25.3   0.2  -
+SUPER_20             -          TR                   -               72     158  8792198  8792269  8792174  8792289 10581979    +         5.8   13.6   4.6  -
+SUPER_6              -          TR                   -              102     157 14322608 14322668 14322588 14322670 33343926    +         8.8   13.0   4.5  -
+SUPER_6              -          TR                   -              102     157 14322892 14322952 14322872 14322954 33343926    +         8.8   13.0   4.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Malva_sylvestris/assembly/curated/ddMalSylv1.1/ddMalSylv1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Malva_sylvestris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Malva_sylvestris/assembly/curated/ddMalSylv1.1/ddMalSylv1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:03 2025
+# [ok]

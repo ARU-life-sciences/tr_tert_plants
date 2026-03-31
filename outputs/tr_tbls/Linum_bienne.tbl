@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                4     316 32681317 32680956 32681320 32680954 41383933    -     1.9e-10   47.5   0.4  -
+SUPER_7              -          TR                   -               96     180 31546196 31546121 31546208 31546112 31909332    -        0.28   17.4   3.9  -
+SUPER_2              -          TR                   -                2     117   455588   455468   455589   455467 36188061    -           3   14.0   1.9  -
+SUPER_15             -          TR                   -               90     156  1548134  1548204  1548114  1548208 25466543    +         3.2   13.9   1.0  -
+SUPER_15             -          TR                   -              171     213  6246820  6246867  6246787  6246887 25466543    +         4.8   13.4   1.1  -
+SUPER_7              -          TR                   -               68     128  2709749  2709696  2709774  2709678 31909332    -         8.4   12.6   0.0  -
+SUPER_8              -          TR                   -                2     101 25353208 25353106 25353209 25353092 31751094    -         8.5   12.6   2.4  -
+SUPER_7              -          TR                   -                2      84  1688803  1688890  1688802  1688910 31909332    +         8.7   12.5   1.3  -
+SUPER_1              -          TR                   -                2     102 33618900 33619005 33618899 33619021 41383933    +         9.6   12.4   1.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Linum_bienne/assembly/curated/ddLinBien1.1/ddLinBien1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Linum_bienne.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Linum_bienne/assembly/curated/ddLinBien1.1/ddLinBien1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:42 2025
+# [ok]

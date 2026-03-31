@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          all_tr_seqs          -               95     209 22308600 22308498 22308620 22308478 34559936    -        0.39   16.6   0.0  -
+SUPER_11             -          all_tr_seqs          -              120     179 11283618 11283678 11283597 11283682 20377477    +        0.56   16.0   0.3  -
+SUPER_6              -          all_tr_seqs          -              103     174 29754676 29754579 29754697 29754572 29915940    -        0.87   15.4   0.7  -
+SUPER_4              -          all_tr_seqs          -               84     143 16045402 16045344 16045421 16045323 34559936    -         1.1   15.0   1.3  -
+SUPER_10             -          all_tr_seqs          -              110     158 23675875 23675823 23675895 23675805 23739064    -         1.7   14.5   0.4  -
+SUPER_2              -          all_tr_seqs          -               89     148 31991501 31991563 31991484 31991583 42808876    +         1.8   14.4   1.1  -
+SUPER_5              -          all_tr_seqs          -              105     185  8919027  8918950  8919057  8918942 30653069    -         2.5   13.9   0.0  -
+SUPER_2              -          all_tr_seqs          -              127     186 14008525 14008595 14008505 14008596 42808876    +         3.1   13.6   0.7  -
+SUPER_8              -          all_tr_seqs          -              110     145 24024508 24024473 24024528 24024451 26443816    -         3.5   13.4   0.4  -
+SUPER_4              -          all_tr_seqs          -              107     152 30354055 30354106 30354051 30354126 34559936    +         4.4   13.1   1.2  -
+SUPER_2              -          all_tr_seqs          -              189     274 27541273 27541180 27541283 27541162 42808876    -         6.4   12.6   0.6  -
+SUPER_10             -          all_tr_seqs          -              107     146 18058684 18058646 18058724 18058626 23739064    -         7.4   12.4   0.0  -
+SUPER_13             -          all_tr_seqs          -              241     341  7059916  7060004  7059896  7060009 19616276    +           8   12.3   2.1  -
+SUPER_6              -          all_tr_seqs          -               82     165 29907267 29907383 29907246 29907403 29915940    +         8.2   12.2   3.6  -
+SUPER_2              -          all_tr_seqs          -              127     158 35624893 35624853 35624908 35624832 42808876    -         8.3   12.2   0.3  -
+SUPER_11             -          all_tr_seqs          -              127     160   516336   516299   516359   516266 20377477    -         8.3   12.2   0.5  -
+SUPER_7              -          all_tr_seqs          -              125     157  4067313  4067347  4067292  4067367 26993922    +         9.4   12.0   1.2  -
+SUPER_10             -          all_tr_seqs          -              117     173 14712308 14712246 14712320 14712243 23739064    -         9.4   12.0   0.0  -
+SUPER_4              -          all_tr_seqs          -              126     177 24646685 24646630 24646705 24646611 34559936    -         9.6   12.0   2.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Grimmia_elongata/assembly/curated/cbGriElon5.1/cbGriElon5.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Grimmia_elongata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Grimmia_elongata/assembly/curated/cbGriElon5.1/cbGriElon5.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:12 2026
+# [ok]

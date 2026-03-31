@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          TR                   -                2     312  12812163  12811846  12812164  12811841 115832916    -     6.8e-24   94.3   4.6  -
+SUPER_21             -          TR                   -                2     290  12487889  12487587  12487890  12487578 104786869    -     1.5e-21   86.6   5.0  -
+SUPER_24             -          TR                   -                2     276  13220350  13220066  13220351  13220040 103385325    -     3.5e-20   82.1   4.0  -
+SUPER_21             -          TR                   -               68     197 100718089 100718240 100718069 100718246 104786869    +        0.75   18.7  11.9  -
+SUPER_26             -          TR                   -               68     179  38260571  38260697  38260551  38260709  93873914    +         6.4   15.6  10.0  -
+SUPER_7              -          TR                   -               71     193  88254388  88254254  88254408  88254249 123125920    -         8.4   15.2  12.9  -
+SUPER_2              -          TR                   -               76     122 141497889 141497846 141497959 141497845 141497968    -         8.4   15.2   0.0  -
+SUPER_1              -          TR                   -              109     131 164372489 164372463 164372558 164372450 164372567    -         9.5   15.0   4.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Gentianella_amarella/assembly/curated/daGenAmar1.1/daGenAmar1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Gentianella_amarella.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Gentianella_amarella/assembly/curated/daGenAmar1.1/daGenAmar1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:29 2025
+# [ok]

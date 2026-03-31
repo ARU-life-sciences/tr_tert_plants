@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1445    2524 10213178 10214251 10213156 10214267 24458999    +    3.1e-246  825.1  67.6  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2511    3031 10216887 10217406 10216884 10217426 24458999    +      1e-120  408.5  20.9  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3298 10217967 10218239 10217955 10218253 24458999    +     1.5e-57  198.9  10.1  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3564 10218408 10218680 10218395 10218681 24458999    +     9.4e-57  196.2   2.9  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              408     647 10195876 10196193 10195856 10196214 24458999    +     1.3e-30  109.4   6.9  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              719     994 10205748 10206017 10205728 10206037 24458999    +     1.4e-26   96.1  13.4  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1074    1214 10206963 10207103 10206942 10207107 24458999    +     2.6e-20   75.3   7.3  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -                1     330 10194491 10194805 10194491 10194815 24458999    +     3.1e-20   75.0  85.8  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1208    1340 10208425 10208557 10208410 10208577 24458999    +     3.1e-15   58.5  10.5  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1335    1437 10209276 10209378 10209256 10209390 24458999    +     4.9e-13   51.1   7.4  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              322     408 10194924 10195010 10194916 10195031 24458999    +     0.00068   20.8   0.7  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              996    1080 10206103 10206199 10206085 10206219 24458999    +      0.0068   17.5   5.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/monocots/Phragmites_australis/assembly/curated/lpPhrAust1.1/lpPhrAust1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Phragmites_australis/Phragmites_australis_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/monocots/Phragmites_australis/assembly/curated/lpPhrAust1.1/lpPhrAust1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:15:04 2025
+# [ok]

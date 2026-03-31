@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          TR                   -                1     312  44845009  44845328  44845009  44845333  74547878    +     1.7e-36  133.8   1.1  -
+SUPER_6              -          TR                   -               25     134  61131642  61131749  61131629  61131769  78572207    +        0.62   17.1   1.9  -
+SUPER_10             -          TR                   -                1      93  49942157  49942069  49942157  49942049  56755905    -        0.82   16.7   1.7  -
+SUPER_10             -          TR                   -                1     142  26823910  26824106  26823910  26824124  56755905    +         1.2   16.1   2.7  -
+SUPER_5              -          TR                   -                1      66   3826402   3826465   3826402   3826483  74547878    +         2.3   15.2   3.7  -
+SUPER_1              -          TR                   -                1      84  11501777  11501870  11501777  11501890 107913701    +         3.1   14.8   0.8  -
+SUPER_2              -          TR                   -                2      92   3927911   3928003   3927910   3928023  90944389    +         3.8   14.5   8.4  -
+SUPER_1              -          TR                   -                2      80  25587619  25587537  25587620  25587521 107913701    -           5   14.1   2.6  -
+SUPER_9              -          TR                   -                2      84  18333344  18333259  18333345  18333240  63707972    -         5.3   14.0   1.1  -
+SUPER_7              -          TR                   -              146     181  44838945  44838910  44838966  44838902  77328628    -         5.6   13.9   1.9  -
+SUPER_9              -          TR                   -                1     141  59179825  59179978  59179825  59179997  63707972    +         5.7   13.9   0.3  -
+SUPER_1              -          TR                   -                1      52  75624240  75624291  75624240  75624316 107913701    +         5.7   13.9   4.6  -
+SUPER_2              -          TR                   -               68     142  86970821  86970896  86970801  86970920  90944389    +         6.2   13.8   2.9  -
+SUPER_2              -          TR                   -               69     134  32935308  32935231  32935325  32935209  90944389    -         6.9   13.6   1.0  -
+SUPER_11             -          TR                   -               34     130  10371166  10371061  10371190  10371035  51396483    -         7.7   13.5   4.5  -
+SUPER_6              -          TR                   -               25     122  10859207  10859323  10859189  10859348  78572207    +         8.2   13.4   4.2  -
+SUPER_6              -          TR                   -                1      84  69385920  69385832  69385920  69385812  78572207    -         9.8   13.1   2.8  -
+SUPER_1              -          TR                   -                1      76   6480240   6480163   6480240   6480161 107913701    -         9.9   13.1   1.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Cornus_suecica/assembly/curated/drCorSuec2.1/drCorSuec2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cornus_suecica.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Cornus_suecica/assembly/curated/drCorSuec2.1/drCorSuec2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:26:49 2025
+# [ok]

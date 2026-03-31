@@ -1,0 +1,18 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                2     317 56943023 56943354 56943022 56943355 78136793    +       5e-31  115.1   4.0  -
+SUPER_6              -          TR                   -                5     155 37759245 37759082 37759245 37759062 67133274    -        0.54   16.5   4.6  -
+SUPER_4              -          TR                   -                1      67 57879059 57878993 57879059 57878968 73444829    -         7.2   12.8   6.2  -
+SUPER_7              -          TR                   -                1      68 13647608 13647676 13647608 13647704 60615273    +         8.8   12.6   4.5  -
+SUPER_4              -          TR                   -               32     124 39060861 39060767 39060881 39060747 73444829    -         9.1   12.5   2.4  -
+SUPER_4              -          TR                   -               33     124 39091417 39091324 39091437 39091304 73444829    -         9.5   12.4   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_triphyllos/assembly/curated/daVerTrip1.1/daVerTrip1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Veronica_triphyllos.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Veronica_triphyllos/assembly/curated/daVerTrip1.1/daVerTrip1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:48:01 2025
+# [ok]

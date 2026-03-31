@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -              109     164  8544771  8544722  8544793  8544717 20066712    -         0.3   16.8   0.0  -
+SUPER_5              -          TR                   -               68     162 13454633 13454744 13454613 13454746 25744393    +         0.8   15.4   2.6  -
+SUPER_2              -          TR                   -               98     146 38540722 38540770 38540710 38540788 42233950    +         2.4   13.8   1.8  -
+SUPER_10             -          TR                   -               68     139 14497070 14496994 14497090 14496974 20066712    -         2.5   13.8   1.8  -
+SUPER_2              -          TR                   -               68     141  3118668  3118745  3118641  3118758 42233950    +           3   13.5   2.6  -
+SUPER_3              -          TR                   -               68     141 24149485 24149411 24149505 24149391 34710512    -         3.2   13.4   1.2  -
+SUPER_2              -          TR                   -               34     128 13682881 13682975 13682859 13682996 42233950    +           4   13.1   3.3  -
+SUPER_12             -          TR                   -              168     222 15677044 15677106 15677037 15677128 17719311    +         4.5   12.9   0.6  -
+SUPER_6              -          TR                   -               60     130  8247114  8247028  8247134  8247008 25375559    -         4.6   12.9   0.0  -
+SUPER_5              -          TR                   -               68     126  5468791  5468860  5468771  5468880 25744393    +         5.2   12.7   1.3  -
+SUPER_6              -          TR                   -               74     124  9912184  9912229  9912164  9912250 25375559    +         5.3   12.7   1.7  -
+SUPER_6              -          TR                   -               64     130  9912240  9912178  9912263  9912158 25375559    -         5.8   12.6   2.2  -
+SUPER_6              -          TR                   -               75     125  9276491  9276446  9276511  9276426 25375559    -         5.9   12.5   0.0  -
+SUPER_11             -          TR                   -               68     125 16650625 16650685 16650605 16650705 19818175    +         7.2   12.2   1.5  -
+SUPER_7              -          TR                   -               68     133 18360865 18360941 18360838 18360962 21472253    +         7.4   12.2   1.1  -
+SUPER_5              -          TR                   -               84     146  1699558  1699629  1699553  1699648 25744393    +         8.4   12.0   0.4  -
+SUPER_9              -          TR                   -               92     137 18279300 18279259 18279334 18279238 21047500    -         8.4   12.0   1.9  -
+SUPER_1              -          TR                   -               71     142  3307649  3307580  3307670  3307556 53282056    -         8.8   12.0   3.5  -
+SUPER_4              -          TR                   -               99     251 18209633 18209779 18209600 18209801 30758693    +           9   11.9   3.1  -
+SUPER_1              -          TR                   -               11     122  1167008  1167144  1167004  1167164 53282056    +         9.4   11.9   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Bryoerythrophyllum_ferruginascens/assembly/curated/cbBryFerr6.1/cbBryFerr6.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Bryoerythrophyllum_ferruginascens.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Bryoerythrophyllum_ferruginascens/assembly/curated/cbBryFerr6.1/cbBryFerr6.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:51 2025
+# [ok]

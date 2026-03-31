@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                1     315 633638133 633637796 633638133 633637795 871117268    -     4.3e-15   64.8   4.3  -
+SUPER_3              -          TR                   -               25     131 373231172 373231064 373231190 373231047 411565204    -        0.34   19.2   6.3  -
+SUPER_1              -          TR                   -               13     131 841770080 841769964 841770086 841769944 871117268    -         0.5   18.6   6.1  -
+SUPER_1              -          TR                   -               68     122 491944035 491944100 491944015 491944121 871117268    +           1   17.6   1.2  -
+SUPER_3              -          TR                   -               57     142 270365791 270365706 270365813 270365690 411565204    -         1.8   16.8   2.4  -
+SUPER_1              -          TR                   -               27     130  36448753  36448873  36448737  36448903 871117268    +         2.7   16.2   6.8  -
+SUPER_2              -          TR                   -               31     140 296188242 296188354 296188222 296188375 606249919    +         3.6   15.8   7.6  -
+SUPER_1              -          TR                   -               72     136 650723962 650724051 650723928 650724072 871117268    +         4.1   15.6   3.7  -
+SUPER_1              -          TR                   -               83     164  62067411  62067492  62067395  62067496 871117268    +         4.4   15.5   1.0  -
+SUPER_2              -          TR                   -               79     126  10827186  10827131  10827217  10827111 606249919    -         4.8   15.4   3.0  -
+SUPER_1              -          TR                   -               20     124 806444262 806444362 806444246 806444382 871117268    +         5.9   15.1   5.0  -
+SUPER_3              -          TR                   -              103     163 259842524 259842462 259842546 259842453 411565204    -           6   15.1   2.3  -
+SUPER_1              -          TR                   -               26     137  75773886  75773995  75773870  75774015 871117268    +           7   14.8  12.4  -
+HAP2_SCAFFOLD_22     -          TR                   -                3     141    537007    536874    537009    536854   1312121    -         7.4   14.8   3.8  -
+SUPER_2              -          TR                   -               67     130 101771375 101771308 101771401 101771288 606249919    -         7.4   14.8   2.2  -
+SUPER_3              -          TR                   -               80     177 399602584 399602477 399602608 399602454 411565204    -         7.6   14.7   0.5  -
+SUPER_2              -          TR                   -               75     126 130107204 130107263 130107178 130107283 606249919    +         7.7   14.7   3.0  -
+SUPER_3              -          TR                   -               18     142 282381612 282381764 282381605 282381783 411565204    +         8.9   14.5   4.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Crepis_capillaris/assembly/curated/daCreCapi1.1/daCreCapi1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Crepis_capillaris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Crepis_capillaris/assembly/curated/daCreCapi1.1/daCreCapi1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:57 2025
+# [ok]

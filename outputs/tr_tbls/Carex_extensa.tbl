@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -                7     315 11109799 11110133 11109793 11110135 11209559    +     2.2e-24   92.6   2.4  -
+SUPER_19             -          TR                   -               67     141   699584   699657   699560   699701  8391830    +       0.014   21.1   4.2  -
+SUPER_2              -          TR                   -               17     126 16444815 16444930 16444809 16444943 16632925    +        0.53   15.9   5.7  -
+SUPER_2              -          TR                   -               65     133  2294070  2293998  2294093  2293991 16632925    -        0.76   15.4   0.0  -
+SUPER_2              -          TR                   -               69     131  3029371  3029432  3029341  3029490 16632925    +         1.1   14.8   0.4  -
+SUPER_15             -          TR                   -               67     124  2594075  2594014  2594097  2593994  9558797    -         1.7   14.3   0.0  -
+SUPER_28             -          TR                   -               30     129  5063626  5063528  5063644  5063508  6978293    -         3.5   13.2   3.5  -
+SUPER_19             -          TR                   -               30     140  6209049  6208908  6209068  6208888  8391830    -         5.4   12.6   4.1  -
+SUPER_1              -          TR                   -               70     136 12077522 12077452 12077574 12077427 24327583    -         9.2   11.8   7.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Carex_extensa/assembly/curated/lpCarExte1.1/lpCarExte1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Carex_extensa.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Carex_extensa/assembly/curated/lpCarExte1.1/lpCarExte1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:27:20 2025
+# [ok]

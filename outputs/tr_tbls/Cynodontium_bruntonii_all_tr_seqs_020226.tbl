@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          all_tr_seqs          -               86     219  8959425  8959282  8959448  8959261 15694546    -        0.01   21.2   0.0  -
+SUPER_9              -          all_tr_seqs          -               76     147  1761091  1761004  1761103  1760982 17050323    -         0.2   16.9   1.4  -
+SUPER_5              -          all_tr_seqs          -              100     149 20754945 20754908 20754965 20754890 21484484    -         1.3   14.3   0.0  -
+SUPER_8              -          all_tr_seqs          -               84     146 17591466 17591416 17591486 17591396 17625488    -         1.7   13.9   0.9  -
+SUPER_4              -          all_tr_seqs          -              114     156 20315453 20315497 20315448 20315509 22013762    +         3.6   12.8   1.7  -
+SUPER_4              -          all_tr_seqs          -              127     186 17886286 17886353 17886269 17886364 22013762    +         4.2   12.6   0.0  -
+SUPER_11             -          all_tr_seqs          -               99     152  8258886  8258828  8258895  8258808 15668742    -         4.9   12.4   1.5  -
+SUPER_3              -          all_tr_seqs          -              100     152 10035305 10035358 10035283 10035387 22862600    +         5.1   12.3   2.7  -
+SUPER_5              -          all_tr_seqs          -              100     157 11451649 11451581 11451666 11451558 21484484    -           6   12.1   0.0  -
+SUPER_9              -          all_tr_seqs          -              103     147  2267489  2267535  2267482  2267556 17050323    +         6.3   12.0   1.0  -
+SUPER_1              -          all_tr_seqs          -              127     194  1684602  1684531  1684622  1684516 25529678    -         6.4   12.0   0.0  -
+SUPER_7              -          all_tr_seqs          -              127     165 17921491 17921529 17921471 17921545 19937580    +         6.6   12.0   0.5  -
+SUPER_2              -          all_tr_seqs          -              110     176  4352492  4352437  4352528  4352423 24698396    -         8.3   11.7   3.7  -
+SUPER_5              -          all_tr_seqs          -              112     149  1516343  1516306  1516350  1516286 21484484    -         8.7   11.6   0.9  -
+SUPER_4              -          all_tr_seqs          -               90     144  9742785  9742730  9742805  9742708 22013762    -         8.8   11.6   0.5  -
+SUPER_10             -          all_tr_seqs          -               96     146  9436024  9435953  9436045  9435936 15694546    -         9.5   11.5   0.6  -
+SUPER_13             -          all_tr_seqs          -               27     149  3256055  3256176  3256035  3256195 14402827    +         9.6   11.4   1.0  -
+SUPER_14             -          all_tr_seqs          -               83     144  3529747  3529701  3529767  3529681  8971998    -         9.8   11.4   0.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Cynodontium_bruntonii/assembly/curated/cbCynBrun3.1/cbCynBrun3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cynodontium_bruntonii_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Cynodontium_bruntonii/assembly/curated/cbCynBrun3.1/cbCynBrun3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:11:31 2026
+# [ok]

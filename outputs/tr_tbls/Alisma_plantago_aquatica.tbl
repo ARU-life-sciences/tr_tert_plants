@@ -1,0 +1,16 @@
+# target name        accession  query name           accession  hmmfrom hmm to    alifrom     ali to    envfrom     env to     sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------    -------    -------    -------    -------    ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                2     208  686576466  686576218  686576467  686576198 1999785258    -     4.7e-07   40.6   3.8  -
+SUPER_2              -          TR                   -              107     180  196911880  196911795  196911898  196911780 1545728702    -        0.04   24.4   2.2  -
+SUPER_3              -          TR                   -               25     141  818293999  818293883  818294014  818293863 1499997841    -         5.4   17.4   2.4  -
+SUPER_1              -          TR                   -              103     162  881871849  881871902  881871829  881871906 1999785258    +         8.9   16.7   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Alisma_plantago_aquatica/assembly/curated/laAliPlan1.1/laAliPlan1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Alisma_plantago_aquatica.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Alisma_plantago_aquatica/assembly/curated/laAliPlan1.1/laAliPlan1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:25:55 2025
+# [ok]

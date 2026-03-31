@@ -1,0 +1,23 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15             -          TR                   -                1     315  6136490  6136831  6136490  6136832 15104844    +     1.3e-38  139.5   4.3  -
+SUPER_11             -          TR                   -               74     122  8122715  8122774  8122695  8122794 17153086    +       0.076   18.9   0.0  -
+SUPER_16             -          TR                   -               31     129  7737507  7737390  7737527  7737363 14491662    -        0.25   17.2   6.3  -
+SUPER_15             -          TR                   -              173     312 14977520 14977646 14977505 14977651 15104844    +        0.32   16.8   0.8  -
+SUPER_12             -          TR                   -               24     122   280896   280804   280916   280784 16130580    -        0.64   15.8   1.9  -
+SUPER_11             -          TR                   -              170     244  9277075  9277132  9277074  9277149 17153086    +         3.4   13.4   2.0  -
+SUPER_16             -          TR                   -               37     128  3554678  3554593  3554698  3554573 14491662    -         4.1   13.2   5.0  -
+SUPER_13             -          TR                   -              183     224  9144836  9144890  9144816  9144910 15993627    +         5.9   12.7   0.0  -
+SUPER_3              -          TR                   -              104     162 15172372 15172432 15172351 15172434 21261719    +         8.2   12.2   6.3  -
+SUPER_2              -          TR                   -              181     257 11995982 11995897 11996000 11995862 21430524    -         8.8   12.1   0.0  -
+SUPER_Z              -          TR                   -              186     214 13630869 13630926 13630861 13630946 15495732    +           9   12.0   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Salix_repens/assembly/curated/ddSalRepe1.1/ddSalRepe1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Salix_repens.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Salix_repens/assembly/curated/ddSalRepe1.1/ddSalRepe1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:59 2025
+# [ok]

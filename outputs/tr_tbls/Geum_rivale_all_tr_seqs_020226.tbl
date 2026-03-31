@@ -1,0 +1,23 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_8              -          all_tr_seqs          -               24     338 27632334 27632651 27632314 27632659 49563589    +     1.8e-49  177.0   2.2  -
+SUPER_2              -          all_tr_seqs          -               83     340 25213878 25214143 25213856 25214149 67012392    +     1.2e-43  157.8   1.8  -
+SUPER_1              -          all_tr_seqs          -              125     186  7667381  7667302  7667401  7667301 73208839    -        0.32   18.3   1.8  -
+SUPER_14             -          all_tr_seqs          -              127     151      160      184       44      196 42322436    +         1.2   16.4   0.0  -
+SUPER_1              -          all_tr_seqs          -              113     151 13721554 13721516 13721556 13721492 73208839    -         2.2   15.5   2.2  -
+SUPER_6              -          all_tr_seqs          -              102     181 21887455 21887366 21887475 21887364 53309897    -         3.4   14.9   2.4  -
+SUPER_7              -          all_tr_seqs          -               14     103 28092002 28092095 28091988 28092103 52090739    +           5   14.3   1.7  -
+SUPER_2              -          all_tr_seqs          -               96     145 64395307 64395364 64395286 64395383 67012392    +         7.6   13.7   2.2  -
+SUPER_4              -          all_tr_seqs          -              103     170 34569342 34569271 34569350 34569260 60151178    -         7.7   13.7   0.0  -
+SUPER_14             -          all_tr_seqs          -              120     181 17356828 17356758 17356871 17356756 42322436    -         8.5   13.6   2.0  -
+SUPER_5              -          all_tr_seqs          -              125     210 48157151 48157054 48157169 48157035 56500804    -         9.9   13.3   5.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/dicots/Geum_rivale/assembly/curated/drGeuRiva1.1/drGeuRiva1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Geum_rivale_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Geum_rivale/assembly/curated/drGeuRiva1.1/drGeuRiva1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:13:03 2026
+# [ok]

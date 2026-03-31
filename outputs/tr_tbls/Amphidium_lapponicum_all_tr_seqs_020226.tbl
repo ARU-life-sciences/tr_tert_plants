@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_12             -          all_tr_seqs          -               94     219  6790101  6789985  6790121  6789959 15280343    -     0.00066   25.1   0.0  -
+SUPER_1              -          all_tr_seqs          -               53     144  6872641  6872726  6872619  6872746 25922412    +        0.27   16.5   3.6  -
+SUPER_3              -          all_tr_seqs          -              206     289  2285522  2285613  2285519  2285626 23276471    +        0.46   15.8   0.3  -
+SUPER_4              -          all_tr_seqs          -              102     151  7913067  7913015  7913077  7912993 21311445    -        0.63   15.3   0.3  -
+SUPER_3              -          all_tr_seqs          -               45     152    79198    79342    79186    79368 23276471    +        0.69   15.2   3.4  -
+SUPER_10             -          all_tr_seqs          -               94     144 14063235 14063286 14063215 14063311 16261091    +        0.79   15.0   1.0  -
+SUPER_10             -          all_tr_seqs          -               83     149  5495410  5495317  5495432  5495297 16261091    -           1   14.6   1.4  -
+SUPER_5              -          all_tr_seqs          -              125     176  3005990  3006057  3005975  3006074 21072286    +           2   13.6   0.0  -
+SUPER_9              -          all_tr_seqs          -               89     148  8570952  8570897  8570970  8570877 16580900    -         2.4   13.4   1.4  -
+SUPER_2              -          all_tr_seqs          -              105     187   198549   198636   198529   198648 23659212    +           3   13.1   1.5  -
+SUPER_8              -          all_tr_seqs          -               85     149 11457300 11457374 11457280 11457402 17139774    +           3   13.1   2.8  -
+SUPER_7              -          all_tr_seqs          -              113     146 10018535 10018498 10018555 10018475 17539563    -         5.1   12.3   0.9  -
+SUPER_11             -          all_tr_seqs          -               52     144     2264     2385     2248     2405 15426158    +         5.1   12.3   2.2  -
+SUPER_14             -          all_tr_seqs          -               88     144 13876868 13876822 13876889 13876801 13933908    -         5.3   12.3   0.9  -
+SUPER_5              -          all_tr_seqs          -               97     149 13437815 13437772 13437835 13437755 21072286    -         6.4   12.0   1.1  -
+SUPER_2              -          all_tr_seqs          -               94     145 21430941 21430881 21430962 21430866 23659212    -         7.1   11.9   0.6  -
+SUPER_9              -          all_tr_seqs          -              120     157 16256589 16256550 16256605 16256533 16580900    -         7.4   11.8   1.3  -
+SUPER_12             -          all_tr_seqs          -              109     159     9862     9811     9882     9792 15280343    -         7.5   11.8   0.8  -
+SUPER_13             -          all_tr_seqs          -               83     142  6360371  6360314  6360391  6360293 14996337    -         9.1   11.5   0.1  -
+SUPER_5              -          all_tr_seqs          -              100     160  9851971  9852036  9851954  9852059 21072286    +         9.3   11.5   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Amphidium_lapponicum/assembly/curated/cbAmpLapp4.1/cbAmpLapp4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Amphidium_lapponicum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Amphidium_lapponicum/assembly/curated/cbAmpLapp4.1/cbAmpLapp4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:13:52 2026
+# [ok]

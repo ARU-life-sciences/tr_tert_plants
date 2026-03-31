@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -              181     317  6225696  6225522  6225702  6225522 30752386    -        0.89   15.6   3.2  -
+SUPER_10             -          TR                   -              111     180 18794765 18794837 18794744 18794847 30752386    +         1.1   15.3   0.2  -
+SUPER_10             -          TR                   -               21     126 23145993 23145872 23146006 23145851 30752386    -         1.7   14.7   3.9  -
+SUPER_4              -          TR                   -              177     214 15776314 15776364 15776301 15776385 42668830    +         1.8   14.6   0.1  -
+SUPER_1              -          TR                   -               39     204 10909336 10909174 10909347 10909154 49331666    -           3   13.9   1.4  -
+SUPER_11             -          TR                   -              111     162 25888237 25888291 25888217 25888309 27457156    +           3   13.9   4.5  -
+SUPER_10             -          TR                   -              192     315 17266681 17266809 17266661 17266812 30752386    +         3.1   13.8   1.5  -
+SUPER_3              -          TR                   -               89     134 33041299 33041250 33041306 33041228 43299833    -         4.1   13.4   0.5  -
+SUPER_2              -          TR                   -               89     131 22752537 22752583 22752529 22752603 45115601    +         5.5   13.0   0.7  -
+SUPER_10             -          TR                   -              192     315 17264035 17264163 17264015 17264166 30752386    +         5.8   12.9   1.1  -
+SUPER_10             -          TR                   -              192     315 17264917 17265045 17264897 17265048 30752386    +         5.8   12.9   1.1  -
+SUPER_10             -          TR                   -              192     315 17265799 17265927 17265779 17265930 30752386    +         5.8   12.9   1.1  -
+SUPER_10             -          TR                   -               68     124 25082406 25082355 25082429 25082335 30752386    -         5.8   12.9   2.1  -
+SUPER_3              -          TR                   -               69     139  1067719  1067805  1067698  1067827 43299833    +         5.9   12.9   0.3  -
+SUPER_6              -          TR                   -              182     253 28257737 28257811 28257727 28257830 38913260    +         6.9   12.7   0.2  -
+SUPER_7              -          TR                   -              111     162  2691361  2691415  2691341  2691435 37248729    +         8.1   12.5   4.7  -
+SUPER_5              -          TR                   -               61     125 18736850 18736922 18736824 18736944 38870496    +         8.8   12.3   0.5  -
+SUPER_9              -          TR                   -               75     206 20389566 20389456 20389593 20389432 33313266    -         9.5   12.2   0.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Leucobryum_glaucum/assembly/curated/cbLeuGlau1.1/cbLeuGlau1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Leucobryum_glaucum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Leucobryum_glaucum/assembly/curated/cbLeuGlau1.1/cbLeuGlau1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:44 2025
+# [ok]

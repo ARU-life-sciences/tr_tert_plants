@@ -1,0 +1,26 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          all_tr_seqs          -               17     260 16944085 16944404 16944067 16944410 55178940    +     5.9e-09   43.5   2.1  -
+SUPER_9              -          all_tr_seqs          -               17     260  4654582  4654280  4654599  4654255 51531180    -     4.5e-08   40.6   1.6  -
+SUPER_5              -          all_tr_seqs          -               17     235  5323569  5323278  5323586  5323256 59177243    -     1.8e-05   32.0   3.6  -
+SUPER_15             -          all_tr_seqs          -               18     105 20193443 20193353 20193461 20193333 39773022    -         1.4   15.9   0.4  -
+SUPER_8              -          all_tr_seqs          -               16      72 21845692 21845636 21845708 21845621 54368998    -         3.2   14.8   1.8  -
+SUPER_5              -          all_tr_seqs          -              169     220  8748648  8748596  8748668  8748579 59177243    -         3.4   14.7   4.1  -
+SUPER_12             -          all_tr_seqs          -               17      72 33285230 33285175 33285247 33285160 44060707    -         3.6   14.6   1.9  -
+SUPER_17             -          all_tr_seqs          -              164     210 11501175 11501224 11501152 11501244 37503479    +           4   14.5   3.7  -
+SUPER_13             -          all_tr_seqs          -              164     242 21310028 21309954 21310058 21309943 42863375    -         4.3   14.3   0.9  -
+SUPER_2              -          all_tr_seqs          -              127     165 64608765 64608715 64608778 64608695 64614264    -         4.5   14.3   0.4  -
+SUPER_13             -          all_tr_seqs          -               99     150  6711070  6711016  6711090  6710999 42863375    -         5.3   14.1   0.0  -
+SUPER_1              -          all_tr_seqs          -               16     108 67941075 67940991 67941093 67940972 69259105    -           6   13.9   0.2  -
+SUPER_6              -          all_tr_seqs          -              164     209  3630574  3630620  3630551  3630625 55178940    +         6.3   13.8   6.9  -
+SUPER_11             -          all_tr_seqs          -              165     210 20500558 20500601 20500531 20500610 45830977    +         7.1   13.6   5.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Digitaria_sanguinalis/assembly/curated/lpDigSang1.1/lpDigSang1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Digitaria_sanguinalis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Digitaria_sanguinalis/assembly/curated/lpDigSang1.1/lpDigSang1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:41 2026
+# [ok]

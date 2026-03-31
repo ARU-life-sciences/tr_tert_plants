@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15             -          all_tr_seqs          -               18     333 13732844 13733159 13732827 13733170 25084483    +     1.2e-25   97.7   0.2  -
+SUPER_15             -          all_tr_seqs          -               16      76 21623789 21623849 21623769 21623869 25084483    +        0.87   16.0   2.0  -
+SUPER_4              -          all_tr_seqs          -               57     148  6058260  6058153  6058272  6058127 30389809    -           5   13.5   0.8  -
+SUPER_5              -          all_tr_seqs          -               94     147 18385449 18385517 18385426 18385538 29837143    +         5.1   13.5   0.5  -
+SUPER_21             -          all_tr_seqs          -               19     113 12093769 12093665 12093787 12093649 20678714    -         5.5   13.3   1.9  -
+SUPER_19             -          all_tr_seqs          -               45     143 17768288 17768192 17768299 17768172 23943139    -         5.6   13.3   3.8  -
+SUPER_13             -          all_tr_seqs          -              188     224 25054147 25054107 25054182 25054087 26854394    -         6.4   13.1   2.5  -
+SUPER_10             -          all_tr_seqs          -              231     332 16573102 16573177 16573089 16573190 27800309    +         7.4   12.9   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Schoenoplectus_triqueter/assembly/curated/lpSchTriq1.1/lpSchTriq1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Schoenoplectus_triqueter_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Schoenoplectus_triqueter/assembly/curated/lpSchTriq1.1/lpSchTriq1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:26 2026
+# [ok]

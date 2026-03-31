@@ -1,0 +1,37 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          TR                   -                1     306 21046249 21046577 21046249 21046588 33771862    +     1.2e-18   73.6   1.5  -
+SUPER_4              -          TR                   -                2     307 33656499 33656177 33656500 33656157 33771862    -       2e-18   72.9   0.2  -
+SUPER_4              -          TR                   -              188     306 33576042 33576177 33576035 33576189 33771862    +     0.00081   24.9   2.2  -
+SUPER_6              -          TR                   -                2      98  7139494  7139366  7139495  7139352 31936718    -        0.54   15.7   2.3  -
+SUPER_2              -          TR                   -               29     156 34268018 34267880 34268035 34267857 38694015    -        0.93   14.9   7.3  -
+SUPER_8              -          TR                   -                2      75  2943269  2943345  2943268  2943369 30534130    +         3.2   13.2   1.6  -
+SUPER_4              -          TR                   -                2     113 26224782 26224664 26224783 26224644 33771862    -         3.7   12.9   3.3  -
+SUPER_2              -          TR                   -                2      85 10823680 10823795 10823679 10823811 38694015    +         3.8   12.9   0.9  -
+SUPER_5              -          TR                   -                2      92 19057218 19057326 19057217 19057339 32806842    +         4.4   12.7   1.7  -
+SUPER_3              -          TR                   -               70     161   340266   340374   340244   340394 36975123    +         4.6   12.6   2.7  -
+SUPER_2              -          TR                   -               40     130 25212334 25212431 25212319 25212451 38694015    +         5.5   12.4   2.5  -
+SUPER_1              -          TR                   -               77     133 37409702 37409760 37409677 37409796 41203716    +         5.7   12.3   1.6  -
+SUPER_1              -          TR                   -                2      92 15793218 15793336 15793217 15793349 41203716    +         6.1   12.2   0.9  -
+SUPER_8              -          TR                   -               24     139  6766812  6766923  6766800  6766942 30534130    +         6.2   12.2   6.5  -
+SUPER_3              -          TR                   -               68     125  4708799  4708739  4708819  4708703 36975123    -         6.5   12.1   3.3  -
+SUPER_4              -          TR                   -               75     130  7303730  7303673  7303750  7303662 33771862    -         6.6   12.1   2.3  -
+SUPER_1              -          TR                   -                1      76  5397660  5397734  5397660  5397754 41203716    +         6.7   12.1   1.3  -
+SUPER_4              -          TR                   -               24     141 12862222 12862336 12862208 12862356 33771862    +         6.7   12.1   3.3  -
+SUPER_1              -          TR                   -               20     141 11870837 11870724 11870845 11870704 41203716    -         6.7   12.1   2.5  -
+SUPER_1              -          TR                   -                2      84 30232391 30232311 30232392 30232291 41203716    -         7.2   12.0   3.4  -
+SUPER_8              -          TR                   -               29     141 15120586 15120690 15120570 15120710 30534130    +         7.7   11.9   1.8  -
+SUPER_8              -          TR                   -               38     141 13327801 13327705 13327822 13327685 30534130    -         8.2   11.8   1.4  -
+SUPER_6              -          TR                   -                2      58   351312   351368   351311   351387 31936718    +         8.9   11.7   3.7  -
+SUPER_1              -          TR                   -               46     141 11310490 11310407 11310518 11310387 41203716    -         9.5   11.6   3.4  -
+SUPER_3              -          TR                   -                2      93  5185775  5185897  5185774  5185909 36975123    +         9.9   11.5   2.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euphorbia_peplus/assembly/curated/ddEupPepu3.1/ddEupPepu3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Euphorbia_peplus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Euphorbia_peplus/assembly/curated/ddEupPepu3.1/ddEupPepu3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:43 2025
+# [ok]

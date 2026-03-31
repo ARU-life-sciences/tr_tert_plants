@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2756    3243 58859381 58858837 58859401 58858812 119604253    -     1.2e-32  117.0  24.1  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3236    3438 58858394 58858186 58858414 58858165 119604253    -     5.2e-18   68.4   9.6  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3493    3768 58844959 58844687 58844979 58844684 119604253    -     2.2e-16   63.0   8.0  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2379    2646 58860520 58860263 58860540 58860242 119604253    -     5.1e-12   48.5  13.4  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1746    2124 58861290 58860882 58861311 58860799 119604253    -     0.00034   22.5  21.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Tamarix_gallica/assembly/curated/dcTamGall1.1/dcTamGall1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Tamarix_gallica/Tamarix_gallica_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Tamarix_gallica/assembly/curated/dcTamGall1.1/dcTamGall1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:44:31 2025
+# [ok]

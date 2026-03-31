@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          TR                   -               68     127  9938518  9938583  9938498  9938603 11414410    +        0.15   17.4   1.6  -
+SUPER_1              -          TR                   -               79     152  9297602  9297525  9297621  9297511 26382224    -         0.9   14.9   0.1  -
+SUPER_6              -          TR                   -              131     204 18869008 18868936 18869021 18868910 20332908    -           1   14.7   4.2  -
+SUPER_12             -          TR                   -              134     196 11003018 11002958 11003036 11002956 12592702    -         1.2   14.4  11.1  -
+SUPER_2              -          TR                   -               89     158   864569   864634   864548   864643 23916850    +         1.5   14.2   2.7  -
+SUPER_7              -          TR                   -               27     124   124158   124309   124143   124329 18719887    +           2   13.8   0.8  -
+SUPER_11             -          TR                   -               90     131 11492704 11492746 11492683 11492782 13781752    +         2.1   13.7   0.0  -
+SUPER_5              -          TR                   -               91     141  1337263  1337319  1337234  1337337 21624420    +         2.3   13.5   0.4  -
+SUPER_12             -          TR                   -               93     162  2212045  2211941  2212065  2211939 12592702    -         3.5   12.9   0.0  -
+SUPER_8              -          TR                   -                2     124   578860   579003   578859   579023 18067403    +           5   12.4   2.0  -
+SUPER_12             -          TR                   -              134     195 11760528 11760586 11760508 11760589 12592702    +         5.5   12.3  11.4  -
+SUPER_5              -          TR                   -               25     136 17982539 17982412 17982553 17982395 21624420    -         6.2   12.1   2.9  -
+SUPER_2              -          TR                   -               81     141 16700093 16700019 16700099 16699999 23916850    -         7.2   11.9   0.2  -
+SUPER_14             -          TR                   -               77     131  2856026  2855972  2856045  2855951 11225245    -         7.2   11.9   3.6  -
+SUPER_3              -          TR                   -               79     132  5086612  5086569  5086633  5086549 23725026    -         7.6   11.8   0.2  -
+SUPER_4              -          TR                   -               35     141 12345591 12345715 12345574 12345735 23087910    +         7.9   11.8   1.0  -
+SUPER_8              -          TR                   -               79     132  9573127  9573076  9573146  9573056 18067403    -         8.4   11.7   1.3  -
+SUPER_1              -          TR                   -               45     122 11504001 11503909 11504022 11503889 26382224    -         8.7   11.6   0.2  -
+SUPER_9              -          TR                   -               68     129  4318757  4318822  4318737  4318849 16203537    +         8.8   11.6   1.7  -
+SUPER_3              -          TR                   -               48     141 10961941 10961824 10961973 10961810 23725026    -          10   11.4   1.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Kiaeria_blyttii/assembly/curated/cbKiaBlyt5.1/cbKiaBlyt5.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Kiaeria_blyttii.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Kiaeria_blyttii/assembly/curated/cbKiaBlyt5.1/cbKiaBlyt5.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:56 2025
+# [ok]

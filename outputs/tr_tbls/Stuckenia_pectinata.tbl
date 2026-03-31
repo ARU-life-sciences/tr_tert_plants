@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_17             -          TR                   -                1     312  6293385  6293093  6293385  6293088 14310518    -       5e-25   96.2   6.2  -
+SUPER_33             -          TR                   -               19     130 10081809 10081916 10081799 10081926 10260639    +       0.095   19.8   1.7  -
+SUPER_23             -          TR                   -               23     130  7674955  7675073  7674942  7675093 12096200    +        0.96   16.5   2.2  -
+SUPER_37             -          TR                   -               24     140  2519946  2519821  2519962  2519808  9620000    -         1.3   16.0   0.7  -
+SUPER_38             -          TR                   -               44     133  2832255  2832149  2832258  2832128  9588517    -         2.8   15.0   0.8  -
+SUPER_11             -          TR                   -                1      94   439828   439725   439828   439707 15997074    -         6.2   13.8   3.9  -
+HAP1_SCAFFOLD_605    -          TR                   -               67     141    20997    21076    20974    21095   138279    +         6.9   13.7   0.1  -
+SUPER_19             -          TR                   -                1     100 13036210 13036315 13036210 13036331 13156415    +         7.7   13.5   6.4  -
+SUPER_8              -          TR                   -              145     193 14996809 14996762 14996830 14996756 18465574    -         8.4   13.4   2.6  -
+SUPER_42             -          TR                   -              189     262  5019929  5019841  5019937  5019820  8259233    -         9.5   13.2   1.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Stuckenia_pectinata/assembly/curated/laStuPect1.1/laStuPect1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Stuckenia_pectinata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Stuckenia_pectinata/assembly/curated/laStuPect1.1/laStuPect1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:00 2025
+# [ok]

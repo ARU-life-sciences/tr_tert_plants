@@ -1,0 +1,28 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          all_tr_seqs          -              129     220 34238709 34238793 34238692 34238822 76769459    +     0.00021   27.9   0.0  -
+SUPER_6              -          all_tr_seqs          -              108     178  1596369  1596291  1596394  1596289 64539898    -        0.16   18.4   1.9  -
+SUPER_4              -          all_tr_seqs          -               92     157 26906062 26906131 26906040 26906151 69188341    +        0.48   16.8   1.3  -
+SUPER_1              -          all_tr_seqs          -              107     173  1246431  1246361  1246452  1246360 84952286    -         1.2   15.4   0.6  -
+SUPER_4              -          all_tr_seqs          -              121     161 60013024 60012972 60013051 60012954 69188341    -         1.4   15.2   0.7  -
+SUPER_5              -          all_tr_seqs          -               87     149 25209100 25209041 25209115 25209021 64541290    -         2.3   14.6   1.4  -
+SUPER_1              -          all_tr_seqs          -               44     160 55712666 55712551 55712680 55712532 84952286    -         2.3   14.6   1.8  -
+SUPER_6              -          all_tr_seqs          -              101     157 40779769 40779823 40779749 40779843 64539898    +         2.6   14.4   0.0  -
+SUPER_1              -          all_tr_seqs          -               89     141 40853660 40853735 40853640 40853757 84952286    +         3.4   14.0   0.0  -
+SUPER_3              -          all_tr_seqs          -               83     149 32587275 32587327 32587255 32587347 76769459    +         4.7   13.5   2.0  -
+SUPER_1              -          all_tr_seqs          -               88     149 50821937 50821878 50821958 50821858 84952286    -         5.6   13.3   1.1  -
+SUPER_7              -          all_tr_seqs          -              124     177 21897132 21897061 21897143 21897055 61227435    -         6.1   13.2   2.9  -
+SUPER_8              -          all_tr_seqs          -              114     175 34617946 34617996 34617926 34618011 60220812    +         6.3   13.1   2.6  -
+SUPER_8              -          all_tr_seqs          -               98     150  6029099  6029161  6029079  6029181 60220812    +         7.1   13.0   0.0  -
+SUPER_8              -          all_tr_seqs          -               47     157 36520581 36520469 36520595 36520452 60220812    -         7.3   12.9   5.4  -
+SUPER_5              -          all_tr_seqs          -              101     156 22817653 22817709 22817645 22817726 64541290    +         8.9   12.6   0.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Lunularia_cruciata/assembly/curated/cmLunCruc20.1/cmLunCruc20.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Lunularia_cruciata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Lunularia_cruciata/assembly/curated/cmLunCruc20.1/cmLunCruc20.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:16:43 2026
+# [ok]

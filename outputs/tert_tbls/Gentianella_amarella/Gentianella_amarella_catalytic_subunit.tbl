@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_25             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2538    3030 12206809 12207358 12206788 12207368 98611349    +     5.1e-26   96.1  17.8  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2546    3030 12548022 12547478 12548043 12547471 109930937    -     4.1e-25   93.1  18.1  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3030 12419242 12419755 12419218 12419762 109127732    +     1.5e-24   91.3  17.6  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    2354 12550538 12549611 12550545 12549590 109930937    -       6e-22   82.6  35.2  -
+SUPER_25             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    2354 12204358 12205237 12204351 12205258 98611349    +     2.6e-21   80.5  31.4  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    2354 12416709 12417636 12416705 12417656 109127732    +     7.8e-21   78.9  34.0  -
+SUPER_25             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3037    3232 12207806 12208006 12207786 12208013 98611349    +     3.6e-17   66.8   4.0  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3037    3232 12420203 12420403 12420184 12420410 109127732    +     4.4e-17   66.5   4.3  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3093    3232 12546985 12546846 12547009 12546839 109930937    -       3e-16   63.7   5.5  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3359    3560 12420632 12420832 12420601 12420837 109127732    +     2.4e-09   40.8   7.1  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3359    3560 12546617 12546417 12546648 12546412 109930937    -     2.4e-09   40.8   7.1  -
+SUPER_25             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3359    3560 12208235 12208435 12208204 12208440 98611349    +     2.4e-09   40.8   7.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Gentianella_amarella/assembly/curated/daGenAmar1.1/daGenAmar1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Gentianella_amarella/Gentianella_amarella_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Gentianella_amarella/assembly/curated/daGenAmar1.1/daGenAmar1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:22:52 2025
+# [ok]

@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1483 34665523 34663506 34665536 34663486 35427830    -     1.4e-83  285.6  59.6  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1458 39352247 39350248 39352264 39350227 40659273    -     8.1e-83  283.1  60.1  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1457 36645719 36643722 36645733 36643702 37869025    -     1.1e-78  269.4  61.0  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              232    1457 33934744 33932702 33934759 33932681 35122431    -     6.3e-73  250.3  62.9  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1812 39350040 39349311 39350048 39349310 40659273    -     4.4e-32  114.8  13.1  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1812 34663284 34662551 34663304 34662550 35427830    -     1.2e-31  113.4  12.2  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1460    1812 36643515 36642788 36643525 36642787 37869025    -     3.1e-31  112.0  13.4  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1812 33932458 33931729 33932478 33931728 35122431    -     1.6e-28  103.0  11.7  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1538    1679 33934878 33934761 33934895 33934746 35122431    -      0.0044   18.7   4.2  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1676 36645853 36645738 36645869 36645718 37869025    -       0.011   17.3   3.7  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1676 39352381 39352266 39352396 39352248 40659273    -       0.017   16.8   4.3  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1678 34665657 34665540 34665673 34665525 35427830    -       0.039   15.5   6.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Potentilla_anglica/assembly/curated/drPotAngl1.1/drPotAngl1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Potentilla_anglica/Potentilla_anglica_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Potentilla_anglica/assembly/curated/drPotAngl1.1/drPotAngl1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:27:23 2025
+# [ok]

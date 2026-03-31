@@ -1,0 +1,21 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_16     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2524    3029 28318772 28318213 28318783 28318204 41304345    -       2e-31  112.8  20.6  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2524    3029 22639741 22640300 22639734 22640310 65000635    +     1.5e-28  103.3  19.8  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    2354 22638020 22638935 22638002 22638956 65000635    +     7.8e-25   90.9  44.1  -
+HAP2_SCAFFOLD_16     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    2128 28320389 28319788 28320409 28319768 41304345    -     1.2e-21   80.3  26.3  -
+HAP2_SCAFFOLD_16     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3228 28318113 28317907 28318133 28317896 41304345    -     1.5e-21   80.0   5.1  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3228 22640433 22640639 22640422 22640650 65000635    +     1.6e-21   79.9   5.5  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3288    3560 22640841 22641104 22640838 22641109 65000635    +       6e-10   41.5  10.4  -
+HAP2_SCAFFOLD_16     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3288    3560 28317705 28317442 28317708 28317437 41304345    -     5.1e-09   38.4  11.2  -
+HAP2_SCAFFOLD_16     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2354 28319654 28319474 28319674 28319454 41304345    -      0.0046   18.7  12.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Convolvulus_arvensis/assembly/curated/daConArve2.1/daConArve2.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Convolvulus_arvensis/Convolvulus_arvensis_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Convolvulus_arvensis/assembly/curated/daConArve2.1/daConArve2.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 05:38:04 2025
+# [ok]

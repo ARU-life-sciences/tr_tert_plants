@@ -1,0 +1,35 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_8              -          TR                   -               23     142  20035333  20035450  20035320  20035470  42935671    +        0.47   16.9   3.3  -
+SUPER_2              -          TR                   -              109     172  55171867  55171767  55171887  55171766  88680225    -         1.3   15.5   0.0  -
+SUPER_9              -          TR                   -               29     139  25525471  25525578  25525454  25525599  33798368    +         1.6   15.2   3.6  -
+SUPER_2              -          TR                   -              110     172  76380840  76380741  76380861  76380740  88680225    -         2.2   14.7   0.1  -
+SUPER_3              -          TR                   -              110     172  42228098  42227999  42228119  42227998  73072762    -         2.2   14.7   0.1  -
+SUPER_5              -          TR                   -              110     172  45471901  45472000  45471880  45472001  60437751    +         2.2   14.7   0.1  -
+SUPER_4              -          TR                   -              110     172  27636053  27636151  27636032  27636152  61513445    +         2.2   14.7   0.1  -
+SUPER_4              -          TR                   -              110     172  29270310  29270212  29270331  29270211  61513445    -         2.2   14.7   0.1  -
+SUPER_1              -          TR                   -               31     141  16346523  16346375  16346543  16346352 104860821    -         2.6   14.5   2.4  -
+SUPER_5              -          TR                   -               26     141  58083161  58083286  58083146  58083306  60437751    +         3.5   14.1   2.6  -
+SUPER_8              -          TR                   -                7     126  34215833  34215672  34215833  34215652  42935671    -         4.6   13.7   7.4  -
+SUPER_8              -          TR                   -               64     127    135858    135783    135877    135764  42935671    -           6   13.3   0.6  -
+SUPER_2              -          TR                   -               75     141   4987233   4987174   4987257   4987154  88680225    -         6.5   13.2   2.0  -
+SUPER_4              -          TR                   -               95     148  43274660  43274713  43274653  43274724  61513445    +         7.1   13.0   0.3  -
+SUPER_9              -          TR                   -               72     124   3750668   3750609   3750683   3750589  33798368    -         7.2   13.0   2.7  -
+SUPER_9              -          TR                   -               68     130   2597622   2597561   2597651   2597538  33798368    -         7.4   13.0   2.2  -
+SUPER_8              -          TR                   -              102     162   9023396   9023342   9023426   9023331  42935671    -         7.4   13.0   2.2  -
+SUPER_6              -          TR                   -               67     141  28327252  28327181  28327282  28327161  50425625    -         7.5   13.0   0.5  -
+SUPER_8              -          TR                   -                4     158  40047255  40047038  40047257  40047034  42935671    -         8.6   12.8   0.0  -
+SUPER_9              -          TR                   -               86     141  12720980  12720922  12721002  12720903  33798368    -         8.7   12.7   1.4  -
+SUPER_3              -          TR                   -               64     124  24533643  24533700  24533620  24533719  73072762    +         9.4   12.6   0.2  -
+SUPER_3              -          TR                   -               93     171  27859599  27859692  27859577  27859692  73072762    +         9.6   12.6   0.0  -
+SUPER_6              -          TR                   -               93     171   3826424   3826517   3826402   3826517  50425625    +         9.6   12.6   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Dicranum_flexicaule/assembly/curated/cbDicFlex1.1/cbDicFlex1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Dicranum_flexicaule.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Dicranum_flexicaule/assembly/curated/cbDicFlex1.1/cbDicFlex1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:03 2025
+# [ok]

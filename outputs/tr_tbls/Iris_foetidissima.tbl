@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+RL_12                -          TR                   -                1     317 205930356 205929982 205930356 205929982 334414175    -     1.2e-12   58.5   5.3  -
+RL_8                 -          TR                   -               46     131 315864387 315864474 315864364 315864496 386210854    +         0.9   19.5   2.5  -
+RL_32                -          TR                   -               17     161 138921570 138921738 138921563 138921740 294993108    +         0.9   19.5   2.7  -
+RL_14                -          TR                   -               44     299 167204015 167203762 167204032 167203745 335702778    -         2.3   18.2   0.7  -
+RL_40                -          TR                   -               73     130 165440041 165439983 165440060 165439950 235579688    -         3.4   17.6   1.4  -
+RL_2                 -          TR                   -               83     157 198445547 198445628 198445525 198445641 496170173    +         5.7   16.9   0.4  -
+RL_20                -          TR                   -               63     144  96469495  96469576  96469472  96469588 315348859    +         6.9   16.6   3.2  -
+RL_20                -          TR                   -              101     157  14526312  14526255  14526332  14526236 315348859    -         9.8   16.1   2.0  -
+RL_2                 -          TR                   -               24     162    469874    469687    469887    469685 496170173    -         9.8   16.1   3.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Iris_foetidissima/assembly/curated/lsIriFoet1.1/lsIriFoet1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Iris_foetidissima.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Iris_foetidissima/assembly/curated/lsIriFoet1.1/lsIriFoet1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:34:18 2025
+# [ok]

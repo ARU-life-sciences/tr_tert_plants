@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_16             -          TR                   -                1     315  2352699  2353043  2352699  2353049 18661479    +     1.1e-13   59.0   3.1  -
+SUPER_32             -          TR                   -                1     134 12608548 12608681 12608548 12608702 16550885    +         2.1   15.3   6.3  -
+SUPER_30             -          TR                   -                1      62 10157264 10157205 10157264 10157184 16671937    -         2.9   14.9   5.1  -
+SUPER_42             -          TR                   -               20     134 14080339 14080208 14080347 14080188 14897790    -         4.4   14.3   3.9  -
+SUPER_46             -          TR                   -               67     162 10579036 10579140 10579016 10579144 13326259    +         5.2   14.1   2.7  -
+SUPER_24             -          TR                   -               26     130  6010853  6010709  6010873  6010690 17797839    -         7.7   13.5   2.6  -
+SUPER_30             -          TR                   -                2      51 15976963 15976916 15976964 15976896 16671937    -         7.7   13.5   3.3  -
+SUPER_15             -          TR                   -                2      85  9294841  9294924  9294840  9294947 18722594    +         8.1   13.4   2.3  -
+SUPER_19             -          TR                   -                1     101  4453733  4453622  4453733  4453602 17878009    -         9.7   13.2   4.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Hydrocotyle_vulgaris/assembly/curated/drHydVulg1.1/drHydVulg1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hydrocotyle_vulgaris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Hydrocotyle_vulgaris/assembly/curated/drHydVulg1.1/drHydVulg1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:23:35 2025
+# [ok]

@@ -1,0 +1,18 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_20             -          TR                   -                1     312 42436424 42436081 42436424 42436078 44379431    -       3e-17   71.1   4.2  -
+SUPER_6              -          TR                   -                1     316 10078617 10078959 10078617 10078963 56444746    +     4.5e-16   67.2   3.9  -
+SUPER_24             -          TR                   -               27     200    31612    31813    31596    31828 40137327    +     0.00042   28.0   5.6  -
+SUPER_11             -          TR                   -              148     302 31945200 31945037 31945224 31945022 50454882    -      0.0021   25.6   3.7  -
+SUPER_15             -          TR                   -               75     213 28289713 28289575 28289739 28289554 46449078    -       0.006   24.2   3.0  -
+SUPER_1              -          TR                   -               20     103 50703875 50703986 50703864 50704024 62841030    +         2.5   15.6   0.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Hedera_helix/assembly/curated/drHedHeli1.2/drHedHeli1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hedera_helix.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Hedera_helix/assembly/curated/drHedHeli1.2/drHedHeli1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:36 2025
+# [ok]

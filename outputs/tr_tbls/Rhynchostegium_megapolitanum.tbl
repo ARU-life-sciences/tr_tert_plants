@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -               35     122 10288805 10288695 10288826 10288675 21420354    -      0.0018   24.0   0.4  -
+SUPER_8              -          TR                   -              102     206  5070085  5070189  5070063  5070210 21934344    +        0.05   19.2   0.3  -
+SUPER_3              -          TR                   -               24     137 26174079 26173966 26174101 26173942 41623700    -        0.11   18.2  11.5  -
+SUPER_4              -          TR                   -               32     135 27509699 27509598 27509719 27509577 28564651    -        0.24   17.0   4.3  -
+SUPER_2              -          TR                   -               67     125 43114636 43114524 43114663 43114432 43730860    -        0.86   15.2   0.3  -
+SUPER_3              -          TR                   -               24     126 26792672 26792579 26792685 26792559 41623700    -           2   14.0   1.5  -
+SUPER_2              -          TR                   -              147     194 39706829 39706866 39706806 39706870 43730860    +         2.8   13.5   3.1  -
+SUPER_1              -          TR                   -               67     128 24044588 24044526 24044608 24044506 48524850    -         3.7   13.1   0.2  -
+SUPER_7              -          TR                   -               92     141 18017461 18017510 18017441 18017530 22436598    +         3.9   13.0   0.1  -
+SUPER_7              -          TR                   -               92     141 15391920 15391969 15391913 15391989 22436598    +         4.1   13.0   0.1  -
+SUPER_6              -          TR                   -               38     173 12616956 12617087 12616941 12617090 24078027    +         4.7   12.8   2.6  -
+SUPER_1              -          TR                   -              108     163 16196152 16196100 16196172 16196096 48524850    -         5.4   12.6   0.3  -
+SUPER_1              -          TR                   -               24     127  5323679  5323551  5323691  5323530 48524850    -         5.5   12.5   3.5  -
+SUPER_5              -          TR                   -              106     180 25458859 25458751 25458882 25458731 27134392    -         5.9   12.4   2.7  -
+SUPER_9              -          TR                   -               11     135  7888158  7888307  7888157  7888322 21508627    +         7.1   12.2   5.8  -
+SUPER_7              -          TR                   -              118     189 17423469 17423388 17423469 17423385 22436598    -         7.4   12.1   1.1  -
+SUPER_9              -          TR                   -              103     166  5675009  5674929  5675029  5674926 21508627    -         8.1   12.0   3.4  -
+SUPER_2              -          TR                   -              156     194 39095140 39095099 39095160 39095094 43730860    -         8.8   11.9   2.8  -
+SUPER_6              -          TR                   -               28     130  7217803  7217895  7217787  7217915 24078027    +         8.8   11.9   2.3  -
+SUPER_10             -          TR                   -               59     131 12348658 12348741 12348640 12348761 21420354    +         9.9   11.7   0.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_megapolitanum/assembly/curated/cbRhyMega1.2/cbRhyMega1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Rhynchostegium_megapolitanum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_megapolitanum/assembly/curated/cbRhyMega1.2/cbRhyMega1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:26:08 2025
+# [ok]

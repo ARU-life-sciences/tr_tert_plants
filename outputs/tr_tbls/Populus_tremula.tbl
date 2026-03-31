@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          TR                   -                1     315  9321579  9321922  9321579  9321923 19715038    +     2.4e-44  158.5   2.2  -
+SUPER_11             -          TR                   -               68     122 18225730 18225797 18225688 18225843 19715038    +        0.38   16.7   3.5  -
+SUPER_7              -          TR                   -              107     174 17124509 17124435 17124527 17124434 21520959    -        0.41   16.6   0.9  -
+SUPER_2              -          TR                   -               68     195 15367223 15367084 15367249 15367080 20998327    -           3   13.8   1.4  -
+SUPER_14             -          TR                   -                2      58 14387490 14387436 14387491 14387421 15276868    -         8.1   12.4   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Populus_tremula/assembly/curated/ddPopTrem1.1/ddPopTrem1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Populus_tremula.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Populus_tremula/assembly/curated/ddPopTrem1.1/ddPopTrem1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:28:58 2025
+# [ok]

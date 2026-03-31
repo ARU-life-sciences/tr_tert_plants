@@ -1,0 +1,36 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          all_tr_seqs          -               17     334  2434900  2435248  2434883  2435264 26576018    +     3.3e-29  109.2   1.8  -
+SUPER_12             -          all_tr_seqs          -               18     228 18361877 18361654 18361894 18361634 26401819    -     4.6e-12   52.8   4.2  -
+SUPER_4              -          all_tr_seqs          -              137     223 27272056 27271958 27272076 27271938 38761708    -       0.017   21.3   6.2  -
+SUPER_6              -          all_tr_seqs          -               17      76  6179978  6179919  6179997  6179899 28220574    -        0.24   17.5   2.9  -
+SUPER_8              -          all_tr_seqs          -               17      70  7510664  7510717  7510647  7510736 27722278    +        0.61   16.2   1.7  -
+SUPER_8              -          all_tr_seqs          -               97     149  8800156  8800208  8800136  8800226 27722278    +        0.68   16.0   1.0  -
+SUPER_2              -          all_tr_seqs          -               14      73 36841750 36841809 36841735 36841829 41335852    +         0.7   16.0   1.7  -
+SUPER_11             -          all_tr_seqs          -               20     109 21174649 21174741 21174631 21174761 25323737    +        0.97   15.5   2.9  -
+SUPER_5              -          all_tr_seqs          -               11      68  8341419  8341476  8341409  8341496 32395292    +         1.2   15.2   1.7  -
+SUPER_15             -          all_tr_seqs          -               17      72 19594568 19594623 19594550 19594643 20914803    +         1.3   15.1   1.9  -
+SUPER_13             -          all_tr_seqs          -               15      68  3000438  3000385  3000453  3000361 26576018    -         1.6   14.8   2.9  -
+SUPER_3              -          all_tr_seqs          -               20      64 37542954 37542910 37542974 37542887 38482573    -         1.8   14.6   3.0  -
+SUPER_14             -          all_tr_seqs          -               20      68   950603   950555   950622   950532 23161651    -         2.3   14.3   1.9  -
+SUPER_9              -          all_tr_seqs          -              100     142 12538741 12538799 12538728 12538820 27987636    +         3.5   13.7   0.1  -
+SUPER_11             -          all_tr_seqs          -               20      68 21178208 21178256 21178188 21178272 25323737    +         3.9   13.6   4.1  -
+SUPER_7              -          all_tr_seqs          -               19     102  1687243  1687330  1687223  1687350 29163332    +         4.7   13.3   0.8  -
+SUPER_15             -          all_tr_seqs          -               17      67  1183815  1183864  1183798  1183882 20914803    +           5   13.2   1.6  -
+SUPER_9              -          all_tr_seqs          -              187     311  4524461  4524369  4524465  4524366 27987636    -         5.6   13.0   0.0  -
+SUPER_11             -          all_tr_seqs          -               37     126 18599391 18599474 18599388 18599494 25323737    +         6.2   12.9   2.8  -
+SUPER_11             -          all_tr_seqs          -              103     169 15231904 15231847 15231924 15231832 25323737    -         6.3   12.9   0.2  -
+SUPER_3              -          all_tr_seqs          -               96     149  9944837  9944896  9944809  9944910 38482573    +         6.3   12.8   3.1  -
+SUPER_2              -          all_tr_seqs          -              125     151  6137160  6137186  6137140  6137206 41335852    +         8.7   12.4   0.3  -
+SUPER_1              -          all_tr_seqs          -               96     149 33169014 33168955 33169042 33168935 44092595    -         8.9   12.4   3.4  -
+SUPER_13             -          all_tr_seqs          -               20      99  1822358  1822429  1822338  1822449 26576018    +         9.1   12.3   3.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Sparganium_erectum/assembly/curated/lpSpaErec1.2/lpSpaErec1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Sparganium_erectum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Sparganium_erectum/assembly/curated/lpSpaErec1.2/lpSpaErec1.hap2.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:12:53 2026
+# [ok]

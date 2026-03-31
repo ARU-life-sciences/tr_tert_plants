@@ -1,0 +1,41 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_9      -          TR                   -                2     313  11136654  11136342  11136655  11136338  54107067    -     6.5e-38  139.0   0.6  -
+HAP2_SCAFFOLD_3      -          TR                   -                1     312  24738114  24737804  24738114  24737800  74419458    -     6.3e-37  135.8   0.6  -
+HAP2_SCAFFOLD_19     -          TR                   -              171     297   6680520   6680392   6680522   6680376  36692811    -      0.0084   23.8   3.1  -
+HAP2_SCAFFOLD_2      -          TR                   -               91     180  42414810  42414932  42414789  42414937  98812943    +        0.28   18.8   1.6  -
+HAP2_SCAFFOLD_2      -          TR                   -                2     123  61651419  61651296  61651420  61651269  98812943    -        0.99   17.0   0.4  -
+HAP2_SCAFFOLD_6      -          TR                   -              156     191  25237529  25237569  25237529  25237583  64058837    +           1   17.0   3.3  -
+HAP2_SCAFFOLD_1      -          TR                   -               97     201  26430018  26430148  26429996  26430150 114070808    +         1.6   16.3   2.4  -
+HAP2_SCAFFOLD_4      -          TR                   -              106     155   4675534   4675480   4675554   4675472  66852440    -         2.5   15.7   0.2  -
+HAP2_SCAFFOLD_2      -          TR                   -              107     142    589000    588961    589021    588941  98812943    -           3   15.4   0.1  -
+HAP2_SCAFFOLD_7      -          TR                   -              106     142  58119709  58119669  58119729  58119650  59700516    -         3.1   15.4   0.8  -
+HAP2_SCAFFOLD_1      -          TR                   -              106     156  29129903  29129956  29129882  29129969 114070808    +         3.3   15.3   0.6  -
+HAP2_SCAFFOLD_4      -          TR                   -               67     142  65729553  65729471  65729575  65729448  66852440    -         3.4   15.3   3.6  -
+HAP2_SCAFFOLD_8      -          TR                   -              105     165  27063481  27063427  27063501  27063422  54575961    -         3.8   15.1   0.9  -
+HAP2_SCAFFOLD_16     -          TR                   -              102     141   6269829   6269871   6269809   6269885  41304345    +         4.4   14.9   1.9  -
+HAP2_SCAFFOLD_2      -          TR                   -              106     156  25442674  25442727  25442653  25442735  98812943    +         4.6   14.8   1.3  -
+HAP2_SCAFFOLD_15     -          TR                   -              106     152  39613436  39613480  39613417  39613494  44063385    +         4.9   14.7   0.4  -
+HAP2_SCAFFOLD_18     -          TR                   -               72     142  15990376  15990444  15990355  15990461  36963724    +         5.1   14.7   5.2  -
+HAP2_SCAFFOLD_4      -          TR                   -              106     155  26616436  26616482  26616416  26616487  66852440    +         6.3   14.4   0.3  -
+HAP2_SCAFFOLD_1      -          TR                   -              168     221  50072014  50072070  50072007  50072090 114070808    +         6.3   14.4   1.8  -
+HAP2_SCAFFOLD_1      -          TR                   -              105     141  28877853  28877817  28877873  28877797 114070808    -         6.5   14.3   0.3  -
+HAP2_SCAFFOLD_3      -          TR                   -              106     141  16771605  16771640  16771585  16771659  74419458    +         6.7   14.3   0.8  -
+HAP2_SCAFFOLD_9      -          TR                   -              106     149  43403653  43403694  43403633  43403712  54107067    +           7   14.2   1.4  -
+HAP2_SCAFFOLD_14     -          TR                   -                1     128  35768177  35768352  35768177  35768368  46547832    +         7.5   14.1   6.2  -
+HAP2_SCAFFOLD_1      -          TR                   -              107     156  84531558  84531607  84531538  84531610 114070808    +         7.8   14.1   0.4  -
+HAP2_SCAFFOLD_16     -          TR                   -              107     157  21638130  21638183  21638110  21638186  41304345    +         8.3   14.0   0.0  -
+HAP2_SCAFFOLD_12     -          TR                   -              102     144  41606365  41606318  41606383  41606300  48555530    -         8.4   14.0   1.9  -
+HAP2_SCAFFOLD_5      -          TR                   -              105     155  46317460  46317412  46317475  46317402  65000635    -         9.1   13.8   0.3  -
+HAP2_SCAFFOLD_17     -          TR                   -               43     129  29790929  29791021  29790908  29791042  39479936    +         9.1   13.8   2.1  -
+HAP2_SCAFFOLD_17     -          TR                   -              104     142   6361360   6361401   6361328   6361421  39479936    +         9.9   13.7   0.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Convolvulus_arvensis/assembly/curated/daConArve2.1/daConArve2.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Convolvulus_arvensis.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Convolvulus_arvensis/assembly/curated/daConArve2.1/daConArve2.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:30:22 2025
+# [ok]

@@ -1,0 +1,18 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -               21     141  9312686  9312554  9312701  9312534 23825489    -         2.8   13.2   4.4  -
+SUPER_8              -          TR                   -               91     141 14878240 14878192 14878259 14878172 16525157    -         3.9   12.7   2.0  -
+SUPER_1              -          TR                   -               24     125  3602912  3602804  3602923  3602784 24608910    -         5.8   12.1   1.1  -
+SUPER_7              -          TR                   -               68     141  8602551  8602458  8602573  8602438 17307371    -         7.2   11.8   2.1  -
+SUPER_6              -          TR                   -               25     129 14930222 14930321 14930208 14930341 20756265    +         7.6   11.7   1.6  -
+SUPER_1              -          TR                   -               76     133  5959286  5959223  5959314  5959199 24608910    -         8.3   11.6   0.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Schistidium_strictum/assembly/curated/cbSchStri1.1/cbSchStri1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Schistidium_strictum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Schistidium_strictum/assembly/curated/cbSchStri1.1/cbSchStri1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:58 2025
+# [ok]

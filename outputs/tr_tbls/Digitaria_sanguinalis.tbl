@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          TR                   -                1     313  4654576  4654229  4654576  4654227 51531180    -     1.7e-11   51.8   4.1  -
+SUPER_6              -          TR                   -                1     237 16944091 16944385 16944091 16944406 55178940    +     6.6e-08   40.1   5.1  -
+SUPER_5              -          TR                   -                1     293  5323563  5323203  5323563  5323194 59177243    -     2.6e-07   38.1   6.5  -
+SUPER_11             -          TR                   -              171     255   354480   354348   354486   354328 45830977    -         1.4   16.1   2.0  -
+SUPER_14             -          TR                   -              219     309  7504144  7504231  7504126  7504236 42855815    +         4.9   14.2   7.0  -
+SUPER_17             -          TR                   -                6     102 34601548 34601638 34601548 34601658 37503479    +         5.3   14.1   4.6  -
+SUPER_2              -          TR                   -               24     118  2132856  2132753  2132875  2132752 64614264    -         8.7   13.4   3.5  -
+SUPER_7              -          TR                   -              138     253 28079230 28079340 28079209 28079360 54794954    +         9.8   13.2   0.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Digitaria_sanguinalis/assembly/curated/lpDigSang1.1/lpDigSang1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Digitaria_sanguinalis.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Digitaria_sanguinalis/assembly/curated/lpDigSang1.1/lpDigSang1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:17 2025
+# [ok]

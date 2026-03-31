@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -               68     206 22049557 22049691 22049537 22049711 24468104    +        0.51   16.3   1.6  -
+SUPER_11             -          TR                   -               91     141     3404     3454     3384     3474 23007123    +         1.7   14.6   2.6  -
+SUPER_6              -          TR                   -               80     162 21139825 21139913 21139806 21139918 27857872    +           4   13.4   3.0  -
+SUPER_9              -          TR                   -              223     313 11727031 11726933 11727051 11726930 24873706    -         4.9   13.1   3.9  -
+SUPER_12             -          TR                   -               19     141 16390629 16390492 16390637 16390472 21043791    -         7.3   12.5   1.6  -
+SUPER_5              -          TR                   -               68     136  3590517  3590585  3590497  3590607 36196289    +         8.4   12.3   1.0  -
+SUPER_11             -          TR                   -               18     141  2691907  2692045  2691901  2692064 23007123    +         9.1   12.2   2.2  -
+SUPER_10             -          TR                   -               63     124 15370822 15370765 15370842 15370745 24468104    -          10   12.1   0.6  -
+SUPER_7              -          TR                   -              182     238 14610951 14610892 14610962 14610889 27834825    -          10   12.1   1.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Grimmia_atrata/assembly/curated/cbGriAtra4.1/cbGriAtra4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Grimmia_atrata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Grimmia_atrata/assembly/curated/cbGriAtra4.1/cbGriAtra4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:52 2025
+# [ok]

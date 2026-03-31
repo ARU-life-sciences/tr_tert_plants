@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          TR                   -                1     317 17162380 17162064 17162380 17162064 35144299    -       6e-42  149.9   0.8  -
+SUPER_1              -          TR                   -               68     259   114692   114537   114712   114518 24716281    -      0.0029   22.9   1.4  -
+SUPER_3              -          TR                   -                4     127 22351746 22351624 22351747 22351601 35144299    -        0.33   16.2   4.3  -
+SUPER_6              -          TR                   -               67     135  7196716  7196788  7196679  7196805 37348946    +        0.46   15.7   0.3  -
+SUPER_3              -          TR                   -               69     137  4247870  4247802  4247887  4247780 35144299    -        0.49   15.6   1.6  -
+SUPER_3              -          TR                   -              179     227  4717740  4717686  4717749  4717666 35144299    -         0.8   14.9   0.3  -
+SUPER_6              -          TR                   -               24     137 12015915 12016036 12015896 12016057 37348946    +        0.86   14.8   5.0  -
+SUPER_6              -          TR                   -               48     129 15067931 15068037 15067907 15068058 37348946    +         3.6   12.8   5.7  -
+SUPER_5              -          TR                   -               69     123  9116104  9116032  9116125  9116011 28859254    -         3.6   12.7   0.0  -
+SUPER_4              -          TR                   -               67     177 15198542 15198683 15198517 15198693 27772565    +         5.1   12.2   3.4  -
+SUPER_5              -          TR                   -               90     141 26466828 26466879 26466774 26466899 28859254    +         5.2   12.2   0.0  -
+SUPER_5              -          TR                   -               83     141  4185532  4185477  4185554  4185457 28859254    -         5.4   12.2   0.0  -
+SUPER_1              -          TR                   -               30     130  5656607  5656516  5656628  5656496 24716281    -         5.5   12.1   6.1  -
+SUPER_7              -          TR                   -               68     124 19205554 19205605 19205520 19205628 24260354    +         6.2   12.0   1.4  -
+SUPER_5              -          TR                   -              102     135  7767894  7767858  7767928  7767839 28859254    -         6.5   11.9   0.0  -
+SUPER_5              -          TR                   -               16     133 22154337 22154186 22154343 22154166 28859254    -         6.6   11.9   4.2  -
+SUPER_5              -          TR                   -               68     135 25611305 25611367 25611285 25611382 28859254    +         7.2   11.8   0.4  -
+SUPER_6              -          TR                   -              147     187 16200392 16200344 16200411 16200336 37348946    -         7.2   11.8   1.7  -
+SUPER_3              -          TR                   -               68     141  7356737  7356821  7356714  7356839 35144299    +         7.4   11.7   3.0  -
+SUPER_6              -          TR                   -               72     130 11496090 11496032 11496114 11496004 37348946    -         7.5   11.7   1.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Potentilla_anserina/assembly/curated/drPotAnse1.1/drPotAnse1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Potentilla_anserina.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Potentilla_anserina/assembly/curated/drPotAnse1.1/drPotAnse1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 11:37:21 2025
+# [ok]

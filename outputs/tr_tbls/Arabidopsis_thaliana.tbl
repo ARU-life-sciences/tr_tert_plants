@@ -1,0 +1,33 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -                1     317 14903425 14903763 14903425 14903763 21973073    +     1.4e-42  151.2   5.0  -
+SUPER_5              -          TR                   -               97     198 28870388 28870517 28870379 28870537 30562185    +        0.29   15.6   1.8  -
+SUPER_1              -          TR                   -               28     131 31896136 31896027 31896154 31896007 33257523    -        0.85   14.0   3.7  -
+SUPER_1              -          TR                   -                1      48  5314010  5313963  5314010  5313939 33257523    -         1.2   13.5   6.6  -
+SUPER_4              -          TR                   -                2      54   555178   555228   555177   555257 23271492    +         1.6   13.1   3.9  -
+SUPER_5              -          TR                   -                2      64 25437015 25436953 25437016 25436936 30562185    -         1.8   12.9   3.9  -
+SUPER_3              -          TR                   -               92     141 21374218 21374267 21374202 21374287 27693526    +         2.3   12.6   2.3  -
+SUPER_4              -          TR                   -                2      59   550947   551002   550946   551033 23271492    +         2.6   12.4   4.7  -
+SUPER_1              -          TR                   -                1     122 29519062 29518941 29519062 29518914 33257523    -           3   12.2   2.8  -
+SUPER_2              -          TR                   -              108     141   815602   815562   815623   815545 21973073    -         3.3   12.1   0.2  -
+SUPER_4              -          TR                   -               32     134 17133559 17133691 17133539 17133704 23271492    +         4.6   11.6   1.6  -
+SUPER_5              -          TR                   -              109     158 29346626 29346694 29346606 29346703 30562185    +         4.9   11.5   3.5  -
+SUPER_4              -          TR                   -                1      98 10457310 10457405 10457310 10457425 23271492    +         6.2   11.2   3.6  -
+SUPER_3              -          TR                   -                1      68  4585911  4585980  4585911  4585990 27693526    +         7.2   11.0   1.6  -
+SUPER_2              -          TR                   -                1      50 19498863 19498912 19498863 19498932 21973073    +         7.3   11.0   2.6  -
+SUPER_5              -          TR                   -                1      61 25434751 25434691 25434751 25434671 30562185    -         7.7   10.9   2.2  -
+SUPER_3              -          TR                   -                1     101  7581614  7581521  7581614  7581509 27693526    -           8   10.8   1.4  -
+SUPER_2              -          TR                   -                2      93   510059   510143   510058   510160 21973073    +         8.8   10.7   2.8  -
+SUPER_2              -          TR                   -              108     152   815545   815591   815524   815602 21973073    +           9   10.7   0.5  -
+SUPER_3              -          TR                   -                1      93  7581370  7581285  7581370  7581264 27693526    -         9.2   10.6   2.1  -
+SUPER_2              -          TR                   -               96     142 21307916 21307963 21307897 21307980 21973073    +         9.5   10.6   0.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Arabidopsis_thaliana/assembly/curated/ddAraThal4.1/ddAraThal4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Arabidopsis_thaliana.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Arabidopsis_thaliana/assembly/curated/ddAraThal4.1/ddAraThal4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:30:53 2025
+# [ok]

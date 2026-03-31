@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          all_tr_seqs          -               19     330 125041059 125040750 125041077 125040743 252090310    -     1.6e-29  111.5   0.9  -
+SUPER_2              -          all_tr_seqs          -              200     340  44191875  44191751  44191893  44191746 225531431    -         1.5   16.2   2.1  -
+SUPER_5              -          all_tr_seqs          -               16      72  72576922  72576977  72576905  72576997 183800266    +         2.1   15.7   2.3  -
+SUPER_1              -          all_tr_seqs          -               16      66 151618065 151618015 151618085 151617994 252090310    -         3.1   15.1   4.5  -
+SUPER_1              -          all_tr_seqs          -               46     147 111891303 111891407 111891291 111891424 252090310    +         3.9   14.8   1.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Eleocharis_parvula/assembly/curated/lpEleParv1.2/lpEleParv1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eleocharis_parvula_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Eleocharis_parvula/assembly/curated/lpEleParv1.2/lpEleParv1.hap1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:15:07 2026
+# [ok]

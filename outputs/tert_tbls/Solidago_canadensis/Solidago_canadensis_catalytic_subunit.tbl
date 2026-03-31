@@ -1,0 +1,25 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2522    3030 53626572 53627070 53626564 53627086 81930397    +     1.8e-35  127.1  22.7  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2522    3030 52470825 52471323 52470817 52471339 80646205    +     8.6e-33  118.3  22.5  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2522    3030 50421466 50421964 50421458 50421982 79371950    +     3.7e-32  116.1  23.5  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1542    2381 53625481 53626311 53625458 53626333 81930397    +     1.7e-27  100.7  33.4  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1547    2381 52469745 52470570 52469722 52470591 80646205    +       6e-27   98.9  32.8  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1543    2359 50420382 50421192 50420358 50421215 79371950    +     1.1e-26   98.0  33.2  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3228 52471434 52471639 52471417 52471655 80646205    +     4.5e-18   69.4   4.8  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3228 53627180 53627385 53627164 53627401 81930397    +     4.6e-18   69.4   4.9  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3228 50422073 50422278 50422061 50422294 79371950    +     1.1e-17   68.1   4.0  -
+HAP2_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3389    3564 52472530 52472702 52472510 52472703 80646205    +     9.5e-05   25.2   7.5  -
+HAP3_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3389    3564 53628312 53628484 53628292 53628485 81930397    +     0.00015   24.5   8.4  -
+HAP4_SUPER_7         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3389    3564 50423513 50423685 50423493 50423686 79371950    +     0.00016   24.5   9.4  -
+HAP2_SUPER_1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1828    1997 35266360 35266191 35266378 35266171 119203658    -       0.039   16.5  14.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Solidago_canadensis/assembly/curated/daSolCann1.1/daSolCann1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Solidago_canadensis/Solidago_canadensis_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Solidago_canadensis/assembly/curated/daSolCann1.1/daSolCann1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:27:01 2025
+# [ok]

@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SCAFFOLD_2           -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2777    3430 21337224 21336434 21337246 21336413 68316915    -     2.3e-50  173.6  12.2  -
+SCAFFOLD_2           -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1738    2190 21338986 21338522 21339000 21338499 68316915    -     9.3e-14   52.1  11.7  -
+SCAFFOLD_2           -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2383    2566 21338221 21338038 21338242 21338018 68316915    -     1.7e-10   41.2   7.4  -
+SCAFFOLD_2           -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3769 21336230 21335958 21336250 21335956 68316915    -     1.7e-06   28.0   5.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Hypericum_hirsutum/assembly/curated/ddHypHirs1.1/ddHypHirs1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Hypericum_hirsutum/Hypericum_hirsutum_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Hypericum_hirsutum/assembly/curated/ddHypHirs1.1/ddHypHirs1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 06:28:54 2025
+# [ok]

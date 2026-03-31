@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SCAFFOLD_14          -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2776    3239 85411545 85412029 85411525 85412050 90809433    +     2.2e-37  133.0  19.0  -
+SCAFFOLD_14          -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3232    3521 85412717 85413013 85412703 85413021 90809433    +     8.8e-22   81.2  12.6  -
+SCAFFOLD_14          -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1742    2323 85410139 85410756 85410119 85410776 90809433    +     1.5e-13   53.9  32.4  -
+SCAFFOLD_14          -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3495    3770 85413201 85413464 85413181 85413465 90809433    +     4.9e-12   48.8   6.9  -
+SCAFFOLD_14          -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2383    2647 85410915 85411171 85410896 85411191 90809433    +     1.4e-07   34.0  20.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ulmus_glabra/assembly/curated/drUlmGlab3.1/drUlmGlab3.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Ulmus_glabra/Ulmus_glabra_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Ulmus_glabra/assembly/curated/drUlmGlab3.1/drUlmGlab3.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 00:34:41 2025
+# [ok]

@@ -1,0 +1,23 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          TR                   -                4     316 20117446 20117769 20117443 20117772 60342141    +     1.3e-28  107.6   4.2  -
+SUPER_5              -          TR                   -                4     316 59134966 59135290 59134963 59135291 70509786    +     5.8e-27  102.2   4.4  -
+SUPER_10             -          TR                   -               71     315   792880   792661   792903   792659 56312669    -     1.1e-08   42.3   3.8  -
+SUPER_3              -          TR                   -               68     124 66392035 66391984 66392058 66391964 76945145    -        0.96   16.2   0.7  -
+SUPER_5              -          TR                   -                4      93 59137827 59137743 59137830 59137723 70509786    -         1.1   16.0   4.9  -
+SUPER_10             -          TR                   -               40     128 15356351 15356254 15356372 15356233 56312669    -         4.7   13.9   0.8  -
+SUPER_3              -          TR                   -               24     122 69010148 69010026 69010165 69010006 76945145    -           5   13.8   4.3  -
+scaffold_MT_1        -          TR                   -              114     190    16474    16593    16454    16605   482110    +         5.3   13.7   1.6  -
+SUPER_3              -          TR                   -               56     122 71955744 71955665 71955770 71955645 76945145    -         5.4   13.7   0.3  -
+SUPER_6              -          TR                   -               37     124 27730063 27729936 27730083 27729916 66099112    -           7   13.3   0.0  -
+SUPER_1              -          TR                   -               68     141  8870159  8870088  8870179  8870068 86165298    -         9.7   12.9   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Viola_odorata/assembly/curated/ddVioOdor1.1/ddVioOdor1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Viola_odorata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Viola_odorata/assembly/curated/ddVioOdor1.1/ddVioOdor1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:30 2025
+# [ok]

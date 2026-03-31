@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -                2     317 41549571 41549898 41549570 41549900 50190628    +     1.1e-28  107.8   2.2  -
+SUPER_6              -          TR                   -                2     316 35996440 35996768 35996439 35996770 45173076    +     1.2e-27  104.4   3.3  -
+SUPER_14             -          TR                   -               12     125 14211342 14211482 14211339 14211502 40622141    +        0.75   16.4   2.0  -
+SUPER_13             -          TR                   -               74     161 22697451 22697369 22697472 22697361 40731968    -         3.4   14.2   0.2  -
+SUPER_8              -          TR                   -               22     128 23100487 23100378 23100495 23100356 43021920    -           4   14.0   4.6  -
+SUPER_5              -          TR                   -               23     125  6970707  6970600  6970726  6970580 45278501    -         4.6   13.8   4.3  -
+SUPER_11             -          TR                   -               25     152 30489192 30489312 30489178 30489321 41122317    +         7.6   13.1   3.8  -
+SUPER_11             -          TR                   -              144     186  6437555  6437517  6437575  6437510 41122317    -         8.6   12.9   1.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_persica/assembly/curated/daVerPers1.1/daVerPers1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Veronica_persica.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Veronica_persica/assembly/curated/daVerPers1.1/daVerPers1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:32 2025
+# [ok]

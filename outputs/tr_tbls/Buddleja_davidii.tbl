@@ -1,0 +1,31 @@
+# target name         accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+# ------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP4_SUPER_5          -          TR                   -                2     316  4113774  4113438  4113775  4113437 37770861    -     5.5e-40  146.4   0.7  -
+HAP2_SUPER_5          -          TR                   -                2     316  4138314  4137976  4138315  4137975 25545671    -     8.1e-40  145.8   0.6  -
+HAP3_SUPER_5          -          TR                   -                1     316  3808466  3808129  3808466  3808128 37012796    -     1.4e-38  141.8   2.1  -
+HAP2_SUPER_18         -          TR                   -                2     117  1369249  1369143  1369250  1369141 27180592    -           1   17.5   5.3  -
+HAP4_SUPER_3          -          TR                   -                2      83  3946704  3946612  3946705  3946597 40894127    -         3.1   15.9   2.6  -
+HAP2_SUPER_1          -          TR                   -               71     180 43876261 43876149 43876281 43876135 47929805    -         3.7   15.7   5.1  -
+HAP2_SUPER_14         -          TR                   -                2      85 16606473 16606390 16606474 16606369 29796882    -         4.1   15.5   5.3  -
+HAP3_SUPER_14         -          TR                   -                2      85 16477183 16477100 16477184 16477079 28456479    -         4.1   15.5   5.3  -
+HAP2_SUPER_1          -          TR                   -                2      91 45930796 45930699 45930797 45930681 47929805    -         4.8   15.3   3.6  -
+HAP4_SUPER_10         -          TR                   -               48     125 14399985 14400063 14399955 14400084 29574378    +         5.3   15.2   0.1  -
+HAP4_SUPER_2          -          TR                   -                2      84 33674991 33674911 33674992 33674891 46861885    -         5.9   15.0   1.4  -
+HAP4_SUPER_2          -          TR                   -                2      84 33688780 33688700 33688781 33688680 46861885    -         5.9   15.0   1.4  -
+HAP3_SUPER_8          -          TR                   -               19     119  3054573  3054688  3054565  3054688 33523149    +         6.2   14.9   2.0  -
+HAP3_SUPER_14         -          TR                   -               24     123 14465188 14465283 14465176 14465308 28456479    +         6.4   14.9   4.0  -
+HAP4_SUPER_18         -          TR                   -                2     117  1163715  1163610  1163716  1163608 26335825    -         6.6   14.8   5.0  -
+HAP2_SUPER_12         -          TR                   -               68     120   198956   199005   198937   199021 31910774    +         6.9   14.8   1.4  -
+HAP2_SUPER_5          -          TR                   -              105     166 16290989 16290921 16291010 16290920 25545671    -           8   14.6   3.0  -
+HAP3_SUPER_13         -          TR                   -                2      82  4245464  4245555  4245463  4245568 27329196    +         8.2   14.5   3.2  -
+HAP3_SUPER_5          -          TR                   -                2      82 14179222 14179131 14179223 14179122 37012796    -         9.1   14.4   3.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.1/daBudDavi1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Buddleja_davidii.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.1/daBudDavi1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:04 2025
+# [ok]

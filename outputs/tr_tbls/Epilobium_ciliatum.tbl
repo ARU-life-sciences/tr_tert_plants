@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                1     317 14635810 14635502 14635810 14635498 18263713    -     2.7e-13   56.0   1.2  -
+SUPER_1              -          TR                   -                4     199 14619470 14619271 14619473 14619251 18263713    -     2.4e-10   46.3   0.4  -
+SUPER_1              -          TR                   -                1     198 14637287 14637087 14637287 14637085 18263713    -     3.4e-07   36.0   0.4  -
+SUPER_11             -          TR                   -               68     134 11005626 11005566 11005647 11005557 14164535    -         1.1   14.7   0.3  -
+SUPER_15             -          TR                   -              105     193  2731547  2731460  2731567  2731453 12839451    -         2.7   13.4   3.0  -
+SUPER_6              -          TR                   -               99     158  3242061  3242129  3242034  3242131 15671004    +         2.9   13.2   0.2  -
+SUPER_7              -          TR                   -               74     134 13456474 13456423 13456494 13456403 15633468    -         6.7   12.1   0.7  -
+SUPER_9              -          TR                   -               38     138  4587778  4587652  4587799  4587631 15138166    -         7.4   11.9   1.6  -
+SUPER_8              -          TR                   -              103     142    16339    16296    16367    16276 15609141    -           8   11.8   0.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Epilobium_ciliatum/assembly/curated/drEpiCili1.1/drEpiCili1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Epilobium_ciliatum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Epilobium_ciliatum/assembly/curated/drEpiCili1.1/drEpiCili1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:52 2025
+# [ok]

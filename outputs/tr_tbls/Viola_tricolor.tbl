@@ -1,0 +1,15 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -                4     316 106500709 106501031 106500706 106501035 115639199    +       6e-28  106.8   3.2  -
+SUPER_5              -          TR                   -                4     316 111608295 111608617 111608292 111608618 126834409    +     7.5e-28  106.5   2.0  -
+SUPER_6              -          TR                   -                4     316  20248133  20247822  20248136  20247818 124309205    -     1.6e-22   89.0   2.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Viola_tricolor/assembly/curated/ddVioTric1.1/ddVioTric1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Viola_tricolor.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Viola_tricolor/assembly/curated/ddVioTric1.1/ddVioTric1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:00 2025
+# [ok]

@@ -1,0 +1,35 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_8              -          TR                   -               98     213 15000895 15000785 15000914 15000757 19189227    -       0.012   21.0   0.0  -
+SUPER_7              -          TR                   -                4     141 13073676 13073531 13073677 13073511 19725041    -         0.3   16.5   2.7  -
+SUPER_2              -          TR                   -              184     271   768015   767924   768027   767912 43320873    -         0.8   15.1   1.2  -
+SUPER_7              -          TR                   -               56     127 10736420 10736491 10736401 10736514 19725041    +           1   14.8   0.3  -
+SUPER_2              -          TR                   -               67     130 21408451 21408380 21408475 21408363 43320873    -         1.6   14.1   0.3  -
+SUPER_3              -          TR                   -               24     124 23661067 23660964 23661085 23660943 36480959    -         2.1   13.7   3.5  -
+SUPER_6              -          TR                   -               67     128 20265017 20265106 20264987 20265124 20675131    +         2.4   13.5   0.1  -
+SUPER_6              -          TR                   -               67     128 18980048 18980137 18980018 18980155 20675131    +         2.5   13.5   0.1  -
+SUPER_4              -          TR                   -                3     125 22320368 22320498 22320367 22320518 24917946    +         3.4   13.0   0.5  -
+SUPER_3              -          TR                   -               80     189 19464488 19464618 19464434 19464623 36480959    +         4.6   12.6   0.2  -
+SUPER_7              -          TR                   -               70     125  3092249  3092200  3092271  3092175 19725041    -         4.6   12.6   2.1  -
+SUPER_2              -          TR                   -              102     157  1138824  1138759  1138844  1138755 43320873    -         5.3   12.4   0.3  -
+SUPER_1              -          TR                   -               75     135  2428593  2428657  2428573  2428668 56738547    +         5.6   12.3   0.0  -
+SUPER_6              -          TR                   -               24     122  8027053  8026957  8027066  8026936 20675131    -         5.7   12.3   4.1  -
+SUPER_4              -          TR                   -              136     180  4121474  4121431  4121492  4121425 24917946    -         6.1   12.2   0.8  -
+SUPER_10             -          TR                   -               47     127  7676182  7676081  7676203  7676063  9129433    -         6.4   12.1   0.0  -
+SUPER_3              -          TR                   -               47     127  7679481  7679582  7679466  7679600 36480959    +           7   12.0   0.1  -
+SUPER_4              -          TR                   -              108     163 24229145 24229211 24229125 24229218 24917946    +           7   12.0   1.1  -
+SUPER_1              -          TR                   -               48     127 29699876 29699976 29699859 29699994 56738547    +         7.6   11.9   0.0  -
+SUPER_10             -          TR                   -               47     127  1289347  1289448  1289326  1289466  9129433    +         7.7   11.9   0.0  -
+SUPER_9              -          TR                   -               73     142  9001055  9001120  9001030  9001137 18834603    +         8.7   11.7   0.9  -
+SUPER_2              -          TR                   -               76     141 29942285 29942347 29942264 29942367 43320873    +         9.2   11.6   4.5  -
+SUPER_1              -          TR                   -               24     119 37224081 37223991 37224093 37223971 56738547    -         9.2   11.6   4.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Cratoneuron_filicinum/assembly/curated/cbCraFili2.2/cbCraFili2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cratoneuron_filicinum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Cratoneuron_filicinum/assembly/curated/cbCraFili2.2/cbCraFili2.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:41 2025
+# [ok]

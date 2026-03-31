@@ -1,0 +1,24 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                2     315  9618979  9619288  9618978  9619290 42157192    +     5.8e-17   68.9   0.3  -
+SUPER_19             -          TR                   -              116     194 15531067 15530984 15531067 15530979 18908683    -       0.062   19.5   4.4  -
+SUPER_16             -          TR                   -               24     142 11131350 11131522 11131338 11131542 20231541    +         0.3   17.3   3.3  -
+SUPER_5              -          TR                   -               26     130  2828996  2828883  2829011  2828857 25957630    -        0.61   16.3   0.8  -
+SUPER_4              -          TR                   -               69     122 25990715 25990793 25990657 25990819 27621396    +         0.9   15.7   2.8  -
+SUPER_3              -          TR                   -               61     142 15316876 15317003 15316855 15317026 27909690    +        0.94   15.7   0.0  -
+SUPER_6              -          TR                   -               35     130 12801788 12801876 12801775 12801896 25406147    +         1.1   15.4   4.6  -
+SUPER_16             -          TR                   -               38     130 11594635 11594551 11594655 11594528 20231541    -         2.6   14.2   1.0  -
+SUPER_7              -          TR                   -               68     125 15261449 15261501 15261427 15261521 24774611    +         2.7   14.2   0.5  -
+SUPER_2              -          TR                   -               24     135 15680171 15680029 15680182 15680009 27982330    -         3.8   13.7   1.6  -
+SUPER_2              -          TR                   -               37     162 16490974 16490847 16490992 16490844 27982330    -         4.9   13.3   3.8  -
+SUPER_4              -          TR                   -               29     126 20566463 20566372 20566481 20566350 27621396    -         9.8   12.3   4.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Schoenoplectus_lacustris/assembly/curated/lpSchLacu1.1/lpSchLacu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Schoenoplectus_lacustris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Schoenoplectus_lacustris/assembly/curated/lpSchLacu1.1/lpSchLacu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:59 2025
+# [ok]

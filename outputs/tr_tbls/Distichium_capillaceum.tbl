@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -               61     206 21314486 21314345 21314508 21314323 28236006    -       0.012   21.1   1.3  -
+SUPER_13             -          TR                   -              103     123      177      197        4      197 14976646    +        0.12   17.8   0.0  -
+SUPER_4              -          TR                   -              108     190  2516681  2516758  2516658  2516762 21629728    +        0.63   15.5   2.0  -
+SUPER_3              -          TR                   -               90     162  9702638  9702708  9702629  9702710 24316552    +         2.4   13.6   2.3  -
+SUPER_5              -          TR                   -               79     130 14110510 14110558 14110485 14110578 21429538    +         2.9   13.3   1.2  -
+SUPER_11             -          TR                   -               69     125  9560831  9560887  9560810  9560908 16629310    +         2.9   13.3   0.8  -
+SUPER_11             -          TR                   -               22     125 16610335 16610193 16610351 16610173 16629310    -         2.9   13.3   0.0  -
+SUPER_8              -          TR                   -               90     180  4126693  4126584  4126713  4126572 18630809    -         3.3   13.1   4.0  -
+SUPER_3              -          TR                   -               24     124 24267219 24267354 24267200 24267374 24316552    +         3.3   13.1   0.4  -
+SUPER_7              -          TR                   -               68     130   126843   126781   126863   126761 19407268    -           4   12.9   0.0  -
+SUPER_13             -          TR                   -               80     141  3874994  3874919  3875015  3874899 14976646    -         4.7   12.6   0.0  -
+SUPER_5              -          TR                   -               68     163 18091105 18090993 18091149 18090988 21429538    -         4.8   12.6   0.8  -
+SUPER_8              -          TR                   -               79     166  5557490  5557389  5557512  5557389 18630809    -         4.9   12.6   3.1  -
+SUPER_10             -          TR                   -               80     141 10698308 10698239 10698328 10698219 17205212    -         5.7   12.4   0.5  -
+SUPER_2              -          TR                   -               38     123   135215   135300   135195   135320 28236006    +         6.1   12.3   0.8  -
+SUPER_1              -          TR                   -              106     167  5857696  5857759  5857673  5857779 29408272    +         6.4   12.2   0.0  -
+SUPER_7              -          TR                   -               44     161 18194848 18194976 18194838 18194981 19407268    +         7.3   12.0   2.2  -
+SUPER_13             -          TR                   -               49     142 10719175 10719263 10719159 10719283 14976646    +         7.7   11.9   3.6  -
+SUPER_3              -          TR                   -               78     166 23880278 23880380 23880257 23880380 24316552    +         9.8   11.6   2.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Distichium_capillaceum/assembly/curated/cbDisCapi3.1/cbDisCapi3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Distichium_capillaceum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Distichium_capillaceum/assembly/curated/cbDisCapi3.1/cbDisCapi3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:51 2025
+# [ok]

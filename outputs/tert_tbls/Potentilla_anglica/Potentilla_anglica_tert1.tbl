@@ -1,0 +1,32 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3235 39350778 39350248 39350798 39350228 40659273    -     1.7e-32  116.1  17.5  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3235 34664048 34663527 34664068 34663507 35427830    -     4.5e-32  114.7  19.0  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3235 36644251 36643721 36644271 36643701 37869025    -     5.9e-32  114.3  19.8  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3235 33933224 33932701 33933244 33932681 35122431    -     5.4e-28  101.1  22.4  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3254    3503 36643498 36643240 36643519 36643230 37869025    -     4.9e-16   61.5   9.0  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    2180 36645829 36645380 36645849 36645359 37869025    -       1e-15   60.4  19.6  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    2180 39352357 39351908 39352377 39351888 40659273    -       1e-15   60.4  20.1  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3256    3448 39350020 39349822 39350043 39349801 40659273    -     1.5e-15   59.8   7.3  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3294    3503 34663221 34663008 34663286 34662990 35427830    -     1.6e-15   59.8   6.5  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2164 33934854 33934424 33934874 33934403 35122431    -     3.8e-15   58.5  20.3  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1762    2163 34665632 34665201 34665652 34665180 35427830    -     1.1e-14   57.0  19.5  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3255    3503 33932439 33932182 33932461 33932162 35122431    -     3.5e-14   55.3   6.1  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 39349585 39349312 39349605 39349310 40659273    -     1.4e-09   40.0  12.6  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2382    2617 34664874 34664639 34664894 34664619 35427830    -     2.5e-09   39.2  14.1  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2379    2617 39351602 39351363 39351623 39351343 40659273    -     3.6e-09   38.7  13.5  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2382    2617 33934098 33933857 33934118 33933837 35122431    -     7.6e-09   37.6  15.2  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 36643062 36642789 36643082 36642787 37869025    -     1.6e-08   36.6  13.7  -
+SUPER_21             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2379    2552 36645074 36644900 36645095 36644877 37869025    -     1.7e-08   36.5  10.7  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 34662825 34662552 34662845 34662550 35427830    -     2.1e-06   29.5  13.1  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 33932003 33931730 33932023 33931728 35122431    -       9e-06   27.4  12.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Potentilla_anglica/assembly/curated/drPotAngl1.1/drPotAngl1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Potentilla_anglica/Potentilla_anglica_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Potentilla_anglica/assembly/curated/drPotAngl1.1/drPotAngl1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Mon Nov 24 10:29:07 2025
+# [ok]

@@ -1,0 +1,33 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_22             -          all_tr_seqs          -               84     220  8871218  8871341  8871197  8871435 14274279    +      0.0066   22.7   0.2  -
+SUPER_8              -          all_tr_seqs          -               59     217  9445922  9446081  9445893  9446104 21749456    +      0.0068   22.6   0.0  -
+SUPER_4              -          all_tr_seqs          -               96     219 22188505 22188632 22188485 22188653 23122591    +       0.081   19.1   0.6  -
+SUPER_15             -          all_tr_seqs          -              127     182 10313594 10313657 10313574 10313660 16203050    +         1.3   15.1   0.3  -
+SUPER_13             -          all_tr_seqs          -               94     184  5327732  5327644  5327753  5327635 16912663    -         1.9   14.6   0.2  -
+SUPER_14             -          all_tr_seqs          -              108     145  2099965  2100002  2099945  2100024 16222781    +           2   14.5   0.3  -
+SUPER_3              -          all_tr_seqs          -               96     143 22593161 22593215 22593140 22593235 23478620    +         2.1   14.5   0.0  -
+SUPER_1              -          all_tr_seqs          -               95     147 17250702 17250654 17250723 17250633 25865142    -         2.9   14.0   1.4  -
+SUPER_1              -          all_tr_seqs          -               54     126  8203159  8203085  8203177  8203074 25865142    -         3.4   13.8   2.8  -
+SUPER_4              -          all_tr_seqs          -               97     151  2724232  2724291  2724210  2724311 23122591    +         4.7   13.3   0.0  -
+SUPER_8              -          all_tr_seqs          -              120     172 14693109 14693162 14693101 14693172 21749456    +         5.2   13.1   0.8  -
+SUPER_22             -          all_tr_seqs          -               99     147  6904955  6905003  6904915  6905023 14274279    +         5.7   13.0   0.0  -
+SUPER_5              -          all_tr_seqs          -              113     151  1912486  1912451  1912497  1912431 22148606    -         6.2   12.9   0.7  -
+SUPER_8              -          all_tr_seqs          -              101     167   181626   181694   181605   181713 21749456    +         6.6   12.8   0.9  -
+SUPER_26             -          all_tr_seqs          -               94     157  8308073  8308132  8308053  8308152 12617636    +         6.8   12.8   0.0  -
+SUPER_11             -          all_tr_seqs          -              113     151  1714064  1714029  1714074  1714009 19433895    -         7.7   12.6   1.0  -
+SUPER_3              -          all_tr_seqs          -               94     171  6113117  6113198  6113097  6113212 23478620    +         7.9   12.5   3.2  -
+SUPER_17             -          all_tr_seqs          -               95     143  2294006  2294054  2293986  2294074 15745441    +         8.3   12.5   1.0  -
+SUPER_14             -          all_tr_seqs          -               89     146 12137526 12137467 12137545 12137446 16222781    -         9.2   12.3   1.1  -
+SUPER_2              -          all_tr_seqs          -              108     146  3599955  3599922  3599986  3599901 23618408    -         9.7   12.3   0.0  -
+SUPER_5              -          all_tr_seqs          -              127     179  6509812  6509869  6509793  6509873 22148606    +         9.9   12.2   0.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Grimmia_pulvinata/assembly/curated/cbGriPulv3.1/cbGriPulv3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Grimmia_pulvinata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Grimmia_pulvinata/assembly/curated/cbGriPulv3.1/cbGriPulv3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:07 2026
+# [ok]

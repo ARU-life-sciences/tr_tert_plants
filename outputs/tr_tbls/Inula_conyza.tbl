@@ -1,0 +1,29 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_7              -          TR                   -                3     312  43491884  43491548  43491885  43491546 192706056    -       5e-19   78.4   1.8  -
+SUPER_2              -          TR                   -                3     312 249313248 249313593 249313246 249313598 320469662    +     2.5e-17   72.8   2.6  -
+SUPER_9              -          TR                   -               68     194 157855046 157854909 157855066 157854889 183079472    -     0.00046   29.3   2.3  -
+SUPER_13             -          TR                   -               78     142 150275489 150275562 150275468 150275624 165968355    +        0.04   22.9   3.9  -
+SUPER_4              -          TR                   -               38     129  55650615  55650687  55650599  55650707 211172915    +         1.1   18.2   2.3  -
+SUPER_2              -          TR                   -               71     130 210204388 210204440 210204368 210204460 320469662    +         1.8   17.5   3.9  -
+SUPER_1              -          TR                   -               29     141  65466317  65466200  65466328  65466180 356945778    -         2.8   16.8  12.9  -
+SUPER_1              -          TR                   -               16     124 186805423 186805550 186805417 186805575 356945778    +         3.8   16.4   5.6  -
+SUPER_10             -          TR                   -               65     125 107622380 107622325 107622401 107622305 185423755    -         4.1   16.3   0.2  -
+SUPER_3              -          TR                   -              132     200 120478088 120478174 120478067 120478174 197902391    +         4.7   16.1   2.7  -
+SUPER_4              -          TR                   -               20     164     34633     34487     34642     34484 211172915    -         4.9   16.1   5.9  -
+SUPER_3              -          TR                   -                3     132 186277420 186277268 186277422 186277248 197902391    -           5   16.0   3.5  -
+SUPER_7              -          TR                   -               24     128 102502195 102502085 102502210 102502065 192706056    -         5.8   15.8   6.7  -
+HAP2_SCAFFOLD_47     -          TR                   -               30     126    313133    313231    313123    313252    388000    +         6.1   15.8   5.5  -
+SUPER_2              -          TR                   -               32     117  82686980  82686893  82686992  82686873 320469662    -         7.2   15.5   3.6  -
+SUPER_4              -          TR                   -               15     161  48448355  48448514  48448347  48448517 211172915    +         7.3   15.5   9.4  -
+SUPER_16             -          TR                   -               27     102  56987018  56987095  56987003  56987117 127291900    +         9.5   15.1   7.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Inula_conyza/assembly/curated/daInuConz1.1/daInuConz1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Inula_conyza.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Inula_conyza/assembly/curated/daInuConz1.1/daInuConz1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:33:04 2025
+# [ok]

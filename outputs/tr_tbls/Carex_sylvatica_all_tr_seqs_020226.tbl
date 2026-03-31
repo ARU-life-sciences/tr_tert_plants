@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15             -          all_tr_seqs          -               19     337 11939823 11940149 11939803 11940157 12572611    +     4.8e-31  114.9   3.8  -
+SUPER_10             -          all_tr_seqs          -              165     261 13741977 13742073 13741957 13742077 14227534    +     5.3e-06   32.5   2.5  -
+SUPER_22             -          all_tr_seqs          -              165     261   271472   271376   271492   271371  9954388    -       7e-06   32.1   1.9  -
+SUPER_19             -          all_tr_seqs          -              117     188  1955567  1955476  1955600  1955459 10714678    -     0.00025   27.0   1.9  -
+SUPER_24             -          all_tr_seqs          -              122     190  6916594  6916518  6916615  6916511  9202222    -        0.42   16.4   0.0  -
+SUPER_28             -          all_tr_seqs          -               44     142  5313088  5312994  5313101  5312986  7545484    -         1.1   15.0   3.5  -
+SUPER_7              -          all_tr_seqs          -              198     264  8678942  8678880  8678954  8678862 14618549    -         1.7   14.3   0.0  -
+SUPER_23             -          all_tr_seqs          -               18      70  6636091  6636039  6636110  6636019  9368668    -         1.7   14.3   5.3  -
+SUPER_1              -          all_tr_seqs          -              101     181 18961916 18962002 18961894 18962022 21080298    +         1.8   14.2   2.7  -
+SUPER_27             -          all_tr_seqs          -              126     183  3110820  3110868  3110806  3110888  7674501    +         1.9   14.2   0.7  -
+SUPER_21             -          all_tr_seqs          -              256     341   192406   192482   192393   192490 10119424    +         2.3   13.9   6.1  -
+SUPER_15             -          all_tr_seqs          -              102     151  1220251  1220299  1220231  1220319 12572611    +         2.4   13.9   2.4  -
+SUPER_13             -          all_tr_seqs          -              108     164  4337912  4337961  4337885  4337980 13298948    +         3.3   13.4   0.4  -
+SUPER_3              -          all_tr_seqs          -               90     144   877614   877670   877593   877690 17226345    +         3.3   13.4   3.5  -
+SUPER_2              -          all_tr_seqs          -              102     178  5795789  5795720  5795827  5795715 17368264    -         4.2   13.1   3.8  -
+SUPER_18             -          all_tr_seqs          -              174     208  6445932  6445897  6445952  6445877 10979188    -         4.8   12.9   3.5  -
+SUPER_21             -          all_tr_seqs          -               97     183  7818273  7818191  7818293  7818184 10119424    -         5.7   12.6   1.0  -
+SUPER_12             -          all_tr_seqs          -              127     183  9706291  9706243  9706311  9706223 13811235    -         7.6   12.2   1.0  -
+SUPER_16             -          all_tr_seqs          -               97     144  4049449  4049399  4049469  4049379 12505900    -         8.1   12.1   0.1  -
+SUPER_20             -          all_tr_seqs          -               47     144   392797   392706   392808   392686 10135356    -         8.7   12.0   6.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Carex_sylvatica/assembly/curated/lpCarSylv1.1/lpCarSylv1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Carex_sylvatica_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Carex_sylvatica/assembly/curated/lpCarSylv1.1/lpCarSylv1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 12:43:56 2026
+# [ok]

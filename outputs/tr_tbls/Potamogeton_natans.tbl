@@ -1,0 +1,34 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_21             -          TR                   -                1     312  5589142  5589434  5589142  5589437 15461689    +       2e-25   97.2   3.1  -
+SUPER_16             -          TR                   -                1     312  9984727  9985019  9984727  9985022 19730538    +     4.2e-22   86.3   3.0  -
+SUPER_2              -          TR                   -                7     140 28386222 28386354 28386222 28386375 31337864    +        0.62   16.9   1.8  -
+SUPER_19             -          TR                   -              153     201  8753018  8753061  8752993  8753062 17341217    +        0.95   16.2   3.6  -
+SUPER_15             -          TR                   -                1     156  8488899  8488708  8488899  8488704 20201891    -         1.7   15.4   5.1  -
+SUPER_11             -          TR                   -              104     173  9651324  9651388  9651304  9651391 23198322    +           2   15.2   1.3  -
+SUPER_22             -          TR                   -                1     156  2068669  2068850  2068669  2068855 15399164    +         2.7   14.8   5.2  -
+SUPER_11             -          TR                   -              100     162 11578256 11578171 11578278 11578165 23198322    -         2.7   14.7   0.5  -
+SUPER_1              -          TR                   -              103     156  5623016  5622965  5623046  5622958 46272106    -         2.9   14.7   0.2  -
+SUPER_9              -          TR                   -              163     214   163474   163530   163469   163550 24846831    +         3.5   14.4   2.4  -
+SUPER_5              -          TR                   -                1     141  1108427  1108564  1108427  1108584 30076663    +         3.6   14.3   6.4  -
+SUPER_16             -          TR                   -                1      79 15006434 15006358 15006434 15006330 19730538    -         6.1   13.6   1.1  -
+SUPER_10             -          TR                   -                1     142 12319464 12319285 12319464 12319268 23381886    -         6.3   13.5   3.8  -
+SUPER_15             -          TR                   -               10     201 12516386 12516598 12516383 12516618 20201891    +         6.5   13.5   6.2  -
+SUPER_17             -          TR                   -                1      67  4060649  4060715  4060649  4060735 17759199    +         6.8   13.4   2.7  -
+SUPER_16             -          TR                   -                1      62 11748745 11748684 11748745 11748665 19730538    -         7.2   13.4   3.1  -
+SUPER_3              -          TR                   -                1      84 14391631 14391723 14391631 14391743 31292927    +         7.2   13.4   5.1  -
+SUPER_20             -          TR                   -                1      62 10382625 10382686 10382625 10382702 16045136    +         7.3   13.3   3.0  -
+SUPER_1              -          TR                   -                1      63 23344947 23344885 23344947 23344866 46272106    -         9.5   13.0   1.5  -
+SUPER_3              -          TR                   -                1      67  6943657  6943591  6943657  6943576 31292927    -         9.8   12.9   3.9  -
+SUPER_3              -          TR                   -                1     127 26398706 26398850 26398706 26398885 31292927    +         9.8   12.9   3.0  -
+SUPER_14             -          TR                   -                1     102 11773158 11773273 11773158 11773293 21515215    +         9.9   12.9   3.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Potamogeton_natans/assembly/curated/laPotNata1.2/laPotNata1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Potamogeton_natans.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Potamogeton_natans/assembly/curated/laPotNata1.2/laPotNata1.hap1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:37 2025
+# [ok]

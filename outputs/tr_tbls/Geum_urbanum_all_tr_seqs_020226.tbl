@@ -1,0 +1,27 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          all_tr_seqs          -               22     338 29196807 29197126 29196786 29197134 58984127    +       5e-51  182.4   2.3  -
+SUPER_5              -          all_tr_seqs          -               24     328 43526608 43526915 43526588 43526920 76261804    +       7e-45  162.2   3.0  -
+SUPER_2              -          all_tr_seqs          -               46     340 59232404 59232103 59232419 59232097 90780092    -     3.7e-42  153.2   1.7  -
+SUPER_2              -          all_tr_seqs          -               95     149 43312683 43312626 43312712 43312606 90780092    -        0.89   17.1   2.8  -
+SUPER_2              -          all_tr_seqs          -               97     157  6826608  6826662  6826588  6826681 90780092    +         1.5   16.3   1.0  -
+SUPER_7              -          all_tr_seqs          -               16     101 61607355 61607266 61607370 61607265 66646744    -         2.3   15.7   3.2  -
+SUPER_1              -          all_tr_seqs          -               17     105 53897704 53897626 53897724 53897605 94240583    -         2.7   15.5   4.7  -
+SUPER_1              -          all_tr_seqs          -              113     151 78946555 78946593 78946553 78946617 94240583    +         2.7   15.5   2.2  -
+SUPER_1              -          all_tr_seqs          -               16     102 79620759 79620669 79620779 79620667 94240583    -         6.2   14.3   0.7  -
+SUPER_6              -          all_tr_seqs          -               14     103 38264686 38264779 38264672 38264787 68509281    +         6.3   14.3   1.7  -
+SUPER_11             -          all_tr_seqs          -               16     100 52595157 52595245 52595142 52595251 58469098    +         8.5   13.9   1.3  -
+SUPER_8              -          all_tr_seqs          -               76     181 37742873 37742753 37742896 37742734 65946057    -         9.1   13.8   1.5  -
+SUPER_3              -          all_tr_seqs          -              127     177 51508297 51508236 51508312 51508233 82867493    -         9.4   13.7   0.9  -
+SUPER_7              -          all_tr_seqs          -               15      89 60972225 60972152 60972243 60972131 66646744    -         9.5   13.7   5.1  -
+SUPER_3              -          all_tr_seqs          -              103     170 35038686 35038757 35038678 35038768 82867493    +         9.6   13.7   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/dicots/Geum_urbanum/assembly/curated/drGeuUrba1.1/drGeuUrba1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Geum_urbanum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Geum_urbanum/assembly/curated/drGeuUrba1.1/drGeuUrba1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:12:40 2026
+# [ok]

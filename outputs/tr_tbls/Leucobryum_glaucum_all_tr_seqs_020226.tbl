@@ -1,0 +1,45 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          all_tr_seqs          -               94     219 10909289 10909173 10909313 10909153 49331666    -      0.0023   24.1   0.9  -
+SUPER_9              -          all_tr_seqs          -              108     219 20389582 20389456 20389607 20389435 33313266    -       0.033   20.2   0.2  -
+SUPER_6              -          all_tr_seqs          -              108     188  5120806  5120719  5120826  5120712 38913260    -        0.12   18.5   4.2  -
+SUPER_3              -          all_tr_seqs          -               78     151  1067705  1067799  1067685  1067820 43299833    +         1.3   15.0   0.8  -
+SUPER_4              -          all_tr_seqs          -              198     247 15776313 15776361 15776295 15776381 42668830    +         1.4   14.9   0.0  -
+SUPER_11             -          all_tr_seqs          -              120     210 17919917 17919822 17919932 17919819 27457156    -         1.6   14.7   2.0  -
+SUPER_3              -          all_tr_seqs          -               94     143 27323022 27322980 27323043 27322961 43299833    -         1.9   14.5   0.1  -
+SUPER_4              -          all_tr_seqs          -               85     152 21960043 21959975 21960065 21959955 42668830    -         2.1   14.3   2.0  -
+SUPER_7              -          all_tr_seqs          -              127     187 31148963 31148877 31148983 31148855 37248729    -         2.4   14.1   1.0  -
+SUPER_9              -          all_tr_seqs          -               48     160 29322337 29322459 29322321 29322473 33313266    +         2.5   14.1   3.2  -
+SUPER_7              -          all_tr_seqs          -              127     187 25834733 25834647 25834753 25834627 37248729    -         2.7   14.0   1.1  -
+SUPER_5              -          all_tr_seqs          -              103     177 28009753 28009663 28009772 28009651 38870496    -           3   13.8   3.0  -
+SUPER_11             -          all_tr_seqs          -               17     104 25430879 25430963 25430859 25430983 27457156    +           3   13.8   3.3  -
+SUPER_8              -          all_tr_seqs          -               18     104 20843969 20844052 20843949 20844072 35977972    +         3.5   13.6   2.6  -
+SUPER_7              -          all_tr_seqs          -              127     187 34103723 34103809 34103703 34103831 37248729    +         3.5   13.6   1.0  -
+SUPER_10             -          all_tr_seqs          -              108     165 30726443 30726380 30726463 30726369 30752386    -         3.7   13.5   0.1  -
+SUPER_6              -          all_tr_seqs          -              115     171 12138775 12138830 12138771 12138844 38913260    +         3.9   13.4   0.8  -
+SUPER_9              -          all_tr_seqs          -              126     177 30388578 30388635 30388558 30388637 33313266    +         4.1   13.3   2.7  -
+SUPER_5              -          all_tr_seqs          -               28     143 25538091 25537969 25538103 25537957 38870496    -         4.4   13.2   3.5  -
+SUPER_1              -          all_tr_seqs          -              127     187  8036795  8036709  8036815  8036688 49331666    -         5.2   13.0   1.0  -
+SUPER_3              -          all_tr_seqs          -              106     165 37333062 37332986 37333067 37332966 43299833    -         6.6   12.7   0.9  -
+SUPER_7              -          all_tr_seqs          -               88     143  2408450  2408495  2408429  2408515 37248729    +         6.9   12.6   0.0  -
+SUPER_5              -          all_tr_seqs          -              127     187 36728401 36728487 36728381 36728508 38870496    +         7.1   12.6   0.9  -
+SUPER_7              -          all_tr_seqs          -              127     179 34856819 34856741 34856835 34856720 37248729    -         7.7   12.5   4.4  -
+SUPER_1              -          all_tr_seqs          -              108     143 34679058 34679016 34679068 34678996 49331666    -           8   12.4   0.8  -
+SUPER_7              -          all_tr_seqs          -              127     187 30534717 30534803 30534697 30534823 37248729    +         8.4   12.3   1.6  -
+SUPER_7              -          all_tr_seqs          -               83     144 24703818 24703772 24703838 24703745 37248729    -         8.4   12.3   0.0  -
+SUPER_7              -          all_tr_seqs          -              129     187 19519628 19519719 19519608 19519739 37248729    +         8.6   12.3   1.5  -
+SUPER_1              -          all_tr_seqs          -               51     148  3034239  3034344  3034226  3034355 49331666    +         8.9   12.2   0.0  -
+SUPER_10             -          all_tr_seqs          -              110     164 12111897 12111964 12111877 12111984 30752386    +           9   12.2   0.3  -
+SUPER_6              -          all_tr_seqs          -               96     143 21968606 21968654 21968586 21968678 38913260    +         9.1   12.2   1.0  -
+SUPER_4              -          all_tr_seqs          -               87     143  3824175  3824251  3824155  3824271 42668830    +         9.1   12.2   2.7  -
+SUPER_2              -          all_tr_seqs          -              127     187 40238373 40238287 40238380 40238267 45115601    -         9.3   12.2   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Leucobryum_glaucum/assembly/curated/cbLeuGlau1.1/cbLeuGlau1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Leucobryum_glaucum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Leucobryum_glaucum/assembly/curated/cbLeuGlau1.1/cbLeuGlau1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:12:06 2026
+# [ok]

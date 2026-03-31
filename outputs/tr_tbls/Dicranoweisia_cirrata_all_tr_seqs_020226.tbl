@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          all_tr_seqs          -               88     219  6965718  6965837  6965698  6965858 12604011    +       0.022   19.7   0.0  -
+SUPER_2              -          all_tr_seqs          -               76     143   925728   925790   925708   925811 18380100    +        0.61   14.9   0.5  -
+SUPER_9              -          all_tr_seqs          -               78     148  1614247  1614306  1614234  1614325 12604011    +         1.1   14.2   0.7  -
+SUPER_6              -          all_tr_seqs          -               88     144 11547919 11547970 11547895 11547990 13976453    +         1.4   13.7   1.7  -
+SUPER_1              -          all_tr_seqs          -               99     149 10813029 10813076 10813009 10813096 20725954    +         1.5   13.7   0.2  -
+SUPER_11             -          all_tr_seqs          -              127     178     2000     2057     1981     2059 11547945    +         1.9   13.3   0.0  -
+SUPER_10             -          all_tr_seqs          -              111     170 10309239 10309314 10309219 10309326 12468292    +         2.2   13.1   1.7  -
+SUPER_1              -          all_tr_seqs          -               95     147  8962010  8961953  8962030  8961933 20725954    -         2.4   13.0   0.0  -
+SUPER_10             -          all_tr_seqs          -               31     146  6611430  6611307  6611440  6611287 12468292    -         3.1   12.6   2.6  -
+SUPER_10             -          all_tr_seqs          -              128     196  7480874  7480980  7480858  7480998 12468292    +         3.3   12.5   2.2  -
+SUPER_13             -          all_tr_seqs          -               83     148 10725427 10725365 10725447 10725346 10827391    -         5.4   11.8   0.1  -
+SUPER_12             -          all_tr_seqs          -              127     165  9711899  9711950  9711881  9711959 11317803    +         6.3   11.6   1.1  -
+SUPER_3              -          all_tr_seqs          -              107     157 10938261 10938313 10938242 10938336 17738642    +         6.9   11.5   1.1  -
+SUPER_3              -          all_tr_seqs          -              104     144  6186419  6186376  6186440  6186362 17738642    -         7.6   11.3   0.5  -
+SUPER_2              -          all_tr_seqs          -              101     145  3937148  3937104  3937168  3937082 18380100    -           8   11.3   0.1  -
+SUPER_10             -          all_tr_seqs          -               94     145  4435595  4435646  4435573  4435677 12468292    +           8   11.3   0.7  -
+SUPER_9              -          all_tr_seqs          -              111     144 10240382 10240415 10240348 10240430 12604011    +         8.4   11.2   1.4  -
+SUPER_2              -          all_tr_seqs          -              126     157 10800419 10800449 10800399 10800465 18380100    +         8.7   11.2   1.1  -
+SUPER_11             -          all_tr_seqs          -              110     189  9024291  9024208  9024297  9024188 11547945    -         8.7   11.1   1.4  -
+SUPER_5              -          all_tr_seqs          -              107     156  1619502  1619554  1619483  1619575 15596655    +         9.5   11.0   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Dicranoweisia_cirrata/assembly/curated/cbDicCirr2.1/cbDicCirr2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Dicranoweisia_cirrata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Dicranoweisia_cirrata/assembly/curated/cbDicCirr2.1/cbDicCirr2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:55 2026
+# [ok]

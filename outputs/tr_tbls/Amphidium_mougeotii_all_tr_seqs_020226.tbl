@@ -1,0 +1,46 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          all_tr_seqs          -               95     219  6856216  6856102  6856236  6856081 15539751    -     0.00062   25.3   0.0  -
+SUPER_3              -          all_tr_seqs          -              118     219  8254535  8254648  8254491  8254667 24653539    +       0.056   18.8   0.5  -
+SUPER_1              -          all_tr_seqs          -              105     177 16281470 16281564 16281446 16281584 27587781    +        0.17   17.2   1.2  -
+SUPER_9              -          all_tr_seqs          -              115     172 10347740 10347676 10347755 10347667 17523429    -        0.48   15.7   0.4  -
+SUPER_10             -          all_tr_seqs          -               96     176 15160764 15160858 15160744 15160859 17482592    +        0.86   14.9   0.4  -
+SUPER_11             -          all_tr_seqs          -              114     187 10004636 10004557 10004659 10004537 16945387    -         1.3   14.3   0.6  -
+SUPER_8              -          all_tr_seqs          -              114     191     3223     3305     3215     3327 17689347    +         1.7   13.9   1.0  -
+SUPER_8              -          all_tr_seqs          -              114     191     4200     4282     4192     4304 17689347    +         1.7   13.9   1.0  -
+SUPER_2              -          all_tr_seqs          -               85     142   171000   171049   170979   171070 25147604    +         2.1   13.6   0.0  -
+SUPER_14             -          all_tr_seqs          -               95     165  4330140  4330223  4330120  4330232  8667873    +         2.1   13.6   0.3  -
+SUPER_9              -          all_tr_seqs          -               83     142 17518168 17518118 17518185 17518098 17523429    -         2.2   13.6   0.2  -
+SUPER_1              -          all_tr_seqs          -              127     171  7768694  7768649  7768715  7768645 27587781    -         2.3   13.5   0.3  -
+SUPER_1              -          all_tr_seqs          -               84     143 27579979 27579936 27579997 27579909 27587781    -         2.4   13.4   0.7  -
+SUPER_5              -          all_tr_seqs          -               82     143 21473816 21473770 21473834 21473750 21520573    -         2.4   13.4   0.5  -
+SUPER_5              -          all_tr_seqs          -              108     151 20134550 20134595 20134539 20134615 21520573    +         3.2   13.1   1.1  -
+SUPER_10             -          all_tr_seqs          -               83     144    14542    14497    14562    14477 17482592    -         4.2   12.6   0.0  -
+SUPER_10             -          all_tr_seqs          -              116     142 14038992 14038965 14039033 14038959 17482592    -         4.3   12.6   0.5  -
+SUPER_10             -          all_tr_seqs          -               99     142 13256687 13256639 13256707 13256628 17482592    -         4.5   12.5   0.0  -
+SUPER_1              -          all_tr_seqs          -               83     145 18799919 18799979 18799899 18799999 27587781    +           5   12.4   1.4  -
+SUPER_1              -          all_tr_seqs          -               83     189 27509015 27508925 27509035 27508906 27587781    -         5.2   12.3   1.8  -
+SUPER_7              -          all_tr_seqs          -               83     146   262479   262405   262502   262385 18536718    -         5.5   12.3   0.1  -
+SUPER_11             -          all_tr_seqs          -               94     143    50788    50840    50755    50860 16945387    +         5.7   12.2   2.3  -
+SUPER_12             -          all_tr_seqs          -               94     143 16256439 16256387 16256472 16256367 16299439    -         5.7   12.2   2.3  -
+SUPER_12             -          all_tr_seqs          -              118     150 11799035 11799003 11799054 11798983 16299439    -         5.8   12.2   1.6  -
+SUPER_5              -          all_tr_seqs          -              113     152  4000560  4000606  4000535  4000626 21520573    +         6.2   12.1   0.0  -
+SUPER_7              -          all_tr_seqs          -               82     142 18494985 18494940 18494999 18494919 18536718    -         6.6   12.0   0.7  -
+SUPER_6              -          all_tr_seqs          -              111     175 16265934 16265859 16265955 16265856 18876701    -         7.3   11.9   0.7  -
+SUPER_12             -          all_tr_seqs          -              118     150  6547450  6547414  6547460  6547390 16299439    -         7.4   11.8   0.6  -
+SUPER_11             -          all_tr_seqs          -              114     177 16925212 16925138 16925220 16925109 16945387    -         8.1   11.7   1.5  -
+SUPER_12             -          all_tr_seqs          -               83     188 16171068 16170979 16171088 16170959 16299439    -         8.1   11.7   1.8  -
+SUPER_8              -          all_tr_seqs          -              127     172  5348587  5348645  5348564  5348648 17689347    +         8.5   11.6   0.2  -
+SUPER_4              -          all_tr_seqs          -               99     143 10446634 10446667 10446620 10446678 22567564    +         8.5   11.6   0.0  -
+SUPER_10             -          all_tr_seqs          -              126     177 13058506 13058556 13058486 13058576 17482592    +         8.8   11.6   0.6  -
+SUPER_5              -          all_tr_seqs          -              100     160 10724399 10724464 10724381 10724486 21520573    +         9.5   11.5   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Amphidium_mougeotii/assembly/curated/cbAmpMoug5.1/cbAmpMoug5.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Amphidium_mougeotii_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Amphidium_mougeotii/assembly/curated/cbAmpMoug5.1/cbAmpMoug5.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:04 2026
+# [ok]

@@ -1,0 +1,26 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_16             -          TR                   -               14     316  2565200  2565501  2565190  2565503 14084684    +     1.7e-21   83.6   2.8  -
+SUPER_24             -          TR                   -               25     219  1648590  1648784  1648577  1648805 11370756    +     4.7e-09   42.8   7.9  -
+SUPER_12             -          TR                   -               72     220  6789026  6788871  6789050  6788857 14776140    -     5.6e-09   42.6   3.6  -
+SUPER_16             -          TR                   -               29     219  7362837  7363027  7362819  7363048 14084684    +     6.2e-09   42.4   7.6  -
+SUPER_7              -          TR                   -               72     212  6492023  6492170  6492002  6492191 17141716    +     3.6e-08   39.9   3.5  -
+SUPER_2              -          TR                   -               72     210 19636968 19636823 19636989 19636802 21304706    -     5.4e-08   39.3   3.3  -
+SUPER_7              -          TR                   -              145     218 13336712 13336649 13336733 13336627 17141716    -      0.0037   23.5   4.3  -
+SUPER_26             -          TR                   -               67     124 10015809 10015749 10015831 10015730 10728506    -         2.6   14.1   0.6  -
+SUPER_3              -          TR                   -              104     151 15157981 15158026 15157960 15158030 20637855    +           4   13.5   3.0  -
+SUPER_9              -          TR                   -               39     122 13997145 13997023 13997165 13997003 16007929    -         4.8   13.2   5.4  -
+SUPER_16             -          TR                   -                4     121  5196403  5196534  5196402  5196563 14084684    +         5.5   13.1   9.9  -
+SUPER_2              -          TR                   -              102     158  6697084  6697152  6697055  6697160 21304706    +         6.1   12.9   1.0  -
+SUPER_9              -          TR                   -                4     127 14439247 14439110 14439248 14439089 16007929    -         6.2   12.9   5.3  -
+SUPER_9              -          TR                   -                4     121  9685773  9685904  9685772  9685933 16007929    +         9.3   12.3  10.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eriophorum_angustifolium.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:01 2025
+# [ok]

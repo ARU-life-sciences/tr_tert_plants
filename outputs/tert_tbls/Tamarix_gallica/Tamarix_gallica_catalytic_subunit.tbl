@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2541    3032 58859387 58858839 58859407 58858822 119604253    -     6.6e-36  127.9  24.0  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3226 58858396 58858192 58858414 58858180 119604253    -     7.9e-18   67.9   9.4  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3287    3562 58844959 58844687 58844979 58844684 119604253    -     2.4e-11   46.4   7.9  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1536    1958 58861290 58860838 58861311 58860781 119604253    -     1.7e-09   40.2  23.8  -
+HAP2_SCAFFOLD_5      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2167    2356 58860522 58860335 58860542 58860284 119604253    -     5.9e-07   31.8  12.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Tamarix_gallica/assembly/curated/dcTamGall1.1/dcTamGall1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Tamarix_gallica/Tamarix_gallica_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Tamarix_gallica/assembly/curated/dcTamGall1.1/dcTamGall1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:43:52 2025
+# [ok]

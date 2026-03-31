@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          TR                   -                1     236  3482840  3483096  3482840  3483118 25962591    +       2e-06   34.2   0.4  -
+SUPER_4              -          TR                   -               37     162 29683093 29682883 29683113 29682877 30755289    -        0.59   16.2   1.4  -
+SUPER_1              -          TR                   -               69     201  1111207  1111077  1111228  1111057 32783495    -        0.63   16.1   2.9  -
+SUPER_3              -          TR                   -              183     246 12892787 12892707 12892796 12892687 30852845    -        0.75   15.9   0.8  -
+SUPER_7              -          TR                   -                1      84 17716084 17716014 17716084 17715993 27909801    -         1.2   15.3   0.3  -
+SUPER_3              -          TR                   -                2      84 28267889 28267976 28267888 28267996 30852845    +         1.9   14.5   2.4  -
+SUPER_12             -          TR                   -              106     157  6399881  6399929  6399860  6399937 25515507    +         3.1   13.8   0.2  -
+SUPER_14             -          TR                   -              103     141 16230913 16230869 16230933 16230849 24135941    -         3.6   13.6   1.4  -
+SUPER_4              -          TR                   -                1      52 30142376 30142327 30142376 30142308 30755289    -         4.7   13.3   1.7  -
+SUPER_7              -          TR                   -               67     129   488945   489011   488919   489032 27909801    +         5.1   13.1   2.4  -
+SUPER_4              -          TR                   -              180     260 18006875 18006783 18006882 18006767 30755289    -         5.9   12.9   3.2  -
+SUPER_3              -          TR                   -              152     201 26337332 26337279 26337349 26337259 30852845    -         6.3   12.8   0.0  -
+SUPER_7              -          TR                   -                2      62  4774714  4774656  4774715  4774631 27909801    -         6.6   12.8   0.9  -
+SUPER_4              -          TR                   -              142     212 24506989 24506924 24507009 24506895 30755289    -         7.3   12.6   0.7  -
+SUPER_4              -          TR                   -                1      91 25400792 25400696 25400792 25400676 30755289    -         7.5   12.6   1.0  -
+SUPER_10             -          TR                   -                1      45  8741829  8741873  8741829  8741889 26795515    +         8.8   12.4   0.0  -
+SUPER_2              -          TR                   -               24     101  4352071  4352145  4352061  4352166 32028186    +         8.8   12.4   2.8  -
+SUPER_10             -          TR                   -               68     141 22956265 22956354 22956234 22956374 26795515    +           9   12.3   1.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euonymus_europaeus/assembly/curated/drEuoEuro1.1/drEuoEuro1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Euonymus_europaeus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Euonymus_europaeus/assembly/curated/drEuoEuro1.1/drEuoEuro1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:34:41 2025
+# [ok]

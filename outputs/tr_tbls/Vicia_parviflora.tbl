@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          TR                   -                2     307 340765948 340765624 340765949 340765615 414377563    -     3.9e-24   94.9   8.3  -
+SUPER_4              -          TR                   -               72     194 388557873 388557752 388557893 388557748 399062982    -        0.73   18.5   1.6  -
+SUPER_7              -          TR                   -               76     204 298683662 298683537 298683682 298683512 344396324    -        0.83   18.4   1.9  -
+SUPER_5              -          TR                   -                1     117  11194067  11193944  11194067  11193942 379587861    -        0.86   18.3   4.2  -
+SUPER_6              -          TR                   -                1      84 222523079 222523161 222523079 222523181 376152736    +         1.6   17.5   2.4  -
+SUPER_2              -          TR                   -                1      90 408821152 408821064 408821152 408821042 420546005    -         1.9   17.2   4.4  -
+SUPER_6              -          TR                   -                1     102 297365570 297365670 297365570 297365690 376152736    +         2.2   17.0   3.1  -
+SUPER_6              -          TR                   -               30     141 235842591 235842705 235842572 235842725 376152736    +         3.4   16.4   6.7  -
+SUPER_5              -          TR                   -                2      84  40492782  40492874  40492781  40492887 379587861    +         4.1   16.1   2.6  -
+SUPER_5              -          TR                   -               73     204 353901433 353901562 353901412 353901583 379587861    +         4.4   16.0   5.1  -
+SUPER_4              -          TR                   -                1     119  79593010  79593111  79593010  79593131 399062982    +         4.7   15.9   1.9  -
+SUPER_4              -          TR                   -                1      96  48371852  48371759  48371852  48371739 399062982    -         5.1   15.8   3.7  -
+SUPER_1              -          TR                   -              121     204 403606812 403606889 403606791 403606909 481755657    +         5.4   15.7   4.0  -
+SUPER_1              -          TR                   -              121     204 403630419 403630496 403630398 403630516 481755657    +         5.4   15.7   4.0  -
+SUPER_7              -          TR                   -               24     124  33810173  33810272  33810159  33810292 344396324    +         5.7   15.6   0.0  -
+SUPER_1              -          TR                   -                1      88 104472833 104472918 104472833 104472939 481755657    +         5.8   15.6   3.3  -
+SUPER_3              -          TR                   -              102     195 318731451 318731539 318731426 318731550 414377563    +         7.1   15.3   4.6  -
+SUPER_3              -          TR                   -               97     206 307759789 307759690 307759798 307759668 414377563    -         7.8   15.2   6.7  -
+SUPER_3              -          TR                   -              110     190 388914008 388914081 388914000 388914091 414377563    +         8.1   15.1   3.8  -
+SUPER_7              -          TR                   -               73     196 252013381 252013258 252013402 252013254 344396324    -         8.3   15.1   1.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Vicia_parviflora/assembly/curated/drVicParv1.1/drVicParv1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Vicia_parviflora.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Vicia_parviflora/assembly/curated/drVicParv1.1/drVicParv1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:42 2025
+# [ok]

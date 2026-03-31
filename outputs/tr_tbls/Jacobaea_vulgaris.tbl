@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -                2     317  66871442  66871771  66871441  66871771 102418355    +     3.9e-17   71.5   7.0  -
+SUPER_7              -          TR                   -               27     130   5259534   5259654   5259524   5259676 104128946    +       0.016   23.5   1.7  -
+SUPER_12             -          TR                   -               35     128  22714457  22714360  22714477  22714346  93372336    -        0.86   17.8   1.0  -
+HAP2_SCAFFOLD_289    -          TR                   -              183     309     83174     83029     83192     83013     84915    -         1.3   17.3   0.4  -
+SUPER_9              -          TR                   -               34     176  91578095  91578282  91578080  91578302  96340988    +         1.5   17.0   5.8  -
+SUPER_15             -          TR                   -               72     142   1436883   1436778   1436914   1436766  91746497    -         2.9   16.1   3.0  -
+SUPER_5              -          TR                   -               65     123  78206801  78206724  78206825  78206704 103696594    -         3.4   15.9   2.9  -
+SUPER_8              -          TR                   -                1      84  82008861  82008742  82008861  82008719 104224465    -         3.6   15.8   5.8  -
+SUPER_9              -          TR                   -               67     122  60834465  60834407  60834494  60834387  96340988    -         5.3   15.2   1.7  -
+SUPER_4              -          TR                   -              161     194  15256420  15256456  15256400  15256462 104633467    +         5.7   15.1   3.9  -
+SUPER_10             -          TR                   -               67     121   5974675   5974603   5974701   5974586 100224795    -         5.8   15.1   1.1  -
+SUPER_7              -          TR                   -               24     122  64262059  64262164  64262042  64262185 104128946    +         5.9   15.1   0.2  -
+SUPER_3              -          TR                   -               26     121  83519217  83519318  83519200  83519338 117885093    +         6.2   15.0   1.7  -
+SUPER_2              -          TR                   -              182     309   7586317   7586171   7586337   7586159 115199126    -         7.4   14.8   0.3  -
+SUPER_3              -          TR                   -                6     125  66061241  66061127  66061241  66061106 117885093    -         7.7   14.7   1.8  -
+SUPER_4              -          TR                   -               36     118  96005623  96005717  96005604  96005737 104633467    +         7.8   14.7   1.8  -
+SUPER_11             -          TR                   -              178     261  80326726  80326820  80326722  80326835 100883633    +         8.7   14.5   3.8  -
+SUPER_8              -          TR                   -               17     162  90931245  90931067  90931257  90931065 104224465    -         8.9   14.5   2.8  -
+SUPER_16             -          TR                   -                1      68   8696737   8696841   8696737   8696862  89640432    +         9.7   14.4   2.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Jacobaea_vulgaris/assembly/curated/daJacVulg1.1/daJacVulg1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Jacobaea_vulgaris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Jacobaea_vulgaris/assembly/curated/daJacVulg1.1/daJacVulg1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:38 2025
+# [ok]

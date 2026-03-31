@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -               58     129 31991490 31991562 31991475 31991582 42808876    +         0.7   15.8   1.3  -
+SUPER_11             -          TR                   -              106     165 11283623 11283679 11283602 11283683 20377477    +         2.1   14.2   0.4  -
+SUPER_4              -          TR                   -               31     129 11473686 11473593 11473705 11473574 34559936    -         2.5   14.0   1.0  -
+SUPER_1              -          TR                   -               68     141 25454730 25454815 25454710 25454835 56500332    +         3.3   13.6   1.9  -
+SUPER_5              -          TR                   -              229     313  8407902  8407994  8407881  8407998 30653069    +         4.2   13.2   4.4  -
+SUPER_6              -          TR                   -               69     161 29754680 29754577 29754700 29754571 29915940    -         4.4   13.2   1.3  -
+SUPER_9              -          TR                   -              108     164 16997734 16997675 16997754 16997673 23957026    -         5.3   12.9   3.6  -
+SUPER_8              -          TR                   -               68     126 24024531 24024474 24024551 24024454 26443816    -         5.9   12.8   0.9  -
+SUPER_6              -          TR                   -               70     157  4277895  4277986  4277873  4277992 29915940    +           6   12.7   5.0  -
+SUPER_3              -          TR                   -              183     248 26521904 26521830 26521913 26521808 35593135    -         7.7   12.4   3.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Grimmia_elongata/assembly/curated/cbGriElon5.1/cbGriElon5.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Grimmia_elongata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Grimmia_elongata/assembly/curated/cbGriElon5.1/cbGriElon5.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:49 2025
+# [ok]

@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          TR                   -                1     315  96417871  96418181  96417871  96418183  96754345    +     5.2e-28  107.5   0.5  -
+SUPER_11             -          TR                   -                1     315  96276752  96277059  96276752  96277061  96754345    +     3.2e-27  104.9   0.9  -
+SUPER_13             -          TR                   -                1     315    430735    430428    430735    430426  95285254    -     1.2e-26  103.0   0.8  -
+SUPER_21             -          TR                   -                2     310  72128973  72129279  72128972  72129284  78316256    +     2.7e-24   95.3   0.9  -
+SUPER_13             -          TR                   -                1     315    295713    295403    295713    295401  95285254    -     3.9e-24   94.8   0.4  -
+SUPER_20             -          TR                   -                2     310  73522184  73522482  73522183  73522494  79374735    +     4.4e-22   88.1   0.8  -
+SUPER_16             -          TR                   -               93     213  41032018  41032138  41031978  41032158  93230663    +     4.1e-10   48.8   1.4  -
+SUPER_2              -          TR                   -               90     180 111589446 111589534 111589410 111589554 112400110    +      0.0014   27.3   2.1  -
+SUPER_3              -          TR                   -               16     127  11836811  11836954  11836791  11836974 109385258    +        0.59   18.7   0.7  -
+SUPER_1              -          TR                   -               29     134 107037164 107037051 107037183 107037030 113006906    -         2.5   16.6   2.1  -
+SUPER_11             -          TR                   -               75     143  73558776  73558840  73558770  73558849  96754345    +         2.9   16.5   1.8  -
+SUPER_6              -          TR                   -                2      84  89265467  89265377  89265468  89265358 104833636    -         2.9   16.4   2.7  -
+SUPER_26             -          TR                   -               27     125  48162381  48162263  48162396  48162243  73057032    -         3.1   16.4   0.0  -
+SUPER_14             -          TR                   -              136     197  62857837  62857897  62857816  62857905  94381702    +         3.3   16.3   5.3  -
+SUPER_5              -          TR                   -              105     168  70084579  70084655  70084560  70084657 107918526    +         4.3   15.9   0.4  -
+SUPER_1              -          TR                   -               58     160  38851745  38851841  38851724  38851857 113006906    +         5.2   15.6   2.4  -
+SUPER_28             -          TR                   -               17     135  46253123  46253005  46253130  46252984  54730458    -         5.3   15.6   4.1  -
+SUPER_27             -          TR                   -               16     117  59237509  59237603  59237503  59237604  64533189    +         6.1   15.4   4.3  -
+SUPER_10             -          TR                   -              131     199  84840881  84840799  84840899  84840791  98387470    -         6.6   15.3   1.0  -
+SUPER_8              -          TR                   -                2      83  80634027  80633941  80634028  80633920 101401706    -         9.2   14.8   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Hibiscus_tridactylites/assembly/curated/ddHibTrid2.1/ddHibTrid2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hibiscus_tridactylites.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Hibiscus_tridactylites/assembly/curated/ddHibTrid2.1/ddHibTrid2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:10 2025
+# [ok]

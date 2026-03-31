@@ -1,0 +1,33 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -                1     317 130944547 130944901 130944547 130944901 217195261    +     4.2e-24   94.4   3.6  -
+SUPER_6              -          TR                   -               90     314 130947291 130947561 130947271 130947562 217195261    +     4.6e-07   38.5   6.7  -
+HAP1_SCAFFOLD_345    -          TR                   -               56     213     11310     11133     11340     11093     51000    -      0.0011   27.4   3.0  -
+SUPER_6              -          TR                   -               56     213 131265308 131265131 131265338 131265091 217195261    -      0.0011   27.4   3.0  -
+SUPER_6              -          TR                   -                1     141 131036604 131036744 131036604 131036758 217195261    +      0.0019   26.7   3.0  -
+SUPER_6              -          TR                   -                1     141 131160360 131160500 131160360 131160514 217195261    +      0.0019   26.7   3.0  -
+SUPER_1              -          TR                   -               21     132 254959975 254959839 254959995 254959819 265361400    -        0.36   19.2   0.0  -
+SUPER_8              -          TR                   -                2      64 160267225 160267285 160267224 160267300 192687394    +         1.8   16.9   2.2  -
+SUPER_4              -          TR                   -               60     130 191718011 191717930 191718028 191717910 247781348    -         2.1   16.6   1.9  -
+SUPER_8              -          TR                   -                2      65 160258026 160258087 160258025 160258106 192687394    +         2.4   16.5   2.0  -
+SUPER_3              -          TR                   -               58     130  65776614  65776697  65776592  65776717 255291705    +         2.7   16.3   2.6  -
+SUPER_5              -          TR                   -               68     166 204040843 204040764 204040863 204040758 246493322    -         2.9   16.2   3.3  -
+SUPER_5              -          TR                   -               74     129 240937413 240937469 240937392 240937490 246493322    +         3.9   15.7   0.0  -
+SUPER_1              -          TR                   -               18     130 237920456 237920332 237920470 237920311 265361400    -         3.9   15.7   0.0  -
+SUPER_6              -          TR                   -              184     301 131133993 131133855 131134014 131133842 217195261    -         4.8   15.4   3.3  -
+SUPER_6              -          TR                   -              184     301 131347984 131347846 131348005 131347833 217195261    -         4.8   15.4   3.3  -
+SUPER_3              -          TR                   -               70     131 238486261 238486199 238486283 238486177 255291705    -         4.8   15.4   1.0  -
+SUPER_5              -          TR                   -               74     129 240962641 240962697 240962620 240962718 246493322    +         5.6   15.2   0.5  -
+SUPER_7              -          TR                   -               68     162  92471510  92471622  92471474  92471653 216051462    +         7.5   14.8   2.3  -
+SUPER_6              -          TR                   -               58     130  35933375  35933458  35933355  35933478 217195261    +         8.5   14.6   1.4  -
+SUPER_3              -          TR                   -              109     157 254478650 254478603 254478670 254478596 255291705    -         9.1   14.5   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Tanacetum_parthenium/assembly/curated/daTanPart1.1/daTanPart1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Tanacetum_parthenium.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Tanacetum_parthenium/assembly/curated/daTanPart1.1/daTanPart1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:32:22 2025
+# [ok]

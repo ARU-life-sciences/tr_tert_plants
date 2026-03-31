@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              219    1460 238700799 238699140 238700812 238699119 707890497    -     7.3e-66  228.1  41.7  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1449    1702 238698795 238698256 238698806 238698236 707890497    -       8e-19   72.1  11.5  -
+HAP2_SCAFFOLD_7      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1208    1460  99925199  99924933  99925215  99924913 288043107    -     8.7e-13   52.1   9.4  -
+HAP2_SCAFFOLD_521    -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              976    1279     39050     39278     39043     39286     79284    +       4e-06   30.0   4.4  -
+HAP2_SCAFFOLD_7      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1473    1701  99924236  99923703  99924256  99923683 288043107    -     7.4e-05   25.8  12.4  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1546    1725 238700912 238700757 238700925 238700756 707890497    -       0.033   17.0   7.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ranunculus_sardous/assembly/curated/dmRanSard1.1/dmRanSard1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Ranunculus_sardous/Ranunculus_sardous_isoformx1.tbl --dna --cpu 20 ../original_data/tert/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Ranunculus_sardous/assembly/curated/dmRanSard1.1/dmRanSard1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 01:27:03 2025
+# [ok]

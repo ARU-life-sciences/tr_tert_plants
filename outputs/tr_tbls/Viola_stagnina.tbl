@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -                4     317 44452723 44452398 44452726 44452394 66761835    -     1.1e-29  110.9   4.5  -
+SUPER_2              -          TR                   -               35     213  9691892  9692062  9691871  9692082 66761835    +     1.4e-05   31.7   1.2  -
+SUPER_9              -          TR                   -                2     166 20564070 20563920 20564071 20563917 50946529    -        0.41   17.1   9.9  -
+SUPER_6              -          TR                   -              130     207 37129564 37129658 37129545 37129678 55391568    +         1.5   15.3   0.9  -
+SUPER_3              -          TR                   -               51     124 25389776 25389854 25389749 25389876 62782594    +           3   14.2   0.2  -
+SUPER_10             -          TR                   -               40     128 11717564 11717467 11717585 11717445 38877540    -           4   13.8   0.9  -
+scaffold_MT_1        -          TR                   -              114     190   451580   451699   451560   451711   484667    +         4.3   13.7   1.6  -
+SUPER_3              -          TR                   -               61     141 37292396 37292476 37292378 37292503 62782594    +         4.4   13.7   5.6  -
+SUPER_8              -          TR                   -              183     227  6785841  6785797  6785848  6785779 51998785    -         9.7   12.6   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Viola_stagnina/assembly/curated/ddVioStag1.1/ddVioStag1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Viola_stagnina.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Viola_stagnina/assembly/curated/ddVioStag1.1/ddVioStag1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:32:56 2025
+# [ok]

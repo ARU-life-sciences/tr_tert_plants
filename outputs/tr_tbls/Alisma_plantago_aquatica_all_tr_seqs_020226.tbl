@@ -1,0 +1,43 @@
+# target name        accession  query name           accession  hmmfrom hmm to    alifrom     ali to    envfrom     env to     sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------    -------    -------    -------    -------    ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          all_tr_seqs          -               15     222  686576475  686576218  686576490  686576198 1999785258    -     1.3e-11   55.5   2.6  -
+SUPER_2              -          all_tr_seqs          -               84     146  990643537  990643469  990643581  990643448 1545728702    -        0.79   20.1   4.3  -
+SUPER_1              -          all_tr_seqs          -               17     117  947472902  947472806  947472920  947472795 1999785258    -         1.1   19.6   2.3  -
+SUPER_7              -          all_tr_seqs          -               20     124  302948930  302949043  302948910  302949063  688362222    +         1.2   19.5   4.0  -
+SUPER_2              -          all_tr_seqs          -              124     190  196911881  196911800  196911897  196911780 1545728702    -         1.4   19.3   1.9  -
+SUPER_1              -          all_tr_seqs          -               11     100 1517389645 1517389556 1517389660 1517389536 1999785258    -           2   18.8   2.8  -
+SUPER_2              -          all_tr_seqs          -               56     143  870775305  870775385  870775286  870775405 1545728702    +         2.4   18.5   4.4  -
+SUPER_5              -          all_tr_seqs          -               16     104  703255868  703255956  703255852  703255976 1187610474    +         2.6   18.4   0.7  -
+SUPER_2              -          all_tr_seqs          -               19     117 1488620113 1488620016 1488620133 1488619996 1545728702    -         2.8   18.3   2.2  -
+SUPER_1              -          all_tr_seqs          -               16     101  229427130  229427043  229427147  229427023 1999785258    -         2.9   18.2   0.8  -
+SUPER_7              -          all_tr_seqs          -               14     106  601543010  601542919  601543025  601542899  688362222    -         3.1   18.1   1.7  -
+SUPER_5              -          all_tr_seqs          -               15     116  110544258  110544158  110544274  110544146 1187610474    -         3.2   18.1   0.7  -
+SUPER_4              -          all_tr_seqs          -              103     147  827955805  827955848  827955784  827955866 1493209057    +         3.5   18.0   1.2  -
+SUPER_6              -          all_tr_seqs          -               15     119  771734918  771734815  771734934  771734803  943684407    -         4.2   17.7   0.2  -
+SUPER_2              -          all_tr_seqs          -               16     116   16925228   16925327   16925211   16925348 1545728702    +         4.9   17.5   1.5  -
+SUPER_1              -          all_tr_seqs          -              126     191  435241129  435241215  435241108  435241235 1999785258    +         5.8   17.2   3.9  -
+SUPER_1              -          all_tr_seqs          -               16     100 1454521378 1454521459 1454521362 1454521479 1999785258    +           6   17.2   2.4  -
+SUPER_3              -          all_tr_seqs          -               15     100 1197177949 1197178032 1197177933 1197178052 1499997841    +         6.3   17.1   0.8  -
+SUPER_5              -          all_tr_seqs          -               16      99  377460114  377460194  377460097  377460215 1187610474    +         6.3   17.1   1.3  -
+SUPER_3              -          all_tr_seqs          -               15      82  244817952  244818019  244817933  244818039 1499997841    +         6.5   17.1   2.9  -
+SUPER_4              -          all_tr_seqs          -               16     101   58977964   58978051   58977948   58978071 1493209057    +         6.9   17.0   0.7  -
+SUPER_6              -          all_tr_seqs          -               18     106   67979145   67979232   67979126   67979252  943684407    +           8   16.8   2.5  -
+SUPER_5              -          all_tr_seqs          -               15     101  130886542  130886630  130886526  130886651 1187610474    +           8   16.8   1.1  -
+SUPER_1              -          all_tr_seqs          -               16     100   70490108   70490026   70490125   70490004 1999785258    -         8.1   16.8   0.4  -
+SUPER_7              -          all_tr_seqs          -               17      73  244987366  244987423  244987347  244987444  688362222    +         8.4   16.7   3.4  -
+SUPER_6              -          all_tr_seqs          -               15     116  769784040  769783942  769784056  769783930  943684407    -         8.6   16.7   0.4  -
+SUPER_4              -          all_tr_seqs          -               13      72 1077278670 1077278729 1077278657 1077278751 1493209057    +         8.8   16.6   2.2  -
+SUPER_2              -          all_tr_seqs          -               15     123  348418487  348418601  348418470  348418611 1545728702    +           9   16.6   0.8  -
+SUPER_5              -          all_tr_seqs          -               15     100  130903217  130903300  130903198  130903320 1187610474    +         9.1   16.6   1.0  -
+SUPER_3              -          all_tr_seqs          -               20     117  480358953  480358858  480358973  480358848 1499997841    -         9.3   16.6   2.7  -
+SUPER_4              -          all_tr_seqs          -               13     108 1169769363 1169769457 1169769349 1169769476 1493209057    +          10   16.5   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Alisma_plantago_aquatica/assembly/curated/laAliPlan1.1/laAliPlan1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Alisma_plantago_aquatica_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Alisma_plantago_aquatica/assembly/curated/laAliPlan1.1/laAliPlan1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:13:15 2026
+# [ok]

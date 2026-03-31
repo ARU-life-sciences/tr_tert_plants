@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          all_tr_seqs          -               83     219 11841717 11841845 11841697 11841866 12369599    +     3.4e-05   28.7   2.2  -
+SUPER_3              -          all_tr_seqs          -               46     189 11239544 11239371 11239557 11239361 13844417    -         0.5   14.9   1.9  -
+SUPER_2              -          all_tr_seqs          -              112     150   843249   843213   843269   843193 17271639    -         1.8   13.1   0.4  -
+SUPER_1              -          all_tr_seqs          -               94     183  3474040  3473920  3474054  3473914 23186400    -         1.9   13.0   0.4  -
+SUPER_4              -          all_tr_seqs          -              198     303 11610499 11610619 11610483 11610623 13413003    +         3.2   12.3   0.2  -
+SUPER_9              -          all_tr_seqs          -               89     144  4355213  4355159  4355232  4355139 10833683    -         4.1   11.9   0.1  -
+SUPER_1              -          all_tr_seqs          -              124     179 12874481 12874555 12874460 12874559 23186400    +         4.5   11.8   0.7  -
+SUPER_7              -          all_tr_seqs          -              127     172  5161909  5161854  5161929  5161837 11565976    -         7.2   11.1   1.6  -
+SUPER_7              -          all_tr_seqs          -              119     174  6779353  6779400  6779333  6779406 11565976    +         8.9   10.8   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Ptychomitrium_polyphyllum/assembly/curated/cbPtyPoly4.1/cbPtyPoly4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Ptychomitrium_polyphyllum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Ptychomitrium_polyphyllum/assembly/curated/cbPtyPoly4.1/cbPtyPoly4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:14:31 2026
+# [ok]

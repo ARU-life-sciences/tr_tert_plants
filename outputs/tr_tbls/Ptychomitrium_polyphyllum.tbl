@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -               68     213 11841722 11841852 11841697 11841914 12369599    +      0.0099   20.6   5.1  -
+SUPER_2              -          TR                   -               88     165  1291391  1291467  1291365  1291472 17271639    +        0.64   14.7   0.7  -
+SUPER_8              -          TR                   -               72     131 10101546 10101614 10101526 10101637 11100241    +         3.2   12.3   5.8  -
+SUPER_1              -          TR                   -              105     165 12874480 12874556 12874460 12874558 23186400    +         4.5   11.9   1.2  -
+SUPER_1              -          TR                   -              187     227  6812421  6812381  6812430  6812361 23186400    -         9.9   10.7   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Ptychomitrium_polyphyllum/assembly/curated/cbPtyPoly4.1/cbPtyPoly4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Ptychomitrium_polyphyllum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Ptychomitrium_polyphyllum/assembly/curated/cbPtyPoly4.1/cbPtyPoly4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:59 2025
+# [ok]

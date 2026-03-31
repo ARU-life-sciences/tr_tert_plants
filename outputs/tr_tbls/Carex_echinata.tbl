@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          TR                   -               18     316  7781885  7781597  7781902  7781596 13976003    -     1.9e-20   80.0   4.3  -
+SUPER_18             -          TR                   -               67     124 12142473 12142421 12142503 12142401 12378919    -       0.098   18.6   3.1  -
+SUPER_20             -          TR                   -                2     128  2083671  2083499  2083672  2083478 12222066    -           1   15.2   4.3  -
+SUPER_2              -          TR                   -               26     122   561109   560998   561130   560982 17706971    -         1.7   14.5   0.0  -
+SUPER_18             -          TR                   -               67     124 11309032 11308973 11309055 11308954 12378919    -         1.9   14.3   0.3  -
+SUPER_2              -          TR                   -               68     124  9463346  9463298  9463385  9463277 17706971    -         4.6   13.1   5.7  -
+SUPER_21             -          TR                   -               68     142  3168171  3168243  3168151  3168263 11900408    +         5.7   12.8   0.4  -
+SUPER_12             -          TR                   -               17     102  7857358  7857456  7857353  7857476 13726016    +         7.8   12.3   4.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Carex_echinata/assembly/curated/lpCarEchi2.1/lpCarEchi2.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Carex_echinata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Carex_echinata/assembly/curated/lpCarEchi2.1/lpCarEchi2.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:01 2025
+# [ok]

@@ -1,0 +1,16 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_20             -          TR                   -                2     315  8073810  8073479  8073811  8073477 29761913    -     9.3e-26   98.7   0.7  -
+SUPER_22             -          TR                   -                2     314  7522478  7522147  7522479  7522145 29845050    -     4.2e-25   96.6   1.0  -
+SUPER_7              -          TR                   -               70     161 39405017 39405125 39404995 39405128 44868400    +         2.4   15.3   3.7  -
+SUPER_8              -          TR                   -                1      48 41463085 41463040 41463085 41463020 44504029    -          10   13.3   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euphrasia_confusa/assembly/curated/daEupConf1.1/daEupConf1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Euphrasia_confusa.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Euphrasia_confusa/assembly/curated/daEupConf1.1/daEupConf1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:28:57 2025
+# [ok]

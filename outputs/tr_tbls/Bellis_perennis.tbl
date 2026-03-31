@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          TR                   -                2     314 137116483 137116807 137116482 137116809 161391732    +     1.5e-15   65.8   6.0  -
+SUPER_4              -          TR                   -               59     131 145516704 145516616 145516737 145516596 164731189    -         0.2   19.5   5.1  -
+SUPER_3              -          TR                   -               24     130 136508023 136507904 136508038 136507884 202066031    -         1.6   16.5   1.2  -
+SUPER_4              -          TR                   -                1      66 156123397 156123332 156123397 156123311 164731189    -         4.5   15.1   2.5  -
+SUPER_9              -          TR                   -               57     125  59326582  59326643  59326555  59326662 102147860    +           6   14.6   2.6  -
+SUPER_4              -          TR                   -              130     196  97929876  97929943  97929858  97929947 164731189    +         6.1   14.6   6.8  -
+SUPER_5              -          TR                   -                1      58 116675559 116675504 116675559 116675484 161391732    -         7.5   14.3   3.3  -
+SUPER_1              -          TR                   -              180     298 158802869 158802749 158802876 158802734 203059534    -         9.3   14.0   0.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.1/daBelPere1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Bellis_perennis.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.1/daBelPere1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:08 2025
+# [ok]

@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_22             -          all_tr_seqs          -               17     256  8174919  8174634  8174935  8174611 24458999    -       2e-12   54.8   5.0  -
+SUPER_23             -          all_tr_seqs          -              126     231  5131859  5132000  5131837  5132023 23458945    +       5e-06   33.8   1.0  -
+SUPER_13             -          all_tr_seqs          -              187     225 11358060 11358098 11358051 11358118 32064375    +         2.2   15.2   0.0  -
+SUPER_9              -          all_tr_seqs          -              169     218 36273560 36273512 36273581 36273492 36593851    -         2.3   15.2   2.3  -
+SUPER_5              -          all_tr_seqs          -               83     144 13308604 13308543 13308626 13308523 47274728    -         5.7   13.8   2.6  -
+SUPER_5              -          all_tr_seqs          -               16      68 41099423 41099475 41099408 41099497 47274728    +         5.7   13.8   1.5  -
+SUPER_24             -          all_tr_seqs          -              101     156  5453239  5453286  5453215  5453307 21611470    +         6.6   13.6   3.0  -
+SUPER_6              -          all_tr_seqs          -               16     124 16382772 16382882 16382756 16382888 45648148    +           8   13.4   2.1  -
+SUPER_9              -          all_tr_seqs          -              118     188 21958965 21959055 21958943 21959063 36593851    +         8.4   13.3   2.3  -
+SUPER_19             -          all_tr_seqs          -               78     189 22384044 22383900 22384068 22383880 26181827    -         8.5   13.3   0.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Phragmites_australis/assembly/curated/lpPhrAust1.1/lpPhrAust1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Phragmites_australis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Phragmites_australis/assembly/curated/lpPhrAust1.1/lpPhrAust1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:15:59 2026
+# [ok]

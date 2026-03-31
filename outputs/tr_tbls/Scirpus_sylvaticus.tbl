@@ -1,0 +1,20 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_17     -          TR                   -               12     316  1840135  1840432  1840127  1840434  9880904    +       1e-20   80.6   3.8  -
+HAP2_SCAFFOLD_16     -          TR                   -               68     245  5710716  5710519  5710736  5710502  9980366    -     1.5e-09   43.9   2.4  -
+HAP2_SCAFFOLD_29     -          TR                   -               32     122  4012748  4012838  4012728  4012859  6916151    +        0.16   17.6   2.9  -
+HAP2_SCAFFOLD_5      -          TR                   -               13     122  4283088  4283253  4283084  4283273 11866756    +         0.9   15.1   6.6  -
+HAP2_SCAFFOLD_20     -          TR                   -               67     124   607742   607801   607719   607820  9185634    +         1.8   14.1   0.5  -
+HAP2_SCAFFOLD_6      -          TR                   -              102     158  4840085  4840147  4840055  4840149 11637809    +         4.6   12.8   1.1  -
+HAP2_SCAFFOLD_5      -          TR                   -              109     187   832118   832045   832138   832039 11866756    -         6.9   12.2   2.1  -
+HAP2_SCAFFOLD_11     -          TR                   -               89     141  1228932  1228985  1228903  1229005 10539268    +           8   12.0   0.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Scirpus_sylvaticus/assembly/curated/lpSciSylv1.2/lpSciSylv1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Scirpus_sylvaticus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Scirpus_sylvaticus/assembly/curated/lpSciSylv1.2/lpSciSylv1.hap2.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:36 2025
+# [ok]

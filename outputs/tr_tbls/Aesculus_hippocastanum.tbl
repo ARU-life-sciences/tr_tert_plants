@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15             -          TR                   -                2     314 18603134 18603455 18603133 18603458 22551582    +     1.3e-29  110.4   2.5  -
+SUPER_15             -          TR                   -               31     157 14786379 14786242 14786397 14786239 22551582    -        0.45   16.8   5.5  -
+SUPER_12             -          TR                   -                2      53 15512670 15512719 15512669 15512754 23050027    +         0.7   16.2   5.2  -
+SUPER_12             -          TR                   -               27     155 20600514 20600374 20600532 20600366 23050027    -         1.6   15.0   0.7  -
+SUPER_5              -          TR                   -               26     134  4534169  4534275  4534152  4534297 28014548    +         2.8   14.2   7.6  -
+SUPER_10             -          TR                   -                2     118  8924006  8923873  8924007  8923853 24871090    -         4.5   13.5   0.0  -
+SUPER_3              -          TR                   -               74     124 11123104 11123062 11123124 11123042 29870714    -         5.1   13.3   2.0  -
+SUPER_18             -          TR                   -               27     170 15345878 15346027 15345863 15346032 18416470    +         5.2   13.3   5.3  -
+SUPER_19             -          TR                   -               73     155  8630499  8630586  8630458  8630591 19733753    +         6.5   13.0   3.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Aesculus_hippocastanum/assembly/curated/drAesHipp1.1/drAesHipp1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Aesculus_hippocastanum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Aesculus_hippocastanum/assembly/curated/drAesHipp1.1/drAesHipp1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:32:11 2025
+# [ok]

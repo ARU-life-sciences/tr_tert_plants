@@ -1,0 +1,20 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_12     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3238 483235698 483235156 483235720 483235134 764983100    -     9.5e-30  110.5  13.6  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2774    3238 289979646 289980188 289979623 289980208 1715719071    +     1.7e-28  106.4  14.1  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1760    2638 289970333 289971292 289970313 289971312 1715719071    +     5.2e-28  104.7  41.3  -
+HAP2_SCAFFOLD_12     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1763    2638 483253503 483252547 483253523 483252527 764983100    -     3.7e-24   92.0  47.6  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3236    3444 289980382 289980593 289980369 289980620 1715719071    +     2.4e-16   66.1   9.7  -
+HAP2_SCAFFOLD_12     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3236    3472 483234925 483234692 483234938 483234668 764983100    -       3e-16   65.7  10.4  -
+HAP2_SCAFFOLD_12     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3492    3767 483234549 483234280 483234569 483234276 764983100    -     6.4e-16   64.6  11.5  -
+HAP2_SCAFFOLD_1      -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3491    3767 289980757 289981027 289980737 289981031 1715719071    +     3.1e-13   55.7  11.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Adonis_annua/assembly/curated/dmAdoAnnu1.2/dmAdoAnnu1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Adonis_annua/Adonis_annua_tert1.tbl --dna --cpu 20 ../original_data/tert/clusters/tert1.hmm /data/tol/data/darwin/dicots/Adonis_annua/assembly/curated/dmAdoAnnu1.2/dmAdoAnnu1.hap2.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 06:44:17 2025
+# [ok]

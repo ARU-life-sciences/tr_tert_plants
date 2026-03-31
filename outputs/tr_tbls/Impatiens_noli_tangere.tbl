@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                1     316 68753851 68754184 68753851 68754185 70328352    +     3.1e-25   96.3   7.3  -
+SUPER_3              -          TR                   -              119     313 50844620 50844464 50844640 50844460 67519037    -     1.2e-05   32.1   6.9  -
+SUPER_2              -          TR                   -                1      76  8467286  8467362  8467286  8467364 68280314    +         1.2   15.7   2.2  -
+SUPER_1              -          TR                   -                2      92 68863863 68863784 68863864 68863762 70328352    -         3.1   14.3   3.6  -
+SUPER_8              -          TR                   -                1      84 51218504 51218405 51218504 51218385 55238482    -         9.8   12.6   3.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Impatiens_noli_tangere/assembly/curated/ddImpNoli1.1/ddImpNoli1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Impatiens_noli_tangere.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Impatiens_noli_tangere/assembly/curated/ddImpNoli1.1/ddImpNoli1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:23:20 2025
+# [ok]

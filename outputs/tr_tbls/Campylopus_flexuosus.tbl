@@ -1,0 +1,29 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -               68     292  6101471  6101236  6101496  6101216 15621924    -      0.0008   25.0   0.1  -
+SUPER_10             -          TR                   -               72     134 11425403 11425334 11425425 11425327 15621924    -         1.5   14.3   2.2  -
+SUPER_10             -          TR                   -               36     128 15598429 15598347 15598450 15598327 15621924    -         1.5   14.2   8.0  -
+SUPER_9              -          TR                   -              176     238 16022754 16022800 16022751 16022820 16030480    +         1.5   14.2   0.6  -
+SUPER_10             -          TR                   -               17     129  4727021  4727186  4727016  4727205 15621924    +         2.2   13.7   0.6  -
+SUPER_2              -          TR                   -               96     179 18257007 18256931 18257022 18256911 45726823    -         2.9   13.3   1.3  -
+SUPER_4              -          TR                   -               84     131 20729720 20729767 20729691 20729790 22376548    +           4   12.8   1.2  -
+SUPER_1              -          TR                   -               75     130 23067830 23067895 23067810 23067915 50137147    +         4.9   12.5   1.5  -
+SUPER_2              -          TR                   -              103     173  8225171  8225102  8225188  8225099 45726823    -         5.4   12.4   0.2  -
+SUPER_1              -          TR                   -               65     161 29493543 29493655 29493521 29493658 50137147    +         5.8   12.3   0.7  -
+SUPER_2              -          TR                   -               80     130 36100068 36100124 36100021 36100144 45726823    +         6.1   12.2   1.5  -
+SUPER_10             -          TR                   -               25     124 15598286 15598398 15598273 15598418 15621924    +         6.1   12.2   4.8  -
+SUPER_2              -          TR                   -              107     204 36449832 36449924 36449810 36449945 45726823    +         6.4   12.2   2.2  -
+SUPER_8              -          TR                   -               97     146  5980457  5980405  5980462  5980384 18335809    -           7   12.0   1.0  -
+SUPER_9              -          TR                   -               71     128 14146651 14146604 14146674 14146583 16030480    -         7.6   11.9   0.0  -
+SUPER_1              -          TR                   -              105     142 38791941 38791987 38791919 38792005 50137147    +         7.8   11.9   0.4  -
+SUPER_3              -          TR                   -               72     125 10730239 10730172 10730262 10730150 25148363    -         9.2   11.6   4.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Campylopus_flexuosus/assembly/curated/cbCamFlex1.1/cbCamFlex1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Campylopus_flexuosus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Campylopus_flexuosus/assembly/curated/cbCamFlex1.1/cbCamFlex1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:52 2025
+# [ok]

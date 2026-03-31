@@ -1,0 +1,24 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          TR                   -                1     312 16109926 16110267 16109926 16110270 48317376    +     2.1e-15   64.1   1.1  -
+SUPER_8              -          TR                   -                1     100 10192652 10192751 10192652 10192765 34456555    +       0.031   20.9   1.4  -
+SUPER_11             -          TR                   -                1     141  9239964  9239805  9239964  9239785 23175452    -        0.42   17.2   0.8  -
+scaffold_851         -          TR                   -               24     141    44249    44436    44233    44455    58750    +        0.87   16.1   0.3  -
+SUPER_6              -          TR                   -                2     157 28724884 28725086 28724883 28725092 41425038    +         2.3   14.8   1.3  -
+scaffold_190         -          TR                   -              109     142   129426   129384   129445   129370   186637    -         2.7   14.5   1.1  -
+SUPER_6              -          TR                   -               68     141 12376705 12376773 12376673 12376791 41425038    +         2.9   14.4   5.2  -
+scaffold_5588        -          TR                   -                1     122    15394    15507    15394    15527    23928    +           4   14.0   2.3  -
+SUPER_1              -          TR                   -               72     145 21585717 21585789 21585694 21585803 61322524    +         4.5   13.8   6.7  -
+SUPER_5              -          TR                   -              144     191 36542368 36542315 36542388 36542307 45121906    -         6.2   13.3   5.6  -
+SUPER_7              -          TR                   -                9     117 23631056 23631166 23631054 23631186 37327017    +         6.7   13.2   3.3  -
+scaffold_326         -          TR                   -                1      94    51885    51764    51885    51745   112338    -         7.8   13.0   1.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Urtica_dioica/assembly/curated/drUrtDioi1.1/drUrtDioi1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Urtica_dioica.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Urtica_dioica/assembly/curated/drUrtDioi1.1/drUrtDioi1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:28:39 2025
+# [ok]

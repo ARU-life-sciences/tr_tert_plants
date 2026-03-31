@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP1_SCAFFOLD_305    -          TR                   -                1     312    34924    34615    34924    34595    67655    -     1.7e-36  133.3   0.9  -
+SUPER_7              -          TR                   -               53     141 24064271 24064363 24064243 24064383 47229325    +        0.36   17.4   2.8  -
+SUPER_4              -          TR                   -               24     126 51982909 51982998 51982897 51983018 59117503    +        0.43   17.2   8.3  -
+SUPER_2              -          TR                   -               34     139  6638983  6639090  6638973  6639109 72177249    +        0.66   16.6   4.7  -
+SUPER_8              -          TR                   -               29     124  5671109  5671022  5671128  5671006 47087484    -         1.2   15.7   1.9  -
+SUPER_6              -          TR                   -              101     141  2363620  2363657  2363602  2363677 55030905    +         1.4   15.5   0.9  -
+SUPER_11             -          TR                   -               32     122  8497266  8497375  8497246  8497411 38298460    +         1.4   15.5   2.3  -
+SUPER_7              -          TR                   -              106     148  3848144  3848181  3848124  3848200 47229325    +         1.9   15.1   0.7  -
+SUPER_7              -          TR                   -              106     148  3863161  3863198  3863141  3863217 47229325    +         1.9   15.1   0.7  -
+SUPER_5              -          TR                   -               68     141 15260560 15260626 15260538 15260642 58450293    +         2.9   14.4   4.4  -
+SUPER_2              -          TR                   -              172     297 66277727 66277861 66277724 66277877 72177249    +         3.7   14.1   2.8  -
+SUPER_10             -          TR                   -                1     115  7029506  7029368  7029506  7029368 39693730    -           4   14.0   1.4  -
+SUPER_7              -          TR                   -               14     131 23105406 23105284 23105411 23105261 47229325    -         4.5   13.8   2.3  -
+SUPER_11             -          TR                   -               24     138 37024044 37024175 37024031 37024191 38298460    +         5.2   13.6   4.7  -
+SUPER_8              -          TR                   -               14     129  8932505  8932405  8932510  8932384 47087484    -         5.4   13.6   3.6  -
+SUPER_9              -          TR                   -               88     141   942336   942386   942315   942406 43267380    +         6.4   13.3   0.7  -
+SUPER_1              -          TR                   -              105     141 63617600 63617636 63617578 63617656 74443558    +         6.8   13.2   0.3  -
+SUPER_5              -          TR                   -               16     166  8963104  8962930  8963112  8962910 58450293    -         7.9   13.0   8.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Calystegia_soldanella/assembly/curated/daCalSold1.1/daCalSold1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Calystegia_soldanella.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Calystegia_soldanella/assembly/curated/daCalSold1.1/daCalSold1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:30:18 2025
+# [ok]

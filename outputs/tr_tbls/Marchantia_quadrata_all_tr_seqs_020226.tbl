@@ -1,0 +1,24 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          all_tr_seqs          -              129     222 79718007 79717872 79718031 79717851 84771631    -       0.026   21.3   1.2  -
+SUPER_2              -          all_tr_seqs          -               84     144 56673621 56673678 56673601 56673700 79651460    +        0.27   17.9   0.8  -
+SUPER_3              -          all_tr_seqs          -               58     149 25824369 25824278 25824389 25824258 70810211    -         1.1   15.9   1.3  -
+SUPER_13             -          all_tr_seqs          -              124     173  9244867  9244931  9244834  9244933 28740665    +         1.7   15.3   0.3  -
+SUPER_8              -          all_tr_seqs          -              198     260 28032381 28032302 28032401 28032287 43971226    -         1.9   15.1   0.7  -
+SUPER_1              -          all_tr_seqs          -               94     172 19768471 19768368 19768490 19768364 84771631    -         2.5   14.7   0.1  -
+SUPER_4              -          all_tr_seqs          -              125     215 32403834 32403744 32403846 32403743 55158586    -           3   14.4   1.7  -
+SUPER_1              -          all_tr_seqs          -              115     180 77704510 77704596 77704496 77704602 84771631    +         3.9   14.1   1.6  -
+SUPER_2              -          all_tr_seqs          -               83     177  1944125  1944247  1944105  1944250 79651460    +         6.9   13.3   0.6  -
+SUPER_4              -          all_tr_seqs          -               44     143 50090005 50089907 50090016 50089887 55158586    -         8.3   13.0   2.8  -
+SUPER_5              -          all_tr_seqs          -              172     220 45800895 45800950 45800873 45800964 50171167    +         9.1   12.9   1.6  -
+SUPER_15             -          all_tr_seqs          -               94     147   209354   209299   209377   209279 17987567    -         9.5   12.8   0.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Marchantia_quadrata/assembly/curated/cmMarQuad2.1/cmMarQuad2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Marchantia_quadrata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Marchantia_quadrata/assembly/curated/cmMarQuad2.1/cmMarQuad2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:12:14 2026
+# [ok]

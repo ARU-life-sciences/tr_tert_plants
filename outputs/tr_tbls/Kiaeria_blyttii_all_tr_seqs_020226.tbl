@@ -1,0 +1,33 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          all_tr_seqs          -               87     219 16444860 16444980 16444840 16445013 23087910    +        0.18   17.1   0.1  -
+SUPER_8              -          all_tr_seqs          -               76     147  2296855  2296942  2296843  2296964 18067403    +        0.58   15.4   1.7  -
+SUPER_11             -          all_tr_seqs          -              127     180  7043546  7043612  7043532  7043618 13781752    +         1.4   14.1   0.4  -
+SUPER_5              -          all_tr_seqs          -              107     156  1337261  1337305  1337232  1337329 21624420    +           2   13.7   0.0  -
+SUPER_9              -          all_tr_seqs          -              113     149  7169964  7169924  7169981  7169902 16203537    -         2.7   13.2   0.5  -
+SUPER_12             -          all_tr_seqs          -              114     172  2212042  2211990  2212058  2211975 12592702    -         2.8   13.2   0.0  -
+SUPER_9              -          all_tr_seqs          -              114     177  2610570  2610502  2610590  2610489 16203537    -         3.6   12.8   0.5  -
+SUPER_7              -          all_tr_seqs          -               96     174 16913953 16914057 16913932 16914077 18719887    +         3.8   12.7   2.6  -
+SUPER_13             -          all_tr_seqs          -               83     144  9938503  9938582  9938484  9938602 11414410    +         3.9   12.7   1.6  -
+SUPER_5              -          all_tr_seqs          -               84     145  1652321  1652263  1652342  1652242 21624420    -         4.9   12.4   4.1  -
+SUPER_6              -          all_tr_seqs          -              233     334   538310   538208   538323   538197 20332908    -         5.7   12.2   0.9  -
+SUPER_8              -          all_tr_seqs          -               24     143   578860   579004   578840   579022 18067403    +         6.9   11.9   1.4  -
+SUPER_14             -          all_tr_seqs          -              100     157  2855948  2855875  2855968  2855862 11225245    -           7   11.9   0.1  -
+SUPER_7              -          all_tr_seqs          -              103     156 15113297 15113348 15113275 15113357 18719887    +           7   11.9   0.3  -
+SUPER_7              -          all_tr_seqs          -              121     172  6754557  6754497  6754569  6754485 18719887    -         8.1   11.7   1.8  -
+SUPER_10             -          all_tr_seqs          -              112     163 14131166 14131217 14131161 14131237 16164688    +         8.1   11.7   1.7  -
+SUPER_7              -          all_tr_seqs          -              117     177 12296264 12296203 12296281 12296188 18719887    -         8.4   11.6   1.7  -
+SUPER_8              -          all_tr_seqs          -              118     181 16973296 16973375 16973275 16973377 18067403    +         8.7   11.6   2.9  -
+SUPER_6              -          all_tr_seqs          -              100     145 19350652 19350685 19350633 19350699 20332908    +         9.1   11.5   0.7  -
+SUPER_3              -          all_tr_seqs          -               88     143 10656043 10655989 10656063 10655968 23725026    -         9.1   11.5   1.9  -
+SUPER_8              -          all_tr_seqs          -               59     145  3321113  3321199  3321094  3321223 18067403    +         9.6   11.4   0.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Kiaeria_blyttii/assembly/curated/cbKiaBlyt5.1/cbKiaBlyt5.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Kiaeria_blyttii_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Kiaeria_blyttii/assembly/curated/cbKiaBlyt5.1/cbKiaBlyt5.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:15:01 2026
+# [ok]

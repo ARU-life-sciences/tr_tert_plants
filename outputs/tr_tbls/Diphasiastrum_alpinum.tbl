@@ -1,0 +1,19 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -               80     206  34195640  34195445  34195691  34195425 194511129    -      0.0018   27.3   0.0  -
+SUPER_2              -          TR                   -               29     130   5657889   5657966   5657869   5657982 194511129    +        0.53   19.1   1.0  -
+SUPER_9              -          TR                   -               32     127  49608236  49608132  49608254  49608116 132484356    -        0.54   19.1   1.5  -
+SUPER_22             -          TR                   -              190     296  10302828  10302983  10302818  10302988  91027089    +         1.5   17.7   2.5  -
+SUPER_15             -          TR                   -              102     125 112172440 112172401 112172540 112172390 112172927    -         2.2   17.1   0.0  -
+SUPER_8              -          TR                   -               16     129  97658760  97658609  97658764  97658589 141784532    -         7.4   15.4   0.0  -
+SUPER_14             -          TR                   -               66     130 113018119 113018055 113018139 113018035 113918546    -         9.3   15.1   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/vascular-plants/Diphasiastrum_alpinum/assembly/curated/vlDipAlpi1.1/vlDipAlpi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Diphasiastrum_alpinum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/vascular-plants/Diphasiastrum_alpinum/assembly/curated/vlDipAlpi1.1/vlDipAlpi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:06 2025
+# [ok]

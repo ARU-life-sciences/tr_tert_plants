@@ -1,0 +1,19 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -                2     313  33386817  33386506  33386818  33386502  91352375    -     4.4e-29  109.7   4.7  -
+SUPER_7              -          TR                   -               38     201   6440519   6440668   6440496   6440689  89764371    +        0.27   18.5   6.5  -
+SUPER_4              -          TR                   -                1      82  14096065  14096149  14096065  14096169  98129200    +        0.37   18.1   3.1  -
+SUPER_1              -          TR                   -               70     161  43394850  43394737  43394872  43394719 143144699    -         1.2   16.4   4.0  -
+SUPER_1              -          TR                   -               75     160  43471541  43471440  43471568  43471427 143144699    -         2.3   15.5   3.0  -
+SUPER_1              -          TR                   -              105     168  64591356  64591282  64591376  64591281 143144699    -         8.8   13.6   2.6  -
+SUPER_2              -          TR                   -              148     203  69899984  69900039  69899967  69900043 142885589    +         9.7   13.4   2.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euphorbia_lathyris/assembly/curated/ddEupLath1.1/ddEupLath1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Euphorbia_lathyris.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Euphorbia_lathyris/assembly/curated/ddEupLath1.1/ddEupLath1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:28:39 2025
+# [ok]

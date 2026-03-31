@@ -1,0 +1,19 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -               16     311 125041040 125040750 125041055 125040745 252090310    -     2.6e-20   81.1   1.9  -
+SUPER_1              -          TR                   -              103     190 197748346 197748219 197748366 197748215 252090310    -         1.2   16.6   0.4  -
+HAP1_SCAFFOLD_904    -          TR                   -              103     190     49178     49305     49158     49309     51966    +         2.3   15.7   0.0  -
+SUPER_2              -          TR                   -               26     141 208036230 208036083 208036246 208036063 225531431    -         3.2   15.2   8.6  -
+SUPER_3              -          TR                   -               24     122 123807470 123807579 123807458 123807598 216728787    +         4.2   14.8   2.9  -
+SUPER_3              -          TR                   -               20     175 149772839 149772654 149772847 149772647 216728787    -         4.3   14.8   1.8  -
+SUPER_4              -          TR                   -              178     241  70811807  70811709  70811820  70811696 211653112    -         7.2   14.0   0.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Eleocharis_parvula/assembly/curated/lpEleParv1.2/lpEleParv1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eleocharis_parvula.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Eleocharis_parvula/assembly/curated/lpEleParv1.2/lpEleParv1.hap1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:36 2025
+# [ok]

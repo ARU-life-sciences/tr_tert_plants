@@ -1,0 +1,42 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_31     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3026 28179917 28179366 28179935 28179346 29028323    -     2.9e-40  142.3  17.2  -
+HAP2_SCAFFOLD_35     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2533    3026  1100566  1101128  1100559  1101148 27981994    +     7.4e-40  140.9  16.3  -
+HAP2_SCAFFOLD_25     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3026 21649899 21650450 21649881 21650470 31511600    +     1.8e-39  139.7  16.4  -
+HAP2_SCAFFOLD_32     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3026  1279053  1279604  1279035  1279624 28753755    +     1.8e-39  139.7  16.4  -
+HAP2_SCAFFOLD_43     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3026  1060425  1060970  1060407  1060990 12388567    +     1.1e-37  133.7  22.5  -
+HAP2_SCAFFOLD_33     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3026 27471266 27470717 27471284 27470697 28467137    -     9.9e-36  127.2  18.1  -
+HAP2_SCAFFOLD_31     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3243 28179160 28178939 28179167 28178911 29028323    -     5.7e-22   81.6   6.1  -
+HAP2_SCAFFOLD_31     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2126 28181472 28180863 28181492 28180851 29028323    -     2.2e-21   79.6  27.7  -
+HAP2_SCAFFOLD_25     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3240 21650656 21650874 21650649 21650894 31511600    +     5.1e-21   78.4   7.0  -
+HAP2_SCAFFOLD_32     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3240  1279810  1280028  1279803  1280048 28753755    +     5.1e-21   78.4   7.0  -
+HAP2_SCAFFOLD_35     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2112  1099022  1099618  1099010  1099638 27981994    +     9.3e-21   77.5  26.9  -
+HAP2_SCAFFOLD_35     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3240  1101334  1101552  1101327  1101572 27981994    +     8.5e-20   74.4   7.7  -
+HAP2_SCAFFOLD_43     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3238  1061211  1061427  1061205  1061447 12388567    +     1.2e-18   70.5   6.3  -
+HAP2_SCAFFOLD_32     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    1965  1277494  1277937  1277474  1277969 28753755    +     1.6e-18   70.1  20.3  -
+HAP2_SCAFFOLD_43     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    1961  1058872  1059310  1058852  1059331 12388567    +     5.2e-18   68.4  20.0  -
+HAP2_SCAFFOLD_33     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3240 27470511 27470297 27470518 27470277 28467137    -     7.7e-18   67.9   6.9  -
+HAP2_SCAFFOLD_25     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    1964 21648340 21648782 21648320 21648815 31511600    +     2.4e-17   66.2  20.7  -
+HAP2_SCAFFOLD_33     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    1946 27472750 27472326 27472770 27472310 28467137    -     6.4e-16   61.5  20.1  -
+HAP2_SCAFFOLD_43     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3289    3563  1061669  1061943  1061663  1061945 12388567    +     1.1e-07   34.2  13.0  -
+HAP2_SCAFFOLD_43     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2387  1059630  1059843  1059621  1059864 12388567    +     4.5e-07   32.1  14.0  -
+HAP2_SCAFFOLD_35     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  1101790  1102063  1101787  1102065 27981994    +     5.8e-07   31.8  11.0  -
+HAP2_SCAFFOLD_25     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563 21651112 21651385 21651108 21651387 31511600    +     8.6e-07   31.2  11.9  -
+HAP2_SCAFFOLD_32     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  1280267  1280540  1280263  1280542 28753755    +     8.6e-07   31.2  11.9  -
+HAP2_SCAFFOLD_33     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3291    3563 27470058 27469789 27470062 27469787 28467137    -     1.2e-06   30.8  11.3  -
+HAP2_SCAFFOLD_35     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2384  1099782  1099992  1099773  1100015 27981994    +     2.2e-06   29.8  13.7  -
+HAP2_SCAFFOLD_33     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2386 27472054 27471842 27472067 27471820 28467137    -       3e-06   29.4  13.9  -
+HAP2_SCAFFOLD_31     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563 28178706 28178433 28178710 28178431 29028323    -     4.7e-06   28.8  12.8  -
+HAP2_SCAFFOLD_25     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2385 21649100 21649311 21649086 21649334 31511600    +       1e-05   27.6  12.2  -
+HAP2_SCAFFOLD_31     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2385 28180712 28180501 28180726 28180478 29028323    -       1e-05   27.6  12.2  -
+HAP2_SCAFFOLD_32     -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2384  1278254  1278464  1278240  1278487 28753755    +     1.8e-05   26.8  12.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Potentilla_indica/assembly/curated/drPotIndi1.1/drPotIndi1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Potentilla_indica/Potentilla_indica_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Potentilla_indica/assembly/curated/drPotIndi1.1/drPotIndi1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 05:15:04 2025
+# [ok]

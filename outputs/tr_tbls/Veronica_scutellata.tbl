@@ -1,0 +1,17 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          TR                   -                2     316 77078674 77078337 77078675 77078336 87128822    -     2.3e-26  100.4   0.8  -
+SUPER_8              -          TR                   -              144     193 51164201 51164246 51164180 51164266 73071107    +        0.99   16.3   1.1  -
+SUPER_6              -          TR                   -               80     136 81410527 81410477 81410587 81410468 81410590    -         1.3   15.9   4.2  -
+SUPER_1              -          TR                   -               20     125 79745089 79745195 79745081 79745215 91991612    +         5.4   13.8   3.2  -
+SUPER_4              -          TR                   -              260     317 67710882 67710826 67710897 67710826 87128822    -           8   13.3   2.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_scutellata/assembly/curated/daVerScut1.1/daVerScut1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Veronica_scutellata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Veronica_scutellata/assembly/curated/daVerScut1.1/daVerScut1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:32:13 2025
+# [ok]

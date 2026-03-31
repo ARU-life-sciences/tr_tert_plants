@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          TR                   -                1     221 232665441 232665163 232665441 232665141 240912944    -     4.4e-09   45.9   2.6  -
+SUPER_14             -          TR                   -                1     220   6447114   6446837   6447114   6446816 207765811    -     2.4e-08   43.4   3.1  -
+SUPER_11             -          TR                   -                1     221 210392506 210392784 210392506 210392804 215264374    +     3.5e-08   42.9   3.1  -
+SUPER_5              -          TR                   -                1     246 250593206 250592888 250593206 250592868 261956892    -     3.2e-07   39.8   4.3  -
+SUPER_5              -          TR                   -                2     298 250419466 250419102 250419467 250419086 261956892    -     1.1e-06   38.0   8.4  -
+SUPER_5              -          TR                   -              102     246  74965136  74964939  74965214  74964918 261956892    -      0.0001   31.5   2.9  -
+SUPER_2              -          TR                   -               68     162  27052261  27052119  27052281  27052117 295448335    -        0.37   19.9   2.6  -
+SUPER_11             -          TR                   -               34     168 106539815 106539974 106539794 106539977 215264374    +         2.5   17.2   1.3  -
+SUPER_1              -          TR                   -              165     240  96525176  96525250  96525173  96525256 317552954    +           3   16.9   1.9  -
+SUPER_11             -          TR                   -               36     167 106528724 106528880 106528701 106528882 215264374    +         3.6   16.6   1.6  -
+SUPER_11             -          TR                   -                1     100  35793158  35793261  35793158  35793275 215264374    +         4.1   16.4   2.7  -
+SUPER_1              -          TR                   -                1      99 303002506 303002404 303002506 303002392 317552954    -         5.8   15.9   2.7  -
+SUPER_11             -          TR                   -               29     167 102359078 102359241 102359062 102359243 215264374    +         5.8   15.9   0.6  -
+SUPER_6              -          TR                   -               29     167 209599932 209599769 209599953 209599767 245625120    -         5.9   15.9   1.5  -
+SUPER_5              -          TR                   -                1      96 158046742 158046845 158046742 158046865 261956892    +         7.4   15.6   6.6  -
+SUPER_3              -          TR                   -               11     130  60461356  60461461  60461355  60461485 289533897    +         8.1   15.5   2.3  -
+SUPER_11             -          TR                   -               28     167 102370250 102370414 102370230 102370416 215264374    +         8.3   15.4   1.1  -
+SUPER_3              -          TR                   -                1      94  92804158  92804250  92804158  92804270 289533897    +         8.3   15.4   1.6  -
+SUPER_6              -          TR                   -              102     168  35962036  35962110  35962013  35962112 245625120    +         8.7   15.4   0.8  -
+SUPER_12             -          TR                   -                1      99  13126975  13126873  13126975  13126857 213651222    -         9.9   15.2   2.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Hierochloe_odorata/assembly/curated/lpHieOdor1.1/lpHieOdor1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hierochloe_odorata.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Hierochloe_odorata/assembly/curated/lpHieOdor1.1/lpHieOdor1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:53 2025
+# [ok]

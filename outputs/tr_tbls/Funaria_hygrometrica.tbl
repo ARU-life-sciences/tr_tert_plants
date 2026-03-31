@@ -1,0 +1,27 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          TR                   -               92     124 12836562 12836530 12836633 12836525 12836636    -       0.088   18.5   2.7  -
+SUPER_11             -          TR                   -              110     172  8676362  8676418  8676341  8676419 12159515    +        0.25   17.0   2.4  -
+SUPER_22             -          TR                   -               68     132   819260   819193   819280   819189 10206585    -        0.52   16.0   0.7  -
+SUPER_4              -          TR                   -               94     173 14378532 14378608 14378505 14378611 15679980    +         1.4   14.6   0.2  -
+SUPER_13             -          TR                   -               25     159  8502679  8502844  8502668  8502845 11989438    +         2.8   13.6   0.8  -
+SUPER_17             -          TR                   -               81     157  1544207  1544131  1544228  1544127 10741968    -         3.5   13.3   2.1  -
+SUPER_2              -          TR                   -              106     171  4000460  4000527  4000437  4000541 18698737    +         3.7   13.2   2.6  -
+SUPER_16             -          TR                   -               72     149  2053571  2053481  2053594  2053470 11308264    -         4.8   12.8   0.6  -
+SUPER_22             -          TR                   -               26     141  6450286  6450156  6450299  6450136 10206585    -         6.2   12.4   1.3  -
+SUPER_1              -          TR                   -               94     142  1565543  1565588  1565528  1565608 20944988    +           7   12.3   2.0  -
+SUPER_26             -          TR                   -               68     125  4683808  4683883  4683788  4683903  6841068    +         7.1   12.3   0.0  -
+SUPER_2              -          TR                   -               75     128  4963110  4963154  4963090  4963166 18698737    +         7.6   12.1   1.0  -
+SUPER_5              -          TR                   -               77     139  4577471  4577413  4577497  4577399 14569795    -         7.9   12.1   0.0  -
+SUPER_1              -          TR                   -               34     122  4143714  4143613  4143735  4143589 20944988    -         8.6   12.0   1.4  -
+SUPER_25             -          TR                   -               73     206  3259871  3259759  3259899  3259738  9469020    -         9.9   11.8   1.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Funaria_hygrometrica/assembly/curated/cbFunHygr2.1/cbFunHygr2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Funaria_hygrometrica.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Funaria_hygrometrica/assembly/curated/cbFunHygr2.1/cbFunHygr2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:14:02 2025
+# [ok]

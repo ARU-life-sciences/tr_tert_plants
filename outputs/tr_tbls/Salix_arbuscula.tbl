@@ -1,0 +1,19 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15             -          TR                   -                1     315  6214568  6214909  6214568  6214910 15170144    +       2e-41  148.8   3.0  -
+SUPER_13             -          TR                   -              149     203  5087880  5087943  5087859  5087964 15414028    +         3.1   13.6   0.7  -
+SUPER_8              -          TR                   -               68     142 15645511 15645596 15645481 15645613 19270881    +         3.2   13.6   2.2  -
+SUPER_11             -          TR                   -               81     122  9105620  9105566  9105640  9105546 17114345    -         3.6   13.4   0.0  -
+SUPER_15             -          TR                   -              176     312 15060437 15060549 15060433 15060554 15170144    +         3.7   13.3   1.0  -
+SUPER_8              -          TR                   -              114     179  4875696  4875643  4875716  4875632 19270881    -         6.5   12.5   1.0  -
+SUPER_9              -          TR                   -               20     111 11222275 11222359 11222264 11222368 19220217    +         9.2   12.1   2.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Salix_arbuscula/assembly/curated/ddSalArbu1.1/ddSalArbu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Salix_arbuscula.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Salix_arbuscula/assembly/curated/ddSalArbu1.1/ddSalArbu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:44 2025
+# [ok]

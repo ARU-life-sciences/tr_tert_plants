@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_18             -          TR                   -                3     316  9974165  9973861  9974167  9973859 11724985    -     3.8e-21   82.3   4.1  -
+SUPER_1              -          TR                   -               28     219 15285308 15285499 15285291 15285520 17228600    +     5.1e-09   42.5   7.4  -
+SUPER_18             -          TR                   -               28     219  2871004  2870813  2871021  2870792 11724985    -     5.1e-09   42.5   7.4  -
+SUPER_6              -          TR                   -               67     126  8247439  8247508  8247415  8247528 14566826    +         1.5   14.8   4.8  -
+SUPER_26             -          TR                   -               67     124   972571   972631   972549   972650 11039379    +           2   14.3   0.2  -
+SUPER_3              -          TR                   -               84     142  9812254  9812186  9812257  9812166 16368802    -         7.2   12.5   1.0  -
+SUPER_3              -          TR                   -               21     124 12260780 12260683 12260791 12260663 16368802    -         7.3   12.5   6.7  -
+SUPER_23             -          TR                   -              162     213  4286558  4286504  4286579  4286478 11463802    -         7.5   12.4   2.2  -
+SUPER_12             -          TR                   -               40     122  1608943  1609038  1608924  1609061 12728919    +         8.3   12.3   4.9  -
+SUPER_7              -          TR                   -              154     224 12433142 12433224 12433122 12433244 13878661    +         8.3   12.3   2.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Eriophorum_vaginatum/assembly/curated/lpEriVagi1.2/lpEriVagi1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eriophorum_vaginatum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Eriophorum_vaginatum/assembly/curated/lpEriVagi1.2/lpEriVagi1.hap1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:31:00 2025
+# [ok]

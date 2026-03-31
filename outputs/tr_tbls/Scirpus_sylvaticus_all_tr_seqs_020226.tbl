@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_17     -          all_tr_seqs          -               20     339  1840124  1840436  1840105  1840443  9880904    +     5.3e-29  107.9   4.0  -
+HAP2_SCAFFOLD_16     -          all_tr_seqs          -               85     268  5710719  5710519  5710740  5710499  9980366    -     4.4e-15   62.1   1.7  -
+HAP2_SCAFFOLD_22     -          all_tr_seqs          -               13      71  4398027  4397969  4398040  4397948  8441944    -       0.092   18.3   4.7  -
+HAP2_SCAFFOLD_27     -          all_tr_seqs          -               83     172  1481360  1481477  1481340  1481486  7319083    +        0.47   16.0   1.1  -
+HAP2_SCAFFOLD_4      -          all_tr_seqs          -               14      70  5117855  5117911  5117840  5117927 12083629    +        0.47   16.0   1.7  -
+HAP2_SCAFFOLD_20     -          all_tr_seqs          -               46     143   607709   607802   607695   607807  9185634    +        0.93   15.0   3.4  -
+HAP2_SCAFFOLD_13     -          all_tr_seqs          -               11      74  1095122  1095184  1095112  1095206 10150604    +         1.5   14.4   2.5  -
+HAP2_SCAFFOLD_5      -          all_tr_seqs          -               16      75  9568321  9568262  9568339  9568242 11866756    -         1.5   14.3   5.9  -
+HAP2_SCAFFOLD_16     -          all_tr_seqs          -               19     112  9333513  9333607  9333495  9333621  9980366    +           2   13.9   3.5  -
+HAP2_SCAFFOLD_31     -          all_tr_seqs          -              117     169  5887043  5886999  5887050  5886987  6456324    -         2.7   13.5   1.2  -
+HAP2_SCAFFOLD_2      -          all_tr_seqs          -               59     141   823650   823736   823627   823756 16046541    +         2.8   13.4   0.2  -
+HAP2_SCAFFOLD_8      -          all_tr_seqs          -               10      72  5705779  5705718  5705788  5705694 11201810    -         3.2   13.2   3.2  -
+HAP2_SCAFFOLD_28     -          all_tr_seqs          -              123     152  6324927  6324959  6324905  6325017  7290507    +         4.1   12.9   0.0  -
+HAP2_SCAFFOLD_2      -          all_tr_seqs          -                9      68  4948176  4948118  4948184  4948098 16046541    -         4.5   12.7   4.1  -
+SUPER_1              -          all_tr_seqs          -               17     103  4403329  4403252  4403346  4403231 16807226    -         5.4   12.5   5.9  -
+HAP2_SCAFFOLD_20     -          all_tr_seqs          -              188     228  8816387  8816431  8816381  8816449  9185634    +         5.9   12.4   1.6  -
+HAP2_SCAFFOLD_13     -          all_tr_seqs          -              118     175  6506095  6506162  6506057  6506166 10150604    +         8.6   11.8   1.0  -
+HAP2_SCAFFOLD_2      -          all_tr_seqs          -               11      71 13486707 13486648 13486718 13486628 16046541    -         8.7   11.8   3.6  -
+HAP2_SCAFFOLD_29     -          all_tr_seqs          -               83     139  4012772  4012833  4012740  4012853  6916151    +         9.5   11.7   0.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Scirpus_sylvaticus/assembly/curated/lpSciSylv1.2/lpSciSylv1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Scirpus_sylvaticus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Scirpus_sylvaticus/assembly/curated/lpSciSylv1.2/lpSciSylv1.hap2.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:11:28 2026
+# [ok]

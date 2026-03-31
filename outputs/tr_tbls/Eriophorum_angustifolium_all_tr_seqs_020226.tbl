@@ -1,0 +1,44 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_16             -          all_tr_seqs          -               19     339  2565186  2565505  2565168  2565512 14084684    +     2.6e-30  112.8   3.6  -
+SUPER_16             -          all_tr_seqs          -               87     263  7362867  7363060  7362843  7363062 14084684    +     1.6e-13   57.5   5.1  -
+SUPER_24             -          all_tr_seqs          -               87     263  1648624  1648817  1648600  1648819 11370756    +     1.6e-13   57.5   5.1  -
+SUPER_7              -          all_tr_seqs          -               88     263  6492018  6492210  6491994  6492212 17141716    +     2.9e-13   56.7   4.5  -
+SUPER_12             -          all_tr_seqs          -               83     236  6789036  6788869  6789056  6788856 14776140    -     1.9e-12   54.0   4.1  -
+SUPER_2              -          all_tr_seqs          -               89     263 19636972 19636781 19636995 19636776 21304706    -     2.4e-12   53.6   4.6  -
+SUPER_7              -          all_tr_seqs          -              165     263 13336707 13336615 13336732 13336613 17141716    -     2.6e-05   30.5   4.2  -
+SUPER_27             -          all_tr_seqs          -               10      78  1452469  1452402  1452479  1452374  9193058    -        0.16   18.0   3.1  -
+SUPER_17             -          all_tr_seqs          -               10      72  1533899  1533960  1533889  1533981 13961496    +        0.24   17.5   3.5  -
+SUPER_4              -          all_tr_seqs          -               14     112 15736237 15736138 15736256 15736126 20438417    -        0.77   15.8   1.4  -
+SUPER_7              -          all_tr_seqs          -               14     112 12957370 12957469 12957351 12957481 17141716    +        0.77   15.8   1.4  -
+SUPER_14             -          all_tr_seqs          -               14     112  8512015  8511916  8512034  8511904 14342644    -           1   15.4   1.2  -
+SUPER_17             -          all_tr_seqs          -               14     112  2397223  2397124  2397238  2397113 13961496    -         1.1   15.3   1.0  -
+SUPER_7              -          all_tr_seqs          -               14     112  3558058  3557956  3558074  3557944 17141716    -         1.7   14.7   1.5  -
+SUPER_24             -          all_tr_seqs          -              197     282  2549648  2549555  2549668  2549535 11370756    -         1.8   14.6   0.6  -
+SUPER_7              -          all_tr_seqs          -               14     112  3456965  3457067  3456951  3457079 17141716    +         1.8   14.6   1.6  -
+SUPER_23             -          all_tr_seqs          -               10      72  8117061  8117122  8117051  8117145 12220521    +         1.9   14.5   3.2  -
+SUPER_13             -          all_tr_seqs          -               14     105   921600   921692   921580   921712 14589014    +         2.4   14.2   1.1  -
+SUPER_3              -          all_tr_seqs          -               18      70  8012915  8012967  8012900  8012987 20637855    +         2.4   14.2   1.6  -
+SUPER_22             -          all_tr_seqs          -              123     152  3091127  3091092  3091149  3091039 12807738    -         3.7   13.6   0.0  -
+SUPER_13             -          all_tr_seqs          -               18      72  4110276  4110329  4110257  4110349 14589014    +         4.4   13.3   3.2  -
+SUPER_21             -          all_tr_seqs          -               19      82  9441434  9441372  9441454  9441319 12839012    -         4.5   13.3   4.2  -
+SUPER_20             -          all_tr_seqs          -               17      76  7665522  7665464  7665540  7665444 13302236    -         4.5   13.3   7.9  -
+SUPER_24             -          all_tr_seqs          -               15      86  2571628  2571560  2571644  2571543 11370756    -         4.9   13.2   1.6  -
+SUPER_26             -          all_tr_seqs          -               94     143 10015805 10015748 10015826 10015743 10728506    -         5.2   13.1   1.1  -
+SUPER_26             -          all_tr_seqs          -              132     210  4126245  4126149  4126260  4126144 10728506    -           6   12.9   2.0  -
+SUPER_13             -          all_tr_seqs          -               19      75  4822898  4822843  4822918  4822823 14589014    -         7.6   12.5   2.8  -
+SCAFFOLD_39          -          all_tr_seqs          -              127     177     3577     3621     3558     3634   609338    +         7.8   12.5   0.0  -
+SUPER_9              -          all_tr_seqs          -               18      79  8145701  8145761  8145682  8145775 16007929    +         8.1   12.4   1.8  -
+SUPER_25             -          all_tr_seqs          -               14      76  4240723  4240784  4240709  4240802 11589471    +         8.8   12.3   3.5  -
+SUPER_21             -          all_tr_seqs          -               38     147  8731990  8732094  8731987  8732114 12839012    +           9   12.3   2.8  -
+SUPER_3              -          all_tr_seqs          -              101     175 14864913 14864998 14864893 14865002 20637855    +         9.5   12.2   0.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eriophorum_angustifolium_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Mon Feb  2 13:13:50 2026
+# [ok]

@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          TR                   -               58     142  9742794  9742711  9742811  9742692 22013762    -        0.94   14.8   2.2  -
+SUPER_7              -          TR                   -               68     141  6686250  6686319  6686221  6686339 19937580    +         1.8   13.9   0.4  -
+SUPER_10             -          TR                   -               72     206  8959411  8959282  8959435  8959261 15694546    -           2   13.8   0.1  -
+SUPER_8              -          TR                   -                7     128 10513573 10513446 10513573 10513425 17625488    -         4.9   12.5   5.6  -
+SUPER_4              -          TR                   -              106     171 17886283 17886353 17886260 17886354 22013762    +           5   12.4   0.0  -
+SUPER_1              -          TR                   -               67     130 10524162 10524227 10524141 10524247 25529678    +           6   12.2   1.9  -
+SUPER_4              -          TR                   -              214     260  7807563  7807521  7807583  7807500 22013762    -         8.3   11.7   0.0  -
+SUPER_3              -          TR                   -               79     128 18359886 18359927 18359859 18359943 22862600    +         8.7   11.6   0.2  -
+SUPER_6              -          TR                   -               84     141   544570   544640   544546   544656 20375590    +         9.9   11.5   1.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Cynodontium_bruntonii/assembly/curated/cbCynBrun3.1/cbCynBrun3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cynodontium_bruntonii.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Cynodontium_bruntonii/assembly/curated/cbCynBrun3.1/cbCynBrun3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:38 2025
+# [ok]

@@ -1,0 +1,18 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          TR                   -                2     313 34475401 34475723 34475400 34475724 40254075    +     7.8e-31  114.6   0.7  -
+SUPER_3              -          TR                   -              150     277  4154832  4154966  4154809  4154991 39142696    +     7.4e-06   32.6   2.4  -
+SUPER_18             -          TR                   -               81     162 18372825 18372751 18372859 18372749 19027865    -         1.2   15.5   2.9  -
+SUPER_10             -          TR                   -              185     247  6337366  6337454  6337360  6337469 26178194    +           2   14.8   0.8  -
+SUPER_5              -          TR                   -               67     123 24767933 24767991 24767907 24768011 36859521    +         2.5   14.5   0.0  -
+SUPER_8              -          TR                   -               69     130 20467312 20467376 20467291 20467399 29407032    +         9.1   12.6   1.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Lathraea_squamaria/assembly/curated/daLatSqua1.1/daLatSqua1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Lathraea_squamaria.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Lathraea_squamaria/assembly/curated/daLatSqua1.1/daLatSqua1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:31 2025
+# [ok]

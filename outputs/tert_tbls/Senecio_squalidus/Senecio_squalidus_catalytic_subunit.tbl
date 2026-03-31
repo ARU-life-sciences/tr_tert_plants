@@ -1,0 +1,18 @@
+# target name                accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#        ------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2521    3029 52479382 52479889 52479371 52479905 68525979    +     4.9e-34  120.5  31.3  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3232 52479974 52480184 52479967 52480204 68525979    +     1.8e-16   62.1  12.2  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1840    2339 52478586 52479130 52478566 52479151 68525979    +     1.2e-07   32.9  26.9  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1551    1723 52478357 52478529 52478337 52478542 68525979    +     3.2e-05   24.9  13.0  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              475     624 52477168 52477320 52477147 52477340 68525979    +        0.26   11.8   6.8  -
+Scaffold_78_HRSCAF_679_arrow -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3392    3563 52480425 52480593 52480405 52480595 68525979    +         7.5    7.0   8.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../original_data/tert/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Senecio_squalidus/assembly/curated/dSenSqu2.1/dSenSqu2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout ../working/TERT_tbl_outputs/Senecio_squalidus/Senecio_squalidus_catalytic_subunit.tbl --dna --cpu 20 ../original_data/tert/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Senecio_squalidus/assembly/curated/dSenSqu2.1/dSenSqu2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_detection/src
+# Date:            Thu Jul 10 07:01:10 2025
+# [ok]

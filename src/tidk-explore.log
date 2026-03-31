@@ -1,0 +1,10 @@
+tidk version: 0.2.7
+Log information for output files: printed to STDOUT
+Date: 2025-11-24: 19:28:24
+`tidk explore` was run with the following parameters:
+    Input fasta: /data/tol/data/darwin/dicots/Viscum_album/assembly/curated/drVisAlbu1.1/drVisAlbu1.1.primary.fa.gz
+    Explored telomeric repeat units of length: 0
+    Or from length: 4
+    To length: 30
+    Threshold: 100
+    Searching at 1% distance from chromosome end

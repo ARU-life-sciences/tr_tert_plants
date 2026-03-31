@@ -1,0 +1,31 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_12             -          TR                   -                2     316   183584   183254   183585   183249 10879165    -     8.9e-20   77.1   5.2  -
+SUPER_8              -          TR                   -               72     316  6986022  6986275  6986000  6986276 11784394    +     1.2e-18   73.5   7.2  -
+SUPER_6              -          TR                   -              103     316  6018131  6018328  6018111  6018329  8710358    +     3.6e-13   55.5  10.7  -
+SUPER_16             -          TR                   -               32     122  5947730  5947842  5947707  5947864 10403999    +       0.025   19.9   0.6  -
+SUPER_4              -          TR                   -               48     122  8762161  8762276  8762138  8762307 13221477    +         0.5   15.6   0.2  -
+SUPER_13             -          TR                   -               33     122  5671042  5671149  5671018  5671169 10533815    +         1.4   14.1   1.1  -
+SUPER_18             -          TR                   -               46     141  9691311  9691175  9691329  9691155 10050596    -         1.7   13.8   2.1  -
+SUPER_1              -          TR                   -              106     180 14471531 14471424 14471550 14471412 15306347    -         1.7   13.8   6.9  -
+SUPER_17             -          TR                   -               38     125  8504121  8504026  8504141  8504005 10237473    -           2   13.6   4.4  -
+SUPER_9              -          TR                   -               39     130  7218591  7218706  7218566  7218723 11705638    +         2.4   13.4   4.6  -
+SUPER_6              -          TR                   -               80     136  2856253  2856203  2856274  2856184  8710358    -           5   12.3   1.1  -
+SUPER_8              -          TR                   -               36     123 11501804 11501895 11501783 11501914 11784394    +         5.1   12.3   3.7  -
+SUPER_14             -          TR                   -               96     148  1719266  1719312  1719246  1719336 10426062    +         5.9   12.1   2.9  -
+SUPER_15             -          TR                   -              104     164 10261270 10261208 10261291 10261206 10412291    -           6   12.1   1.3  -
+SUPER_14             -          TR                   -               73     137  5855768  5855705  5855789  5855684 10426062    -         6.5   11.9   5.9  -
+SUPER_3              -          TR                   -                7     118 12096534 12096628 12096517 12096629 13653458    +         8.4   11.6   4.5  -
+SUPER_16             -          TR                   -                7     119  1235061  1234948  1235061  1234947 10403999    -         9.1   11.5   2.1  -
+SUPER_2              -          TR                   -               34     127   757082   757000   757087   756981 14822118    -         9.3   11.4   2.6  -
+SUPER_7              -          TR                   -               80     131  2113735  2113681  2113757  2113658 12098658    -         9.6   11.4   0.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Juncus_effusus/assembly/curated/lpJunEffu1.1/lpJunEffu1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Juncus_effusus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Juncus_effusus/assembly/curated/lpJunEffu1.1/lpJunEffu1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:29:52 2025
+# [ok]

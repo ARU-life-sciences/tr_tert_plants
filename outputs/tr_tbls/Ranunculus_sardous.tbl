@@ -1,0 +1,24 @@
+# target name        accession  query name           accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+HAP2_SCAFFOLD_2      -          TR                   -                4     315   7951100   7951427   7951097   7951428 433898451    +       0.019   23.8   3.5  -
+HAP2_SCAFFOLD_1      -          TR                   -                4     130 566388907 566388781 566388907 566388765 707890497    -        0.45   19.3   0.3  -
+HAP2_SCAFFOLD_1      -          TR                   -               61     141 456726302 456726217 456726322 456726197 707890497    -         3.1   16.5   0.2  -
+HAP2_SCAFFOLD_1      -          TR                   -               12     141 641372888 641372760 641372890 641372740 707890497    -         3.3   16.4   2.0  -
+HAP2_SCAFFOLD_3      -          TR                   -               72     141  27224786  27224712  27224807  27224692 389804352    -         4.7   15.9   2.6  -
+HAP2_SCAFFOLD_1      -          TR                   -               59     122  58143031  58142961  58143058  58142941 707890497    -         5.1   15.8   0.0  -
+HAP2_SCAFFOLD_6      -          TR                   -              197     316 294500756 294500625 294500757 294500624 299101123    -           6   15.6   2.6  -
+HAP2_SCAFFOLD_4      -          TR                   -               18     141  34912414  34912266  34912420  34912251 318058827    -         6.5   15.5   1.1  -
+HAP2_SCAFFOLD_4      -          TR                   -               68     141 150563992 150564073 150563972 150564093 318058827    +           8   15.2   6.0  -
+HAP2_SCAFFOLD_1      -          TR                   -               71     130 361710318 361710392 361710295 361710412 707890497    +         8.3   15.1   1.0  -
+HAP2_SCAFFOLD_1      -          TR                   -               32     119 134943674 134943759 134943654 134943820 707890497    +         9.2   15.0   0.0  -
+HAP2_SCAFFOLD_2      -          TR                   -               36     130 284624767 284624684 284624783 284624664 433898451    -         9.2   15.0   3.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ranunculus_sardous/assembly/curated/dmRanSard1.1/dmRanSard1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Ranunculus_sardous.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Ranunculus_sardous/assembly/curated/dmRanSard1.1/dmRanSard1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:25:28 2025
+# [ok]

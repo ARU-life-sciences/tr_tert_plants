@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_48             -          TR                   -               17     316 1347500 1347793 1347487 1347794 3530985    +     1.2e-20   80.4   2.4  -
+SUPER_45             -          TR                   -               67     163 1390455 1390550 1390430 1390564 4024118    +        0.75   15.4   3.8  -
+SUPER_14             -          TR                   -               67     125 3291851 3291790 3291873 3291770 7105030    -         2.6   13.7   0.2  -
+SUPER_52             -          TR                   -               52     129  575214  575294  575195  575314 3077053    +         2.7   13.6   0.2  -
+SUPER_4              -          TR                   -               26     141 7452216 7452365 7452202 7452378 8879164    +         3.5   13.2   7.5  -
+SUPER_5              -          TR                   -               79     130 5269853 5269918 5269781 5269938 8223416    +         3.5   13.2   2.1  -
+SUPER_4              -          TR                   -              106     168 6680846 6680789 6680862 6680769 8879164    -         5.1   12.7   3.7  -
+SUPER_23             -          TR                   -                3      96 2154383 2154484 2154381 2154500 6419735    +         5.7   12.5   1.8  -
+SUPER_9              -          TR                   -               20     101 2191380 2191459 2191360 2191478 7740092    +         9.4   11.8   2.7  -
+SUPER_28             -          TR                   -              142     246 2172974 2173094 2172954 2173114 6126780    +         9.5   11.8   1.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/monocots/Trichophorum_cespitosum/assembly/curated/lpTriCesp1.2/lpTriCesp1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Trichophorum_cespitosum.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/monocots/Trichophorum_cespitosum/assembly/curated/lpTriCesp1.2/lpTriCesp1.2.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:24:31 2025
+# [ok]

@@ -1,0 +1,25 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          TR                   -               80     125       62      102        3      106 26622037    +       0.021   20.6   0.4  -
+SUPER_3              -          TR                   -               79     206  1287056  1286931  1287083  1286911 30928476    -         2.2   13.9   3.6  -
+SUPER_6              -          TR                   -               68     138  9194659  9194747  9194637  9194766 26622037    +         4.3   13.0   0.0  -
+SUPER_1              -          TR                   -              114     195  6801381  6801303  6801401  6801297 35175773    -         4.4   12.9   2.7  -
+SUPER_11             -          TR                   -              106     159  3279206  3279252  3279189  3279254 19098546    +         4.8   12.8   0.5  -
+SUPER_2              -          TR                   -               72     141  9755251  9755311  9755221  9755336 32037869    +           5   12.8   1.5  -
+SUPER_1              -          TR                   -              106     162  6966455  6966525  6966432  6966534 35175773    +         5.9   12.5   2.0  -
+SUPER_13             -          TR                   -              102     142  7012894  7012951  7012853  7012970 17241583    +         6.6   12.4   0.5  -
+SUPER_3              -          TR                   -               52     122  8746047  8746121  8746027  8746141 30928476    +         8.1   12.1   0.6  -
+SUPER_1              -          TR                   -              183     245 15119807 15119911 15119786 15119931 35175773    +         8.1   12.1   0.0  -
+SUPER_5              -          TR                   -              158     204 21307546 21307585 21307452 21307632 27570700    +         8.2   12.1   1.7  -
+SUPER_2              -          TR                   -              181     255 11957058 11957153 11957041 11957174 32037869    +         8.2   12.1   0.0  -
+SUPER_6              -          TR                   -               24     128 19717121 19717008 19717135 19716982 26622037    -         8.9   11.9   1.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Grimmia_donniana/assembly/curated/cbGriDonn2.1/cbGriDonn2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Grimmia_donniana.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/non-vascular-plants/Grimmia_donniana/assembly/curated/cbGriDonn2.1/cbGriDonn2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Sun Nov 23 23:13:27 2025
+# [ok]

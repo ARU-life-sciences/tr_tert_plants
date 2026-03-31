@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          TR                   -                1     314 11655747 11656079 11655747 11656080 50972610    +     1.4e-30  112.8   0.0  -
+SUPER_10             -          TR                   -               68     127 15569564 15569495 15569584 15569476 20790758    -        0.06   18.8   4.2  -
+SUPER_3              -          TR                   -               69     124 25185903 25185958 25185885 25185976 25198509    +        0.72   15.3   0.3  -
+SUPER_7              -          TR                   -               99     169  5027595  5027539  5027617  5027537 22991321    -         1.6   14.1   0.9  -
+SUPER_7              -          TR                   -               21     130 19533406 19533293 19533420 19533270 22991321    -         2.2   13.7   3.3  -
+SUPER_5              -          TR                   -                2      65 19677392 19677331 19677393 19677315 24431635    -         3.5   13.0   1.3  -
+SUPER_3              -          TR                   -               35     141 18269146 18269014 18269167 18268994 25198509    -           4   12.8   2.6  -
+SUPER_9              -          TR                   -              109     171     5882     5944     5862     5945 21389533    +         5.7   12.3   0.0  -
+SUPER_1              -          TR                   -               69     131 35792652 35792753 35792631 35792773 50972610    +           8   11.8   0.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm
+# Target file:     /data/tol/data/darwin/dicots/Frangula_alnus/assembly/curated/drFraAlnu1.1/drFraAlnu1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Frangula_alnus.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/TR.hmm /data/tol/data/darwin/dicots/Frangula_alnus/assembly/curated/drFraAlnu1.1/drFraAlnu1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/src
+# Date:            Thu Nov 27 12:32:01 2025
+# [ok]
