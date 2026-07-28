@@ -117,6 +117,57 @@ Skips if `.tbl` already exists.
 
 ---
 
+### 6b. Extra (non-DToL) comparison genomes
+
+**`fetch_extra_genomes.bash`**
+Downloads reference genomes for species that aren't in the DToL assembly list but are
+useful tblastn targets — e.g. a close relative to sanity-check a suspicious TERT
+result against a genuinely divergent query. Writes to `inputs/extra_genomes/<species>/`
+(gitignored — re-run the script rather than committing genomes) and records each one in:
+
+- `inputs/extra_genomes.txt` (same two-column format as `dtol_plant_paths.txt`)
+
+**`run_tblastn_tert_local.bash`**
+Non-LSF counterpart to `run_tblastn_tert_bsub.bash`: runs `worker_tblastn_tert.bash`
+directly, in series, for every line in `inputs/extra_genomes.txt` (or any assembly
+list passed via `ASSEMBLY_LIST`). Falls back to `tblastn`/`makeblastdb` on `$PATH`
+if the Sanger HPC `BLASTBIN` default isn't present. Output lands in the same place
+as the bsub path:
+
+- `outputs/tert_tblastn/<species>.tbl`
+
+Currently populated with **`Santalum_album`** (GCA_043873815.1, T2T reference) —
+added because Santalales has no annotated TERT/telomerase records anywhere in
+GenBank (checked order-wide via NCBI eutils), so the rice-only query set in
+`plant_TERT_regions.faa` is a weak negative test for TERT absence in *Viscum*.
+`plant_TERT_regions.faa` also gained a manually-curated query,
+`TERT_Arceuthobium_sichuanense_exon9` (a partial exon-9 fragment recovered by
+BLAST from raw reads, BioProject PRJNA307530 — not from GenBank, see
+`fetch_tert.bash`), to bracket *Viscum* with a closer relative on both sides
+(Viscaceae via Arceuthobium, wider Santalaceae via Santalum).
+
+**`extract_hit_region.py`**
+Given a genome, a chrom:start-end/strand, and a name, extracts the region and
+translates it in whichever frame has the fewest stop codons (stderr reports
+all three, so the choice is auditable) — for turning an unannotated tblastn
+hit into a new curated query. Used to pull the *Santalum album* TERT locus
+found by `run_tblastn_tert_local.bash` (chr1 `CP159901.1:20959560-20960756`,
+minus strand — the single strongest, near gap-free hit block across the rice
+query set, e-value down to 9.4e-110): translates clean with zero stop codons
+in frame 0, and shares a clearly homologous motif with the independently
+obtained `TERT_Arceuthobium_sichuanense_exon9`
+(`...ANF[FY]VTES[EY]G[QK]K[IT]VYYYRKS[VI]WE[KN]L...`), which cross-validates
+both as genuine TERT despite neither being annotated anywhere. Added to
+`plant_TERT_regions.fasta`/`.faa` as `TERT_Santalum_album_chr1locus`:
+
+```
+python3 src/extract_hit_region.py \
+  inputs/extra_genomes/Santalum_album/GCA_043873815.1.fna.gz \
+  CP159901.1 20959560 20960756 - TERT_Santalum_album_chr1locus
+```
+
+---
+
 ### 7. Telomeric repeat discovery
 
 **`run_tidk.bash`**  
@@ -142,6 +193,7 @@ From the project root:
 5. *(optional)* `bash src/recreate_TR_hmm.bash`
 6. `bash src/run_tert_hmms.bash`
 7. `bash src/run_tblastn_tert_bsub.bash`
+7b. *(optional)* `bash src/fetch_extra_genomes.bash && bash src/run_tblastn_tert_local.bash`
 8. `bash src/run_tidk.bash`
 
 After this, you have for each species:

@@ -55,5 +55,11 @@ echo "[fetch_tert] Fetching amino acid TERTs to $out_aa"
   | /software/team301/edirect/elink -target protein \
   | /software/team301/edirect/efetch -format fasta > "$out_aa"
 
+# Santalales has no annotated TERT/telomerase records in GenBank at all (checked
+# order-wide via NCBI eutils, incl. the Santalum album reference genome), so the
+# rice-only query set above is a weak negative test for TERT absence in Viscum.
+# TERT_Arceuthobium_sichuanense_exon9 was appended manually to $out_nt/$out_aa
+# (not via efetch): a partial exon-9 fragment recovered by BLAST from raw reads,
+# BioProject PRJNA307530, translated in-frame (0 stop codons, frame +3).
 echo "[fetch_tert] Done."
 
