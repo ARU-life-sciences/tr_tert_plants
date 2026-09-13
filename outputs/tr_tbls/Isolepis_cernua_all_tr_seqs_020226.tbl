@@ -1,0 +1,30 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3_HAP1         -          all_tr_seqs          -               20     339 16174930 16175262 16174913 16175268 33549446    +     7.3e-26   98.6   1.3  -
+SUPER_6_HAP1         -          all_tr_seqs          -               19     341 12786345 12786688 12786327 12786694 27782823    +     1.1e-25   98.0   2.9  -
+SUPER_6_HAP1         -          all_tr_seqs          -               41     156 21776642 21776521 21776649 21776501 27782823    -       0.075   19.6   3.0  -
+SUPER_6_HAP1         -          all_tr_seqs          -               76     149 16210480 16210552 16210449 16210572 27782823    +        0.65   16.5   2.1  -
+SUPER_27_HAP1        -          all_tr_seqs          -               38     146  6423229  6423340  6423220  6423361 10635957    +         1.3   15.5   2.8  -
+SUPER_3_HAP1         -          all_tr_seqs          -               26     186 27207777 27207615 27207795 27207595 33549446    -         2.9   14.3   2.7  -
+SUPER_21_HAP1        -          all_tr_seqs          -              118     151   386589   386622   386563   386642 13871859    +           3   14.3   0.6  -
+HAP2_SCAFFOLD_414    -          all_tr_seqs          -               37     149     6560     6658     6557     6695    21768    +         3.3   14.2   1.4  -
+SUPER_2_HAP1         -          all_tr_seqs          -              109     151 32419806 32419763 32419825 32419743 40064248    -         3.5   14.1   0.0  -
+SUPER_2_HAP1         -          all_tr_seqs          -               39     146 19409004 19409091 19408986 19409111 40064248    +           5   13.6   2.8  -
+SUPER_13_HAP1        -          all_tr_seqs          -               14      74  7995103  7995163  7995087  7995183 20691104    +         6.3   13.2   4.9  -
+HAP1_SCAFFOLD_549    -          all_tr_seqs          -               37     149    14323    14226    14326    14189    25160    -         6.6   13.2   1.6  -
+HAP2_SCAFFOLD_414    -          all_tr_seqs          -               37     149    13816    13913    13813    13950    21768    +         6.6   13.2   1.6  -
+SUPER_28_HAP1        -          all_tr_seqs          -              125     191  1836306  1836245  1836325  1836226 10434579    -         6.7   13.2   3.1  -
+SUPER_10_HAP1        -          all_tr_seqs          -               95     143 20957609 20957556 20957629 20957528 22413823    -         6.8   13.1   1.3  -
+SUPER_25_HAP1        -          all_tr_seqs          -              171     211  7738120  7738156  7738100  7738158 12375744    +         7.5   13.0   0.0  -
+SUPER_24_HAP1        -          all_tr_seqs          -               84     142 12464529 12464581 12464508 12464601 13311130    +           8   12.9   3.9  -
+SUPER_12_HAP1        -          all_tr_seqs          -               98     196 21740229 21740144 21740249 21740124 21949418    -         8.9   12.7   3.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Isolepis_cernua/assembly/curated/lpIsoCern1.1/lpIsoCern1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Isolepis_cernua_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Isolepis_cernua/assembly/curated/lpIsoCern1.1/lpIsoCern1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:54 2026
+# [ok]

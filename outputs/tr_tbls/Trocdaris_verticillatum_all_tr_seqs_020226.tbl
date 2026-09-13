@@ -344,8 +344,8 @@ SUPER_11             -          all_tr_seqs          -               20      72 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/dicots/Trocdaris_verticillatum/assembly/curated/drTroVert1.1/drTroVert1.hap2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Trocdaris_verticillatum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Trocdaris_verticillatum/assembly/curated/drTroVert1.1/drTroVert1.hap2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/dicots/Trocdaris_verticillatum/assembly/curated/drTroVert1.2/drTroVert1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Trocdaris_verticillatum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Trocdaris_verticillatum/assembly/curated/drTroVert1.2/drTroVert1.hap2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:13:42 2026
+# Date:            Sat Sep 12 19:16:40 2026
 # [ok]

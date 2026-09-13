@@ -1,0 +1,8 @@
+domain	hmm_col_start	hmm_col_end	consensus	evidence
+USE	1	11	GTCCCACATCG	conservation: near-invariant block at 5'-most edge of alignment
+TATA-box	39	42	TTAT	composition: AT-rich conserved block, downstream of USE
+G-rich 5' end	74	83	GGGGTGTGGG	composition: GC-rich conserved block immediately preceding Template
+Template	110	169	TTAAACCCTAAACCTTCCCTTTTAAAAGGGTTATTTTTTTTTTGGGGTGGTTTGTCCGGT	anchored: revcomp(known telomere repeat) exact match, 13/13 reference species after outlier rejection
+Conserved region	186	205	AAAAAAGAAACACCGATGCC	conservation: conserved block immediately following Template (candidate template boundary element)
+C-rich 3' end	302	308	ACCCCCA	composition: C-rich conserved block between Conserved region and Terminator
+Terminator	311	317	TTTTTTT	composition: near-pure poly-T run at the 3'-most edge of the alignment (classic Pol III terminator)

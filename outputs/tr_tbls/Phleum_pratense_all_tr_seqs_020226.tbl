@@ -192,7 +192,7 @@ SUPER_1              -          all_tr_seqs          -               18      75 
 SUPER_6              -          all_tr_seqs          -               18      75  47633074  47633131  47633055  47633157 187047397    +         7.3   14.3   1.4  -
 SUPER_2              -          all_tr_seqs          -               15      79  49076090  49076026  49076106  49076006 204068579    -         7.3   14.3   0.3  -
 SUPER_1              -          all_tr_seqs          -               15      79  49561714  49561650  49561732  49561630 233243217    -         7.3   14.2   0.0  -
-SUPER_6              -          all_tr_seqs          -               15      79  56034497  56034561  56034482  56034581 187047397    +         7.3   14.2   0.7  -
+SUPER_6              -          all_tr_seqs          -               15      79  56034497  56034561  56034482  56034581 187047397    +         7.4   14.2   0.7  -
 SUPER_4              -          all_tr_seqs          -               15     125 182606271 182606166 182606287 182606158 193073707    -         7.4   14.2   1.6  -
 SUPER_7              -          all_tr_seqs          -              171     220  18402658  18402708  18402637  18402728 156720761    +         7.4   14.2   1.2  -
 SUPER_1              -          all_tr_seqs          -               15     125 184549131 184549026 184549148 184549019 233243217    -         7.4   14.2   1.8  -
@@ -366,7 +366,7 @@ SUPER_5              -          all_tr_seqs          -               15      78 
 SUPER_1              -          all_tr_seqs          -               15     125   3946940   3946835   3946957   3946828 233243217    -         7.8   14.2   1.9  -
 SUPER_3              -          all_tr_seqs          -               15      78 127440240 127440177 127440260 127440157 202323251    -         7.8   14.2   0.3  -
 SUPER_2              -          all_tr_seqs          -               15     125 163458372 163458267 163458388 163458260 204068579    -         7.8   14.2   1.6  -
-SUPER_1              -          all_tr_seqs          -               16     125 220314947 220314843 220314966 220314836 233243217    -         7.8   14.2   1.9  -
+SUPER_1              -          all_tr_seqs          -               16     125 220314947 220314843 220314966 220314836 233243217    -         7.9   14.2   1.9  -
 SUPER_6              -          all_tr_seqs          -               15      80 160414033 160413968 160414047 160413946 187047397    -         7.9   14.1   0.8  -
 SUPER_1              -          all_tr_seqs          -               16     125  12137528  12137424  12137546  12137417 233243217    -         7.9   14.1   1.9  -
 SUPER_3              -          all_tr_seqs          -               16     125 183387327 183387431 183387309 183387438 202323251    +         7.9   14.1   1.9  -
@@ -488,14 +488,13 @@ SUPER_1              -          all_tr_seqs          -               16     126 
 SUPER_4              -          all_tr_seqs          -               15      78 144133041 144133104 144133027 144133124 193073707    +          10   13.8   0.4  -
 SUPER_4              -          all_tr_seqs          -               15      79  84237847  84237783  84237861  84237763 193073707    -          10   13.8   0.8  -
 SUPER_2              -          all_tr_seqs          -               15      78 104798720 104798657 104798735 104798637 204068579    -          10   13.8   0.8  -
-SUPER_5              -          all_tr_seqs          -               15     123 150322813 150322710 150322829 150322701 192098548    -          10   13.8   2.0  -
 #
 # Program:         nhmmer
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/monocots/Phleum_pratense/assembly/curated/lpPhlPrat1.1/lpPhlPrat1.hap1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Phleum_pratense_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Phleum_pratense/assembly/curated/lpPhlPrat1.1/lpPhlPrat1.hap1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/monocots/Phleum_pratense/assembly/curated/lpPhlPrat1.2/lpPhlPrat1.hap1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Phleum_pratense_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Phleum_pratense/assembly/curated/lpPhlPrat1.2/lpPhlPrat1.hap1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:11:49 2026
+# Date:            Sat Sep 12 19:16:00 2026
 # [ok]

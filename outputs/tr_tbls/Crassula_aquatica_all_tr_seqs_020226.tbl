@@ -1,0 +1,44 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          all_tr_seqs          -               18     337  3862267  3861933  3862284  3861924 14170040    -       7e-48  169.9   3.3  -
+SUPER_15             -          all_tr_seqs          -               18     112  9710581  9710675  9710565  9710690 11620290    +       0.015   20.7   0.7  -
+SUPER_5              -          all_tr_seqs          -               13      79  3406856  3406921  3406844  3406935 16061961    +       0.019   20.4   4.3  -
+SUPER_2              -          all_tr_seqs          -               18     105 11139694 11139779 11139674 11139798 17972136    +       0.056   18.9   3.7  -
+SUPER_5              -          all_tr_seqs          -               19      72  2572043  2572096  2572023  2572118 16061961    +        0.12   17.8   2.5  -
+SUPER_6              -          all_tr_seqs          -               18     127   314722   314615   314739   314608 15956477    -        0.42   16.0   1.7  -
+SUPER_13             -          all_tr_seqs          -              113     151  1387701  1387740  1387681  1387764 11875637    +        0.46   15.9   1.0  -
+SUPER_15             -          all_tr_seqs          -               16      65  7515993  7515944  7516009  7515923 11620290    -        0.53   15.7   0.7  -
+SUPER_17             -          all_tr_seqs          -               13      78  2345907  2345972  2345895  2345993 11030319    +         0.6   15.5   1.8  -
+SUPER_9              -          all_tr_seqs          -               21      76  2474933  2474988  2474912  2475008 14254249    +        0.86   15.0   1.1  -
+SUPER_6              -          all_tr_seqs          -               21      89  2040553  2040620  2040534  2040627 15956477    +        0.96   14.8   3.1  -
+SUPER_6              -          all_tr_seqs          -               21      89  2042867  2042800  2042886  2042793 15956477    -        0.96   14.8   3.1  -
+SUPER_5              -          all_tr_seqs          -               14      97   384373   384291   384388   384289 16061961    -        0.98   14.8   0.6  -
+SUPER_5              -          all_tr_seqs          -               15      97   731664   731745   731648   731747 16061961    +           1   14.7   0.6  -
+SUPER_5              -          all_tr_seqs          -               15      97   737877   737796   737893   737794 16061961    -           1   14.7   0.6  -
+SUPER_9              -          all_tr_seqs          -               20      79 12250016 12249957 12250035 12249937 14254249    -         1.5   14.2   2.6  -
+SUPER_5              -          all_tr_seqs          -               22      71  2416378  2416427  2416358  2416448 16061961    +         1.5   14.2   2.6  -
+SUPER_9              -          all_tr_seqs          -               46     143  8839720  8839617  8839732  8839605 14254249    -         1.8   13.9   1.3  -
+SUPER_7              -          all_tr_seqs          -               20      76 13178602 13178546 13178622 13178527 15847542    -         2.3   13.6   3.9  -
+SUPER_16             -          all_tr_seqs          -               84     148  9722863  9722923  9722842  9722946 11200211    +         2.5   13.4   0.2  -
+SUPER_10             -          all_tr_seqs          -               17      76 12584252 12584310 12584235 12584329 14170040    +         2.7   13.4   1.9  -
+SUPER_10             -          all_tr_seqs          -               17     106  8956371  8956458  8956356  8956478 14170040    +           3   13.2   1.2  -
+SUPER_10             -          all_tr_seqs          -               22      80  5576690  5576748  5576670  5576763 14170040    +         3.1   13.2   9.1  -
+SUPER_1              -          all_tr_seqs          -               18      79 11350668 11350728 11350650 11350749 19270020    +         3.4   13.0   4.8  -
+SUPER_15             -          all_tr_seqs          -               18      72  9712130  9712184  9712112  9712204 11620290    +         3.6   13.0   4.9  -
+SUPER_5              -          all_tr_seqs          -               21      72  2574328  2574379  2574308  2574400 16061961    +         5.9   12.2   3.6  -
+SUPER_15             -          all_tr_seqs          -               22      97   942787   942713   942807   942712 11620290    -         6.1   12.2   1.9  -
+SUPER_6              -          all_tr_seqs          -               16     105  1417244  1417144  1417260  1417124 15956477    -         6.5   12.1   4.4  -
+SUPER_1              -          all_tr_seqs          -               21      63  4580796  4580838  4580776  4580862 19270020    +         7.1   12.0  10.4  -
+SUPER_14             -          all_tr_seqs          -               11      72 10095007 10095068 10094997 10095085 11562409    +           8   11.8   1.0  -
+SUPER_16             -          all_tr_seqs          -               94     143 10973522 10973473 10973543 10973452 11200211    -           9   11.6   0.0  -
+SUPER_1              -          all_tr_seqs          -               13      68  3339347  3339401  3339334  3339421 19270020    +         9.7   11.5   3.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/dicots/Crassula_aquatica/assembly/curated/drCraAqua3.1/drCraAqua3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Crassula_aquatica_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Crassula_aquatica/assembly/curated/drCraAqua3.1/drCraAqua3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:24 2026
+# [ok]

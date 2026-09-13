@@ -1,2 +1,13 @@
 /outputs/logs
 /inputs/extra_genomes/
+__pycache__/
+# regenerated scratch output of update_assembly_list.bash - stale as soon
+# as the underlying assembly tree moves; the substance of any finding
+# from these belongs in notes/, not a raw snapshot here.
+/outputs/dtol_plant_paths.fresh.txt
+/outputs/dtol_plant_paths.suspect_organelle.txt
+# raw per-window tidk search dumps (tens of MB each) behind
+# tr_repeat_correlation.md's confirmations - the meaningful summary is
+# outputs/tr_repeat_correlation/positional_confirmations.tsv (tracked);
+# regenerate the raw scans with src/confirm_repeat_positional.py if needed.
+/outputs/tr_repeat_correlation/positional/

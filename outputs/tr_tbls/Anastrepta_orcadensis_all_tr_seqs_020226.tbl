@@ -92,8 +92,8 @@ SUPER_2              -          all_tr_seqs          -              151     209 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Anastrepta_orcadensis/assembly/curated/cjAnaOrca4.1/cjAnaOrca4.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Anastrepta_orcadensis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Anastrepta_orcadensis/assembly/curated/cjAnaOrca4.1/cjAnaOrca4.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Anastrepta_orcadensis/assembly/curated/cjAnaOrca4.2/cjAnaOrca4.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Anastrepta_orcadensis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Anastrepta_orcadensis/assembly/curated/cjAnaOrca4.2/cjAnaOrca4.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:14:00 2026
+# Date:            Sat Sep 12 19:15:08 2026
 # [ok]

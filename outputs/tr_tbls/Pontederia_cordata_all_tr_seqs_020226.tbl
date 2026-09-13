@@ -1,0 +1,27 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2_HAP2         -          all_tr_seqs          -               19     341 69685099 69684757 69685118 69684752 86246751    -     1.2e-19   78.0   7.2  -
+SUPER_8_HAP2         -          all_tr_seqs          -               20     338 33959762 33959462 33959782 33959453 34490499    -     1.3e-12   54.8  10.3  -
+SUPER_5_HAP2         -          all_tr_seqs          -              164     215 41172951 41172885 41172971 41172876 63512739    -       0.045   20.2   0.1  -
+SUPER_8_HAP2         -          all_tr_seqs          -               83     149  3625763  3625828  3625742  3625848 34490499    +        0.54   16.6   1.9  -
+SUPER_6_HAP2         -          all_tr_seqs          -               57     145 24886872 24886984 24886851 24887004 53137232    +        0.86   16.0   4.3  -
+SUPER_4_HAP2         -          all_tr_seqs          -               95     148 39228090 39228042 39228120 39228022 79991018    -         2.2   14.6   0.4  -
+SUPER_2_HAP2         -          all_tr_seqs          -               52     151  3666199  3666311  3666183  3666331 86246751    +         2.3   14.6   1.2  -
+SUPER_8_HAP2         -          all_tr_seqs          -              105     205  5146454  5146373  5146459  5146363 34490499    -           3   14.2   2.6  -
+SUPER_5_HAP2         -          all_tr_seqs          -              121     158 56374303 56374342 56374289 56374362 63512739    +         4.3   13.7   0.9  -
+SUPER_3_HAP2         -          all_tr_seqs          -               80     147 13261354 13261287 13261375 13261267 83931500    -         4.5   13.6   3.5  -
+SUPER_4_HAP2         -          all_tr_seqs          -               20      68  3016819  3016771  3016839  3016751 79991018    -           6   13.2   3.4  -
+SUPER_3_HAP2         -          all_tr_seqs          -               43     158 16966314 16966422 16966305 16966442 83931500    +         6.9   13.0   4.1  -
+SUPER_6_HAP2         -          all_tr_seqs          -              164     209 43260365 43260423 43260340 43260429 53137232    +         8.5   12.7   2.9  -
+SUPER_7_HAP2         -          all_tr_seqs          -               13      69 26888005 26887949 26888019 26887929 47439415    -         8.8   12.6   2.5  -
+SUPER_8_HAP2         -          all_tr_seqs          -               80     146  2284767  2284829  2284747  2284849 34490499    +         8.9   12.6   4.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Pontederia_cordata/assembly/curated/lcPonCord1.1/lcPonCord1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Pontederia_cordata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Pontederia_cordata/assembly/curated/lcPonCord1.1/lcPonCord1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:54 2026
+# [ok]

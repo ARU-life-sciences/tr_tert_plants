@@ -32,7 +32,7 @@ while IFS=$'\t' read -r species fasta; do
   fi
 
   echo "[TR nhmmer] Submitting $species"
-  bsub -n 20 -q normal \
+  bsub -J "tr_${species}" -n 20 -q normal \
     -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" \
     -M"${mbMem}" \
     -o "${LOGDIR}/${species}.out" \

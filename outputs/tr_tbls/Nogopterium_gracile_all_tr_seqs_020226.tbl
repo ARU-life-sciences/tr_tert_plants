@@ -1,0 +1,43 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          all_tr_seqs          -               85     220  6055254  6055380  6055236  6055400 26125867    +       2e-05   30.6   0.7  -
+SUPER_7              -          all_tr_seqs          -               83     177  6099549  6099658  6099529  6099662 27607038    +       0.031   20.2   0.8  -
+SUPER_8              -          all_tr_seqs          -              118     196 14516675 14516595 14516693 14516586 27243439    -       0.054   19.4   0.6  -
+SUPER_10             -          all_tr_seqs          -               90     165 24079910 24079995 24079890 24080006 25762381    +        0.46   16.3   1.3  -
+SUPER_8              -          all_tr_seqs          -               95     148 20984762 20984821 20984742 20984841 27243439    +           1   15.2   0.6  -
+SUPER_5              -          all_tr_seqs          -               97     177 13106911 13107006 13106881 13107033 30449348    +         1.4   14.7   2.2  -
+SUPER_9              -          all_tr_seqs          -               81     160  5055479  5055384  5055500  5055364 26125867    -         2.3   14.0   1.4  -
+SUPER_2              -          all_tr_seqs          -              123     180 18989609 18989691 18989588 18989697 51103645    +         2.9   13.7   0.8  -
+SUPER_2              -          all_tr_seqs          -               99     149 16153558 16153608 16153537 16153629 51103645    +         3.1   13.6   0.0  -
+SUPER_1              -          all_tr_seqs          -               97     147 18035530 18035479 18035549 18035459 52977120    -         3.2   13.5   0.7  -
+SUPER_10             -          all_tr_seqs          -               83     146 14312730 14312663 14312746 14312642 25762381    -         3.5   13.4   0.1  -
+SUPER_1              -          all_tr_seqs          -              127     171  5145252  5145200  5145272  5145191 52977120    -         3.8   13.3   1.2  -
+SUPER_5              -          all_tr_seqs          -               93     148  1239574  1239622  1239550  1239641 30449348    +           4   13.2   0.0  -
+SUPER_5              -          all_tr_seqs          -               93     148  1245555  1245603  1245531  1245622 30449348    +           4   13.2   0.0  -
+SUPER_1              -          all_tr_seqs          -               96     146 18035480 18035531 18035459 18035551 52977120    +           4   13.2   0.6  -
+SUPER_2              -          all_tr_seqs          -              218     279  5646615  5646541  5646619  5646520 51103645    -         4.1   13.2   0.9  -
+SUPER_9              -          all_tr_seqs          -              127     181 15776943 15777000 15776927 15777020 26125867    +         4.5   13.0   0.9  -
+SUPER_10             -          all_tr_seqs          -              110     152 13132699 13132651 13132708 13132631 25762381    -         5.2   12.8   0.0  -
+SUPER_3              -          all_tr_seqs          -               50     145 14586445 14586341 14586461 14586321 50109083    -         5.5   12.8   0.2  -
+SUPER_10             -          all_tr_seqs          -               83     144 20953743 20953686 20953763 20953666 25762381    -         6.2   12.6   1.0  -
+SUPER_7              -          all_tr_seqs          -              127     186 24290678 24290603 24290700 24290594 27607038    -         6.4   12.5   0.7  -
+SUPER_2              -          all_tr_seqs          -              127     176 27839607 27839658 27839586 27839687 51103645    +         6.5   12.5   1.5  -
+SUPER_10             -          all_tr_seqs          -              113     177  9157074  9157004  9157081  9157002 25762381    -         7.2   12.4   1.2  -
+SUPER_3              -          all_tr_seqs          -              119     158 31383531 31383494 31383544 31383474 50109083    -         7.7   12.3   3.3  -
+SUPER_3              -          all_tr_seqs          -              231     281 44043725 44043779 44043705 44043799 50109083    +         7.8   12.2   1.9  -
+SUPER_2              -          all_tr_seqs          -               99     143  6894332  6894287  6894352  6894267 51103645    -         8.4   12.1   0.1  -
+SUPER_4              -          all_tr_seqs          -              127     150   217215   217240   217195   217260 35165325    +         8.6   12.1   1.8  -
+SUPER_5              -          all_tr_seqs          -               96     158  1806851  1806768  1806872  1806751 30449348    -         8.9   12.1   2.2  -
+SUPER_4              -          all_tr_seqs          -              186     241 12728027 12727982 12728034 12727964 35165325    -         9.1   12.0   2.0  -
+SUPER_2              -          all_tr_seqs          -              114     181 50590702 50590625 50590712 50590605 51103645    -         9.8   11.9   1.5  -
+SUPER_3              -          all_tr_seqs          -              180     247 45127520 45127595 45127518 45127603 50109083    +         9.9   11.9   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Nogopterium_gracile/assembly/curated/cbNogGrac3.1/cbNogGrac3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Nogopterium_gracile_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Nogopterium_gracile/assembly/curated/cbNogGrac3.1/cbNogGrac3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:43 2026
+# [ok]

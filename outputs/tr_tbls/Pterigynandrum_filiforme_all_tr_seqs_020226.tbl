@@ -30,7 +30,7 @@ SUPER_1              -          all_tr_seqs          -              101     143 
 SUPER_3              -          all_tr_seqs          -               24     149 22953444 22953532 22953426 22953552 39583730    +         5.2   12.5   0.8  -
 SUPER_11             -          all_tr_seqs          -              110     149 17014851 17014812 17014871 17014790 17024981    -         5.2   12.5   2.2  -
 SUPER_3              -          all_tr_seqs          -               33     145 28107026 28107149 28107020 28107164 39583730    +         5.7   12.4   1.8  -
-SUPER_9              -          all_tr_seqs          -               83     139   560008   560073   559987   560085 20861999    +         6.2   12.2   0.6  -
+SUPER_9              -          all_tr_seqs          -               83     139   560008   560073   559987   560085 20861999    +         6.3   12.2   0.6  -
 SUPER_1              -          all_tr_seqs          -              119     156 23931932 23931971 23931919 23931991 45185966    +         6.4   12.2   1.1  -
 SUPER_1              -          all_tr_seqs          -               46     139 10391697 10391793 10391683 10391813 45185966    +         6.5   12.2   4.1  -
 SUPER_1              -          all_tr_seqs          -              118     155 36401689 36401657 36401701 36401637 45185966    -         6.9   12.1   1.1  -
@@ -43,7 +43,7 @@ SUPER_11             -          all_tr_seqs          -              127     157 
 SUPER_9              -          all_tr_seqs          -               43     143  5046456  5046356  5046467  5046336 20861999    -         9.2   11.7   6.4  -
 SUPER_1              -          all_tr_seqs          -              174     211  2181013  2180973  2181033  2180970 45185966    -         9.4   11.7   1.1  -
 SUPER_5              -          all_tr_seqs          -              108     146  7814062  7814023  7814082  7814003 25978647    -         9.5   11.6   0.0  -
-SUPER_6              -          all_tr_seqs          -              106     149  7883113  7883160  7883099  7883180 23229593    +         9.6   11.6   0.5  -
+SUPER_6              -          all_tr_seqs          -              106     149  7883113  7883160  7883099  7883180 23229593    +         9.7   11.6   0.5  -
 SUPER_7              -          all_tr_seqs          -              110     151 16413251 16413299 16413243 16413319 21949460    +         9.7   11.6   0.1  -
 SUPER_5              -          all_tr_seqs          -               99     149   228256   228291   228234   228310 25978647    +         9.9   11.6   1.4  -
 #
@@ -51,8 +51,8 @@ SUPER_5              -          all_tr_seqs          -               99     149 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Pterigynandrum_filiforme/assembly/curated/cbPteFili1.1/cbPteFili1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Pterigynandrum_filiforme_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Pterigynandrum_filiforme/assembly/curated/cbPteFili1.1/cbPteFili1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Pterigynandrum_filiforme/assembly/curated/cbPteFili1.2/cbPteFili1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Pterigynandrum_filiforme_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Pterigynandrum_filiforme/assembly/curated/cbPteFili1.2/cbPteFili1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:11:32 2026
+# Date:            Sat Sep 12 19:15:47 2026
 # [ok]

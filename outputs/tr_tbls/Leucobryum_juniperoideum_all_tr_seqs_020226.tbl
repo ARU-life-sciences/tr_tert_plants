@@ -1,0 +1,43 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          all_tr_seqs          -              107     219 11670000 11670127 11669976 11670148 30587684    +       0.026   20.4   0.3  -
+SUPER_5              -          all_tr_seqs          -               49     160  4547110  4546989  4547126  4546972 38972047    -        0.29   17.0   3.1  -
+SUPER_3              -          all_tr_seqs          -               88     148  2123517  2123464  2123539  2123443 40134102    -        0.64   15.9   1.1  -
+SUPER_1              -          all_tr_seqs          -               89     143 27888485 27888532 27888465 27888549 43448909    +         1.4   14.8   0.5  -
+SUPER_10             -          all_tr_seqs          -               50     157  4074412  4074295  4074430  4074273 29653508    -         1.4   14.7   4.8  -
+SUPER_5              -          all_tr_seqs          -              114     171 26946478 26946422 26946482 26946393 38972047    -         2.2   14.1   0.6  -
+SUPER_7              -          all_tr_seqs          -               92     152 16166178 16166114 16166200 16166094 37337266    -         2.2   14.1   2.1  -
+SUPER_1              -          all_tr_seqs          -              108     171    49814    49884    49794    49904 43448909    +         2.3   14.0   1.0  -
+SUPER_3              -          all_tr_seqs          -              103     177  9492487  9492577  9492468  9492589 40134102    +         2.7   13.8   3.0  -
+SUPER_6              -          all_tr_seqs          -              108     170 37401918 37401857 37401937 37401836 37470920    -         2.8   13.8   0.8  -
+SUPER_5              -          all_tr_seqs          -              108     171   851578   851506   851597   851502 38972047    -           4   13.3   0.4  -
+SUPER_6              -          all_tr_seqs          -               95     151 37400742 37400682 37400786 37400663 37470920    -         4.1   13.2   1.0  -
+SUPER_9              -          all_tr_seqs          -               20     104  7272266  7272347  7272247  7272367 30587684    +         4.2   13.2   3.6  -
+SUPER_3              -          all_tr_seqs          -               28     143 12208108 12207986 12208121 12207974 40134102    -         4.2   13.2   3.6  -
+SUPER_6              -          all_tr_seqs          -              127     187 17570671 17570764 17570651 17570786 37470920    +         4.5   13.1   1.0  -
+SUPER_5              -          all_tr_seqs          -              108     162   862930   862990   862910   863006 38972047    +         4.7   13.1   1.0  -
+SUPER_7              -          all_tr_seqs          -              110     147  2438551  2438514  2438571  2438493 37337266    -         5.1   12.9   0.0  -
+SUPER_8              -          all_tr_seqs          -              121     187 23950707 23950801 23950687 23950805 33525782    +         5.7   12.8   1.7  -
+SUPER_4              -          all_tr_seqs          -              108     181     2840     2923     2820     2931 40074221    +         5.9   12.7   2.2  -
+SUPER_3              -          all_tr_seqs          -              127     187   504253   504339   504233   504361 40134102    +         6.8   12.5   1.3  -
+SUPER_10             -          all_tr_seqs          -              118     173 13822252 13822187 13822271 13822168 29653508    -           7   12.5   0.8  -
+SUPER_4              -          all_tr_seqs          -               91     145 18140129 18140082 18140147 18140062 40074221    -         7.3   12.4   1.2  -
+SUPER_3              -          all_tr_seqs          -               95     147 35726747 35726792 35726727 35726812 40134102    +         7.3   12.4   0.0  -
+SUPER_2              -          all_tr_seqs          -               52     148  3351399  3351494  3351385  3351503 42444429    +         7.6   12.4   0.1  -
+SUPER_8              -          all_tr_seqs          -               96     149 33225060 33225101 33225040 33225121 33525782    +         7.7   12.3   0.7  -
+SUPER_5              -          all_tr_seqs          -               96     143 17729335 17729287 17729355 17729263 38972047    -         8.3   12.2   1.0  -
+SUPER_5              -          all_tr_seqs          -              107     143 38963940 38963904 38963976 38963886 38972047    -         8.5   12.2   1.1  -
+SUPER_5              -          all_tr_seqs          -              107     143 38968670 38968634 38968706 38968616 38972047    -         8.5   12.2   1.1  -
+SUPER_3              -          all_tr_seqs          -               95     147 34795327 34795282 34795347 34795262 40134102    -         8.8   12.1   0.0  -
+SUPER_1              -          all_tr_seqs          -               39     155 32999588 32999690 32999580 32999702 43448909    +         9.1   12.1   2.1  -
+SUPER_6              -          all_tr_seqs          -               95     143 37401789 37401737 37401822 37401717 37470920    -         9.3   12.1   0.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Leucobryum_juniperoideum/assembly/curated/cbLeuJuni4.1/cbLeuJuni4.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Leucobryum_juniperoideum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Leucobryum_juniperoideum/assembly/curated/cbLeuJuni4.1/cbLeuJuni4.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:34 2026
+# [ok]

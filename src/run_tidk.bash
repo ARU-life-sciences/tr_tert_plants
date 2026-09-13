@@ -35,7 +35,7 @@ DIST="${DIST:-0.01}"       # --distance
 # LSF resources (override as needed)
 nCPU="${nCPU:-8}"
 memGB="${memGB:-8}"
-QUEUE="${QUEUE:-small}"
+QUEUE="${QUEUE:-normal}"  # 'small' queue no longer exists on this cluster
 
 memMB=$(( memGB * 1024 ))
 

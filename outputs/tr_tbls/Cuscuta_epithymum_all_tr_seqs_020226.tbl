@@ -216,7 +216,7 @@ SUPER_7              -          all_tr_seqs          -               24      72 
 SUPER_1              -          all_tr_seqs          -               16      69  79534715  79534662  79534734  79534642 128756846    -         2.7   14.2   2.5  -
 SUPER_5              -          all_tr_seqs          -               19      70  28833271  28833322  28833253  28833343  60142340    +         2.7   14.2   1.5  -
 SUPER_2              -          all_tr_seqs          -               16      70   2359973   2360027   2359957   2360047  74836083    +         2.7   14.2   1.4  -
-SUPER_1              -          all_tr_seqs          -               19      70  72327104  72327053  72327124  72327032 128756846    -         2.7   14.2   1.6  -
+SUPER_1              -          all_tr_seqs          -               19      70  72327104  72327053  72327124  72327032 128756846    -         2.8   14.2   1.6  -
 SUPER_3              -          all_tr_seqs          -                9      68  56219387  56219328  56219400  56219308  65867515    -         2.8   14.2   2.7  -
 SUPER_1              -          all_tr_seqs          -               20      70  35721967  35722017  35721948  35722037 128756846    +         2.8   14.1   1.3  -
 SUPER_1              -          all_tr_seqs          -                8      78  28388661  28388731  28388653  28388749 128756846    +         2.8   14.1   6.5  -
@@ -403,7 +403,7 @@ SUPER_2              -          all_tr_seqs          -               83     149 
 SUPER_1              -          all_tr_seqs          -               23      68 103458793 103458838 103458771 103458842 128756846    +         5.9   13.1   1.0  -
 SUPER_5              -          all_tr_seqs          -               15      68  43625753  43625700  43625768  43625682  60142340    -         5.9   13.1   3.3  -
 SUPER_3              -          all_tr_seqs          -               15      69  15304100  15304154  15304082  15304174  65867515    +         5.9   13.1   4.0  -
-SUPER_5              -          all_tr_seqs          -               17      68  13375348  13375297  13375366  13375279  60142340    -         5.9   13.1   3.5  -
+SUPER_5              -          all_tr_seqs          -               17      68  13375348  13375297  13375366  13375279  60142340    -           6   13.1   3.5  -
 SUPER_3              -          all_tr_seqs          -               15      72  28343488  28343431  28343505  28343411  65867515    -           6   13.1   2.1  -
 SUPER_7              -          all_tr_seqs          -               15      68   4044706   4044653   4044723   4044636  59549849    -           6   13.0   4.0  -
 SUPER_1              -          all_tr_seqs          -               24      72  76135581  76135629  76135560  76135654 128756846    +           6   13.0   1.2  -
@@ -453,7 +453,7 @@ SUPER_6              -          all_tr_seqs          -               14      68 
 SUPER_1              -          all_tr_seqs          -               16      67  41847315  41847264  41847332  41847243 128756846    -         7.2   12.8   1.4  -
 SUPER_6              -          all_tr_seqs          -               15      72  38258801  38258858  38258781  38258878  59787427    +         7.3   12.8   0.2  -
 SUPER_6              -          all_tr_seqs          -               16      67  44489171  44489222  44489155  44489238  59787427    +         7.3   12.8   0.8  -
-SUPER_3              -          all_tr_seqs          -               16      68  59078858  59078910  59078839  59078929  65867515    +         7.3   12.8   4.5  -
+SUPER_3              -          all_tr_seqs          -               16      68  59078858  59078910  59078839  59078929  65867515    +         7.4   12.8   4.5  -
 SUPER_2              -          all_tr_seqs          -               42     147  38478785  38478689  38478797  38478667  74836083    -         7.4   12.7   4.6  -
 SUPER_1              -          all_tr_seqs          -               14      67 107645232 107645285 107645217 107645302 128756846    +         7.4   12.7   1.9  -
 SUPER_6              -          all_tr_seqs          -               16      68  15841407  15841459  15841390  15841479  59787427    +         7.5   12.7   4.4  -
@@ -543,8 +543,8 @@ SUPER_3              -          all_tr_seqs          -               17      68 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/dicots/Cuscuta_epithymum/assembly/curated/daCusEpit1.1/daCusEpit1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cuscuta_epithymum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Cuscuta_epithymum/assembly/curated/daCusEpit1.1/daCusEpit1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/dicots/Cuscuta_epithymum/assembly/curated/daCusEpit1.2/daCusEpit1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Cuscuta_epithymum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Cuscuta_epithymum/assembly/curated/daCusEpit1.2/daCusEpit1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 12:42:03 2026
+# Date:            Sat Sep 12 19:16:01 2026
 # [ok]

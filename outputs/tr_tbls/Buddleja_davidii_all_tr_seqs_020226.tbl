@@ -4852,8 +4852,8 @@ HAP3_SUPER_6          -          all_tr_seqs          -               20      73
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.1/daBudDavi1.hap2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Buddleja_davidii_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.1/daBudDavi1.hap2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.2/daBudDavi1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Buddleja_davidii_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Buddleja_davidii/assembly/curated/daBudDavi1.2/daBudDavi1.hap2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:18 2026
+# Date:            Sat Sep 12 19:15:57 2026
 # [ok]

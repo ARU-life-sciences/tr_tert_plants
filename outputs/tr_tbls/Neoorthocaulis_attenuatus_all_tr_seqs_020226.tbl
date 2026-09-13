@@ -28,7 +28,7 @@ SUPER_3              -          all_tr_seqs          -               83     149 
 SUPER_4              -          all_tr_seqs          -               86     146  73421453  73421523  73421433  73421544  74533173    +         6.5   13.3   0.4  -
 SUPER_1              -          all_tr_seqs          -               94     157 118598313 118598247 118598335 118598227 151499509    -         6.6   13.3   0.7  -
 SUPER_1              -          all_tr_seqs          -               88     149  29156300  29156365  29156278  29156385 151499509    +         6.7   13.3   0.7  -
-SUPER_1              -          all_tr_seqs          -               78     143    822241    822170    822266    822151 151499509    -         6.9   13.3   1.2  -
+SUPER_1              -          all_tr_seqs          -               78     143    822241    822170    822266    822151 151499509    -           7   13.3   1.2  -
 SUPER_7              -          all_tr_seqs          -              109     156   7353446   7353501   7353425   7353521  69588645    +         7.1   13.2   2.8  -
 SUPER_4              -          all_tr_seqs          -               83     143  39983309  39983377  39983285  39983397  74533173    +         7.2   13.2   0.2  -
 SUPER_6              -          all_tr_seqs          -              103     151  53739060  53739104  53739043  53739124  70353933    +         7.2   13.2   0.3  -
@@ -37,7 +37,7 @@ SUPER_6              -          all_tr_seqs          -              127     182 
 SUPER_5              -          all_tr_seqs          -               96     143  53793013  53793054  53792996  53793074  72860558    +         7.6   13.1   2.9  -
 SUPER_7              -          all_tr_seqs          -              127     178  25290365  25290297  25290385  25290277  69588645    -         7.8   13.1   0.2  -
 SUPER_4              -          all_tr_seqs          -              108     157  26874115  26874066  26874135  26874046  74533173    -         7.9   13.1   1.1  -
-SUPER_3              -          all_tr_seqs          -               75     143  19726982  19727037  19726956  19727057  79891585    +         7.9   13.1   0.3  -
+SUPER_3              -          all_tr_seqs          -               75     143  19726982  19727037  19726956  19727057  79891585    +           8   13.1   0.3  -
 SUPER_7              -          all_tr_seqs          -              101     144    776660    776701    776640    776721  69588645    +         8.3   13.0   0.1  -
 SUPER_7              -          all_tr_seqs          -              114     209  39252598  39252506  39252618  39252502  69588645    -         8.6   12.9   2.1  -
 SUPER_2              -          all_tr_seqs          -              138     209  20487786  20487703  20487803  20487699  87431107    -           9   12.9   2.2  -
@@ -51,8 +51,8 @@ SUPER_4              -          all_tr_seqs          -              206     255 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Neoorthocaulis_attenuatus/assembly/curated/cjNeoAtte2.1/cjNeoAtte2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Neoorthocaulis_attenuatus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Neoorthocaulis_attenuatus/assembly/curated/cjNeoAtte2.1/cjNeoAtte2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Neoorthocaulis_attenuatus/assembly/curated/cjNeoAtte2.2/cjNeoAtte2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Neoorthocaulis_attenuatus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Neoorthocaulis_attenuatus/assembly/curated/cjNeoAtte2.2/cjNeoAtte2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:45 2026
+# Date:            Sat Sep 12 19:15:46 2026
 # [ok]

@@ -1,0 +1,41 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_8              -          all_tr_seqs          -               19     338  3667808  3668118  3667789  3668127 11643165    +     2.4e-32  119.2   3.5  -
+SUPER_24             -          all_tr_seqs          -              121     152  8505897  8505865  8506033  8505857  8506123    -       0.072   19.0   0.0  -
+SUPER_39             -          all_tr_seqs          -               83     144  2881378  2881436  2881358  2881472  5462848    +        0.43   16.4   3.2  -
+SUPER_18             -          all_tr_seqs          -               38     139  3264031  3263929  3264038  3263909  9403948    -        0.72   15.7   6.5  -
+SUPER_15             -          all_tr_seqs          -               35     144  8515345  8515253  8515350  8515218 10217495    -        0.84   15.5   6.3  -
+SUPER_8              -          all_tr_seqs          -               83     150 11169594 11169525 11169612 11169505 11643165    -        0.92   15.3   2.0  -
+SUPER_10             -          all_tr_seqs          -              126     164  7665793  7665841  7665773  7665860 10852200    +         1.2   15.0   2.7  -
+SUPER_8              -          all_tr_seqs          -               82     143  3352473  3352395  3352493  3352375 11643165    -           2   14.2   0.0  -
+SUPER_30             -          all_tr_seqs          -               18      70  6977559  6977611  6977540  6977632  7693520    +         2.1   14.1   5.5  -
+SUPER_26             -          all_tr_seqs          -               85     175  5086449  5086558  5086427  5086562  8323837    +         2.1   14.1   2.4  -
+SUPER_25             -          all_tr_seqs          -              101     182   668749   668662   668771   668638  8403230    -         2.1   14.1   5.5  -
+SUPER_9              -          all_tr_seqs          -              179     220   850339   850381   850338   850401 11338899    +           3   13.7   3.1  -
+SUPER_14             -          all_tr_seqs          -              122     189  4240185  4240260  4240164  4240267 10287139    +           3   13.6   0.0  -
+SUPER_39             -          all_tr_seqs          -               96     149  2881435  2881383  2881450  2881356  5462848    -         3.5   13.4   1.0  -
+SUPER_2              -          all_tr_seqs          -              187     228   545867   545821   545887   545805 15049975    -         3.7   13.4   0.1  -
+SUPER_29             -          all_tr_seqs          -              122     159  1915291  1915251  1915307  1915231  7798153    -         4.1   13.2   2.7  -
+SUPER_15             -          all_tr_seqs          -               17      74  6383546  6383489  6383566  6383470 10217495    -         5.2   12.9   6.1  -
+SUPER_27             -          all_tr_seqs          -               17      75  7424513  7424455  7424533  7424437  8311670    -         5.4   12.8   6.6  -
+SUPER_5              -          all_tr_seqs          -               17      75  5871811  5871869  5871791  5871887 13568677    +         5.4   12.8   6.6  -
+SUPER_2              -          all_tr_seqs          -              117     169 10896129 10896065 10896145 10896054 15049975    -         5.8   12.7   1.3  -
+SUPER_3              -          all_tr_seqs          -               18      78  4935726  4935785  4935708  4935803 14266069    +         5.8   12.7   6.5  -
+SUPER_19             -          all_tr_seqs          -               17      76  4589857  4589798  4589877  4589779  9369186    -         5.9   12.7   6.7  -
+SUPER_3              -          all_tr_seqs          -              174     217  7542907  7542950  7542887  7542971 14266069    +           6   12.7   4.6  -
+SUPER_7              -          all_tr_seqs          -               17      72  2219508  2219453  2219526  2219433 13364422    -         6.5   12.5   5.6  -
+SUPER_14             -          all_tr_seqs          -              199     241  6086969  6087009  6086961  6087025 10287139    +         6.8   12.5   0.9  -
+SUPER_29             -          all_tr_seqs          -               55     148  5578422  5578328  5578443  5578312  7798153    -           7   12.4   0.1  -
+SUPER_18             -          all_tr_seqs          -               17      76  6894443  6894502  6894423  6894521  9403948    +         7.4   12.4   7.1  -
+SUPER_21             -          all_tr_seqs          -               17      74  4758290  4758233  4758305  4758213  8811511    -         7.6   12.3   6.5  -
+SUPER_10             -          all_tr_seqs          -               18      76  7393555  7393613  7393537  7393626 10852200    +         7.7   12.3   6.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/monocots/Carex_lasiocarpa/assembly/curated/lpCarLasi1.1/lpCarLasi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Carex_lasiocarpa_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Carex_lasiocarpa/assembly/curated/lpCarLasi1.1/lpCarLasi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:25 2026
+# [ok]

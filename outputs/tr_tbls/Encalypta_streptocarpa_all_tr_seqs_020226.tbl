@@ -1,0 +1,32 @@
+# target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          all_tr_seqs          -               83     219 10201401 10201251 10201465 10201230 27007405    -      0.0077   22.1   1.8  -
+SUPER_9              -          all_tr_seqs          -              101     219   984419   984534   984399   984555 27437711    +       0.026   20.4   0.6  -
+SUPER_11             -          all_tr_seqs          -               26     144  5065947  5065825  5065967  5065800 26994741    -        0.04   19.8   6.0  -
+SUPER_3              -          all_tr_seqs          -              104     143  4718766  4718809  4718755  4718830 34375664    +        0.64   15.8   0.0  -
+SUPER_7              -          all_tr_seqs          -              103     149  2877021  2877069  2877001  2877089 28421308    +        0.73   15.6   0.3  -
+SUPER_7              -          all_tr_seqs          -              126     178 26420857 26420916 26420837 26420922 28421308    +           1   15.1   0.6  -
+SUPER_2              -          all_tr_seqs          -               88     144  7686917  7686960  7686894  7686980 37046152    +         2.1   14.1   0.0  -
+SUPER_11             -          all_tr_seqs          -              108     172 21358419 21358361 21358440 21358357 26994741    -         2.3   14.0   0.4  -
+SUPER_2              -          all_tr_seqs          -              106     159 35601274 35601337 35601254 35601356 37046152    +         2.3   14.0   1.5  -
+SUPER_8              -          all_tr_seqs          -               95     144 10644743 10644689 10644766 10644669 27590764    -         3.4   13.5   0.9  -
+SUPER_13             -          all_tr_seqs          -               96     143 14691683 14691727 14691661 14691748 18618432    +         3.8   13.3   0.6  -
+SUPER_8              -          all_tr_seqs          -              179     225  4757529  4757473  4757531  4757437 27590764    -         4.6   13.0   2.3  -
+SUPER_3              -          all_tr_seqs          -              110     171    64535    64605    64529    64609 34375664    +         4.9   12.9   0.3  -
+SUPER_4              -          all_tr_seqs          -              169     224 31913262 31913217 31913285 31913197 32312523    -         5.2   12.9   2.4  -
+SUPER_2              -          all_tr_seqs          -               97     156 29687242 29687178 29687262 29687158 37046152    -           6   12.6   0.8  -
+SUPER_7              -          all_tr_seqs          -              201     274 26509079 26509012 26509097 26508993 28421308    -         7.3   12.4   1.2  -
+SUPER_8              -          all_tr_seqs          -              121     177  8998726  8998674  8998746  8998663 27590764    -         8.5   12.1   0.0  -
+SUPER_5              -          all_tr_seqs          -              126     165  2410318  2410264  2410338  2410255 30006955    -         9.2   12.0   0.8  -
+SUPER_8              -          all_tr_seqs          -              127     191  2233997  2234055  2233977  2234075 27590764    +         9.3   12.0   3.9  -
+SUPER_12             -          all_tr_seqs          -              178     292  7079750  7079640  7079762  7079632 26270137    -          10   11.9   0.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Encalypta_streptocarpa/assembly/curated/cbEncStre1.1/cbEncStre1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Encalypta_streptocarpa_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Encalypta_streptocarpa/assembly/curated/cbEncStre1.1/cbEncStre1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Sat Sep 12 19:15:23 2026
+# [ok]

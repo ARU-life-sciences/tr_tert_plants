@@ -391,8 +391,8 @@ SUPER_2              -          all_tr_seqs          -               20      76 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.1/daBelPere1.hap2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Bellis_perennis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.1/daBelPere1.hap2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.2/daBelPere1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Bellis_perennis_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/dicots/Bellis_perennis/assembly/curated/daBelPere1.2/daBelPere1.hap2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:23 2026
+# Date:            Sat Sep 12 19:15:49 2026
 # [ok]

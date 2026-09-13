@@ -21,7 +21,7 @@ SUPER_3              -          all_tr_seqs          -               98     149 
 SUPER_10             -          all_tr_seqs          -               95     196  9628724  9628626  9628745  9628607 26500703    -           3   14.3   0.9  -
 SUPER_18             -          all_tr_seqs          -               96     157  8837569  8837635  8837547  8837655 21417374    +         3.2   14.3   0.1  -
 SUPER_6              -          all_tr_seqs          -              103     142 24617540 24617580 24617520 24617601 39837531    +         3.5   14.1   0.7  -
-SUPER_16             -          all_tr_seqs          -               57     147 12780106 12780019 12780132 12779999 22575528    -         3.8   14.0   4.5  -
+SUPER_16             -          all_tr_seqs          -               57     147 12780106 12780019 12780132 12779999 22575528    -         3.7   14.0   4.5  -
 SUPER_21             -          all_tr_seqs          -              109     179  6078825  6078755  6078852  6078745 19019020    -         3.8   14.0   1.2  -
 SUPER_15             -          all_tr_seqs          -              110     164   404413   404354   404433   404334 22895148    -         3.8   14.0   0.0  -
 SUPER_15             -          all_tr_seqs          -               94     146  7660678  7660623  7660698  7660603 22895148    -         3.8   14.0   0.2  -
@@ -53,7 +53,7 @@ SUPER_14             -          all_tr_seqs          -               81     140 
 SUPER_21             -          all_tr_seqs          -              254     338 12324461 12324531 12324445 12324539 19019020    +           8   13.0   0.0  -
 SUPER_10             -          all_tr_seqs          -               98     149  1584126  1584163  1584103  1584183 26500703    +         8.1   12.9   0.1  -
 SUPER_5              -          all_tr_seqs          -              102     143  7858791  7858832  7858771  7858870 40149545    +         8.1   12.9   1.4  -
-SUPER_17             -          all_tr_seqs          -               96     148 12319578 12319629 12319558 12319652 22063190    +         8.2   12.9   0.6  -
+SUPER_17             -          all_tr_seqs          -               96     148 12319578 12319629 12319558 12319652 22063190    +         8.1   12.9   0.6  -
 SUPER_1              -          all_tr_seqs          -               17      78 40779212 40779151 40779231 40779131 44925314    -         8.4   12.9   4.4  -
 SUPER_6              -          all_tr_seqs          -              103     186  2323444  2323330  2323465  2323324 39837531    -         8.7   12.8   5.4  -
 SUPER_3              -          all_tr_seqs          -               78     170 26855597 26855499 26855614 26855471 43073490    -           9   12.8   0.3  -
@@ -66,8 +66,8 @@ SUPER_8              -          all_tr_seqs          -              124     176 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Isopterygiella_pulchella/assembly/curated/cbIsoPulc3.2/cbIsoPulc3.2.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Isopterygiella_pulchella_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Isopterygiella_pulchella/assembly/curated/cbIsoPulc3.2/cbIsoPulc3.2.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Isopterygiella_pulchella/assembly/curated/cbIsoPulc3.4/cbIsoPulc3.4.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Isopterygiella_pulchella_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Isopterygiella_pulchella/assembly/curated/cbIsoPulc3.4/cbIsoPulc3.4.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 12:44:02 2026
+# Date:            Sat Sep 12 19:15:36 2026
 # [ok]

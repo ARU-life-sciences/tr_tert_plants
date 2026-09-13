@@ -31,7 +31,7 @@ SUPER_3              -          all_tr_seqs          -               95     151 
 SUPER_7              -          all_tr_seqs          -               44     146  4211850  4211960  4211833  4211981 15710467    +         2.1   13.3   3.0  -
 SUPER_6              -          all_tr_seqs          -               85     144  9846833  9846778  9846852  9846758 15970254    -         2.3   13.2   0.3  -
 SUPER_4              -          all_tr_seqs          -               93     143 15558548 15558603 15558516 15558623 20485022    +         2.4   13.1   1.3  -
-SUPER_7              -          all_tr_seqs          -               86     160  1741190  1741100  1741212  1741087 15710467    -         2.4   13.1   0.0  -
+SUPER_7              -          all_tr_seqs          -               86     160  1741190  1741100  1741212  1741087 15710467    -         2.5   13.1   0.0  -
 SUPER_9              -          all_tr_seqs          -              105     144  6010292  6010254  6010328  6010234  9673875    -         2.7   13.0   0.4  -
 SUPER_9              -          all_tr_seqs          -               97     152  6761830  6761884  6761810  6761916  9673875    +         2.8   12.9   2.8  -
 SUPER_2              -          all_tr_seqs          -              175     219 28283841 28283792 28283861 28283771 37587716    -         2.8   12.9   1.7  -
@@ -53,7 +53,7 @@ SUPER_3              -          all_tr_seqs          -               95     149 
 SUPER_9              -          all_tr_seqs          -              102     147  5869303  5869260  5869323  5869240  9673875    -         5.7   11.9   1.6  -
 SUPER_8              -          all_tr_seqs          -              127     178 13923116 13923054 13923136 13923052 14538376    -         5.8   11.9   0.7  -
 SUPER_5              -          all_tr_seqs          -               42     148  2542378  2542488  2542370  2542499 16243296    +         5.9   11.9   4.2  -
-SUPER_7              -          all_tr_seqs          -               89     147  1484068  1484012  1484094  1483991 15710467    -         6.4   11.7   0.4  -
+SUPER_7              -          all_tr_seqs          -               89     147  1484068  1484012  1484094  1483991 15710467    -         6.5   11.7   0.4  -
 SUPER_2              -          all_tr_seqs          -              117     157 26484419 26484372 26484439 26484354 37587716    -         6.5   11.7   2.8  -
 SUPER_2              -          all_tr_seqs          -              127     178 10781907 10781952 10781890 10781972 37587716    +         6.6   11.7   0.9  -
 SUPER_1              -          all_tr_seqs          -              127     208 17230345 17230406 17230325 17230422 50079174    +         7.4   11.5   0.5  -
@@ -77,8 +77,8 @@ SUPER_2              -          all_tr_seqs          -              125     178 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Hedwigia_stellata/assembly/curated/cbHedStel2.1/cbHedStel2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hedwigia_stellata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Hedwigia_stellata/assembly/curated/cbHedStel2.1/cbHedStel2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Hedwigia_stellata/assembly/curated/cbHedStel2.2/cbHedStel2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Hedwigia_stellata_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Hedwigia_stellata/assembly/curated/cbHedStel2.2/cbHedStel2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:50 2026
+# Date:            Sat Sep 12 19:15:28 2026
 # [ok]

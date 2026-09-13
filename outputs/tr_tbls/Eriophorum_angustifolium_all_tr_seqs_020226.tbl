@@ -1,8 +1,8 @@
 # target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
 #------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
 SUPER_16             -          all_tr_seqs          -               19     339  2565186  2565505  2565168  2565512 14084684    +     2.6e-30  112.8   3.6  -
-SUPER_16             -          all_tr_seqs          -               87     263  7362867  7363060  7362843  7363062 14084684    +     1.6e-13   57.5   5.1  -
-SUPER_24             -          all_tr_seqs          -               87     263  1648624  1648817  1648600  1648819 11370756    +     1.6e-13   57.5   5.1  -
+SUPER_16             -          all_tr_seqs          -               87     263  7362867  7363060  7362843  7363062 14084684    +     1.7e-13   57.5   5.1  -
+SUPER_24             -          all_tr_seqs          -               87     263  1648624  1648817  1648600  1648819 11370756    +     1.7e-13   57.5   5.1  -
 SUPER_7              -          all_tr_seqs          -               88     263  6492018  6492210  6491994  6492212 17141716    +     2.9e-13   56.7   4.5  -
 SUPER_12             -          all_tr_seqs          -               83     236  6789036  6788869  6789056  6788856 14776140    -     1.9e-12   54.0   4.1  -
 SUPER_2              -          all_tr_seqs          -               89     263 19636972 19636781 19636995 19636776 21304706    -     2.4e-12   53.6   4.6  -
@@ -37,8 +37,8 @@ SUPER_3              -          all_tr_seqs          -              101     175 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eriophorum_angustifolium_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.1/lpEriAngu1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.2/lpEriAngu1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Eriophorum_angustifolium_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Eriophorum_angustifolium/assembly/curated/lpEriAngu1.2/lpEriAngu1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:13:50 2026
+# Date:            Sat Sep 12 19:15:36 2026
 # [ok]

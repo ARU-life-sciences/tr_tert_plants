@@ -32,7 +32,7 @@ SUPER_1              -          all_tr_seqs          -              127     209 
 SUPER_1              -          all_tr_seqs          -               96     192 15757133 15757025 15757154 15757010 36509685    -        0.34   17.9   1.1  -
 SUPER_21             -          all_tr_seqs          -               95     160 14049723 14049640 14049758 14049621 19994214    -        0.35   17.8   0.7  -
 SUPER_27             -          all_tr_seqs          -               83     152 10393942 10393872 10393963 10393852 18681746    -        0.36   17.8   1.9  -
-SUPER_35             -          all_tr_seqs          -               88     173  2615979  2616075  2615960  2616082 17150939    +        0.39   17.6   0.7  -
+SUPER_35             -          all_tr_seqs          -               88     173  2615979  2616075  2615960  2616082 17150939    +         0.4   17.6   0.7  -
 SUPER_32             -          all_tr_seqs          -               84     145 10301270 10301194 10301297 10301182 17376725    -        0.41   17.6   1.3  -
 SUPER_24             -          all_tr_seqs          -               83     144 14316610 14316554 14316630 14316532 19315171    -        0.42   17.6   1.7  -
 SUPER_2              -          all_tr_seqs          -              126     209 26032170 26032254 26032154 26032257 33180538    +        0.44   17.5   1.7  -
@@ -64,12 +64,12 @@ SUPER_2              -          all_tr_seqs          -              126     178 
 SUPER_33             -          all_tr_seqs          -              127     173  4286446  4286501  4286429  4286516 17349757    +        0.77   16.7   3.2  -
 SUPER_11             -          all_tr_seqs          -               94     156 12770225 12770169 12770253 12770149 23925532    -        0.78   16.7   1.8  -
 SUPER_5              -          all_tr_seqs          -               99     157 18838929 18838857 18838952 18838837 25756180    -         0.8   16.6   0.7  -
-SUPER_8              -          all_tr_seqs          -               90     160 14322091 14322007 14322111 14321987 24491645    -        0.81   16.6   0.5  -
+SUPER_8              -          all_tr_seqs          -               90     160 14322091 14322007 14322111 14321987 24491645    -        0.82   16.6   0.5  -
 SUPER_2              -          all_tr_seqs          -               98     157 24275013 24275072 24274992 24275092 33180538    +        0.86   16.5   0.7  -
 SUPER_3              -          all_tr_seqs          -              103     147 32377191 32377151 32377211 32377139 32425627    -        0.87   16.5   1.4  -
 SUPER_24             -          all_tr_seqs          -              164     209  2835801  2835751  2835822  2835748 19315171    -        0.91   16.4   0.7  -
 SUPER_1              -          all_tr_seqs          -              126     203 20938018 20938104 20937992 20938111 36509685    +        0.95   16.4   3.0  -
-SUPER_25             -          all_tr_seqs          -               83     150 18877885 18877945 18877862 18877964 19155016    +        0.96   16.4   2.0  -
+SUPER_25             -          all_tr_seqs          -               83     150 18877885 18877945 18877862 18877964 19155016    +        0.97   16.4   2.0  -
 SUPER_31             -          all_tr_seqs          -               89     149  4298569  4298629  4298547  4298649 17424758    +           1   16.3   1.0  -
 SUPER_8              -          all_tr_seqs          -               99     149 15341671 15341731 15341651 15341751 24491645    +           1   16.3   1.1  -
 SUPER_32             -          all_tr_seqs          -               69     144   721068   721137   721045   721157 17376725    +         1.1   16.2   1.4  -
@@ -217,7 +217,7 @@ SUPER_35             -          all_tr_seqs          -               33     144 
 SUPER_37             -          all_tr_seqs          -               88     145 13964325 13964268 13964343 13964247 16548016    -         4.8   14.1   0.9  -
 SUPER_31             -          all_tr_seqs          -               99     149  4268322  4268373  4268300  4268392 17424758    +           5   14.0   1.0  -
 SUPER_24             -          all_tr_seqs          -              127     209  4660559  4660657  4660539  4660660 19315171    +           5   14.0   2.0  -
-SUPER_38             -          all_tr_seqs          -              125     157 13429713 13429750 13429660 13429770 16450386    +           5   14.0   3.7  -
+SUPER_38             -          all_tr_seqs          -              125     157 13429713 13429750 13429660 13429770 16450386    +         5.1   14.0   3.7  -
 SUPER_23             -          all_tr_seqs          -              127     191 14944047 14943977 14944067 14943970 19412500    -         5.1   14.0   3.7  -
 SUPER_2              -          all_tr_seqs          -               39     149 17675430 17675333 17675439 17675313 33180538    -         5.1   14.0   1.9  -
 SUPER_35             -          all_tr_seqs          -               97     146  8693445  8693391  8693469  8693372 17150939    -         5.1   14.0   0.8  -
@@ -357,8 +357,8 @@ SUPER_4              -          all_tr_seqs          -               58     144 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Sphagnum_palustre/assembly/curated/csSphPalu1.1/csSphPalu1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Sphagnum_palustre_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Sphagnum_palustre/assembly/curated/csSphPalu1.1/csSphPalu1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Sphagnum_palustre/assembly/curated/csSphPalu1.2/csSphPalu1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Sphagnum_palustre_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Sphagnum_palustre/assembly/curated/csSphPalu1.2/csSphPalu1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:11:49 2026
+# Date:            Sat Sep 12 19:16:14 2026
 # [ok]

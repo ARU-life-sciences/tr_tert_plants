@@ -31,7 +31,7 @@ submit_one () {
   local out="${OUTDIR}/${species}.tbl"
   local jobname="tblastn_${species}"
 
-  if [[ -s "$out" ]]; then
+  if [[ -e "$out" ]]; then
     echo "[driver-tblastn] ${species}: $out exists, skipping."
     return
   fi

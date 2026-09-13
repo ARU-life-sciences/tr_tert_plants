@@ -144,8 +144,8 @@ SUPER_4              -          all_tr_seqs          -               51     139 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/monocots/Juncus_inflexus/assembly/curated/lpJunInfl1.1/lpJunInfl1.hap2.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Juncus_inflexus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Juncus_inflexus/assembly/curated/lpJunInfl1.1/lpJunInfl1.hap2.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/monocots/Juncus_inflexus/assembly/curated/lpJunInfl1.2/lpJunInfl1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Juncus_inflexus_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Juncus_inflexus/assembly/curated/lpJunInfl1.2/lpJunInfl1.hap2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:31 2026
+# Date:            Sat Sep 12 19:15:59 2026
 # [ok]

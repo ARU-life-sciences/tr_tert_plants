@@ -1,20 +1,17 @@
 # target name        accession  query name           accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
 #------------------- ---------- -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
-SUPER_15             -          all_tr_seqs          -               19     333 10861766 10862079 10861748 10862090 22314127    +     7.5e-25   95.1   0.5  -
-SUPER_15             -          all_tr_seqs          -               16      76 18410218 18410278 18410198 18410298 22314127    +        0.83   16.0   2.0  -
-SUPER_7              -          all_tr_seqs          -               94     147 16554397 16554464 16554374 16554485 26516482    +         1.8   14.9   0.3  -
-SUPER_3              -          all_tr_seqs          -               45     136 22295100 22295020 22295112 22295000 29040746    -         3.5   13.9   0.6  -
-SUPER_4              -          all_tr_seqs          -               57     152 23190156 23190269 23190144 23190295 28681998    +         5.9   13.2   0.6  -
-SUPER_3              -          all_tr_seqs          -               18      76  5511527  5511585  5511507  5511604 29040746    +         6.8   13.0   2.5  -
-SUPER_12             -          all_tr_seqs          -              114     159  2469416  2469364  2469435  2469345 24922640    -         7.3   12.9   2.6  -
-SUPER_3              -          all_tr_seqs          -               44     115   441690   441625   441707   441604 29040746    -         8.2   12.7   7.2  -
+SUPER_15             -          all_tr_seqs          -               19     333 10556719 10557033 10556701 10557044 21025094    +     3.7e-25   96.1   0.4  -
+SUPER_15             -          all_tr_seqs          -               16      76 17796531 17796591 17796511 17796611 21025094    +        0.81   16.0   2.0  -
+SUPER_7              -          all_tr_seqs          -               94     147 15979835 15979902 15979812 15979923 25651510    +         1.7   14.9   0.3  -
+SUPER_4              -          all_tr_seqs          -               57     152 22512129 22512242 22512117 22512268 27789963    +         1.7   14.9   1.0  -
+SUPER_3              -          all_tr_seqs          -               18      76  5353057  5353115  5353037  5353134 28002205    +         6.7   13.0   2.5  -
 #
 # Program:         nhmmer
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/monocots/Schoenoplectus_tabernaemontani/assembly/curated/lpSchTabe1.1/lpSchTabe1.hap1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Schoenoplectus_tabernaemontani_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Schoenoplectus_tabernaemontani/assembly/curated/lpSchTabe1.1/lpSchTabe1.hap1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/monocots/Schoenoplectus_tabernaemontani/assembly/curated/lpSchTabe1.2/lpSchTabe1.hap2.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Schoenoplectus_tabernaemontani_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/monocots/Schoenoplectus_tabernaemontani/assembly/curated/lpSchTabe1.2/lpSchTabe1.hap2.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:28 2026
+# Date:            Sat Sep 12 19:16:15 2026
 # [ok]

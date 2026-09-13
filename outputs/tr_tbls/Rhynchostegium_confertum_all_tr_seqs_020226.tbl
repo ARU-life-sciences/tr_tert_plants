@@ -21,7 +21,7 @@ SUPER_8              -          all_tr_seqs          -               59     144 
 SUPER_4              -          all_tr_seqs          -              126     172 25703860 25703816 25703880 25703795 29753391    -         3.7   13.1   1.7  -
 SUPER_2              -          all_tr_seqs          -              119     160  6077690  6077725  6077675  6077744 45852759    +         4.7   12.8   0.1  -
 SUPER_6              -          all_tr_seqs          -               89     147  2868539  2868604  2868522  2868621 25586944    +           6   12.4   1.7  -
-SUPER_8              -          all_tr_seqs          -              126     165  3046810  3046753  3046823  3046743 23516751    -           6   12.4   0.0  -
+SUPER_8              -          all_tr_seqs          -              126     165  3046810  3046753  3046823  3046743 23516751    -         6.1   12.4   0.0  -
 SUPER_8              -          all_tr_seqs          -               96     145 14057168 14057231 14057148 14057253 23516751    +         6.1   12.4   0.5  -
 SUPER_8              -          all_tr_seqs          -              127     164  3497919  3497883  3497939  3497863 23516751    -         6.2   12.4   0.3  -
 SUPER_6              -          all_tr_seqs          -               98     144  8520547  8520598  8520527  8520619 25586944    +         6.6   12.3   0.0  -
@@ -43,8 +43,8 @@ SUPER_5              -          all_tr_seqs          -              126     158 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_confertum/assembly/curated/cbRhyConf1.1/cbRhyConf1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Rhynchostegium_confertum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_confertum/assembly/curated/cbRhyConf1.1/cbRhyConf1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_confertum/assembly/curated/cbRhyConf1.2/cbRhyConf1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Rhynchostegium_confertum_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Rhynchostegium_confertum/assembly/curated/cbRhyConf1.2/cbRhyConf1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:11:26 2026
+# Date:            Sat Sep 12 19:15:50 2026
 # [ok]

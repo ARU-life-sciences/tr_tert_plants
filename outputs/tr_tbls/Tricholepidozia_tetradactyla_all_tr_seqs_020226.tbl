@@ -30,7 +30,7 @@ SUPER_1              -          all_tr_seqs          -               94     146 
 SUPER_3              -          all_tr_seqs          -               95     153  31164707  31164766  31164684  31164788  48179537    +         3.2   13.9   1.3  -
 SUPER_9              -          all_tr_seqs          -               94     152  19502879  19502817  19502901  19502792  26879540    -         3.2   13.8   0.5  -
 SUPER_3              -          all_tr_seqs          -               83     142  22370052  22370104  22370031  22370125  48179537    +         3.2   13.8   0.8  -
-SUPER_1              -          all_tr_seqs          -              114     177 114219335 114219238 114219346 114219236 134637068    -         3.2   13.8   0.4  -
+SUPER_1              -          all_tr_seqs          -              114     177 114219335 114219238 114219346 114219236 134637068    -         3.3   13.8   0.4  -
 SUPER_1              -          all_tr_seqs          -               83     173  50171308  50171406  50171288  50171411 134637068    +         3.4   13.7   2.4  -
 SUPER_2              -          all_tr_seqs          -              120     151  39558228  39558259  39558206  39558279  48802868    +         3.5   13.7   0.9  -
 SUPER_1              -          all_tr_seqs          -               83     143  50169317  50169370  50169294  50169390 134637068    +         3.6   13.7   0.1  -
@@ -47,7 +47,7 @@ SUPER_8              -          all_tr_seqs          -               94     144 
 SUPER_5              -          all_tr_seqs          -              117     178  33649246  33649167  33649266  33649165  42014333    -         5.3   13.1   1.2  -
 SUPER_4              -          all_tr_seqs          -              108     171  41837425  41837478  41837411  41837487  42487261    +         5.4   13.1   0.0  -
 SUPER_6              -          all_tr_seqs          -              127     181   9409757   9409688   9409777   9409681  39806250    -         5.5   13.1   2.1  -
-SUPER_1              -          all_tr_seqs          -              122     151 132777616 132777645 132777573 132777665 134637068    +         5.6   13.0   0.9  -
+SUPER_1              -          all_tr_seqs          -              122     151 132777616 132777645 132777573 132777665 134637068    +         5.7   13.0   0.9  -
 SUPER_2              -          all_tr_seqs          -               83     152  19638537  19638422  19638557  19638397  48802868    -         5.7   13.0   1.4  -
 SUPER_10             -          all_tr_seqs          -              118     177  11003222  11003285  11003202  11003287  22779500    +         5.8   13.0   2.2  -
 SUPER_6              -          all_tr_seqs          -              105     149  34199954  34199911  34199955  34199890  39806250    -         5.9   13.0   0.2  -
@@ -90,8 +90,8 @@ SUPER_3              -          all_tr_seqs          -              114     157 
 # Version:         3.4 (Aug 2023)
 # Pipeline mode:   SEARCH
 # Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm
-# Target file:     /data/tol/data/darwin/non-vascular-plants/Tricholepidozia_tetradactyla/assembly/curated/cjTriTetr1.1/cjTriTetr1.1.primary.fa.gz
-# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Tricholepidozia_tetradactyla_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Tricholepidozia_tetradactyla/assembly/curated/cjTriTetr1.1/cjTriTetr1.1.primary.fa.gz 
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Tricholepidozia_tetradactyla/assembly/curated/cjTriTetr1.2/cjTriTetr1.2.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/Tricholepidozia_tetradactyla_all_tr_seqs_020226.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tr_tbls/all_tr_seqs.hmm /data/tol/data/darwin/non-vascular-plants/Tricholepidozia_tetradactyla/assembly/curated/cjTriTetr1.2/cjTriTetr1.2.primary.fa.gz 
 # Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
-# Date:            Mon Feb  2 13:12:53 2026
+# Date:            Sat Sep 12 19:16:06 2026
 # [ok]
