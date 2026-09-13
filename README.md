@@ -53,6 +53,11 @@ Scripts in `src/` are run in approximate order:
 | 12 | `tr_repeat_correlation.py` | Screen every multi-locus species for Template-vs-telomere-repeat sequence correlation |
 | 13 | `tr_repeat_correlation_triage.py` | Shortlist the strongest candidates from step 12 for positional confirmation |
 | 14 | `confirm_repeat_positional.py` | Confirm a candidate repeat is genuinely chromosome-terminal via `tidk search` |
+| 15 | `tr_core_template_diff.py` | Position-anchored pairwise diff of TR loci's true templating core (not the full padded window) |
+| 16 | `tr_core_template_sets.py` | Species-level (not pairwise) summary of core-template identity/variation across TR gene copies |
+| 17 | `run_confirm_differing_sets.bash` / `_bsub.bash` | Positionally confirm every differing set's dominant + minority variant |
+| 18 | `summarize_repeat_confirmations.py` | Classify each differing set's telomeric confirmation result |
+| 19 | `walk_terminal_repeat_array.py` | Base-pair-resolved raw-sequence check for variants too rare for `tidk search` to see |
 
 ## Onboarding new genomes
 
@@ -98,3 +103,4 @@ Notable results from the pipeline are written up in `notes/`:
 - [`within_species_tr_template_variation.md`](notes/within_species_tr_template_variation.md) - 38% of multi-locus species carry both canonical- and divergent-Template loci in the same genome
 - [`organelle_and_cobiont_assembly_pitfall.md`](notes/organelle_and_cobiont_assembly_pitfall.md) - two species' "latest assembly" silently pointed at a plastid/cobiont genome instead of the nuclear one; now screened automatically
 - [`tr_repeat_correlation.md`](notes/tr_repeat_correlation.md) - fine-scale TR-paralog point mutations track specific chromosome-terminal repeat variants, confirmed in 8/8 species checked (generalizes the Carlina finding dataset-wide)
+- [`tr_core_template_variation_and_telomeres.md`](notes/tr_core_template_variation_and_telomeres.md) - properly position-anchored core-template comparison: 71-84% of TR gene copies share an identical core even at high copy number, and most (>=27/44, likely more) of the differing cases show the specific point-mutant variant genuinely present at the telomere - includes two real methodology corrections worth reading before extending this analysis

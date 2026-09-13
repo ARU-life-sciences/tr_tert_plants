@@ -1,0 +1,268 @@
+species	core_length	n_loci	n_distinct	dominant	dom_n	dom_target	minority	min_n	min_target
+Levisticum_officinale	7	44	1	ACCCTAA	44	SUPER_8			
+Schoenus_nigricans	12	24	1	AAACCCTAAACC	24	SUPER_14			
+Anagallis_arvensis	6	17	6	AACCCT	11	SUPER_5	CCCTAA	2	SUPER_10
+Empetrum_nigrum	12	12	1	AACCCTAAACCT	12	SUPER_13_HAP2			
+Solanum_nigrum	11	12	3	CTGAACCCTGA	8	SUPER_25	AAACCCTGAAC	3	SUPER_30
+Bazzania_pearsonii	10	11	1	AACCCTAAAC	11	SCAFFOLD_25			
+Draba_verna	13	9	1	CTAAACCCTAAAC	9	SUPER_23			
+Tanacetum_vulgare	11	9	1	AACCCTAAACC	9	SUPER_6			
+Saxifraga_cespitosa	13	8	1	AACCCTAAACCCT	8	SUPER_21_HAP1			
+Solidago_canadensis	13	8	1	TAAACCCTAAACC	8	HAP4_SUPER_7			
+Ajuga_chamaepitys	9	7	2	AAACTAAAC	5	SUPER_4	AACCTAATC	2	SUPER_4
+Platanus_x_hispanica	11	7	1	AAACCCTAAAC	7	SUPER_15			
+Sorbus_anglica	11	7	1	AACCCTAAACC	7	SUPER_55_HAP1			
+Trocdaris_verticillatum	8	7	1	ACCCTAAC	7	SUPER_6			
+Ajuga_chamaepitys	7	6	4	CTAAACT	3	SUPER_2	TTTTACA	1	SUPER_5
+Bazzania_pearsonii	12	6	1	AACCCTAAACCC	6	SCAFFOLD_52			
+Cardamine_pratensis	9	6	1	CTAAACCCT	6	SUPER_12_HAP1			
+Eriophorum_angustifolium	14	6	1	TAAACCCTAAACCC	6	SUPER_16			
+Heracleum_sphondylium	9	6	1	ACCCTAACC	6	SUPER_7			
+Lythrum_salicaria	11	6	3	AACCCTAAACC	3	SUPER_8_HAP2	ACCCTAAACCC	2	SUPER_2_HAP2
+Mentha_aquatica	12	6	1	AACCCTAAACCC	6	SUPER_46			
+Orthothecium_rufescens	13	6	1	TAAACCCTAAACC	6	SUPER_6			
+Persicaria_amphibia	15	6	1	AACCCTAAACCTCCC	6	SUPER_42			
+Platanus_x_hispanica	7	6	2	CCTAAAC	5	SUPER_5	AAACCCT	1	SUPER_5
+Potentilla_anglica	13	6	2	ACTCTAAACTCTA	5	SUPER_8	TAAACCCTAAACC	1	SUPER_3
+Primula_scotica	11	6	1	AACCCTAAACC	6	SUPER_19			
+Rumex_acetosella	12	6	1	AACCCTAAACCT	6	SUPER_15			
+Tanacetum_parthenium	11	6	1	AACCCTAAACC	6	SUPER_6			
+Alchemilla_alpina	15	5	1	AAAACCCTAAACCCT	5	SUPER_69			
+Carpinus_betulus	13	5	2	TAAACCCTAAAAG	4	SUPER_6	CTAAACCCTAAAC	1	SUPER_6
+Helianthemum_oelandicum	11	5	3	ACCCCTAACCC	3	SUPER_10	ACCCTAACCCT	1	SUPER_6
+Heracleum_mantegazzianum	9	5	1	ACCCTAACC	5	SUPER_2			
+Holcus_mollis	11	5	1	AACCCTAAACC	5	SUPER_4			
+Lycopus_europaeus	13	5	1	TAAACCCTAAACC	5	SUPER_7			
+Phalaris_arundinacea	11	5	1	AACCCTAAACC	5	SUPER_6			
+Ranunculus_repens	12	5	2	TGAACCCTGAAC	3	SUPER_9_HAP1	AAACCCTGAACC	2	SUPER_5_HAP1
+Rubus_saxatilis	13	5	1	AACCCTAAACCCT	5	SUPER_4			
+Trocdaris_verticillatum	9	5	2	ACCCTAACC	4	SUPER_6	CTTCTCCGG	1	SUPER_6
+Agrostemma_githago	11	4	1	AACCCTAAACC	4	SUPER_14			
+Anagallis_arvensis	9	4	2	CCCTAAACC	2	SUPER_14	AAACCCTAA	2	SUPER_20
+Anchusa_arvensis	14	4	1	CTAAACCCTAAACC	4	SUPER_20			
+Arctium_lappa	13	4	2	TAAACCCTAAACC	3	SUPER_7	AAAACCCTAAACC	1	SUPER_5
+Artemisia_norvegica	11	4	1	AACCCTAAACC	4	SUPER_6			
+Colchicum_autumnale	15	4	1	TAAACCCTAAACCCT	4	SUPER_24			
+Cornus_sanguinea	6	4	1	TAAACC	4	SUPER_3			
+Fallopia_convolvulus	11	4	1	AACCCTAAACC	4	SUPER_15			
+Fraxinus_excelsior	11	4	1	AACCCTAAACC	4	SUPER_8			
+Hierochloe_odorata	11	4	1	AACCCTAAACC	4	SUPER_14			
+Holcus_mollis	12	4	1	AAACCCTAAACC	4	SUPER_7			
+Inula_conyza	13	4	2	TAAACCCTAAACC	3	SUPER_2	AAAACCCTAAACC	1	SUPER_7
+Linaria_repens	9	4	2	CTAAACCCT	3	SUPER_5	CCCTAAACC	1	SUPER_4
+Myrrhis_odorata	10	4	1	ACCCTAACCT	4	SUPER_8			
+Rosa_agrestis	11	4	1	ACCCTAAACCC	4	SUPER_24			
+Rosa_agrestis	13	4	1	AACCCTAAACCCT	4	SUPER_8			
+Rosa_rubiginosa	11	4	1	ACCCTAAACCC	4	SUPER_25			
+Rosa_rubiginosa	13	4	1	AACCCTAAACCCT	4	SUPER_8			
+Rumex_acetosa	11	4	1	AACCCTAAACC	4	SUPER_4			
+Rumex_acetosella	6	4	1	ATGCTG	4	SUPER_3			
+Salix_cinerea	13	4	1	AAACCCTAAACCT	4	HAP2_SCAFFOLD_15			
+Sorbus_bristoliensis	11	4	1	AACCCTAAACC	4	SUPER_17A			
+Sorbus_devoniensis	11	4	1	AACCCTAAACC	4	SUPER_34_HAP2			
+Trifolium_striatum	13	4	1	AACCCTAAACCCT	4	SUPER_6			
+Adonis_annua	13	3	1	TAAACCCTAAACC	3	HAP2_SCAFFOLD_8			
+Aethusa_cynapium	9	3	1	ACCCTAACC	3	SUPER_7_HAP1			
+Ajuga_chamaepitys	6	3	2	AACCCT	2	SUPER_2	CTAATC	1	SUPER_11
+Alchemilla_alpina	14	3	1	AAACCCTAAACCCT	3	SUPER_56			
+Arctium_minus	13	3	2	TAAACCCTAAACC	2	SUPER_7	AAAACCCTAAACC	1	SUPER_3
+Atropa_belladonna	13	3	1	TAAACCCTAAACC	3	SUPER_21			
+Buddleja_davidii	11	3	1	AACCCTAAACC	3	HAP2_SUPER_5			
+Buxus_sempervirens	13	3	1	AAACCCTAAACCT	3	SUPER_14			
+Carlina_vulgaris	11	3	1	AAACCGAACTG	3	SUPER_5			
+Chenopodium_album	10	3	1	AACCCTAAAC	3	SUPER_2			
+Colchicum_autumnale	11	3	1	CCCTAAACCCT	3	SUPER_24			
+Digitaria_sanguinalis	11	3	1	AACCCTAAACC	3	SUPER_6			
+Draba_incana	13	3	1	CTAAACCCTAAAC	3	SUPER_8			
+Draba_verna	7	3	1	AAATCTA	3	SUPER_3			
+Eleocharis_palustris	17	3	1	CTAAACCCTAAACCCTA	3	SUPER_11_HAP2			
+Epilobium_ciliatum	13	3	1	TAAACCCTAAACC	3	SUPER_1			
+Epilobium_hirsutum	13	3	1	AAACCCTAAACCT	3	SUPER_3			
+Eriophorum_vaginatum	14	3	1	TAAACCCTAAACCC	3	SUPER_18			
+Euphorbia_helioscopia	12	3	1	AAAACCCTAAAC	3	SUPER_16_HAP1			
+Filago_lutescens	13	3	1	TAAACCCTAAACC	3	SUPER_1			
+Galium_aparine	12	3	1	AACCCTAAACCT	3	SCAFFOLD_8			
+Galium_boreale	12	3	1	AACCCTAAACCT	3	HAP3_SUPER_8			
+Gentianella_amarella	14	3	1	TAAACCCTAAACCC	3	SUPER_9			
+Glechoma_hederacea	13	3	1	TAAACCCTAAACC	3	SUPER_17			
+Gnaphalium_supinum	13	3	1	TAAACCCTAAACC	3	SUPER_1			
+Honckenya_peploides	10	3	1	AACCCTAAAC	3	SUPER_13			
+Juncus_bufonius	13	3	2	CTAAACCCTAGAT	2	SUPER_25	CTAAACCCTAAAC	1	SUPER_11
+Logfia_minima	13	3	1	TAAACCCTAAACC	3	SUPER_1			
+Lotus_subbiflorus	8	3	1	AACCCTAA	3	SUPER_10			
+Lythrum_salicaria	13	3	1	AAACCCTAAACCT	3	SUPER_15_HAP3			
+Mimulus_peregrinus	11	3	1	AACCCGAAACC	3	SUPER_29_HAP2			
+Nicotiana_alata	10	3	1	AAACCCTAAA	3	SUPER_3_HAP2			
+Nymphoides_peltata	8	3	1	ACCCTAAC	3	SUPER_1			
+Persicaria_maculosa	12	3	1	AACCCTAAACCT	3	SUPER_1			
+Potentilla_anglica	15	3	1	TAAACCCTAAACCCT	3	SUPER_9			
+Potentilla_anglica	12	3	3	ACTCTAAACTCT	1	SUPER_12	CTCTAAACTCTA	1	SUPER_21
+Potentilla_indica	14	3	3	TAAACCCTAAACCT	1	HAP2_SCAFFOLD_6	AAACCCTAAACCCT	1	HAP2_SCAFFOLD_7
+Potentilla_indica	13	3	1	ACTCTAAACTCTA	3	HAP2_SCAFFOLD_31			
+Primula_farinosa	11	3	1	AACCCTAAACC	3	SUPER_7			
+Pulicaria_dysenterica	13	3	1	TAAACCCTAAACC	3	SUPER_4			
+Pulicaria_dysenterica	8	3	1	CCTAAACC	3	SUPER_9			
+Saxifraga_cespitosa	14	3	1	AACCCTAAACCCTA	3	SUPER_9_HAP1			
+Scleranthus_annuus	11	3	1	AACCCTAAACC	3	SUPER_1_HAP1			
+Sedum_album	13	3	1	CTAAACCCTAAAA	3	SUPER_8B_HAP1			
+Senecio_sylvaticus	13	3	1	TAAACCCTAAACC	3	SUPER_9			
+Senecio_vulgaris	13	3	1	TAAACCCTAAACC	3	SUPER_1_HAP1			
+Sherardia_arvensis	11	3	1	AACCCTAAACC	3	SUPER_1			
+Sibbaldia_procumbens	12	3	1	AAACCCTAAACC	3	SUPER_1			
+Silene_noctiflora	11	3	1	AACCCTAAACC	3	SUPER_8_HAP2			
+Tellima_grandiflora	11	3	2	AACCCTAAACC	2	SUPER_1A_HAP1	AAAACCCTAAA	1	SUPER_1A_HAP1
+Thalictrum_minus	12	3	1	TAAACCCTAAAC	3	SUPER_15			
+Trifolium_dubium	13	3	1	AACCCTAAACCCT	3	SUPER_2			
+Viola_odorata	12	3	1	AAACCCTAAACC	3	SUPER_9			
+Viola_palustris	12	3	1	AAACCCTAAACC	3	SUPER_18			
+Acaena_novae_zelandiae	14	2	2	AAACCCTAAACCCT	1	SUPER_7_HAP1	AACCCTAAACCCTA	1	SUPER_10_HAP1
+Acaena_ovalifolia	14	2	2	AAACCCTAAACCCT	1	SUPER_7	AACCCTAAACCCTA	1	SUPER_9
+Ajuga_chamaepitys	12	2	2	AAAACCCTAAAC	1	SUPER_14	AAACCTAAACCT	1	SUPER_14
+Ajuga_chamaepitys	8	2	2	CTAAACCT	1	SUPER_11	AACTAAAC	1	SUPER_11
+Ajuga_reptans	11	2	2	ACCCTAAACCT	1	SUPER_8	AACCCTGAACC	1	SUPER_3
+Ajuga_reptans	8	2	1	CCTAAACC	2	SUPER_3			
+Alchemilla_alpina	8	2	1	CCTAAACC	2	SUPER_39			
+Alchemilla_mollis	12	2	2	TAAACCCTAAAC	1	SUPER_2_HAP3	AACCCTAAACCC	1	SUPER_16_HAP3
+Alopecurus_geniculatus	12	2	1	AAACCCTAAACC	2	SUPER_8			
+Alopecurus_pratensis	11	2	1	AACCCTAAACC	2	SUPER_3_HAP1			
+Ammi_majus	14	2	1	CTAAACCCTAAACC	2	SUPER_4			
+Anagallis_arvensis	12	2	1	AAACCCTAAACC	2	SUPER_7			
+Anagallis_arvensis	11	2	2	AACCCTAAACC	1	SUPER_17	CCCTAAACCCT	1	SUPER_14
+Anchusa_arvensis	11	2	1	AACCCTAAACC	2	SUPER_1			
+Andreaea_nivalis	11	2	1	AACCCTAAACC	2	SUPER_9			
+Arabis_hirsuta	14	2	1	CTAAACCCTAAACC	2	SCAFFOLD_2			
+Arenaria_serpyllifolia	10	2	1	AACCCTAAAC	2	SUPER_17			
+Aria_edulis	11	2	1	AACCCTAAACC	2	SUPER_16			
+Armoracia_rusticana	9	2	1	CTAAACCCT	2	SUPER_6			
+Ballota_nigra	11	2	1	AACCCTAAACC	2	SUPER_6			
+Bellardia_viscosa	11	2	1	AACCCTAAACC	2	SUPER_17			
+Blitum_bonus_henricus	10	2	1	AACCCTAAAC	2	SUPER_2			
+Brassica_nigra	9	2	1	CTAAACCCT	2	SUPER_4			
+Bryum_calophyllum	11	2	1	AACCCTAAACC	2	SUPER_30			
+Bryum_knowltonii	11	2	1	AACCCTAAACC	2	SUPER_14			
+Calendula_officinalis	11	2	1	AACCCTAAACC	2	SUPER_6			
+Carex_depauperata	14	2	1	TAAACCCTAAACCC	2	SUPER_1			
+Carex_pendula	14	2	1	TAAACCCTAAACCC	2	SUPER_25			
+Carex_rostrata	14	2	1	TAAACCCTAAACCC	2	SUPER_2			
+Castanea_sativa	14	2	1	TAAACCCTAAACCT	2	SUPER_1			
+Centaurium_erythraea	14	2	1	CTAAACCCTAAACC	2	SUPER_10			
+Centaurium_intermedium	8	2	2	CCTAAACC	1	SUPER_4_HAP1	AACCCTAA	1	SUPER_5_HAP1
+Cerastium_alpinum	10	2	1	AACCCTAAAC	2	SUPER_12			
+Cochlearia_danica	9	2	1	CTAAACCCT	2	SUPER_6_HAP1			
+Convolvulus_arvensis	12	2	1	AACCCTAAACCC	2	HAP2_SCAFFOLD_9			
+Cornus_sanguinea	13	2	2	TAAACCCTAAACC	1	SUPER_2	AAAACCCTAAACC	1	SUPER_11
+Cornus_sanguinea	7	2	1	TAAACCC	2	SUPER_11			
+Corylus_colurna	12	2	1	TAAACCCTAAAC	2	SUPER_4			
+Crataegus_laevigata	6	2	2	CAACCT	1	SUPER_15	TAAACC	1	SUPER_6
+Crataegus_monogyna	11	2	1	AACCCTAAACC	2	SUPER_2			
+Crocus_tommasinianus	9	2	1	AACCCTAAC	2	SUPER_1			
+Descurainia_sophia	9	2	1	CTAAACCCT	2	SUPER_11			
+Eleocharis_palustris	16	2	1	CTAAACCCTAAACCCT	2	SUPER_1_HAP2			
+Erica_cinerea	12	2	1	AACCCTAAACCT	2	SUPER_1			
+Euphorbia_amygdaloides	12	2	1	TAACCCTAACCT	2	SUPER_10_HAP1			
+Euphrasia_confusa	11	2	1	AACCCTAAACC	2	SUPER_20			
+Euphrasia_nemorosa	11	2	1	AACCCTAAACC	2	SUPER_21			
+Euphrasia_tetraquetra	11	2	1	AACCCTAAACC	2	SUPER_20			
+Fagus_sylvatica	14	2	1	TAAACCCTAAACCT	2	SUPER_12			
+Festuca_heterophylla	11	2	1	AACCCTAAACC	2	SUPER_6_HAP2			
+Filago_pyramidata	13	2	1	TAAACCCTAAACC	2	SUPER_1			
+Galinsoga_quadriradiata	13	2	1	TAAACCCTAAACC	2	SUPER_4_HAP1			
+Galinsoga_quadriradiata	14	2	1	CTAAACCCTAAACC	2	SUPER_9_HAP1			
+Geum_rivale	13	2	1	AACCCTAAACCCT	2	SUPER_8			
+Geum_urbanum	13	2	1	AACCCTAAACCCT	2	SUPER_10			
+Glaucium_flavum	14	2	2	GAAAACCCTACCCG	1	SUPER_3	AAAAACCCTACCCG	1	SUPER_3
+Hedera_helix	9	2	2	TAAACCCTA	1	SUPER_6	CCTAAACCC	1	SUPER_15
+Heracleum_mantegazzianum	13	2	1	TAAACCCTAAACC	2	SUPER_6			
+Hesperis_matronalis	14	2	1	CTAAACCCTAAACC	2	SUPER_1_HAP4			
+Hibiscus_tridactylites	11	2	1	AACCCTAAACC	2	SUPER_21			
+Hibiscus_verdcourtii	12	2	1	TAACCCTAAACC	2	SUPER_17			
+Hieracium_snowdoniense	11	2	1	AACCCTAAACC	2	SUPER_7B			
+Hippuris_vulgaris	13	2	1	ACAACCCTAAACC	2	SUPER_9			
+Hypericum_maculatum	11	2	1	CTAAACCCTAA	2	SUPER_6_HAP4			
+Hypericum_perforatum	15	2	1	AAACCCTAAACCCTA	2	HAP3_SUPER_7			
+Impatiens_parviflora	12	2	1	AAACCCTAAACC	2	SUPER_7			
+Isolepis_cernua	12	2	1	AAACCCTAAACC	2	SUPER_3_HAP1			
+Isopterygiella_pulchella	11	2	1	AACCCTAAACC	2	SUPER_21			
+Juncus_bufonius	16	2	1	AAAACCCTAAACCCTA	2	SUPER_42			
+Leersia_oryzoides	11	2	1	AACCCTAAACC	2	SUPER_14			
+Leontodon_hispidus	10	2	1	AACCCTAAAC	2	SUPER_5			
+Lepidium_didymum	13	2	1	AACCCTGAACCCT	2	SUPER_5			
+Lewinskya_speciosa	11	2	1	CACCCTAAACC	2	SUPER_1			
+Linnaea_borealis	12	2	1	AAACCCTAAACC	2	SUPER_12			
+Lotus_pedunculatus	8	2	1	AACCCTAA	2	SUPER_3			
+Lycopus_europaeus	12	2	2	CTAAACCCTACC	1	SUPER_1	AAACCCTAAACC	1	SUPER_7
+Lythrum_hyssopifolia	10	2	2	AACCCTAAAC	1	SUPER_7	ACCCTAAACC	1	SUPER_5
+Lythrum_portula	12	2	2	AACCCTAAACCC	1	SUPER_4	AACCCTAACCCT	1	SUPER_5
+Malus_sylvestris	11	2	1	AACCCTAAACC	2	SUPER_12			
+Malus_x_robusta	11	2	1	AACCCTAAACC	2	SUPER_13			
+Matricaria_discoidea	10	2	1	AACCCTAAAC	2	HAP2_SCAFFOLD_2			
+Medicago_lupulina	12	2	1	TAAACCCTAAAC	2	SUPER_6			
+Myrica_gale	11	2	1	AACCCTAAACC	2	SUPER_18			
+Myriophyllum_aquaticum	14	2	1	CTAAACCCTAAACC	2	SUPER_5_HAP2			
+Myriophyllum_spicatum	14	2	1	CTAAACCCTAAACC	2	SUPER_10_HAP1			
+Narthecium_ossifragum	12	2	1	TAAACCCTAAAC	2	SUPER_2			
+Ornithopus_perpusillus	10	2	1	AACCCTAAAC	2	SUPER_1			
+Orthothecium_rufescens	11	2	1	AACCCTAAACC	2	SUPER_10			
+Parietaria_judaica	11	2	2	ACCCTAAACCC	1	SUPER_10	AACCCTAAACC	1	SUPER_1
+Petasites_albus	11	2	1	AACCCTAAACC	2	SUPER_17			
+Phleum_pratense	11	2	1	AACCCTAAACC	2	SUPER_1			
+Pilosella_aurantiaca	11	2	1	AACCCTAAACC	2	SUPER_12_HAP1			
+Platanus_x_hispanica	6	2	2	AAACCT	1	SUPER_14	CTAAAC	1	SUPER_4
+Poa_chaixii	7	2	1	AAACCAA	2	SUPER_2			
+Pohlia_cruda	11	2	1	AACCCTAAACC	2	SUPER_11			
+Pohlia_nutans	11	2	1	AACCCTAAACC	2	SUPER_20			
+Polycarpon_tetraphyllum	13	2	1	AAACCCTAAACCT	2	SUPER_11			
+Polycarpon_tetraphyllum	12	2	1	AACCCTAAACCT	2	SUPER_21			
+Polypogon_viridis	12	2	1	AAACCCTAAACC	2	SUPER_3			
+Pontederia_cordata	15	2	2	TAAACCCTAAACCCT	1	SUPER_2_HAP2	AAACCCTAAACCCTA	1	SUPER_8_HAP2
+Potamogeton_lucens	12	2	1	TAAACCCTAAAC	2	SUPER_3			
+Potamogeton_natans	12	2	1	TAAACCCTAAAC	2	SUPER_21			
+Potamogeton_nodosus	12	2	1	TAAACCCTAAAC	2	SUPER_21			
+Potamogeton_perfoliatus	12	2	1	TAAACCCTAAAC	2	SUPER_16			
+Potentilla_indica	15	2	1	TAAACCCTAAACCCT	2	HAP2_SCAFFOLD_13			
+Potentilla_indica	11	2	2	CTAAACTCTAA	1	HAP2_SCAFFOLD_26	TCTAAACTCTA	1	HAP2_SCAFFOLD_4
+Potentilla_sterilis	15	2	1	TAAACCCTAAACCCT	2	SUPER_6			
+Primula_scotica	8	2	2	AACCCTAA	1	SUPER_19	CCTAAACC	1	SUPER_6
+Prunus_padus	11	2	1	AACCCTAAACC	2	SUPER_4			
+Pyrus_communis	11	2	1	AACCCTAAACC	2	SUPER_17			
+Ranunculus_sceleratus	15	2	1	CTAAACCCTAAACCT	2	SUPER_3			
+Rosa_spinosissima	11	2	1	ACCCTAAACCC	2	SUPER_9			
+Rubus_caesius	13	2	1	AACCCTAAACCCT	2	SUPER_4			
+Rumex_obtusifolius	12	2	1	AACCCTAAACCT	2	SUPER_19_HAP1			
+Sagina_maritima	10	2	1	AACCCTAAAC	2	SUPER_10_HAP2			
+Salicornia_ramosissima	14	2	1	CTAAACCCTAAACC	2	SUPER_1			
+Salix_alba	13	2	1	AAACCCTAAACCT	2	SUPER_32_HAP1			
+Salix_euxina	13	2	1	AAACCCTAAACCT	2	SUPER_28_HAP1			
+Salix_pentandra	13	2	1	AAACCCTAAACCT	2	SUPER_34			
+Samolus_valerandi	11	2	1	AACCCTAAACC	2	SUPER_1			
+Saxifraga_cespitosa	12	2	1	AACCCTAAACCC	2	SUPER_26_HAP1			
+Saxifraga_cespitosa	11	2	1	ACCCTAAACCC	2	SUPER_24_HAP1			
+Scheuchzeria_palustris	13	2	1	CTAAACCCTAAAC	2	SUPER_1			
+Scirpus_sylvaticus	14	2	1	TAAACCCTAAACCC	2	HAP2_SCAFFOLD_17			
+Scrophularia_umbrosa	13	2	1	TAAACCCTAAACC	2	SUPER_23			
+Senecio_squalidus	13	2	1	TAAACCCTAAACC	2	Scaffold_612_HRSCAF_3546_arrow			
+Senecio_viscosus	13	2	1	TAAACCCTAAACC	2	SUPER_3			
+Solanum_nigrum	12	2	2	TAAACCCTAAAC	1	SUPER_29	AAACCCTGAACC	1	SUPER_23
+Solanum_nigrum	7	2	2	AATAAAT	1	SUPER_25	ACCTGAA	1	SUPER_21
+Sonchus_oleraceus	12	2	1	CCCTAAACCCCT	2	SUPER_14			
+Spergularia_bocconei	11	2	1	AACCCTAAACC	2	SUPER_7			
+Spergularia_marina	11	2	1	AACCCTAAACC	2	SUPER_5			
+Sphagnum_palustre	16	2	1	AAACCCTAAACCTGGG	2	SUPER_1			
+Sphagnum_papillosum	15	2	1	CTAAACCCTAAACCT	2	SUPER_1			
+Sphagnum_russowii	15	2	1	CTAAACCCTAAACCT	2	SUPER_2			
+Spiraea_salicifolia	11	2	1	AACCCTAAACC	2	SUPER_7			
+Suaeda_maritima	11	2	1	AACCCTAAACC	2	SUPER_5			
+Tilia_cordata	11	2	1	AACCCTAAACC	2	SUPER_20			
+Tilia_cordata	13	2	2	CAAACCCTAAACC	1	SUPER_1	TAAACCCTAAACC	1	SUPER_1
+Trifolium_dubium	16	2	1	CTAAACCCTAAACCCT	2	SUPER_12			
+Trifolium_repens	16	2	1	CTAAACCCTAAACCCT	2	SUPER_15			
+Trifolium_repens	11	2	1	TAAACCCTAAA	2	SUPER_12			
+Tussilago_farfara	8	2	1	CTAACCCT	2	SUPER_16			
+Umbilicus_rupestris	17	2	1	AAACCCTAAACCCTTCC	2	SUPER_24			
+Urtica_dioica	11	2	1	ACCCTAAACCC	2	SUPER_4			
+Vaccinium_vitis_idaea	11	2	1	AACCCTAAACC	2	SUPER_7			
+Veronica_anagallis_aquatica	12	2	1	AAACCCTAAACC	2	SUPER_1			
+Veronica_persica	14	2	1	AAACCCTAAACCCT	2	SUPER_2			
+Viola_palustris	8	2	1	CCTAAACC	2	SUPER_2			
+Viola_tricolor	12	2	1	AAACCCTAAACC	2	SUPER_5			
+Xerophyllum_tenax	16	2	1	TAAACCCTAAACCCTA	2	SUPER_15_HAP2			
