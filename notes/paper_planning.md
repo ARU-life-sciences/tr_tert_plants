@@ -1,9 +1,9 @@
 # Paper planning: headline results, gaps, and file mapping
 
-Snapshot as of 2026-09-13, updated same day once WEAK_SENSITIVITY cases
-were exhaustively resolved (see below). Written to answer: what are the
-headline results, what's still needed before this is publication-ready,
-and which files/notes back each result.
+Snapshot as of 2026-09-13, updated same day once WEAK_SENSITIVITY and
+then LABEL_FLIP cases were exhaustively resolved (see below). Written to
+answer: what are the headline results, what's still needed before this
+is publication-ready, and which files/notes back each result.
 
 ## Headline results
 
@@ -23,13 +23,19 @@ and which files/notes back each result.
    high copy number (correcting an initial inflated 97% pairwise
    statistic).
 4. **Where TR gene copies genuinely differ at the templating core, that
-   specific difference is very often physically present in the
+   specific difference is essentially always physically present in the
    telomere** - confirmed at base-pair resolution across all 44 differing
-   sets: 36/44 (82%) show the specific variant genuinely present, exactly
-   0/44 are confirmed negatives (the other 8 are the separate LABEL_FLIP
-   phenomenon, #6 below). This required exhaustively checking every main
-   chromosome's both ends, not a sample - two earlier, smaller-sample
-   passes both under-called real positives as absent.
+   sets: 44/44 (100%) show the specific variant genuinely present, 0/44
+   are confirmed negatives. This required exhaustively checking every
+   main chromosome's both ends, not a sample - two earlier, smaller-sample
+   passes both under-called real positives as absent, and this also
+   overturned the original "LABEL_FLIP" framing (8 sets initially read as
+   the TR-copy-majority variant being telomerically silent) - it isn't
+   silent in any of the 8, just present at very low relative frequency
+   (0.1-3.7% in 7/8 cases; the 8th, `Solanum_nigrum` at 30.5%, involves a
+   low-complexity motif and deserves extra scrutiny). TR gene paralog
+   copy number predicts telomeric *abundance* of a variant, not its
+   presence/absence.
 5. **The Template region can be predicted from the gene alone, without
    reference to the telomere** - a boundary-anchored rule (start 2bp
    after the conservation-derived G-rich boundary, take 12bp) recovers
@@ -69,12 +75,10 @@ and which files/notes back each result.
   risk, not hypothetical; some "independent loci" could be allelic
   copies of one gene, inflating copy-number claims. This needs a proper
   filter before any copy-number statistic goes in a paper.
-- All 8 sensitivity-limited (`WEAK_SENSITIVITY`) cases are now resolved
-  (exhaustive check, every main chromosome, both ends): all 8 confirmed
-  present. 36/44 is a final number for that bucket, not a floor.
-- The 8 `LABEL_FLIP` cases (TR-copy-count "dominant" variant is
-  telomerically silent) are unexplained - worth investigating before
-  publishing as more than an observation.
+- All 16 sensitivity-limited cases (8 `WEAK_SENSITIVITY` + 8
+  `LABEL_FLIP`) are now resolved (exhaustive check, every main
+  chromosome, both ends): all 16 confirmed present. 44/44 is a final
+  number, not a floor.
 - **Orientation ambiguity is unresolved and matters**: 85% of matches
   are in the raw `direct` sense rather than the textbook
   reverse-complement templating relationship. A reviewer will ask about

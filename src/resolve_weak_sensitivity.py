@@ -18,7 +18,16 @@ One genome decompression per species (prepare_genome), reused across
 every chromosome-end checked for that species - not one per fetch.
 
 Usage:
-  resolve_weak_sensitivity.py <differing_set_confirmations.tsv> [positional_dir] [window_bp] [outfile]
+  resolve_weak_sensitivity.py <differing_set_confirmations.tsv> [positional_dir] [window_bp] [outfile] [classification]
+
+  classification defaults to WEAK_SENSITIVITY; pass LABEL_FLIP to instead
+  exhaustively check whether the by-TR-copy-count "dominant" variant is
+  genuinely absent from the telomere (the current classification) or
+  just too rare to clear the coarse threshold anywhere (the same
+  sensitivity-artifact explanation that resolved every WEAK_SENSITIVITY
+  case) - the dominant variant's own raw scan is used for both the
+  chromosome list and the presence check, same as the minority variant
+  is for WEAK_SENSITIVITY.
 
 Requires the dominant variant's raw scan
 (<positional_dir>/<species>_<dominant>_telomeric_repeat_windows.tsv,
@@ -106,13 +115,14 @@ def main():
     positional_dir = sys.argv[2] if len(sys.argv) > 2 else str(PROJECT_ROOT / "outputs" / "tr_repeat_correlation" / "positional")
     window = int(sys.argv[3]) if len(sys.argv) > 3 else DEFAULT_WINDOW
     outfile = sys.argv[4] if len(sys.argv) > 4 else None
+    target_classification = sys.argv[5] if len(sys.argv) > 5 else "WEAK_SENSITIVITY"
 
     rows = []
     with open(confirmations_path) as fh:
         header = fh.readline().rstrip("\n").split("\t")
         for line in fh:
             r = dict(zip(header, line.rstrip("\n").split("\t")))
-            if r["classification"] != "WEAK_SENSITIVITY":
+            if r["classification"] != target_classification:
                 continue
             print(f"[resolve_weak_sensitivity] {r['species']} {r['dominant']} vs {r['minority']} "
                   f"(exhaustive: all main chromosomes, both ends)", file=sys.stderr)
@@ -130,7 +140,7 @@ def main():
         out.close()
 
     n_confirmed = sum(1 for r in rows if r["verdict"] == "CONFIRMED_PRESENT")
-    print(f"\n[resolve_weak_sensitivity] {n_confirmed}/{len(rows)} WEAK_SENSITIVITY sets "
+    print(f"\n[resolve_weak_sensitivity] {n_confirmed}/{len(rows)} {target_classification} sets "
           f"confirmed present by exhaustive direct sequence walking", file=sys.stderr)
 
 

@@ -1,7 +1,8 @@
 # Does TR gene core-template variation show up in the telomeres themselves?
 
 **Status: validated methodology, exhaustively resolved dataset-wide
-result.** This note supersedes the methodology (not the headline
+result - 44/44 (100%) of differing sets confirmed, zero genuine
+negatives.** This note supersedes the methodology (not the headline
 conclusion) of `notes/tr_repeat_correlation.md` - three real errors were
 caught and fixed during development, all documented below, because
 they're easy to repeat if this analysis is extended later.
@@ -104,21 +105,28 @@ via `summarize_repeat_confirmations.py`:
 that undercounts the true rate, and the undercount is now fully resolved
 (not just estimated) below.
 
-### Exhaustive resolution: 36/44 (82%) confirmed, zero genuine negatives
+### Exhaustive resolution: 44/44 (100%) confirmed, zero genuine negatives
 
-The 8 WEAK_SENSITIVITY sets were each checked exhaustively -
-**every** main chromosome, **both** ends (not a top-N sample) - by
-directly walking the raw terminal sequence with
-`walk_terminal_repeat_array.py` and `resolve_weak_sensitivity.py`.
-Partial sampling matters here and got this wrong on the first two passes:
+Both ambiguous buckets - the 8 WEAK_SENSITIVITY sets and, once it became
+clear the same logic applied, the 8 LABEL_FLIP sets - were each checked
+exhaustively: **every** main chromosome, **both** ends (not a top-N
+sample), by directly walking the raw terminal sequence with
+`walk_terminal_repeat_array.py` and `resolve_weak_sensitivity.py`
+(generalised to take a target classification as its 5th argument so the
+same exhaustive-walk logic runs against either bucket). Partial sampling
+matters here and got this wrong on the first two WEAK_SENSITIVITY passes:
 a single-best-chromosome check first, then a top-3 check, both produced
 false GENUINELY_ABSENT calls that the full sweep overturned (a minority
 variant can sit on a chromosome that isn't among the strongest for the
 *dominant* variant, so ranking candidates by the dominant variant's
 signal doesn't reliably find where the minority one is).
 
-**Result: all 8/8 resolved to CONFIRMED_PRESENT. Zero genuine negatives
-remain among the 44 differing sets.**
+**Result: all 8/8 WEAK_SENSITIVITY sets AND all 8/8 LABEL_FLIP sets
+resolved to CONFIRMED_PRESENT. Zero genuine negatives remain among the
+44 differing sets.**
+
+**WEAK_SENSITIVITY resolution** (checking whether the coarse-invisible
+*minority* variant is really present):
 
 | species | dominant | minority | min_freq | chromosome-ends found at |
 |---|---|---|---|---|
@@ -136,18 +144,61 @@ dataset-wide rather than localised to one array - e.g. `Ajuga
 chamaepitys`'s `AACCCT`/`CTAATC` pair is found at all 14 of its
 chromosomes, 1-5 copies each, not clustered on one.
 
-Final combined table (coarse classification + exhaustive resolution
-merged): `outputs/tr_repeat_correlation/final_repeat_confirmations.tsv`,
-via `finalize_repeat_confirmations.py`. **36/44 CONFIRMED_PRESENT, 8/44
-LABEL_FLIP, 0/44 negative.**
+**LABEL_FLIP resolution** (checking whether the coarse-invisible
+*TR-copy-majority* variant - flagged "telomerically silent" by the coarse
+method - is really absent). It isn't, in any of the 8 cases: the same
+sensitivity-threshold artifact as WEAK_SENSITIVITY, just more extreme
+(the coarse-silent variant is rarer relative to its partner here than in
+the WEAK_SENSITIVITY cases above):
 
-### Unexpected side finding: TR-copy count doesn't predict telomeric dominance
+| species | TR-copy-majority variant | occurrences | genome's real dominant repeat | occurrences | chromosomes checked |
+|---|---|---|---|---|---|
+| Carpinus_betulus | TAAACCCTAAAAG | 34 (1.4%) | CTAAACCCTAAAC | 2339 (98.6%) | 16 |
+| Juncus_bufonius | CTAAACCCTAGAT | 42 (0.24%) | CTAAACCCTAAAC | 17305 (99.8%) | 40 |
+| Potentilla_indica | TAAACCCTAAACCT | 73 (3.7%) | AAACCCTAAACCCT | 1925 (96.4%) | 40 |
+| Crataegus_laevigata | CAACCT | 55 (0.5%) | TAAACC | 10728 (99.5%) | 18 |
+| Lycopus_europaeus | CTAAACCCTACC | 5 (0.1%) | AAACCCTAAACC | 5040 (99.9%) | 12 |
+| Platanus_x_hispanica | AAACCT | 154 (0.9%) | CTAAAC | 16517 (99.1%) | 23 |
+| Solanum_nigrum | AATAAAT | 86 (30.5%) | ACCTGAA | 196 (69.5%) | 40 |
+| Tilia_cordata | CAAACCCTAAACC | 187 (1.3%) | TAAACCCTAAACC | 14023 (98.7%) | 40 |
 
-8/44 sets are LABEL_FLIP - the variant with *more* independent TR gene
-copies backing it is telomerically silent, while the "minority" variant
-(fewer TR copies) is the genome's actual dominant repeat (e.g.
-*Tilia_cordata*: 0/40 vs 40/40 chromosomes). TR gene paralog count is not
-a reliable proxy for which sequence a species' telomeres actually use.
+Occurrence counts are totals across every main chromosome, both ends
+(5000bp windows), from a single exhaustive walk per species - not a
+per-chromosome breakdown of the majority variant specifically (the
+`found_at` field in the underlying script only logs locations for the
+second/minority argument, i.e. the real dominant repeat here - the
+majority-variant total (`dom_n`) is the number that matters and is
+reported directly). Raw data:
+`outputs/tr_repeat_correlation/label_flip_resolved.tsv`.
+
+**`Solanum_nigrum` needs an extra grain of salt**: at 30.5% it's a
+clear outlier from the rest of this table (all <5%), and its
+"majority" variant `AATAAAT` is an A/T-homopolymer-adjacent, low-complexity
+motif of exactly the kind flagged earlier in this investigation as prone
+to coincidental matches from base composition alone, not a real shared
+repeat unit. Treat this one row with more caution than the other seven.
+
+Final combined table (coarse classification + both exhaustive
+resolutions merged): `outputs/tr_repeat_correlation/final_repeat_confirmations.tsv`,
+via `finalize_repeat_confirmations.py`. **44/44 CONFIRMED_PRESENT, 0/44
+negative.**
+
+### Side finding: TR-copy count doesn't predict telomeric *frequency*, but every core-template variant found in a gene copy shows up in the telomere somewhere
+
+Originally framed as "LABEL_FLIP: 8/44 sets where the TR-copy-count
+majority variant is telomerically silent" - that framing turns out to be
+wrong once checked exhaustively. It's not silent in any of the 8 cases;
+it's present, just at very low relative frequency (0.1-3.7% in 7/8
+cases; see the `Solanum_nigrum` caveat above for the 8th). The real,
+surviving finding is narrower but still holds: **TR gene paralog copy
+number does not predict which sequence dominates a species' telomere by
+abundance** - e.g. *Juncus_bufonius* has more gene copies backing
+`CTAAACCCTAGAT`, but the telomere is 99.8% `CTAAACCCTAAAC` by direct
+count. What copy number does NOT predict is presence/absence, though:
+across all 44 differing sets checked exhaustively, every distinct
+core-template sequence found in a TR gene copy was also found somewhere
+in that species' telomere, from >99% dominant down to a few dozen
+occurrences in 5000bp windows across dozens of chromosome ends.
 
 ## Scripts
 
@@ -164,11 +215,17 @@ a reliable proxy for which sequence a species' telomeres actually use.
 
 ## Caveats
 
-- **The exhaustive walk was only run on the 8 WEAK_SENSITIVITY sets**,
-  not the 27 STRONG_OVERLAP / 1 PARTIAL_OVERLAP sets (already directly
-  observed by the coarse method, so lower priority) or the 8 LABEL_FLIP
-  sets (a different, unexplained phenomenon - see below). 36/44 is solid;
-  it isn't a claim about those other 8.
+- **The exhaustive walk was run on all 16 ambiguous sets** (8
+  WEAK_SENSITIVITY + 8 LABEL_FLIP); the other 28 (27 STRONG_OVERLAP + 1
+  PARTIAL_OVERLAP) were already directly observed by the coarse method
+  and weren't re-walked. 44/44 rests on the coarse method for those 28
+  and the exhaustive walk for the other 16.
+- **`Solanum_nigrum`'s LABEL_FLIP resolution (30.5%) is the one result
+  in this note that deserves extra scrutiny** - its majority variant
+  `AATAAAT` is a low-complexity, A/T-rich motif of the kind flagged
+  elsewhere in this investigation as prone to coincidental matches; its
+  much higher relative frequency than the other 7 LABEL_FLIP cases
+  (all <5%) is consistent with that.
 - **Haplotype-phasing risk is real, not hypothetical.** While building
   this, `Empetrum_nigrum`'s TR loci turned out to be spread across
   `SUPER_N_HAP2/HAP3/HAP4`-style scaffold names, consistent with a
@@ -184,10 +241,6 @@ a reliable proxy for which sequence a species' telomeres actually use.
   Template's `direct` sense rather than the textbook `revcomp`
   templating-mechanism expectation, and this analysis didn't revisit
   that question.
-- **LABEL_FLIP cases need their own explanation**, not yet investigated -
-  is the "dominant by TR-copy-count" variant a decayed/pseudogenized
-  paralog cluster unrelated to the actual functional gene, or something
-  else? Open question.
 
 ## Reproducing
 
@@ -215,9 +268,15 @@ python3 src/summarize_repeat_confirmations.py outputs/tr_repeat_correlation/core
 python3 src/resolve_weak_sensitivity.py outputs/tr_repeat_correlation/differing_set_confirmations.tsv \
   outputs/tr_repeat_correlation/positional 5000 outputs/tr_repeat_correlation/weak_sensitivity_resolved.tsv
 
-# Merge into the final table:
+# Same, for the LABEL_FLIP sets (checks whether the TR-copy-majority
+# variant, not the minority, is really absent):
+python3 src/resolve_weak_sensitivity.py outputs/tr_repeat_correlation/differing_set_confirmations.tsv \
+  outputs/tr_repeat_correlation/positional 5000 outputs/tr_repeat_correlation/label_flip_resolved.tsv LABEL_FLIP
+
+# Merge everything into the final table:
 python3 src/finalize_repeat_confirmations.py outputs/tr_repeat_correlation/differing_set_confirmations.tsv \
-  outputs/tr_repeat_correlation/weak_sensitivity_resolved.tsv outputs/tr_repeat_correlation/final_repeat_confirmations.tsv
+  outputs/tr_repeat_correlation/weak_sensitivity_resolved.tsv outputs/tr_repeat_correlation/label_flip_resolved.tsv \
+  outputs/tr_repeat_correlation/final_repeat_confirmations.tsv
 
 # One-off base-pair-resolved check of a single chromosome-end:
 python3 src/walk_terminal_repeat_array.py <species> <chromosome> <5prime|3prime> <variant1> <variant2> --window 5000

@@ -59,7 +59,7 @@ Scripts in `src/` are run in approximate order:
 | 18 | `summarize_repeat_confirmations.py` | Classify each differing set's telomeric confirmation result |
 | 19 | `walk_terminal_repeat_array.py` | Base-pair-resolved raw-sequence check for variants too rare for `tidk search` to see |
 | 20 | `predict_tr_template.py` | Telomere-independent Template estimate (fixed offset/length rule anchored on the G-rich boundary) |
-| 21 | `resolve_weak_sensitivity.py` | Exhaustively resolve WEAK_SENSITIVITY sets - every main chromosome, both ends |
+| 21 | `resolve_weak_sensitivity.py` | Exhaustively resolve WEAK_SENSITIVITY or LABEL_FLIP sets - every main chromosome, both ends |
 | 22 | `finalize_repeat_confirmations.py` | Merge coarse classification + exhaustive resolution into one final table |
 
 ## Onboarding new genomes
@@ -106,7 +106,7 @@ Notable results from the pipeline are written up in `notes/`:
 - [`within_species_tr_template_variation.md`](notes/within_species_tr_template_variation.md) - 38% of multi-locus species carry both canonical- and divergent-Template loci in the same genome
 - [`organelle_and_cobiont_assembly_pitfall.md`](notes/organelle_and_cobiont_assembly_pitfall.md) - two species' "latest assembly" silently pointed at a plastid/cobiont genome instead of the nuclear one; now screened automatically
 - [`tr_repeat_correlation.md`](notes/tr_repeat_correlation.md) - fine-scale TR-paralog point mutations track specific chromosome-terminal repeat variants, confirmed in 8/8 species checked (generalizes the Carlina finding dataset-wide)
-- [`tr_core_template_variation_and_telomeres.md`](notes/tr_core_template_variation_and_telomeres.md) - properly position-anchored core-template comparison: 71-84% of TR gene copies share an identical core even at high copy number, and 36/44 (82%) of the differing cases show the specific point-mutant variant genuinely present at the telomere once checked exhaustively - zero true negatives - includes three real methodology corrections worth reading before extending this analysis
+- [`tr_core_template_variation_and_telomeres.md`](notes/tr_core_template_variation_and_telomeres.md) - properly position-anchored core-template comparison: 71-84% of TR gene copies share an identical core even at high copy number, and 44/44 (100%) of the differing cases show the specific point-mutant variant genuinely present at the telomere once checked exhaustively - zero true negatives - includes three real methodology corrections worth reading before extending this analysis
 - [`tr_template_boundary_prediction.md`](notes/tr_template_boundary_prediction.md) - the Template core can be estimated without any telomere/TIDK data (mean IoU 0.836) via a fixed offset/length rule anchored on the conservation-derived G-rich boundary
 
 [`paper_planning.md`](notes/paper_planning.md) is a manuscript-prep summary (not itself a finding) - headline results, what's still needed before publication, and which files back each result.
