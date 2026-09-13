@@ -46,39 +46,67 @@ def load_genome_path(species):
     return None
 
 
-def chrom_length(fa_path, chrom):
-    out = subprocess.run([ESL_SFETCH, "--index", str(fa_path)], capture_output=True)
-    fai = Path(str(fa_path) + ".ssi")
-    # esl-sfetch has no direct "length" query; fetch whole seq via -n dummy trick isn't ideal,
-    # so instead use a large end coordinate and let esl-sfetch clamp - simplest: fetch with -c 1..0 (whole seq)
-    result = subprocess.run([ESL_SFETCH, "-c", "1..0", str(fa_path), chrom],
-                             check=True, capture_output=True, text=True)
-    seq = "".join(result.stdout.splitlines()[1:])
-    return len(seq), seq
-
-
-def extract_terminal(species, chrom, end, window):
+def prepare_genome(species):
+    """Decompress (if needed) and esl-sfetch --index the species' genome
+    ONCE, returning (fa_path, tmpdir) - reuse fa_path across many
+    extract_terminal_prepared() calls for the same species rather than
+    re-decompressing per call (the dominant cost for large genomes; a
+    40-chromosome x 2-end exhaustive scan calling the old single-shot
+    extract_terminal() 80 times would decompress a multi-GB genome 80
+    times). Caller is responsible for shutil.rmtree(tmpdir) when done."""
     genome_path = load_genome_path(species)
     if genome_path is None:
         sys.exit(f"species {species!r} not in dtol_plant_paths.txt")
     tmpdir = Path(tempfile.mkdtemp(prefix=f"walk_{species}_"))
-    try:
-        fa = tmpdir / "genome.fa"
-        if genome_path.endswith(".gz"):
-            with gzip.open(genome_path, "rt") as fin, open(fa, "w") as fout:
-                shutil.copyfileobj(fin, fout)
+    fa = tmpdir / "genome.fa"
+    if genome_path.endswith(".gz"):
+        with gzip.open(genome_path, "rt") as fin, open(fa, "w") as fout:
+            shutil.copyfileobj(fin, fout)
+    else:
+        shutil.copyfile(genome_path, fa)
+    subprocess.run([ESL_SFETCH, "--index", str(fa)], check=True, capture_output=True)
+    return fa, tmpdir
+
+
+def extract_terminal_prepared(fa_path, chrom, end, window, approx_length=None):
+    """Extract a terminal window from an already-prepared (decompressed +
+    indexed) genome. For 3prime with an approx_length hint (e.g. from an
+    existing tidk window scan: n_windows * window_bp, accurate to within
+    one window), fetches only a padded suffix instead of the whole
+    chromosome - large speedup on big chromosomes. Falls back to a full
+    fetch (needed to determine the true length) when no hint is given."""
+    if end == "5prime":
+        result = subprocess.run([ESL_SFETCH, "-c", f"1..{window}", str(fa_path), chrom],
+                                 check=True, capture_output=True, text=True)
+        seq = "".join(result.stdout.splitlines()[1:])
+        return seq, 0, None
+    elif end == "3prime":
+        if approx_length is not None:
+            start = max(1, approx_length - window - 2000)
+            result = subprocess.run([ESL_SFETCH, "-c", f"{start}..0", str(fa_path), chrom],
+                                     check=True, capture_output=True, text=True)
+            tail = "".join(result.stdout.splitlines()[1:])
+            seq = tail[-window:]
+            offset = None  # only approximate here; not needed for presence/absence tiling
+            return seq, offset, None
         else:
-            shutil.copyfile(genome_path, fa)
-        subprocess.run([ESL_SFETCH, "--index", str(fa)], check=True, capture_output=True)
-        length, full_seq = chrom_length(fa, chrom)
-        if end == "5prime":
-            seq = full_seq[:window]
-            offset = 0
-        elif end == "3prime":
+            result = subprocess.run([ESL_SFETCH, "-c", "1..0", str(fa_path), chrom],
+                                     check=True, capture_output=True, text=True)
+            full_seq = "".join(result.stdout.splitlines()[1:])
+            length = len(full_seq)
             seq = full_seq[-window:]
-            offset = length - len(seq)
-        else:
-            sys.exit("end must be 5prime or 3prime")
+            return seq, length - len(seq), length
+    else:
+        sys.exit("end must be 5prime or 3prime")
+
+
+def extract_terminal(species, chrom, end, window):
+    """Single-shot convenience wrapper (prepares, extracts, cleans up) -
+    for one-off CLI use. Use prepare_genome() + extract_terminal_prepared()
+    directly when checking multiple regions for the same species."""
+    fa, tmpdir = prepare_genome(species)
+    try:
+        seq, offset, length = extract_terminal_prepared(fa, chrom, end, window)
         return seq, offset, length
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
@@ -151,7 +179,8 @@ def main():
 
     print(f"[walk_terminal_repeat_array] {species} {chrom} {end} window={window}bp variants={variants}", file=sys.stderr)
     seq, offset, length = extract_terminal(species, chrom, end, window)
-    print(f"[walk_terminal_repeat_array] chromosome length={length}, extracted {len(seq)}bp at offset {offset}", file=sys.stderr)
+    length_note = f"chromosome length={length}, " if length is not None else ""
+    print(f"[walk_terminal_repeat_array] {length_note}extracted {len(seq)}bp at offset {offset}", file=sys.stderr)
 
     track = tile(seq, variants)
     counts = {}

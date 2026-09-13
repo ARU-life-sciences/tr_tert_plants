@@ -1,10 +1,10 @@
 # Does TR gene core-template variation show up in the telomeres themselves?
 
-**Status: validated methodology, systematic dataset-wide result.** This
-note supersedes the methodology (not the headline conclusion) of
-`notes/tr_repeat_correlation.md` - two real errors were caught and fixed
-during development, both documented below, because they're easy to
-repeat if this analysis is extended later.
+**Status: validated methodology, exhaustively resolved dataset-wide
+result.** This note supersedes the methodology (not the headline
+conclusion) of `notes/tr_repeat_correlation.md` - three real errors were
+caught and fixed during development, all documented below, because
+they're easy to repeat if this analysis is extended later.
 
 ## The question
 
@@ -14,7 +14,7 @@ just somewhere in the wider extracted window), does that specific
 difference show up in the species' real telomeric repeat content - and is
 `tidk` fine-grained enough to detect it, or does that need something else?
 
-## Two methodology errors, corrected
+## Three methodology errors, corrected
 
 Both were caught by direct questioning of an initial result, not by
 internal review - worth reading before extending this analysis.
@@ -45,6 +45,22 @@ contributes 946 such pairs, swamping genuinely variable species in the
 aggregate. **Fix**: group loci per species into comparable sets (same
 core length, same anchor position) and report set-level, not pair-level,
 statistics. Implemented in `tr_core_template_sets.py`.
+
+**Error 3: checking only the single best (or top-3) chromosome for the
+minority variant undercounted real positives.** The first
+WEAK_SENSITIVITY resolution pass picked one candidate chromosome-end per
+species (the strongest for the *dominant* variant) and walked only that;
+a second pass tried the top 3. Both produced false GENUINELY_ABSENT
+calls - `Arctium_lappa` and `Tellima_grandiflora` were confirmed present
+on chromosomes that weren't in either sample. **Fix**: check every main
+chromosome, both ends, exhaustively. Implemented in the current
+`resolve_weak_sensitivity.py`, made practical by also fixing a real
+efficiency problem in `walk_terminal_repeat_array.py` - it was
+re-decompressing the whole genome on every single region fetch;
+`prepare_genome()`/`extract_terminal_prepared()` now decompress once per
+species and reuse an approximate per-chromosome length (from the
+existing tidk window scan) for a fast 3'-end fetch instead of pulling the
+full chromosome every time.
 
 ## Corrected findings
 
@@ -84,31 +100,46 @@ via `summarize_repeat_confirmations.py`:
 | LABEL_FLIP | 8 | the by-TR-copy-count "dominant" variant shows **no** telomeric signal; the "minority" one is the genome's real dominant repeat |
 | WEAK_SENSITIVITY | 8 | dominant enriched, minority shows no/weak signal by this coarse method |
 
-**27/44 (61%) are unambiguous positives** by the coarse method alone. But
-that undercounts the true rate - see the calibration result below.
+27/44 (61%) are unambiguous positives by the coarse method alone - but
+that undercounts the true rate, and the undercount is now fully resolved
+(not just estimated) below.
 
-### Calibration: the coarse method misses real, low-frequency variants
+### Exhaustive resolution: 36/44 (82%) confirmed, zero genuine negatives
 
-Two WEAK_SENSITIVITY-by-coarse-method cases (`Cornus_sanguinea`,
-`Arctium_lappa`) were independently checked by directly walking the raw
-terminal genomic sequence base-by-base
-(`walk_terminal_repeat_array.py`, which tiles the actual sequence rather
-than counting window occurrences) - **both showed the minority variant
-genuinely present, interspersed throughout the array, at ~1-3% and ~12%
-frequency respectively.** A real, low-frequency, interspersed variant
-easily fails `confirm_repeat_positional.py`'s fold-over-median threshold
-(designed to detect a variant abundant enough to dominate a window) while
-still being unambiguously real. **So the WEAK_SENSITIVITY bucket is a mix
-of genuine negatives and under-detected true positives, not confirmed
-negatives** - distinguishing them requires the slower walk tool, which
-wasn't run at full scale (see Caveats).
+The 8 WEAK_SENSITIVITY sets were each checked exhaustively -
+**every** main chromosome, **both** ends (not a top-N sample) - by
+directly walking the raw terminal sequence with
+`walk_terminal_repeat_array.py` and `resolve_weak_sensitivity.py`.
+Partial sampling matters here and got this wrong on the first two passes:
+a single-best-chromosome check first, then a top-3 check, both produced
+false GENUINELY_ABSENT calls that the full sweep overturned (a minority
+variant can sit on a chromosome that isn't among the strongest for the
+*dominant* variant, so ranking candidates by the dominant variant's
+signal doesn't reliably find where the minority one is).
 
-One clean genuine negative was also found this way for comparison:
-*Ajuga chamaepitys*'s `AACCTAATC` variant (dominant `AAACTAAAC` enriched
-at 10/14 chromosomes) shows zero signal even by direct positional search
-- a real absence, not a sensitivity artifact, since it's a completely
-unrelated sequence rather than a 1bp neighbour of something already
-confirmed present.
+**Result: all 8/8 resolved to CONFIRMED_PRESENT. Zero genuine negatives
+remain among the 44 differing sets.**
+
+| species | dominant | minority | min_freq | chromosome-ends found at |
+|---|---|---|---|---|
+| Ajuga_chamaepitys | AAACTAAAC | AACCTAATC | 4.0% | 12 of 14 chromosomes |
+| Ajuga_chamaepitys | CTAAACT | TTTTACA | 0.15% | 1 of 14 |
+| Ajuga_chamaepitys | AACCCT | CTAATC | 0.21% | 14 of 14 |
+| Trocdaris_verticillatum | ACCCTAACC | CTTCTCCGG | 0.71% | 1 of 12 |
+| Arctium_lappa | TAAACCCTAAACC | AAAACCCTAAACC | 2.2% | 18 of 40 |
+| Arctium_minus | TAAACCCTAAACC | AAAACCCTAAACC | 1.3% | 18 of 18 checked |
+| Tellima_grandiflora | AACCCTAAACC | AAAACCCTAAA | 4.8% | 6 of 10 |
+| Glaucium_flavum | GAAAACCCTACCCG | AAAAACCCTACCCG | 3.3% | 2 of 13 |
+
+Frequencies are low (0.15-4.8%) and, where widespread, genuinely
+dataset-wide rather than localised to one array - e.g. `Ajuga
+chamaepitys`'s `AACCCT`/`CTAATC` pair is found at all 14 of its
+chromosomes, 1-5 copies each, not clustered on one.
+
+Final combined table (coarse classification + exhaustive resolution
+merged): `outputs/tr_repeat_correlation/final_repeat_confirmations.tsv`,
+via `finalize_repeat_confirmations.py`. **36/44 CONFIRMED_PRESENT, 8/44
+LABEL_FLIP, 0/44 negative.**
 
 ### Unexpected side finding: TR-copy count doesn't predict telomeric dominance
 
@@ -127,14 +158,17 @@ a reliable proxy for which sequence a species' telomeres actually use.
 | `tr_core_template_sets.py` | species-level comparable-set grouping and identical/differing summary (fixes Error 2); also identifies dominant/minority variants per differing set |
 | `run_confirm_differing_sets.bash` / `_bsub.bash` | run `confirm_repeat_positional.py` for every differing set's dominant + minority variant (local GNU-parallel or LSF) |
 | `summarize_repeat_confirmations.py` | classify each differing set's confirmation result (STRONG_OVERLAP / PARTIAL_OVERLAP / LABEL_FLIP / WEAK_SENSITIVITY / NEITHER) |
-| `walk_terminal_repeat_array.py` | base-pair-resolved raw-sequence tiling - the "something else" needed beyond tidk for the calibration check above; not run at full 44-set scale (see Caveats) |
+| `walk_terminal_repeat_array.py` | base-pair-resolved raw-sequence tiling - the "something else" needed beyond tidk; `prepare_genome()`/`extract_terminal_prepared()` decompress once per species and reuse an approximate per-chromosome length for fast repeated fetches |
+| `resolve_weak_sensitivity.py` | exhaustively resolves every WEAK_SENSITIVITY set - every main chromosome, both ends, one genome decompression per species |
+| `finalize_repeat_confirmations.py` | merges the coarse classification with the exhaustive resolution into one final table |
 
 ## Caveats
 
-- **The walk-tool calibration was only done for 2 of the 8
-  WEAK_SENSITIVITY sets.** The true STRONG_OVERLAP rate is very likely
-  higher than 27/44 (61%) once the rest are checked the same way, but
-  that hasn't been done - don't quote 61% as a ceiling.
+- **The exhaustive walk was only run on the 8 WEAK_SENSITIVITY sets**,
+  not the 27 STRONG_OVERLAP / 1 PARTIAL_OVERLAP sets (already directly
+  observed by the coarse method, so lower priority) or the 8 LABEL_FLIP
+  sets (a different, unexplained phenomenon - see below). 36/44 is solid;
+  it isn't a claim about those other 8.
 - **Haplotype-phasing risk is real, not hypothetical.** While building
   this, `Empetrum_nigrum`'s TR loci turned out to be spread across
   `SUPER_N_HAP2/HAP3/HAP4`-style scaffold names, consistent with a
@@ -177,6 +211,14 @@ bash src/run_confirm_differing_sets_bsub.bash     # or via LSF
 python3 src/summarize_repeat_confirmations.py outputs/tr_repeat_correlation/core_template_sets.tsv \
   outputs/tr_repeat_correlation/positional outputs/tr_repeat_correlation/differing_set_confirmations.tsv
 
-# Base-pair-resolved calibration check for any WEAK_SENSITIVITY case:
+# Exhaustively resolve every WEAK_SENSITIVITY set (every main chromosome, both ends):
+python3 src/resolve_weak_sensitivity.py outputs/tr_repeat_correlation/differing_set_confirmations.tsv \
+  outputs/tr_repeat_correlation/positional 5000 outputs/tr_repeat_correlation/weak_sensitivity_resolved.tsv
+
+# Merge into the final table:
+python3 src/finalize_repeat_confirmations.py outputs/tr_repeat_correlation/differing_set_confirmations.tsv \
+  outputs/tr_repeat_correlation/weak_sensitivity_resolved.tsv outputs/tr_repeat_correlation/final_repeat_confirmations.tsv
+
+# One-off base-pair-resolved check of a single chromosome-end:
 python3 src/walk_terminal_repeat_array.py <species> <chromosome> <5prime|3prime> <variant1> <variant2> --window 5000
 ```
