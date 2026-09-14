@@ -1,0 +1,63 @@
+species	core_length	n_loci	modal	telomere_dominant	copy_dominant_is_telomere_dominant	minor_freq	band	structure	runs_z
+Aethusa_cynapium	9	3	ACCCTAACC	ACCCTAACC	1	0.0	ABSENT	ABSENT	None
+Anchusa_arvensis	11	2	AACCCTAAACC	AACCCTAAACC	1	0.0	ABSENT	ABSENT	None
+Atropa_belladonna	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0	ABSENT	ABSENT	None
+Carex_pendula	14	2	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0	ABSENT	ABSENT	None
+Carex_rostrata	14	2	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0	ABSENT	ABSENT	None
+Chenopodium_album	10	3	AACCCTAAAC	AACCCTAAAC	1	0.0	ABSENT	ABSENT	None
+Draba_verna	7	3	AAATCTA	None	0	0.0	ABSENT	ABSENT	None
+Empetrum_nigrum	12	12	AACCCTAAACCT	AACCCTAAACCT	1	0.0	ABSENT	ABSENT	None
+Epilobium_hirsutum	13	3	AAACCCTAAACCT	AAACCCTAAACCT	1	0.0	ABSENT	ABSENT	None
+Eriophorum_vaginatum	14	3	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0	ABSENT	ABSENT	None
+Galium_aparine	12	3	AACCCTAAACCT	AACCCTAAACCT	1	0.0	ABSENT	ABSENT	None
+Honckenya_peploides	10	3	AACCCTAAAC	AACCCTAAAC	1	0.0	ABSENT	ABSENT	None
+Lepidium_didymum	13	2	AACCCTGAACCCT	AAACCCTAAACCT	0	0.0	ABSENT	ABSENT	None
+Levisticum_officinale	7	44	ACCCTAA	ACCCTAA	1	0.0	ABSENT	ABSENT	None
+Persicaria_amphibia	15	6	AACCCTAAACCTCCC	AAACCCCTAAACCCT	0	0.0	ABSENT	ABSENT	None
+Poa_chaixii	7	2	AAACCAA	None	0	0.0	ABSENT	ABSENT	None
+Rumex_acetosella	6	4	ATGCTG	None	0	0.0	ABSENT	ABSENT	None
+Pilosella_aurantiaca	11	2	AACCCTAAACC	AACCCTAAACC	1	0.0004	RARE	ISOLATED (never adjacent to itself)	None
+Cornus_sanguinea	7	2	TAAACCC	TAAACCC	1	0.0005	RARE	BLOCKY (longest run 4 units)	None
+Scirpus_sylvaticus	14	2	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0005	RARE	CLUSTERED (runs test, block 3, z=-2.9)	-2.92
+Alopecurus_pratensis	11	2	AACCCTAAACC	AACCCTAAACC	1	0.0009	RARE	ISOLATED (never adjacent to itself)	0.29
+Alchemilla_alpina	8	2	CCTAAACC	CCTAAACC	1	0.0011	RARE	CLUSTERED (runs test, block 1, z=-6.0)	-6.04
+Draba_verna	13	9	CTAAACCCTAAAC	CTAAACCCTAAAC	1	0.0035	RARE	CLUSTERED (runs test, block 3, z=-5.5)	-5.52
+Rubus_saxatilis	13	5	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0048	RARE	ISOLATED (never adjacent to itself)	0.22
+Colchicum_autumnale	15	4	TAAACCCTAAACCCT	TAAACCCTAAACCCT	1	0.006	RARE	BLOCKY (longest run 2 units)	0.8
+Viola_odorata	12	3	AAACCCTAAACC	AAACCCTAAACC	1	0.0063	RARE	BLOCKY (longest run 2 units)	0.42
+Epilobium_ciliatum	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0081	RARE	CLUSTERED (runs test, block 3, z=-2.2)	-2.25
+Glechoma_hederacea	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0086	RARE	BLOCKY (longest run 2 units)	-1.39
+Ajuga_reptans	8	2	CCTAAACC	CCTAAACC	1	0.0098	RARE	BLOCKY (longest run 4 units)	-1.0
+Rosa_agrestis	13	4	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0105	RARE	CLUSTERED (runs test, block 3, z=-2.3)	-2.33
+Geum_rivale	13	2	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0109	RARE	CLUSTERED (runs test, block 6, z=-8.4)	-8.41
+Filago_lutescens	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0119	RARE	BLOCKY (longest run 2 units)	0.65
+Pulicaria_dysenterica	8	3	CCTAAACC	CCTAAACC	1	0.0122	RARE	BLOCKY (longest run 3 units)	-0.86
+Scrophularia_umbrosa	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0125	RARE	BLOCKY (longest run 2 units)	0.64
+Rubus_caesius	13	2	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0179	RARE	BLOCKY (longest run 2 units)	-0.02
+Adonis_annua	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0181	RARE	BLOCKY (longest run 3 units)	-0.32
+Euphorbia_amygdaloides	12	2	TAACCCTAACCT	AACCCTAACCCT	0	0.0195	RARE	BLOCKY (longest run 2 units)	0.81
+Viola_palustris	8	2	CCTAAACC	CCTAAACC	1	0.0229	RARE	BLOCKY (longest run 4 units)	0.59
+Heracleum_mantegazzianum	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.029	RARE	BLOCKY (longest run 2 units)	-1.95
+Myriophyllum_spicatum	14	2	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.0298	RARE	CLUSTERED (runs test, block 109, z=-18.8)	-18.78
+Solidago_canadensis	13	8	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0343	RARE	BLOCKY (longest run 2 units)	0.88
+Potentilla_indica	15	2	TAAACCCTAAACCCT	TAAACCCTAAACCCT	1	0.0345	RARE	ISOLATED (never adjacent to itself)	0.79
+Saxifraga_cespitosa	14	3	AACCCTAAACCCTA	AACCCTAAACCCTA	1	0.05	RARE	ISOLATED (never adjacent to itself)	-0.71
+Hippuris_vulgaris	13	2	ACAACCCTAAACC	AAACCCTAAACCT	0	0.0556	RARE	ISOLATED (never adjacent to itself)	None
+Castanea_sativa	14	2	TAAACCCTAAACCT	AAACCCTAAACCCT	0	0.0689	RARE	BLOCKY (longest run 3 units)	0.14
+Potentilla_indica	13	3	ACTCTAAACTCTA	ACTCTAAACTCTA	1	0.0957	RARE	BLOCKY (longest run 3 units)	-1.84
+Tussilago_farfara	8	2	CTAACCCT	CTAACCCT	1	0.1	MINORITY	ISOLATED (never adjacent to itself)	0.82
+Potentilla_anglica	15	3	TAAACCCTAAACCCT	TAAACCCTAAACCCT	1	0.1132	MINORITY	BLOCKY (longest run 3 units)	None
+Salix_alba	13	2	AAACCCTAAACCT	AAACCCTAAACCT	1	0.1875	MINORITY	ISOLATED (never adjacent to itself)	None
+Hesperis_matronalis	14	2	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.2269	MINORITY	CLUSTERED (runs test, block 204, z=-18.6)	-18.63
+Salix_euxina	13	2	AAACCCTAAACCT	AAACCCTAAACCT	1	0.2727	MINORITY	BLOCKY (longest run 2 units)	-0.36
+Ranunculus_sceleratus	15	2	CTAAACCCTAAACCT	CTAAACCCTAAACCT	1	0.2941	MINORITY	ISOLATED (never adjacent to itself)	0.82
+Hibiscus_verdcourtii	12	2	TAACCCTAAACC	TAACCCTAAACC	1	0.3333	MINORITY	ISOLATED (never adjacent to itself)	None
+Nymphoides_peltata	8	3	ACCCTAAC	ACCCTAAC	1	0.3333	MINORITY	BLOCKY (longest run 2 units)	1.75
+Sedum_album	13	3	CTAAACCCTAAAA	CTAAACCCTAAAA	1	0.3636	CO-DOMINANT/BALANCED	BLOCKY (longest run 2 units)	-0.71
+Sphagnum_russowii	15	2	CTAAACCCTAAACCT	CTAAACCCTAAACCT	1	0.3846	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Salix_cinerea	13	4	AAACCCTAAACCT	AAACCCTAAACCT	1	0.4167	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	1.41
+Salix_pentandra	13	2	AAACCCTAAACCT	AAACCCTAACCCT	0	0.4167	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Polycarpon_tetraphyllum	13	2	AAACCCTAAACCT	AAACCCTAAACCT	1	0.4286	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Sphagnum_papillosum	15	2	CTAAACCCTAAACCT	AAACCCCTAAACCCT	0	0.4667	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Euphorbia_helioscopia	12	3	AAAACCCTAAAC	AACCCTAACCCT	0	0.4811	CO-DOMINANT/BALANCED	BLOCKY (longest run 3 units)	1.25
+Lythrum_salicaria	13	3	AAACCCTAAACCT	AAACCCTAACCCT	0	0.5	CO-DOMINANT/BALANCED	BLOCKY (longest run 3 units)	0.35

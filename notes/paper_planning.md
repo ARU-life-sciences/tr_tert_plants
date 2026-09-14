@@ -1,10 +1,13 @@
 # Paper planning: headline results, gaps, and file mapping
 
 Snapshot as of 2026-09-13, updated 2026-09-14 with the per-species array-
-structure analysis (see #6 below) and again same day after reviewing
-directly relevant prior literature (see "Related work" below). Written
-to answer: what are the headline results, what's still needed before
-this is publication-ready, and which files/notes back each result.
+structure analysis (see #6 below), again after reviewing directly
+relevant prior literature (see "Related work" below), and again after
+adding a controlled TR-identical-copy comparison group plus fixing two
+real methodology issues in the array-structure analysis (subtelomeric
+noise, a verdict-classification bug - see #6). Written to answer: what
+are the headline results, what's still needed before this is
+publication-ready, and which files/notes back each result.
 
 ## Related work (read 2026-09-14 - changes framing, not headline validity)
 
@@ -87,27 +90,35 @@ size - neither prior paper did that combination), not first discovery.
    after the conservation-derived G-rich boundary, take 12bp) recovers
    the true core at mean IoU 0.836 across 1073 loci.
 6. **The minor variant's arrangement within the telomere is not random -
-   it clusters** - 41/44 (93%) of differing sets show contiguous,
-   block-like structure (2-299 units), not scattered single-base
-   substitutions; 5/44 show a striking regular short-period alternation
-   between two variants (a candidate genuine higher-order-repeat, HOR,
-   signature - e.g. `Centaurium_intermedium` alternates almost perfectly
-   for 18+ consecutive units). Also: 25/44 sets have a telomere-dominant
-   sequence that differs from the TR-copy-count dominant (broader than
-   the original 8 LABEL_FLIP cases - only found once tiling used every
-   distinct variant, not just the top 2). And a real methodological catch
-   along the way: 6/55 "differing" variants across the dataset are pure
-   phase reads of the identical periodic repeat (0 true substitutions),
-   not point-mutant paralogs at all - naive position-wise comparison of
-   these short, near-periodic motifs overstates how different two cores
-   look unless corrected for cyclic rotation. Belyayev et al. 2023
-   independently found near-identical block-organized double-monomer
-   telomere arrays in Chenopodium (unrelated family), confirmed by
-   long-read sequencing and fiber-FISH - but attributed to DNA-level
-   recombination, not TR paralogs (untested there). We're the first to
-   directly link specific array block structure to specific divergent TR
-   paralog sequence - but haven't yet ruled out their mechanism operating
-   in our species too (see gap below).
+   it clusters - and a controlled comparison shows regular short-period
+   alternation (candidate HOR) specifically requires TR paralog
+   divergence.** After two real methodology fixes (a fixed 5000bp window
+   can include subtelomeric/interstitial sequence past the true telomere,
+   now restricted to "telomere-proper"; and a verdict-classification bug
+   that silently absorbed regular-alternation cases into a generic
+   "clustered" label, now fixed by checking the formal runs-test
+   statistic first): 35/41 (85%) of differing sets with a confirmed minor
+   variant show non-random structure. The key new result: run the
+   identical method on 62 sets from species with **fully identical** TR
+   copies (no paralog divergence, using an independently tidk-discovered
+   candidate blind to TR content) as a control group. Ordinary
+   blocky/clustered structure happens at a real baseline rate regardless
+   of TR status (30/62, consistent with Belyayev et al. 2023's proposed
+   DNA-recombination mechanism operating generally) - but **regular
+   short-period alternation was found in 6/44 differing sets and 0/62
+   controls (Fisher's exact p=0.004)**, and any confirmed minor variant
+   at all is significantly more common in differing sets (93.2% vs 72.6%,
+   p=0.011). This is the first direct evidence tying the fine-grained
+   alternating pattern specifically to TR paralog divergence, not just
+   generic recombination noise - something neither Kumawat et al. nor
+   Belyayev et al. could test, since neither had both groups to compare.
+   Also: 25/44 sets have a telomere-dominant sequence that differs from
+   the TR-copy-count dominant. And a real methodological catch along the
+   way: 6/55 "differing" variants across the dataset are pure phase reads
+   of the identical periodic repeat (0 true substitutions), not
+   point-mutant paralogs at all - naive position-wise comparison of these
+   short, near-periodic motifs overstates how different two cores look
+   unless corrected for cyclic rotation.
 
 ## What's needed before this is paper-ready
 
@@ -164,34 +175,49 @@ size - neither prior paper did that combination), not first discovery.
   set. Needs validation on species/loci not used to derive the rule.
 
 **Specific to #6 (array structure):**
-- Structural verdicts (blocky vs regular-alternation) rest on a single
-  best-powered chromosome-end per set for the formal runs-test z-score,
-  not a statistic pooled across all chromosome-ends - needs a proper
-  pooled/multi-chromosome test before a p-value goes in a paper.
-- The regular short-period alternation (candidate HOR) in 5 sets hasn't
-  been checked against any independent expectation (e.g. does the
-  alternating unit correspond to anything at the sequence/structural
-  level, or could it be an artifact of how two similar-length candidate
-  strings compete for the same genomic slots) - needs closer inspection
-  before calling it a genuine HOR.
+- **DONE (2026-09-14): identical-TR-copy control group.** 62 sets from
+  60 species with fully identical TR copies, walked with the same
+  exhaustive method using an independently tidk-discovered candidate.
+  Regular alternation: 0/62 controls vs 6/44 differing sets (p=0.004).
+  This is a between-species comparison, not a same-species paired design
+  - none of the 6 regular-alternation species had a matched
+  identical-copy locus that passed into the control group. A same-species
+  paired test (if a species with BOTH a differing and a passing identical
+  set turns up in future data) would be stronger evidence still.
+- **Telomere length vs. paralog-divergence: not attempted.** Assembled
+  "telomere length" from draft genome assemblies conflates real biology
+  with assembler/sequencing-technology choices about how much of a
+  repetitive terminal array to resolve; we have no assembly-quality
+  metadata (N50, technology, curation batch) to control for that
+  confound, and no wet-lab length validation. Judged not reliably
+  answerable with current data - dropped rather than reported with an
+  uninterpretable result.
+- Structural verdicts (blocky/clustered vs regular-alternation) still
+  rest on a single best-powered chromosome-end per set for the formal
+  runs-test z-score, not a statistic pooled across all chromosome-ends -
+  needs a proper pooled/multi-chromosome test before a p-value goes in a
+  paper. The `GAP_THRESHOLD` (50bp) used for the new telomere-proper
+  boundary restriction is also an untested, tunable parameter - worth a
+  sensitivity check.
+- The regular short-period alternation (candidate HOR) in 6 sets still
+  hasn't been checked against any independent expectation at the
+  sequence/structural level - needs closer inspection before calling it
+  a genuine HOR, though its exclusive association with TR-paralog
+  divergence (vs. 0/62 controls) is itself real evidence against a pure
+  mapping-artifact explanation.
 - 4 of the "differing" sets turned out to be pure phase-rotations of one
   repeat, not real sequence differences - their inclusion in earlier
   copy-number/diversity statistics (headline #3) hasn't been corrected
   for; worth rechecking whether removing them changes those percentages
   materially (likely marginal at n=44, but should be checked, not
   assumed).
-- **New, motivated by related work above - two concrete analyses to run
-  before this is submittable, both likely cheap with existing data:**
-  1. Telomere length vs. paralog-divergence status, dataset-wide (tests
-     Kumawat's single-species finding of ~40% longer telomeres in the
-     heterogeneous-telomere species, at n=300+) - probably answerable
-     from existing `outputs/tidk/` data without new computation.
-  2. Whether species with FULLY IDENTICAL TR copies (the 223 identical
-     comparable sets, no paralog divergence) ever still show blocky/
-     clustered array structure - a direct test of Belyayev's competing
-     DNA-recombination-only mechanism against our TR-paralog-linked
-     framing. Needs `tr_core_template_array_structure.py`'s machinery run
-     against a sample of identical sets instead of only differing ones.
+- The identical-copy control group's second-candidate selection is
+  inherently noisier than the differing sets' TR-gene-verified variants -
+  see the note's caveats section.
+- We tile with the full extracted core (13-15bp) rather than the minimal
+  biological repeat unit (~7bp), which is a stricter match criterion than
+  necessary and likely makes block/structure counts throughout this
+  finding conservative (undercounts), not inflated - not corrected for.
 
 ## Files backing each result
 
@@ -203,5 +229,5 @@ size - neither prior paper did that combination), not first discovery.
 | Fine-scale correlation, 8 species | `outputs/tidk/*`, ad hoc `tidk search` positional scans | `notes/tr_repeat_correlation.md` |
 | Corrected core-template stats + 44-set confirmation | `outputs/tr_repeat_correlation/all_species.tsv`, `core_template_sets.tsv`, `final_repeat_confirmations.tsv` | `notes/tr_core_template_variation_and_telomeres.md` |
 | Telomere-independent prediction rule | `outputs/tr_repeat_correlation/all_species.tsv` (validation data), `src/predict_tr_template.py` | `notes/tr_template_boundary_prediction.md` |
-| Per-species array structure (clustering, true dominance, HOR candidates) | `outputs/tr_repeat_correlation/telomere_array_structure.tsv`, `telomere_array_structure_summary.tsv`, `core_template_variant_positions.tsv` | `notes/tr_core_template_array_structure.md` |
+| Per-species array structure (clustering, true dominance, HOR candidates) + TR-identical control group | `outputs/tr_repeat_correlation/telomere_array_structure.tsv`, `telomere_array_structure_summary.tsv`, `core_template_variant_positions.tsv`, `identical_set_second_candidates.tsv`, `identical_set_array_structure.tsv`, `identical_set_array_structure_summary.tsv` | `notes/tr_core_template_array_structure.md` |
 | Organelle/cobiont data-QC fix (methods caveat, not a finding) | `inputs/dtol_plant_paths.txt`, `src/update_assembly_list.bash` | `notes/organelle_and_cobiont_assembly_pitfall.md` |
