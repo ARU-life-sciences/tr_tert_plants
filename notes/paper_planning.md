@@ -153,11 +153,23 @@ size - neither prior paper did that combination), not first discovery.
   affects whether the templating claim is stated correctly.
 
 **Specific to #3/#4 (dataset-wide):**
-- **Haplotype-phasing was never systematically screened** -
-  `Empetrum_nigrum`'s `SUPER_N_HAP2/3/4` naming showed this is a real
-  risk, not hypothetical; some "independent loci" could be allelic
-  copies of one gene, inflating copy-number claims. This needs a proper
-  filter before any copy-number statistic goes in a paper.
+- **DONE (2026-09-16): haplotype-phasing screen.** `Empetrum_nigrum`'s
+  `SUPER_N_HAP2/3/4` naming flagged the risk; a full sweep (covering both
+  DToL haplotype-naming conventions, `SUPER_N_HAPx` and
+  `HAPx_SCAFFOLD_N`/`HAPx_SUPER_N`) found 68/331 species have >=1 TR
+  locus on a haplotype-labelled scaffold, but only **8/331** show the
+  genuinely inflating pattern (same true chromosome, TR loci on >1
+  haplotype number): `Buddleja_davidii`, `Empetrum_nigrum`,
+  `Galium_boreale`, `Hesperis_matronalis`, `Hypericum_perforatum`,
+  `Lythrum_salicaria`, `Salix_cinerea`, `Solidago_canadensis`. In every
+  case the redundant haplotype copies carry identical sequence (allelic
+  redundancy of one real locus, not fabricated diversity) - inflates raw
+  copy-number counts for these 8 but doesn't create spurious "differing"
+  classifications. Only 1 of the 44 headline differing sets is affected
+  (`Lythrum_salicaria`, 11bp - true locus count is 3, not 6; see the
+  corrected table in `tr_core_template_variation_and_telomeres.md`).
+  Script: `src/check_haplotype_redundancy.py`, output:
+  `outputs/tr_repeat_correlation/haplotype_redundancy_flagged.tsv`.
 - All 16 sensitivity-limited cases (8 `WEAK_SENSITIVITY` + 8
   `LABEL_FLIP`) are now resolved (exhaustive check, every main
   chromosome, both ends): all 16 confirmed present. 44/44 is a final

@@ -84,8 +84,21 @@ identical (71.1%) than the full set (83.5%). Concrete examples:
 | Levisticum_officinale | 7bp | 44 | 1 (perfectly conserved) |
 | Anagallis_arvensis | 6bp | 17 | 6 |
 | Solanum_nigrum | 11bp | 12 | 3 |
-| Empetrum_nigrum | 12bp | 12 | 1 |
-| Lythrum_salicaria | 11bp | 6 | 3 (half the copies differ) |
+| Empetrum_nigrum | 12bp | 12* | 1 |
+| Lythrum_salicaria | 11bp | 6* | 3 |
+
+`*` = inflated by haplotype redundancy, confirmed by the systematic
+check below - see that section for corrected counts. `Empetrum_nigrum`'s
+raw 12 is likely ~4 true independent loci, each represented 2-3 times as
+separate haplotype copies (same sequence each time, so it stays
+1-distinct either way). `Lythrum_salicaria`'s raw 6 is really only 3 true
+independent loci (`SUPER_8`, `SUPER_2`, `SUPER_1`, each haplotype-
+duplicated 2-3x with identical sequence per locus) - all 3 happen to
+carry different sequences from each other, so "3 distinct cores" is
+still correct, but the earlier "half the copies differ" framing (implying
+3 conserved vs 3 differing among 6 real copies) was wrong: it's 3 real
+loci, each individually consistent across its own haplotype copies, that
+simply differ *from one another*.
 
 ### When cores do differ, does the telomere reflect it?
 
@@ -226,16 +239,28 @@ occurrences in 5000bp windows across dozens of chromosome ends.
   elsewhere in this investigation as prone to coincidental matches; its
   much higher relative frequency than the other 7 LABEL_FLIP cases
   (all <5%) is consistent with that.
-- **Haplotype-phasing risk is real, not hypothetical.** While building
-  this, `Empetrum_nigrum`'s TR loci turned out to be spread across
-  `SUPER_N_HAP2/HAP3/HAP4`-style scaffold names, consistent with a
-  multi-haplotype-phased (possibly polyploid) assembly - meaning some
-  "independent loci" could be the same physical locus's different
-  haplotype copies (allelic variation) rather than independent
-  paralogous gene copies. This wasn't systematically checked or
-  filtered across the dataset; the `_HAP\d+` suffix pattern is a cheap
-  thing to screen for before trusting a "many independent copies" claim
-  for a specific species.
+- **Haplotype-phasing risk is real, not hypothetical - now systematically
+  checked (2026-09-16).** `Empetrum_nigrum`'s TR loci spread across
+  `SUPER_N_HAP2/HAP3/HAP4`-style scaffold names was the tip-off. A full
+  dataset sweep (covering both the `SUPER_N_HAPx` suffix and the
+  `HAPx_SCAFFOLD_N`/`HAPx_SUPER_N` prefix naming conventions, which are
+  both used across different DToL assemblies) found: 68/331 species have
+  at least one TR locus on a haplotype-labelled scaffold, but only
+  **8/331** show the genuinely inflating pattern - the *same* true
+  chromosome carrying a TR locus on *more than one* haplotype number
+  (`Buddleja_davidii`, `Empetrum_nigrum`, `Galium_boreale`,
+  `Hesperis_matronalis`, `Hypericum_perforatum`, `Lythrum_salicaria`,
+  `Salix_cinerea`, `Solidago_canadensis`). In every case checked, the
+  redundant haplotype copies of a given locus carry the identical
+  sequence (consistent with allelic redundancy of one real locus, not
+  independent divergent paralogs) - so this inflates raw copy-number
+  counts for these 8 species but does not fabricate spurious sequence
+  diversity. Of the 44 headline differing sets specifically, only 1
+  (`Lythrum_salicaria`, 11bp) is affected - see the corrected example
+  above. The identical-copy control group (headline #6 below) includes 5
+  of these 8 species, but since haplotype redundancy doesn't change
+  whether a set is classified "identical," it doesn't threaten that
+  comparison's validity.
 - **Orientation ambiguity remains unresolved** (see
   `tr_repeat_correlation.md`) - most core-template matches are in the
   Template's `direct` sense rather than the textbook `revcomp`
