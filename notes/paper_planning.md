@@ -5,9 +5,14 @@ structure analysis (see #6 below), again after reviewing directly
 relevant prior literature (see "Related work" below), and again after
 adding a controlled TR-identical-copy comparison group plus fixing two
 real methodology issues in the array-structure analysis (subtelomeric
-noise, a verdict-classification bug - see #6). Written to answer: what
-are the headline results, what's still needed before this is
-publication-ready, and which files/notes back each result.
+noise, a verdict-classification bug - see #6). Updated again 2026-09-16
+after resolving two more cross-cutting gaps: the haplotype-phasing
+redundancy screen (real but narrow - 8/331 species affected, only 1 of
+the 44 headline differing sets) and the orientation-ambiguity question
+(resolved as a strand-convention artifact, not a biological anomaly -
+see "Specific to #3/#4" below). Written to answer: what are the headline
+results, what's still needed before this is publication-ready, and
+which files/notes back each result.
 
 ## Related work (read 2026-09-14 - changes framing, not headline validity)
 
