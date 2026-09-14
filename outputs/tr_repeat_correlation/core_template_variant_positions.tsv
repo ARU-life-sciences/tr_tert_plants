@@ -1,0 +1,100 @@
+species	core_length	n_loci	n_distinct	variant	n_copies	is_modal	target_example	raw_diff_n	best_shift	best_diff_n	is_pure_rotation	diff_positions	diff_bases
+Anagallis_arvensis	6	17	6	AACCCT	11	1	SUPER_5	0	0	0	0		
+Anagallis_arvensis	6	17	6	CCCTAA	2	0	SUPER_10	5	4	0	1		
+Anagallis_arvensis	6	17	6	TAAATC	1	0	SUPER_5	5	1	2	0	2,3	2:C>A;3:C>T
+Anagallis_arvensis	6	17	6	AATAAT	1	0	SUPER_12	3	0	3	0	2,3,4	2:C>T;3:C>A;4:C>A
+Anagallis_arvensis	6	17	6	TAAACC	1	0	SUPER_7	4	1	1	0	2	2:C>A
+Anagallis_arvensis	6	17	6	CCTAAT	1	0	SUPER_4	5	3	1	0	2	2:C>T
+Solanum_nigrum	11	12	3	CTGAACCCTGA	8	1	SUPER_25	0	0	0	0		
+Solanum_nigrum	11	12	3	AAACCCTGAAC	3	0	SUPER_30	10	9	3	0	0,1,2	0:C>A;1:T>C;2:G>A
+Solanum_nigrum	11	12	3	CCTGAACCCTG	1	0	SUPER_15	7	1	1	0	10	10:A>C
+Ajuga_chamaepitys	9	7	2	AAACTAAAC	5	1	SUPER_4	0	0	0	0		
+Ajuga_chamaepitys	9	7	2	AACCTAATC	2	0	SUPER_4	2	0	2	0	2,7	2:A>C;7:A>T
+Ajuga_chamaepitys	7	6	4	CTAAACT	3	1	SUPER_2	0	0	0	0		
+Ajuga_chamaepitys	7	6	4	TTTTACA	1	0	SUPER_5	4	2	3	0	0,3,5	0:C>T;3:A>C;5:C>T
+Ajuga_chamaepitys	7	6	4	CTAAACC	1	0	SUPER_11	1	0	1	0	6	6:T>C
+Ajuga_chamaepitys	7	6	4	TAAACCT	1	0	SUPER_11	3	6	2	0	0,6	0:C>T;6:T>C
+Lythrum_salicaria	11	6	3	AACCCTAAACC	3	1	SUPER_8_HAP2	0	0	0	0		
+Lythrum_salicaria	11	6	3	ACCCTAAACCC	2	0	SUPER_2_HAP2	4	10	1	0	0	0:A>C
+Lythrum_salicaria	11	6	3	ACCCTAAAACC	1	0	SUPER_1_HAP3	3	10	2	0	0,9	0:A>C;9:C>A
+Platanus_x_hispanica	7	6	2	CCTAAAC	5	1	SUPER_5	0	0	0	0		
+Platanus_x_hispanica	7	6	2	AAACCCT	1	0	SUPER_5	7	4	0	1		
+Potentilla_anglica	13	6	2	ACTCTAAACTCTA	5	1	SUPER_8	0	0	0	0		
+Potentilla_anglica	13	6	2	TAAACCCTAAACC	1	0	SUPER_3	13	9	3	0	1,2,9	1:C>A;2:T>C;9:T>C
+Carpinus_betulus	13	5	2	TAAACCCTAAAAG	4	1	SUPER_6	0	0	0	0		
+Carpinus_betulus	13	5	2	CTAAACCCTAAAC	1	0	SUPER_6	6	1	2	0	11,12	11:A>C;12:G>C
+Helianthemum_oelandicum	11	5	3	ACCCCTAACCC	3	1	SUPER_10	0	0	0	0		
+Helianthemum_oelandicum	11	5	3	ACCCTAACCCT	1	0	SUPER_6	4	10	2	0	0,1	0:A>T;1:C>A
+Helianthemum_oelandicum	11	5	3	CTAACCCTAAC	1	0	SUPER_10	9	2	2	0	1,10	1:C>A;10:C>T
+Ranunculus_repens	12	5	2	TGAACCCTGAAC	3	1	SUPER_9_HAP1	0	0	0	0		
+Ranunculus_repens	12	5	2	AAACCCTGAACC	2	0	SUPER_5_HAP1	7	11	2	0	0,1	0:T>C;1:G>A
+Trocdaris_verticillatum	9	5	2	ACCCTAACC	4	1	SUPER_6	0	0	0	0		
+Trocdaris_verticillatum	9	5	2	CTTCTCCGG	1	0	SUPER_6	7	7	5	0	0,1,3,5,6	0:A>G;1:C>G;3:C>T;5:A>C;6:A>T
+Anagallis_arvensis	9	4	2	CCCTAAACC	2	1	SUPER_14	0	0	0	0		
+Anagallis_arvensis	9	4	2	AAACCCTAA	2	0	SUPER_20	9	3	2	0	7,8	7:C>A;8:C>A
+Arctium_lappa	13	4	2	TAAACCCTAAACC	3	1	SUPER_7	0	0	0	0		
+Arctium_lappa	13	4	2	AAAACCCTAAACC	1	0	SUPER_5	1	0	1	0	0	0:T>A
+Inula_conyza	13	4	2	TAAACCCTAAACC	3	1	SUPER_2	0	0	0	0		
+Inula_conyza	13	4	2	AAAACCCTAAACC	1	0	SUPER_7	1	0	1	0	0	0:T>A
+Linaria_repens	9	4	2	CTAAACCCT	3	1	SUPER_5	0	0	0	0		
+Linaria_repens	9	4	2	CCCTAAACC	1	0	SUPER_4	6	2	1	0	8	8:T>C
+Ajuga_chamaepitys	6	3	2	AACCCT	2	1	SUPER_2	0	0	0	0		
+Ajuga_chamaepitys	6	3	2	CTAATC	1	0	SUPER_11	6	2	1	0	2	2:C>T
+Arctium_minus	13	3	2	TAAACCCTAAACC	2	1	SUPER_7	0	0	0	0		
+Arctium_minus	13	3	2	AAAACCCTAAACC	1	0	SUPER_3	1	0	1	0	0	0:T>A
+Juncus_bufonius	13	3	2	CTAAACCCTAGAT	2	1	SUPER_25	0	0	0	0		
+Juncus_bufonius	13	3	2	CTAAACCCTAAAC	1	0	SUPER_11	2	0	2	0	10,12	10:G>A;12:T>C
+Potentilla_anglica	12	3	3	ACTCTAAACTCT	1	1	SUPER_12	0	0	0	0		
+Potentilla_anglica	12	3	3	CTCTAAACTCTA	1	0	SUPER_21	10	11	0	1		
+Potentilla_anglica	12	3	3	TAAACCCTAAAC	1	0	SUPER_15	12	3	3	0	2,10,11	2:T>C;10:C>A;11:T>A
+Potentilla_indica	14	3	3	TAAACCCTAAACCT	1	1	HAP2_SCAFFOLD_6	0	0	0	0		
+Potentilla_indica	14	3	3	AAACCCTAAACCCT	1	0	HAP2_SCAFFOLD_7	5	13	1	0	13	13:T>C
+Potentilla_indica	14	3	3	TAAACCCTAAACCC	1	0	HAP2_SCAFFOLD_44	1	0	1	0	13	13:T>C
+Tellima_grandiflora	11	3	2	AACCCTAAACC	2	1	SUPER_1A_HAP1	0	0	0	0		
+Tellima_grandiflora	11	3	2	AAAACCCTAAA	1	0	SUPER_1A_HAP1	7	2	2	0	9,10	9:C>A;10:C>A
+Acaena_novae_zelandiae	14	2	2	AAACCCTAAACCCT	1	1	SUPER_7_HAP1	0	0	0	0		
+Acaena_novae_zelandiae	14	2	2	AACCCTAAACCCTA	1	0	SUPER_10_HAP1	6	13	0	1		
+Acaena_ovalifolia	14	2	2	AAACCCTAAACCCT	1	1	SUPER_7	0	0	0	0		
+Acaena_ovalifolia	14	2	2	AACCCTAAACCCTA	1	0	SUPER_9	6	13	0	1		
+Ajuga_chamaepitys	8	2	2	CTAAACCT	1	1	SUPER_11	0	0	0	0		
+Ajuga_chamaepitys	8	2	2	AACTAAAC	1	0	SUPER_11	7	2	2	0	6,7	6:C>A;7:T>A
+Ajuga_chamaepitys	12	2	2	AAAACCCTAAAC	1	1	SUPER_14	0	0	0	0		
+Ajuga_chamaepitys	12	2	2	AAACCTAAACCT	1	0	SUPER_14	7	10	3	0	0,1,4	0:A>C;1:A>T;4:C>A
+Ajuga_reptans	11	2	2	ACCCTAAACCT	1	1	SUPER_8	0	0	0	0		
+Ajuga_reptans	11	2	2	AACCCTGAACC	1	0	SUPER_3	6	1	2	0	5,10	5:A>G;10:T>A
+Alchemilla_mollis	12	2	2	TAAACCCTAAAC	1	1	SUPER_2_HAP3	0	0	0	0		
+Alchemilla_mollis	12	2	2	AACCCTAAACCC	1	0	SUPER_16_HAP3	8	10	2	0	0,1	0:T>C;1:A>C
+Anagallis_arvensis	11	2	2	AACCCTAAACC	1	1	SUPER_17	0	0	0	0		
+Anagallis_arvensis	11	2	2	CCCTAAACCCT	1	0	SUPER_14	8	9	2	0	0,1	0:A>C;1:A>T
+Centaurium_intermedium	8	2	2	CCTAAACC	1	1	SUPER_4_HAP1	0	0	0	0		
+Centaurium_intermedium	8	2	2	AACCCTAA	1	0	SUPER_5_HAP1	8	3	1	0	6	6:C>A
+Cornus_sanguinea	13	2	2	TAAACCCTAAACC	1	1	SUPER_2	0	0	0	0		
+Cornus_sanguinea	13	2	2	AAAACCCTAAACC	1	0	SUPER_11	1	0	1	0	0	0:T>A
+Crataegus_laevigata	6	2	2	CAACCT	1	1	SUPER_15	0	0	0	0		
+Crataegus_laevigata	6	2	2	TAAACC	1	0	SUPER_6	3	1	1	0	0	0:C>A
+Glaucium_flavum	14	2	2	GAAAACCCTACCCG	1	1	SUPER_3	0	0	0	0		
+Glaucium_flavum	14	2	2	AAAAACCCTACCCG	1	0	SUPER_3	1	0	1	0	0	0:G>A
+Hedera_helix	9	2	2	TAAACCCTA	1	1	SUPER_6	0	0	0	0		
+Hedera_helix	9	2	2	CCTAAACCC	1	0	SUPER_15	7	2	2	0	7,8	7:T>C;8:A>C
+Lycopus_europaeus	12	2	2	CTAAACCCTACC	1	1	SUPER_1	0	0	0	0		
+Lycopus_europaeus	12	2	2	AAACCCTAAACC	1	0	SUPER_7	7	5	2	0	7,8	7:C>A;8:T>A
+Lythrum_hyssopifolia	10	2	2	AACCCTAAAC	1	1	SUPER_7	0	0	0	0		
+Lythrum_hyssopifolia	10	2	2	ACCCTAAACC	1	0	SUPER_5	4	9	1	0	0	0:A>C
+Lythrum_portula	12	2	2	AACCCTAAACCC	1	1	SUPER_4	0	0	0	0		
+Lythrum_portula	12	2	2	AACCCTAACCCT	1	0	SUPER_5	2	0	2	0	8,11	8:A>C;11:C>T
+Parietaria_judaica	11	2	2	ACCCTAAACCC	1	1	SUPER_10	0	0	0	0		
+Parietaria_judaica	11	2	2	AACCCTAAACC	1	0	SUPER_1	4	1	1	0	10	10:C>A
+Platanus_x_hispanica	6	2	2	AAACCT	1	1	SUPER_14	0	0	0	0		
+Platanus_x_hispanica	6	2	2	CTAAAC	1	0	SUPER_4	5	2	0	1		
+Pontederia_cordata	15	2	2	TAAACCCTAAACCCT	1	1	SUPER_2_HAP2	0	0	0	0		
+Pontederia_cordata	15	2	2	AAACCCTAAACCCTA	1	0	SUPER_8_HAP2	7	14	1	0	0	0:T>A
+Potentilla_indica	11	2	2	CTAAACTCTAA	1	1	HAP2_SCAFFOLD_26	0	0	0	0		
+Potentilla_indica	11	2	2	TCTAAACTCTA	1	0	HAP2_SCAFFOLD_4	8	1	1	0	10	10:A>T
+Primula_scotica	8	2	2	AACCCTAA	1	1	SUPER_19	0	0	0	0		
+Primula_scotica	8	2	2	CCTAAACC	1	0	SUPER_6	8	5	1	0	1	1:A>C
+Solanum_nigrum	7	2	2	AATAAAT	1	1	SUPER_25	0	0	0	0		
+Solanum_nigrum	7	2	2	ACCTGAA	1	0	SUPER_21	5	1	4	0	0,1,3,6	0:A>C;1:A>C;3:A>G;6:T>A
+Solanum_nigrum	12	2	2	TAAACCCTAAAC	1	1	SUPER_29	0	0	0	0		
+Solanum_nigrum	12	2	2	AAACCCTGAACC	1	0	SUPER_23	5	11	2	0	0,8	0:T>C;8:A>G
+Tilia_cordata	13	2	2	CAAACCCTAAACC	1	1	SUPER_1	0	0	0	0		
+Tilia_cordata	13	2	2	TAAACCCTAAACC	1	0	SUPER_1	1	0	1	0	0	0:C>T

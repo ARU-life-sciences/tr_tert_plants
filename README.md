@@ -61,6 +61,9 @@ Scripts in `src/` are run in approximate order:
 | 20 | `predict_tr_template.py` | Telomere-independent Template estimate (fixed offset/length rule anchored on the G-rich boundary) |
 | 21 | `resolve_weak_sensitivity.py` | Exhaustively resolve WEAK_SENSITIVITY or LABEL_FLIP sets - every main chromosome, both ends |
 | 22 | `finalize_repeat_confirmations.py` | Merge coarse classification + exhaustive resolution into one final table |
+| 23 | `tr_core_template_variant_positions.py` | Full (not top-2-only) per-set variant breakdown with rotation-corrected within-core diff positions |
+| 24 | `tr_core_template_array_structure.py` | Exhaustive telomere-wide variant dominance + block/runs-test array structure per differing set |
+| 25 | `tr_core_template_array_structure_summary.py` | Categorize each set by minor-variant frequency band and structure verdict |
 
 ## Onboarding new genomes
 
@@ -108,5 +111,6 @@ Notable results from the pipeline are written up in `notes/`:
 - [`tr_repeat_correlation.md`](notes/tr_repeat_correlation.md) - fine-scale TR-paralog point mutations track specific chromosome-terminal repeat variants, confirmed in 8/8 species checked (generalizes the Carlina finding dataset-wide)
 - [`tr_core_template_variation_and_telomeres.md`](notes/tr_core_template_variation_and_telomeres.md) - properly position-anchored core-template comparison: 71-84% of TR gene copies share an identical core even at high copy number, and 44/44 (100%) of the differing cases show the specific point-mutant variant genuinely present at the telomere once checked exhaustively - zero true negatives - includes three real methodology corrections worth reading before extending this analysis
 - [`tr_template_boundary_prediction.md`](notes/tr_template_boundary_prediction.md) - the Template core can be estimated without any telomere/TIDK data (mean IoU 0.836) via a fixed offset/length rule anchored on the conservation-derived G-rich boundary
+- [`tr_core_template_array_structure.md`](notes/tr_core_template_array_structure.md) - per-species breakdown of the 33 species/44 differing sets: 41/44 (93%) show clustered, non-random array structure rather than scattered point mutations, 25/44 have a telomere-dominant sequence that differs from the TR-copy-count dominant, and 5/44 show a striking regular short-period alternation between two variants (a candidate real HOR) - also catches an important caveat (6/55 "differing" variants are pure phase-rotations of the identical periodic repeat, not real substitutions)
 
 [`paper_planning.md`](notes/paper_planning.md) is a manuscript-prep summary (not itself a finding) - headline results, what's still needed before publication, and which files back each result.
