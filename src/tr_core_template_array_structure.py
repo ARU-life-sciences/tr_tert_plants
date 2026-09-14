@@ -95,7 +95,10 @@ def longest_run_of_ones(labels):
     return best
 
 
-GAP_THRESHOLD = 50  # bp of unmatched sequence that ends the "telomere-proper" run from the terminus
+import os
+GAP_THRESHOLD = int(os.environ.get("GAP_THRESHOLD", 50))  # bp of unmatched sequence that
+# ends the "telomere-proper" run from the terminus - overridable via env var for a
+# sensitivity check (see notes/tr_core_template_array_structure.md's caveats)
 
 
 def telomere_proper_prefix(track, end):

@@ -122,7 +122,17 @@ enriched) before trusting it on new species.
 - 1226/1450 (85%) loci matched in the `direct` orientation, 67 (5%) in
   `revcomp`, 157 (11%) found no match at all.
 - 922/1450 (64%) loci hit the strongest empirical tier (0/200 shuffles
-  reached the real match length).
+  reached the real match length) - the naive, uncorrected figure. With a
+  formal Benjamini-Hochberg FDR correction across the 1293 tested loci
+  (2026-09-16, `src/multiple_testing_correction.py`; floors raw p=0.0 to
+  1/201, the finest resolution 200 shuffles can distinguish): **1083/1293
+  (83.8%) remain significant at q<0.05**, 990/1293 (76.6%) at q<0.01 - the
+  correction doesn't undermine the significance claim, if anything more
+  loci clear a formal FDR threshold than the naive "exactly 0/200" count
+  (many loci with e.g. p=0.005-0.03 pass BH-FDR at these sample sizes but
+  weren't in the naive bucket). Caveat: q<0.001 is categorically
+  unreachable at only 200 shuffles per locus (the floor p-value is
+  ~0.005) - a stricter published claim would need more shuffles.
 - Restricting to **significant, non-canonical** matches (the interesting
   subset - most loci simply and unsurprisingly rediscover canonical
   `TTTAGGG`, which is expected and not novel): **72 loci across 30

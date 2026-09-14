@@ -68,6 +68,8 @@ Scripts in `src/` are run in approximate order:
 | 27 | `tr_identical_set_array_structure.py` | Same exhaustive array-structure walk applied to the TR-identical control group - tests whether array structure needs TR paralog divergence |
 | 28 | `check_haplotype_redundancy.py` | Screen for TR loci double-counted across haplotype-phased scaffold copies of the same true chromosome |
 | 29 | `check_orientation_ambiguity.py` | Resolves why most Template-to-repeat matches are `direct` rather than the textbook `revcomp` sense (a strand-convention artifact, not a biological anomaly) |
+| 30 | `pure_rotation_corrected_stats.py` | Recomputes headline conservation statistics excluding sets that turned out to be pure phase-rotations, not genuine divergence |
+| 31 | `multiple_testing_correction.py` | Formalizes the per-locus shuffle-control significance test with a Benjamini-Hochberg FDR correction |
 
 ## Onboarding new genomes
 

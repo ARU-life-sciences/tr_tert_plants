@@ -69,10 +69,21 @@ full chromosome every time.
 
 267 comparable (species, core-length) sets with >=2 loci:
 
-| | sets | % |
-|---|---|---|
-| All loci share an identical core | 223 | 83.5% |
-| Restricted to sets with >=5 loci (38 sets) | 27 | 71.1% |
+| | sets | % | pure-rotation-corrected* |
+|---|---|---|---|
+| All loci share an identical core | 223 | 83.5% | 227 (85.0%) |
+| Restricted to sets with >=5 loci (38 sets) | 27 | 71.1% | 28 (73.7%) |
+
+`*` 4 of the 44 "differing" sets (`Platanus_x_hispanica` core-6 and
+core-7, `Acaena_novae_zelandiae` core-14, `Acaena_ovalifolia` core-14)
+turned out to be pure phase-rotations of the modal sequence (0 true
+substitutions - see the caveat two sections below), not genuine
+divergence. Reclassifying them as identical moves both figures up by
+~1.5-2.5 points - a small, real correction, not headline-changing.
+Excluding them also drops 3 species entirely from the differing-species
+list (`Platanus_x_hispanica` had both of its sets be pure-rotation-only):
+corrected differing-set/species counts are 40/30, down from 44/33.
+Script: `src/pure_rotation_corrected_stats.py`.
 
 **Higher copy number does not mean more conservation - if anything the
 opposite.** More copies means more chances for a difference to arise and

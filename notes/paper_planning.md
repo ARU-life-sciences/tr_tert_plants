@@ -193,9 +193,14 @@ size - neither prior paper did that combination), not first discovery.
   genomic strand the TR gene itself sits on (~50/50 regardless of match
   orientation, checked across all 1450 loci). See
   `tr_repeat_correlation.md`'s caveats for the full check.
-- Multiple-testing correction across the ~330-species, ~1450-locus
-  screen is informal (per-locus shuffle test only) - should be
-  formalized.
+- **DONE (2026-09-16): multiple-testing correction.** BH-FDR across the
+  1293 tested loci: 1083/1293 (83.8%) significant at q<0.05, 990/1293
+  (76.6%) at q<0.01 - comfortably supports the significance claim (more
+  loci pass formal FDR than the naive "exactly 0/200 shuffles" count).
+  One real remaining limitation: q<0.001 is unreachable at only 200
+  shuffles/locus (floor p~0.005) - would need more shuffles for a
+  stricter published threshold. Script:
+  `src/multiple_testing_correction.py`.
 
 **Specific to #5 (prediction rule):**
 - Validated only against its own discovery dataset - no held-out test
@@ -232,12 +237,15 @@ size - neither prior paper did that combination), not first discovery.
   a genuine HOR, though its exclusive association with TR-paralog
   divergence (vs. 0/62 controls) is itself real evidence against a pure
   mapping-artifact explanation.
-- 4 of the "differing" sets turned out to be pure phase-rotations of one
-  repeat, not real sequence differences - their inclusion in earlier
-  copy-number/diversity statistics (headline #3) hasn't been corrected
-  for; worth rechecking whether removing them changes those percentages
-  materially (likely marginal at n=44, but should be checked, not
-  assumed).
+- **DONE (2026-09-16): pure-rotation correction.** Reclassifying the 4
+  pure-phase-rotation sets as identical (not genuinely divergent) moves
+  headline #3's conservation stats up modestly: 83.5%->85.0% overall,
+  71.1%->73.7% for the >=5-loci subset. Also drops the differing-set
+  count from 44/33 species to 40/30 species (`Platanus_x_hispanica`,
+  `Acaena_novae_zelandiae`, `Acaena_ovalifolia` are dropped entirely -
+  each had every one of its differing sets turn out to be pure rotation).
+  Confirmed marginal, as expected, not headline-changing. Script:
+  `src/pure_rotation_corrected_stats.py`.
 - The identical-copy control group's second-candidate selection is
   inherently noisier than the differing sets' TR-gene-verified variants -
   see the note's caveats section.
