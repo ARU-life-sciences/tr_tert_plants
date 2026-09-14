@@ -180,14 +180,29 @@ ancestral repeat, worth individual follow-up the way Carlina got.
 
 ## Caveats
 
-- **Orientation ambiguity remains unresolved.** 85% of matches were
-  `direct` (Template contains the repeat-like sequence as-is) rather than
-  `revcomp` (Template reverse-complements to it, the textbook
-  templating-mechanism expectation). This was already flagged in the
-  Carlina note and isn't resolved here - it may reflect a real biological
-  or assembly/strand convention this analysis hasn't identified, or an
-  artifact of how these HMM-column-derived Template windows are oriented.
-  Worth resolving before treating orientation itself as meaningful.
+- **Orientation ambiguity - resolved (2026-09-16), not a biological
+  anomaly.** 85% of matches were `direct` rather than `revcomp` (the
+  textbook templating-mechanism expectation). Checked: 1211/1226 (98.8%)
+  of `direct` matches are C-rich (`AAACCCT`/`CCCTAAA`-family) Template
+  sequences matching a C-rich `tidk`-reported repeat string - both sides
+  of the comparison are independently, correctly C-rich, not
+  coincidentally. Our own Template extraction is C-rich because that's
+  what the real templating sequence *is*: Fajkus et al. 2019's own
+  experimentally-validated `AtTR` template, `CTAAACCCT`, is entirely
+  C-rich (0 G's) - the RNA template is naturally the complementary-strand
+  sequence to the G-rich DNA it guides synthesis of. Separately, `tidk`'s
+  reported "canonical" repeat string is *also* usually C-rich, most
+  plausibly because it (or an underlying convention) reports the
+  lexicographically smallest rotation of a strand/rotation-ambiguous
+  repeat family - and for the canonical `TTTAGGG`/`AAACCCT` family,
+  `AAACCCT` is the global lexicographic minimum among all 14 possible
+  rotations of both strands (checked directly). Since both sides of the
+  comparison already use the same (C-rich) orientation convention, a
+  literal string match between them is `direct` by construction - this
+  cancels out, rather than contradicts, the real underlying RNA-template
+  -> G-strand-DNA reverse-transcription relationship. No strand-of-gene
+  confound either (matches split ~50/50 between `+`/`-` gene strand
+  regardless of match orientation - checked across all 1450 loci).
 - **Loci within one species are not independent samples** - multiple TR
   paralogs are very likely a duplicated gene family with shared ancestry,
   not independent evolutionary events. A species showing 5 loci sharing

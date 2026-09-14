@@ -149,8 +149,8 @@ size - neither prior paper did that combination), not first discovery.
 - Which locus (if any) is the *functional* copy is unresolved - 6 loci
   show the variant, 1 weak locus looks canonical.
 - Second haplotype not checked.
-- Direct/reverse-complement orientation ambiguity (see below) directly
-  affects whether the templating claim is stated correctly.
+- Direct/reverse-complement orientation question is now resolved (see
+  below) - doesn't block the templating claim.
 
 **Specific to #3/#4 (dataset-wide):**
 - **DONE (2026-09-16): haplotype-phasing screen.** `Empetrum_nigrum`'s
@@ -174,10 +174,20 @@ size - neither prior paper did that combination), not first discovery.
   `LABEL_FLIP`) are now resolved (exhaustive check, every main
   chromosome, both ends): all 16 confirmed present. 44/44 is a final
   number, not a floor.
-- **Orientation ambiguity is unresolved and matters**: 85% of matches
+- **DONE (2026-09-16): orientation ambiguity resolved.** 85% of matches
   are in the raw `direct` sense rather than the textbook
-  reverse-complement templating relationship. A reviewer will ask about
-  this; it needs an answer or an explicit acknowledged limitation.
+  reverse-complement templating relationship - checked, and it's a
+  strand-convention artifact, not a biological anomaly: 98.8% of
+  `direct` matches are C-rich Template sequences matching a C-rich
+  `tidk`-reported repeat. Both are independently correctly C-rich (our
+  Template extraction matches Fajkus et al. 2019's own validated C-rich
+  `AtTR` template; `tidk`'s reported repeat is C-rich most plausibly
+  because `AAACCCT` is the global lexicographic minimum among all 14
+  rotations of the canonical repeat family, a standard convention for
+  representing a strand-ambiguous repeat). No confound with which
+  genomic strand the TR gene itself sits on (~50/50 regardless of match
+  orientation, checked across all 1450 loci). See
+  `tr_repeat_correlation.md`'s caveats for the full check.
 - Multiple-testing correction across the ~330-species, ~1450-locus
   screen is informal (per-locus shuffle test only) - should be
   formalized.

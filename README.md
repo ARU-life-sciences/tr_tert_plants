@@ -67,6 +67,7 @@ Scripts in `src/` are run in approximate order:
 | 26 | `find_identical_set_second_candidates.py` | Find an independent (TR-blind) second repeat candidate for species with fully identical TR copies, from that species' own tidk output |
 | 27 | `tr_identical_set_array_structure.py` | Same exhaustive array-structure walk applied to the TR-identical control group - tests whether array structure needs TR paralog divergence |
 | 28 | `check_haplotype_redundancy.py` | Screen for TR loci double-counted across haplotype-phased scaffold copies of the same true chromosome |
+| 29 | `check_orientation_ambiguity.py` | Resolves why most Template-to-repeat matches are `direct` rather than the textbook `revcomp` sense (a strand-convention artifact, not a biological anomaly) |
 
 ## Onboarding new genomes
 

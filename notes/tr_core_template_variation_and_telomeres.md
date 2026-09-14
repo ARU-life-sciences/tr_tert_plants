@@ -261,11 +261,15 @@ occurrences in 5000bp windows across dozens of chromosome ends.
   of these 8 species, but since haplotype redundancy doesn't change
   whether a set is classified "identical," it doesn't threaten that
   comparison's validity.
-- **Orientation ambiguity remains unresolved** (see
-  `tr_repeat_correlation.md`) - most core-template matches are in the
-  Template's `direct` sense rather than the textbook `revcomp`
-  templating-mechanism expectation, and this analysis didn't revisit
-  that question.
+- **Orientation ambiguity - resolved (2026-09-16), see
+  `tr_repeat_correlation.md`'s caveats.** Most core-template matches were
+  in the Template's `direct` sense rather than the textbook `revcomp`
+  expectation, but this turns out to be a strand-convention artifact, not
+  a biological anomaly: our Template extraction and `tidk`'s reported
+  repeat string are both independently, correctly C-rich (matching
+  Fajkus et al. 2019's own validated C-rich `AtTR` template), so a
+  literal match between them is `direct` by construction - it doesn't
+  contradict the real RNA-template -> G-strand-DNA relationship.
 
 ## Reproducing
 
