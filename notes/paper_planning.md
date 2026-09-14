@@ -1,9 +1,9 @@
 # Paper planning: headline results, gaps, and file mapping
 
-Snapshot as of 2026-09-13, updated same day once WEAK_SENSITIVITY and
-then LABEL_FLIP cases were exhaustively resolved (see below). Written to
-answer: what are the headline results, what's still needed before this
-is publication-ready, and which files/notes back each result.
+Snapshot as of 2026-09-13, updated 2026-09-14 with the per-species array-
+structure analysis (see #6 below). Written to answer: what are the
+headline results, what's still needed before this is publication-ready,
+and which files/notes back each result.
 
 ## Headline results
 
@@ -40,6 +40,21 @@ is publication-ready, and which files/notes back each result.
    reference to the telomere** - a boundary-anchored rule (start 2bp
    after the conservation-derived G-rich boundary, take 12bp) recovers
    the true core at mean IoU 0.836 across 1073 loci.
+6. **The minor variant's arrangement within the telomere is not random -
+   it clusters** - 41/44 (93%) of differing sets show contiguous,
+   block-like structure (2-299 units), not scattered single-base
+   substitutions; 5/44 show a striking regular short-period alternation
+   between two variants (a candidate genuine higher-order-repeat, HOR,
+   signature - e.g. `Centaurium_intermedium` alternates almost perfectly
+   for 18+ consecutive units). Also: 25/44 sets have a telomere-dominant
+   sequence that differs from the TR-copy-count dominant (broader than
+   the original 8 LABEL_FLIP cases - only found once tiling used every
+   distinct variant, not just the top 2). And a real methodological catch
+   along the way: 6/55 "differing" variants across the dataset are pure
+   phase reads of the identical periodic repeat (0 true substitutions),
+   not point-mutant paralogs at all - naive position-wise comparison of
+   these short, near-periodic motifs overstates how different two cores
+   look unless corrected for cyclic rotation.
 
 ## What's needed before this is paper-ready
 
@@ -91,6 +106,24 @@ is publication-ready, and which files/notes back each result.
 - Validated only against its own discovery dataset - no held-out test
   set. Needs validation on species/loci not used to derive the rule.
 
+**Specific to #6 (array structure):**
+- Structural verdicts (blocky vs regular-alternation) rest on a single
+  best-powered chromosome-end per set for the formal runs-test z-score,
+  not a statistic pooled across all chromosome-ends - needs a proper
+  pooled/multi-chromosome test before a p-value goes in a paper.
+- The regular short-period alternation (candidate HOR) in 5 sets hasn't
+  been checked against any independent expectation (e.g. does the
+  alternating unit correspond to anything at the sequence/structural
+  level, or could it be an artifact of how two similar-length candidate
+  strings compete for the same genomic slots) - needs closer inspection
+  before calling it a genuine HOR.
+- 4 of the "differing" sets turned out to be pure phase-rotations of one
+  repeat, not real sequence differences - their inclusion in earlier
+  copy-number/diversity statistics (headline #3) hasn't been corrected
+  for; worth rechecking whether removing them changes those percentages
+  materially (likely marginal at n=44, but should be checked, not
+  assumed).
+
 ## Files backing each result
 
 | result | primary file(s) | note documenting it |
@@ -101,4 +134,5 @@ is publication-ready, and which files/notes back each result.
 | Fine-scale correlation, 8 species | `outputs/tidk/*`, ad hoc `tidk search` positional scans | `notes/tr_repeat_correlation.md` |
 | Corrected core-template stats + 44-set confirmation | `outputs/tr_repeat_correlation/all_species.tsv`, `core_template_sets.tsv`, `final_repeat_confirmations.tsv` | `notes/tr_core_template_variation_and_telomeres.md` |
 | Telomere-independent prediction rule | `outputs/tr_repeat_correlation/all_species.tsv` (validation data), `src/predict_tr_template.py` | `notes/tr_template_boundary_prediction.md` |
+| Per-species array structure (clustering, true dominance, HOR candidates) | `outputs/tr_repeat_correlation/telomere_array_structure.tsv`, `telomere_array_structure_summary.tsv`, `core_template_variant_positions.tsv` | `notes/tr_core_template_array_structure.md` |
 | Organelle/cobiont data-QC fix (methods caveat, not a finding) | `inputs/dtol_plant_paths.txt`, `src/update_assembly_list.bash` | `notes/organelle_and_cobiont_assembly_pitfall.md` |
