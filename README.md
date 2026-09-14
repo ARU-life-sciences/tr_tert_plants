@@ -96,6 +96,13 @@ mean genuinely different sequence content under an unchanged filename, not
 just a rename: see `notes/`), and **REMOVED** (dropped out of the assembly
 tree entirely - never acted on automatically).
 
+A weekly cron entry (`0 6 * * 1`, installed via `crontab`) runs
+`src/cron_check_new_species.bash`, which calls step 1 above in report-only
+mode (never `--apply`) and appends a timestamped block to
+`outputs/logs/update_assembly_list_cron.log`. Check that log periodically
+(it's gitignored, not committed) and run steps 2-4 by hand when it shows
+something worth picking up.
+
 Note that `run_tblastn_tert_bsub.bash` in particular can be very expensive
 per genome (one real case took 12+ days for a single large assembly) - for
 a big batch of new species, expect that stage to dominate wall-clock time by
