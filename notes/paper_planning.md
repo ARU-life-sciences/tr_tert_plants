@@ -1,9 +1,52 @@
 # Paper planning: headline results, gaps, and file mapping
 
 Snapshot as of 2026-09-13, updated 2026-09-14 with the per-species array-
-structure analysis (see #6 below). Written to answer: what are the
-headline results, what's still needed before this is publication-ready,
-and which files/notes back each result.
+structure analysis (see #6 below) and again same day after reviewing
+directly relevant prior literature (see "Related work" below). Written
+to answer: what are the headline results, what's still needed before
+this is publication-ready, and which files/notes back each result.
+
+## Related work (read 2026-09-14 - changes framing, not headline validity)
+
+- **Fajkus et al. 2019, NAR** ("Telomerase RNAs in land plants") - the
+  paper our own TR HMM is seeded from (confirmed: `inputs/TR.fasta`
+  matches their identified orthologs, including the corrected `AtTR`,
+  not the disproven `TER1`). Directly relevant: (i) template region
+  defined as repeat-unit-length + >=1nt, matching why our own core
+  lengths cluster there; (ii) **single-nucleotide TR template mutations
+  in vitro produce exactly the corresponding telomere repeat change** -
+  direct wet-lab proof of the mechanism our whole analysis assumes; (iii)
+  already predicted mixed-telomere-motif TRs in some Asparagales species,
+  i.e. our headline #3/#4 phenomenon was suspected there, just not
+  confirmed base-pair-resolved or at scale.
+- **Kumawat et al. 2025, PLOS Genetics** (Mimulus) - a near-direct
+  single-genus precedent: TR duplicates, paralogs diverge in template
+  sequence, retained-and-expressed paralogs produce a genuinely
+  heterogeneous telomere (confirmed via TRF, FISH, and Sanger-sequenced
+  TRAP clones - *M. lewisii*, 9 vs 26 reads for its two repeat types);
+  a paralog can be expressed but barely used (*M. cardinalis*, ~9.7%
+  minor frequency - in our own "RARE" band range); duplication -> divergence
+  -> retain-if-functional/pseudogenize-if-not is their proposed model.
+  They also found the heterogeneous-telomere species has ~40% longer
+  telomeres than its single-repeat sister species.
+- **Belyayev et al. 2023, BMC Genomics** (Chenopodium) - independently
+  describes "block-organized double-monomer terminal telomeric arrays"
+  (blocks of canonical repeat interchanging with a derivative monomer),
+  confirmed via long-read sequencing, fiber-FISH, and a synthetic
+  junction-spanning probe - close to our own blocky/regular-alternation
+  structural classes (headline #6), in an unrelated plant family. Their
+  proposed mechanism is DNA-level recombination between G-/C-rich
+  strands, NOT TR-paralog-driven (Chenopodium wasn't checked for TR
+  duplication) - a genuine competing hypothesis we haven't ruled out.
+
+**Net effect on framing**: the core mechanism (TR mutation -> telomere
+change) and the core pattern (paralog divergence -> heterogeneous
+telomere) are now independently demonstrated elsewhere, so the paper's
+novelty has to be pitched as generality/scale/synthesis (a
+~330-700-species, purely computational test of phenomena previously
+shown only in single-genus wet-lab studies, PLUS the first direct link
+between specific paralog sequence and specific array structure/block
+size - neither prior paper did that combination), not first discovery.
 
 ## Headline results
 
@@ -21,7 +64,10 @@ and which files/notes back each result.
    divergent-Template copies simultaneously; at the properly-resolved
    templating core specifically, 71-84% of copies are identical even at
    high copy number (correcting an initial inflated 97% pairwise
-   statistic).
+   statistic). Kumawat et al. 2025 showed the same paralog-duplication ->
+   divergence pattern in one genus (Mimulus, wet-lab validated); our
+   contribution is showing it's general across land plants at
+   dataset-wide scale, not a Mimulus peculiarity.
 4. **Where TR gene copies genuinely differ at the templating core, that
    specific difference is essentially always physically present in the
    telomere** - confirmed at base-pair resolution across all 44 differing
@@ -54,15 +100,26 @@ and which files/notes back each result.
    phase reads of the identical periodic repeat (0 true substitutions),
    not point-mutant paralogs at all - naive position-wise comparison of
    these short, near-periodic motifs overstates how different two cores
-   look unless corrected for cyclic rotation.
+   look unless corrected for cyclic rotation. Belyayev et al. 2023
+   independently found near-identical block-organized double-monomer
+   telomere arrays in Chenopodium (unrelated family), confirmed by
+   long-read sequencing and fiber-FISH - but attributed to DNA-level
+   recombination, not TR paralogs (untested there). We're the first to
+   directly link specific array block structure to specific divergent TR
+   paralog sequence - but haven't yet ruled out their mechanism operating
+   in our species too (see gap below).
 
 ## What's needed before this is paper-ready
 
 **Cross-cutting, applies to all findings:**
-- No literature search has been done at all. Needs a proper comparison
-  against Fajkus et al. 2019 (the paper this whole domain-map is built
-  on) and a check for prior reports of Viscum/mistletoe telomerase loss
-  or Asteraceae telomere variation.
+- Literature search started 2026-09-14 (see "Related work" above:
+  Fajkus 2019, Kumawat 2025, Belyayev 2023) - still needed: Viscum/
+  mistletoe telomerase loss precedent, Asteraceae telomere variation
+  beyond the two Asteraceae sources already found (an old unpublished
+  Garnatje grant report specifically flags *Arctium* clustering - matches
+  our own `Arctium_lappa`/`minus` results - and Mlinarec et al. 2019 on
+  *Tanacetum* subtelomeric repeats), and the Závodník et al. paper
+  Kumawat cites for TR duplication across multiple plant families.
 - Everything is single-haplotype, single-assembly. No biological
   replication.
 - No wet-lab validation anywhere (PCR, TRAP assay, Southern/FISH) -
@@ -123,6 +180,18 @@ and which files/notes back each result.
   for; worth rechecking whether removing them changes those percentages
   materially (likely marginal at n=44, but should be checked, not
   assumed).
+- **New, motivated by related work above - two concrete analyses to run
+  before this is submittable, both likely cheap with existing data:**
+  1. Telomere length vs. paralog-divergence status, dataset-wide (tests
+     Kumawat's single-species finding of ~40% longer telomeres in the
+     heterogeneous-telomere species, at n=300+) - probably answerable
+     from existing `outputs/tidk/` data without new computation.
+  2. Whether species with FULLY IDENTICAL TR copies (the 223 identical
+     comparable sets, no paralog divergence) ever still show blocky/
+     clustered array structure - a direct test of Belyayev's competing
+     DNA-recombination-only mechanism against our TR-paralog-linked
+     framing. Needs `tr_core_template_array_structure.py`'s machinery run
+     against a sample of identical sets instead of only differing ones.
 
 ## Files backing each result
 
