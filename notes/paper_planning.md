@@ -113,10 +113,14 @@ size - neither prior paper did that combination), not first discovery.
    short-period alternation was found in 6/44 differing sets and 0/62
    controls (Fisher's exact p=0.004)**, and any confirmed minor variant
    at all is significantly more common in differing sets (93.2% vs 72.6%,
-   p=0.011). This is the first direct evidence tying the fine-grained
-   alternating pattern specifically to TR paralog divergence, not just
-   generic recombination noise - something neither Kumawat et al. nor
-   Belyayev et al. could test, since neither had both groups to compare.
+   p=0.011) - both robust to a 2x change in the telomere-proper boundary
+   parameter (checked 2026-09-16; a third, weaker sub-comparison was not
+   robust and should be treated as suggestive only, not reported with the
+   same confidence). This is the first direct evidence tying the
+   fine-grained alternating pattern specifically to TR paralog
+   divergence, not just generic recombination noise - something neither
+   Kumawat et al. nor Belyayev et al. could test, since neither had both
+   groups to compare.
    Also: 25/44 sets have a telomere-dominant sequence that differs from
    the TR-copy-count dominant. And a real methodological catch along the
    way: 6/55 "differing" variants across the dataset are pure phase reads
@@ -228,9 +232,16 @@ size - neither prior paper did that combination), not first discovery.
   rest on a single best-powered chromosome-end per set for the formal
   runs-test z-score, not a statistic pooled across all chromosome-ends -
   needs a proper pooled/multi-chromosome test before a p-value goes in a
-  paper. The `GAP_THRESHOLD` (50bp) used for the new telomere-proper
-  boundary restriction is also an untested, tunable parameter - worth a
-  sensitivity check.
+  paper.
+- **DONE (2026-09-16): `GAP_THRESHOLD` sensitivity check.** Reran both
+  groups at 100bp instead of the default 50bp. Two of the three headline
+  comparisons are robust: regular alternation is **exactly** 6/44 vs
+  0/62 at both thresholds (p=0.004 both times); "any confirmed minor
+  variant" stays significant (if anything slightly stronger: p=0.004 at
+  100bp vs p=0.011 at 50bp). The third ("non-random structure, given
+  present") is **not** robust - already-borderline p=0.049 at 50bp
+  becomes p=0.42 (not significant) at 100bp. Report the first two with
+  confidence; drop or clearly caveat the third if it goes in a paper.
 - The regular short-period alternation (candidate HOR) in 6 sets still
   hasn't been checked against any independent expectation at the
   sequence/structural level - needs closer inspection before calling it

@@ -42,6 +42,14 @@ does it form a block/HOR-like structure?**
   | Any confirmed minor variant | 41/44 (93.2%) | 45/62 (72.6%) | 0.011 |
   | Non-random structure, given present | 35/41 (85.4%) | 30/45 (66.7%) | 0.049 |
 
+  Checked for sensitivity to the 50bp telomere-proper boundary threshold
+  (rerun at 100bp): the first two rows are essentially unchanged (regular
+  alternation is **exactly** 6/44 vs 0/62 at both thresholds; any
+  confirmed minor variant stays significant, if anything slightly
+  stronger at 100bp). The third row is **not** robust - it drops to
+  p=0.42 at 100bp - so treat it as suggestive only, not a standalone
+  finding (see Caveats).
+
   Ordinary "blocky" clustering happens at a real baseline rate even
   without any TR paralog divergence (consistent with a general DNA-level
   mechanism, as Belyayev et al. propose) - but **regular short-period
@@ -356,6 +364,23 @@ candidate blind to TR content (`find_identical_set_second_candidates.py`
 | Any confirmed minor variant | 41/44 (93.2%) | 45/62 (72.6%) | 0.011 |
 | Non-random structure, given present | 35/41 (85.4%) | 30/45 (66.7%) | 0.049 |
 
+**Sensitivity check (2026-09-16)**: rerunning both groups with the
+telomere-proper `GAP_THRESHOLD` doubled (100bp instead of 50bp):
+
+| | GAP=50bp (above) | GAP=100bp | robust? |
+|---|---|---|---|
+| Regular alternation | 6/44 vs 0/62, p=0.004 | 6/44 vs 0/62, p=0.004 | **yes - identical** |
+| Any confirmed minor variant | 93.2% vs 72.6%, p=0.011 | 95.5% vs 74.2%, p=0.004 | **yes - if anything stronger** |
+| Non-random structure, given present | 85.4% vs 66.7%, p=0.049 | 85.7% vs 78.3%, p=0.42 | **no - not robust** |
+
+The headline result (regular alternation) and the presence result are
+robust to this parameter choice. The third comparison was already
+borderline at the default threshold and loses significance entirely at
+100bp - report it as suggestive only, not as a standalone finding.
+Script: `tr_core_template_array_structure.py` and
+`tr_identical_set_array_structure.py` both honor a `GAP_THRESHOLD`
+environment variable override for this check.
+
 **Reading**: ordinary blocky/clustered structure happens at a real
 baseline rate even without any TR paralog divergence (30/62, 48.4%
 overall) - consistent with Belyayev's DNA-recombination mechanism
@@ -375,11 +400,19 @@ didn't produce a viable independent candidate from tidk).
 ## Caveats
 
 - **`GAP_THRESHOLD` (50bp) for the telomere-proper boundary is a tunable
-  parameter, not validated against ground truth.** For a species with a
-  long, genuinely degenerate telomere, a real within-telomere transition
-  between variant blocks could in principle exceed 50bp by chance,
-  wrongly truncating what's still bona fide telomere. Not tested for
-  sensitivity to this choice.
+  parameter, not validated against ground truth - checked for
+  sensitivity (2026-09-16) by rerunning both the 44 differing sets and
+  the 62-set control group at 100bp instead of 50bp.** Two of the three
+  headline comparisons are essentially unchanged: regular alternation is
+  **exactly** 6/44 vs 0/62 at both thresholds (p=0.004 at 50bp, p=0.004
+  at 100bp), and "any confirmed minor variant" stays significant (93.2%
+  vs 72.6%, p=0.011 at 50bp; 95.5% vs 74.2%, p=0.004 at 100bp - if
+  anything slightly stronger). But the third comparison - "non-random
+  structure, given a minor variant is present" - is **not** robust: 85.4%
+  vs 66.7% (p=0.049, already borderline) at 50bp becomes 85.7% vs 78.3%
+  (p=0.42, not significant) at 100bp. Report the first two with
+  confidence; treat the third as suggestive only, sensitive to this
+  parameter choice, not a robust finding on its own.
 - **Structural verdicts rest on a single genome-wide "best" chromosome-
   end for the formal runs-test z-score** (whichever has the most
   minor-variant hits) - not pooled across all chromosome-ends
