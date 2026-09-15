@@ -41,25 +41,34 @@ memory during the tblastn search, matching a real nuclear genome, not a
 `src/update_assembly_list.bash` now screens every path from the "latest
 assembly" tool before it's allowed into `inputs/dtol_plant_paths.txt`:
 
-1. **Naming check**: rejects any path whose curated-directory name doesn't
-   match the plain `PREFIX<digits>(.hap<digits>)?.<digits>` pattern (e.g.
-   `daCarVulg1.2`, `drDryOcto1.hap1.2`) - anything with an extra
-   organism-name segment (`.plastid.`, `.Leptothrix_sp_1.`, `.metagenome.`,
-   etc.) is flagged.
-2. **Size floor**: as a backstop for cases that don't announce it in the
-   directory name, rejects any assembly file under 5MB compressed (`MIN_BYTES`,
-   overridable) - comfortably below any real nuclear plant genome, well
-   above a compressed plastid or single-bacterium assembly.
+1. **Keyword check**: rejects any path containing `plastid`, `chloroplast`,
+   or `mito(chondri)` (case-insensitive) - catches the Galanthus case.
+2. **Naming-pattern check**: rejects any path whose curated-directory name
+   doesn't match the plain `PREFIX<digits>(.hap<digits>)?.<digits>` pattern
+   (e.g. `daCarVulg1.2`, `drDryOcto1.hap1.2`) - anything with an extra
+   organism-name segment (`.Leptothrix_sp_1.`, `.metagenome.`, etc.) is
+   flagged even if it doesn't happen to contain a plastid/mito keyword -
+   catches the Lemna case on its own terms, not just via the size backstop
+   below. **Added 2026-09-16** - the original fix only had the keyword
+   check plus the size floor; a routine re-run of `update_assembly_list.bash`
+   flagged Lemna_minuta again (a scheduled DToL re-curation had refreshed
+   this cobiont directory's file mtime), which is when the gap between this
+   note's original description and the actual script content was noticed
+   and closed.
+3. **Size floor**: as a backstop for cases that don't announce it in the
+   directory name either, rejects any assembly file under 5MB compressed
+   (`MIN_BYTES`, overridable) - comfortably below any real nuclear plant
+   genome, well above a compressed plastid or single-bacterium assembly.
 
 Flagged paths are excluded from the fresh list (not silently added, not
 silently updated) and reported separately for manual investigation - see
 `update_assembly_list.bash`'s `SUSPECT` output.
 
-Checked the naming pattern across the other ~700 species already in the
-list: nothing else currently matches it, so this looks like an isolated
-(if serious) issue rather than a systemic one across the dataset - but
-it's now a permanent, automatic check on every future refresh rather than
-something that has to be noticed by chance again.
+Checked the naming pattern across all ~700 species already in the list:
+all match it cleanly, so this looks like an isolated (if serious) issue
+rather than a systemic one across the dataset - but it's now a permanent,
+automatic check on every future refresh rather than something that has to
+be noticed by chance again.
 
 ## Caveat
 

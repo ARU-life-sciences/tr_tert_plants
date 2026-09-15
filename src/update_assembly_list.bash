@@ -80,8 +80,16 @@ SUSPECT="${OUTPUT_DIR}/dtol_plant_paths.suspect_organelle.txt"
 while IFS=$'\t' read -r species path; do
   [[ -z "$species" ]] && continue
   reason=""
+  curdir=$(basename "$(dirname "$path")")
   if echo "$path" | grep -qiE 'plastid|chloroplast|mito(chondri)?'; then
     reason="path mentions plastid/chloroplast/mito"
+  elif ! echo "$curdir" | grep -qE '^[A-Za-z]+[0-9]+(\.hap[0-9]+)?\.[0-9]+$'; then
+    # Catches cobiont directories named after an organism that doesn't
+    # happen to match the plastid/chloroplast/mito keyword check above
+    # (e.g. laLemMinu1.Leptothrix_sp_1.1 - see notes/ for the case that
+    # motivated this) - a real nuclear curated directory is always just
+    # PREFIX<digits>(.hap<digits>)?.<digits>, nothing else.
+    reason="curated-directory name '${curdir}' doesn't match the plain assembly-version pattern"
   elif [[ -f "$path" ]]; then
     sz=$(stat -c%s "$path" 2>/dev/null || echo 0)
     if [[ "$sz" -gt 0 && "$sz" -lt "$MIN_BYTES" ]]; then
