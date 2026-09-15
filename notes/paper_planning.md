@@ -424,9 +424,19 @@ authors replied to an email summarising this project's findings (see
 - No literature check for this species/genus (Onagraceae) at all.
 - Same evidentiary tier as Viscum (#1): comparative-genomic only, no
   wet-lab validation.
-- Worth checking systematically whether other species in the dataset
-  show the same TR-present/TERT-absent pattern, rather than treating
-  this as a single isolated case - not yet done.
+- **DONE (2026-09-16): dataset-wide check for other TR-present/TERT-absent
+  species.** Ran a completeness check across all 703 species: a species
+  counts as "missing TERT" only if BOTH detection methods (HMM/nhmmer,
+  3 profiles; protein BLAST/tblastn) find zero hits. Result: only 2/703
+  species show this pattern dataset-wide - `Viscum_album` (#1) and
+  `Epilobium_hirsutum` (#7) - no other candidates found. One methodology
+  note surfaced in passing: `Lemna_minuta` has 0 HMM hits but 324 strong
+  tblastn hits (e-values to ~1e-81, real TERT locus on `SUPER_3`) - a
+  false negative in the HMM method for this species specifically, not a
+  biological absence; worth keeping in mind as a reminder that the HMM
+  method alone isn't fully sensitive, not something requiring its own
+  write-up. Script: `src/tert_absence_summary.py`. Output:
+  `outputs/tert_absence_summary.tsv`.
 
 ## Files backing each result
 
