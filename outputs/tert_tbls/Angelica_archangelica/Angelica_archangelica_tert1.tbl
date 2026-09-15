@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1743    2585 135534813 135533896 135534834 135533875 276165911    -     7.9e-32  115.1  37.5  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2768    3240 135525424 135524902 135525446 135524880 276165911    -     5.8e-25   92.4  31.5  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1746    2164 203915775 203915342 203915795 203915322 259257519    -     3.5e-20   76.5  14.8  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3256    3475 135523961 135523742 135523983 135523694 276165911    -     2.5e-19   73.6   8.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3499    3767 135523078 135522810 135523099 135522806 276165911    -     2.6e-12   50.4  17.0  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3544    3766 131682790 131682568 131682811 131682563 263453965    -      0.0073   19.0  13.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Angelica_archangelica/assembly/curated/drAngArch1.1/drAngArch1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Angelica_archangelica/Angelica_archangelica_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Angelica_archangelica/assembly/curated/drAngArch1.1/drAngArch1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:41:22 2026
+# [ok]

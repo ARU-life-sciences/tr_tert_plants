@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              915    1460 59867390 59867981 59867383 59868001 452937299    +     2.1e-38  137.6  13.4  -
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              234     923 59855477 59856322 59855474 59856343 452937299    +       5e-29  106.5  32.8  -
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1714 59868990 59869540 59868974 59869563 452937299    +     1.5e-09   41.9  11.7  -
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1541    1700 59855344 59855479 59855328 59855482 452937299    +        0.47   13.7   7.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Trollius_europaeus/assembly/curated/dmTroEuro2.1/dmTroEuro2.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Trollius_europaeus/Trollius_europaeus_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Trollius_europaeus/assembly/curated/dmTroEuro2.1/dmTroEuro2.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:57 2026
+# [ok]

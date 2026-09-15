@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              233    1485 34477545 34475763 34477704 34475741 37678048    -     2.3e-76  259.7  49.1  -
+HAP1_SCAFFOLD_2880   -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              960    1487    27794    28307    27774    28349    30811    +     3.8e-37  129.6  20.9  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              960    1487 34529419 34529932 34529399 34529974 37678048    +     4.1e-37  129.5  21.0  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1769 34475251 34474303 34475271 34474296 37678048    -     1.5e-16   61.3   6.1  -
+HAP1_SCAFFOLD_2880   -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              234     644    27057    27500    27036    27509    30811    +     3.1e-12   47.1  16.8  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              234     644 34528682 34529125 34528661 34529139 37678048    +     7.2e-12   45.8  16.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_filiformis/assembly/curated/daVerFili1.1/daVerFili1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Veronica_filiformis/Veronica_filiformis_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Veronica_filiformis/assembly/curated/daVerFili1.1/daVerFili1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:27 2026
+# [ok]

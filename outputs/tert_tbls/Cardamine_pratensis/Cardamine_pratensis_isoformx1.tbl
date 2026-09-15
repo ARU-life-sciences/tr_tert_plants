@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              349    1689 43243981 43246248 43243961 43246254 50939602    +     2.1e-40  141.7  41.8  -
+SUPER_4_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1022    1689 42619331 42620439 42619301 42620449 49905132    +     2.5e-38  134.8  21.1  -
+SUPER_4_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1538    1683 42617869 42617990 42617867 42618001 49905132    +        0.21   12.3   3.3  -
+SUPER_3_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1559    1687 43243700 43243810 43243684 43243830 50939602    +        0.48   11.2   2.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Cardamine_pratensis/assembly/curated/ddCarPrat1.1/ddCarPrat1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Cardamine_pratensis/Cardamine_pratensis_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Cardamine_pratensis/assembly/curated/ddCarPrat1.1/ddCarPrat1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:57 2026
+# [ok]

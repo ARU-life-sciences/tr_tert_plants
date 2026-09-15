@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1212    1689  8490547  8489464  8490552  8489443 28429449    -     2.2e-17   64.0   0.2  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              347     461  8492267  8492153  8492287  8492133 28429449    -     3.4e-08   33.6   0.9  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              981    1083  8491030  8490913  8491041  8490910 28429449    -     0.00096   18.8   5.5  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1731    1782 24272493 24272547 24272484 24272567 71596667    +        0.95    8.9   1.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Anthelia_julacea/assembly/curated/cjAntJula1.1/cjAntJula1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Anthelia_julacea/Anthelia_julacea_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/non-vascular-plants/Anthelia_julacea/assembly/curated/cjAntJula1.1/cjAntJula1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:36 2026
+# [ok]

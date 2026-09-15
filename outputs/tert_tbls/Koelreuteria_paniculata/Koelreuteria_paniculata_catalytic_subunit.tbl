@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_12_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2552    3029 6282706 6283234 6282692 6283254 17722384    +     5.4e-40  139.3  21.7  -
+SUPER_12_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    1988 6281089 6281555 6281069 6281575 17722384    +     6.1e-20   72.7  27.1  -
+SUPER_12_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3024    3226 6283414 6283619 6283400 6283635 17722384    +     1.8e-17   64.5   9.7  -
+SUPER_12_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2360 6281879 6282065 6281859 6282091 17722384    +     2.4e-10   40.9  16.5  -
+SUPER_12_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3285    3556 6283919 6284190 6283910 6284199 17722384    +     1.1e-07   32.1   8.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Koelreuteria_paniculata/assembly/curated/drKoePani1.1/drKoePani1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Koelreuteria_paniculata/Koelreuteria_paniculata_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Koelreuteria_paniculata/assembly/curated/drKoePani1.1/drKoePani1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:09 2026
+# [ok]

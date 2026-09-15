@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2546    3030 135525438 135524903 135525458 135524882 276165911    -     5.7e-27   99.1  34.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2406 135534814 135533865 135534834 135533850 276165911    -     2.2e-24   90.6  41.8  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3229 135523982 135523776 135523992 135523756 276165911    -     2.6e-19   73.8   8.6  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1536    1985 203915775 203915311 203915795 203915290 259257519    -     2.5e-16   63.8  16.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3350    3560 135523021 135522811 135523047 135522806 276165911    -     0.00042   23.3  12.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Angelica_archangelica/assembly/curated/drAngArch1.1/drAngArch1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Angelica_archangelica/Angelica_archangelica_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Angelica_archangelica/assembly/curated/drAngArch1.1/drAngArch1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:48 2026
+# [ok]

@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2765    3239 28199808 28199276 28199828 28199256 28660340    -     3.4e-33  117.3  20.3  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3235    3502 28198490 28198214 28198501 28198194 28660340    -     6.6e-18   66.5  15.8  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    2321 28202362 28201820 28202393 28201800 28660340    -     1.6e-15   58.6  17.6  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2384    2552 28201655 28201487 28201675 28201455 28660340    -     1.8e-06   28.6  16.3  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3499    3765 28198011 28197748 28198032 28197737 28660340    -       0.013   15.8   7.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Juglans_regia/assembly/curated/dhJugRegi1.1/dhJugRegi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Juglans_regia/Juglans_regia_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Juglans_regia/assembly/curated/dhJugRegi1.1/dhJugRegi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:54 2026
+# [ok]

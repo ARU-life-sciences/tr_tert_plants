@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2775    3238 30667885 30668390 30667865 30668412 52272246    +     2.3e-31  110.9  18.2  -
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3300    3769 30669270 30669743 30669243 30669745 52272246    +     2.6e-29  104.1  11.4  -
+SUPER_6_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1767    2619 30666675 30667578 30666662 30667597 52272246    +     4.4e-25   90.1  37.2  -
+SUPER_3_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3301    3527   717423   717651   717401   717672 56315500    +     4.3e-06   27.0   7.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Galeopsis_angustifolia/assembly/curated/daGalAngu1.1/daGalAngu1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Galeopsis_angustifolia/Galeopsis_angustifolia_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Galeopsis_angustifolia/assembly/curated/daGalAngu1.1/daGalAngu1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:32 2026
+# [ok]

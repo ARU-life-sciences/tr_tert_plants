@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              973    1460 24874724 24874193 24874733 24874175 45170548    -     2.3e-49  172.4  19.5  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              973    1460 23951107 23950576 23951116 23950558 43781470    -     2.5e-49  172.3  19.6  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              972    1460 25054918 25054381 25054938 25054363 44290896    -     5.6e-46  161.2  20.2  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1813 25054122 25053443 25054142 25053443 44290896    -     3.7e-22   82.2   7.8  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              219     917 24876554 24875655 24876556 24875650 45170548    -     4.2e-22   82.0  28.2  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              219     917 25056746 25055847 25056748 25055842 44290896    -     4.2e-22   82.0  28.2  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1813 24873934 24873255 24873953 24873255 45170548    -     5.1e-22   81.7   7.9  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1813 23950317 23949638 23950336 23949638 43781470    -     5.9e-22   81.5   8.0  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              220     915 23952932 23952036 23952934 23952029 43781470    -     8.3e-21   77.7  27.6  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1536    1690 24876678 24876547 24876698 24876543 45170548    -     0.00013   24.1   5.8  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1536    1690 23953057 23952926 23953077 23952922 43781470    -     0.00013   24.1   5.8  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1536    1690 25056870 25056739 25056890 25056735 44290896    -     0.00013   24.1   5.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Galium_boreale/assembly/curated/daGalBore1.1/daGalBore1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Galium_boreale/Galium_boreale_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Galium_boreale/assembly/curated/daGalBore1.1/daGalBore1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:16 2026
+# [ok]

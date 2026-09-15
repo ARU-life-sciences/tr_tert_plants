@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2731    3238 1174001 1174580 1173995 1174600 17080558    +     3.5e-36  126.0  17.2  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1724    2345 1171889 1172544 1171875 1172565 17080558    +     3.7e-26   92.7  24.8  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3768 1176238 1176504 1176218 1176507 17080558    +     3.9e-23   82.7  14.8  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3503 1175095 1175373 1175075 1175393 17080558    +     4.2e-21   75.9  15.1  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2384    2617 1172686 1172919 1172666 1172932 17080558    +     9.1e-11   41.6  13.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ceratocapnos_claviculata/assembly/curated/dmCerClav1.1/dmCerClav1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Ceratocapnos_claviculata/Ceratocapnos_claviculata_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Ceratocapnos_claviculata/assembly/curated/dmCerClav1.1/dmCerClav1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:04 2026
+# [ok]

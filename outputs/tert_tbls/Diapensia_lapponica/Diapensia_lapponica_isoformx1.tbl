@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231     944 185044329 185045252 185044322 185045261 288066123    +     1.6e-47  166.6  29.4  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              951    1460 185055703 185056253 185055683 185056273 288066123    +     8.2e-45  157.6  16.4  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1812 185057356 185058171 185057348 185058172 288066123    +     6.6e-24   88.2   8.3  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1542    1690 185044200 185044324 185044187 185044327 288066123    +        0.26   13.3   3.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Diapensia_lapponica/assembly/curated/ddDiaLapp1.1/ddDiaLapp1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Diapensia_lapponica/Diapensia_lapponica_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Diapensia_lapponica/assembly/curated/ddDiaLapp1.1/ddDiaLapp1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:23 2026
+# [ok]

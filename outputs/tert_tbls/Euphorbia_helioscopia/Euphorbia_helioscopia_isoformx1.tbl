@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1460 30656970 30659058 30656969 30659061 34448576    +     1.8e-81  278.2  54.0  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              936    1460 29061359 29061976 29061338 29061984 32079372    +     1.4e-44  155.9  18.8  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              945    1460 31203304 31203912 31203281 31203932 34962339    +     1.3e-42  149.3  21.9  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              232     921 29059574 29060449 29059573 29060465 32079372    +       5e-35  124.1  33.7  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231     921 31201453 31202329 31201450 31202347 34962339    +     1.2e-32  116.2  35.5  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1723 29062269 29063122 29062258 29063142 32079372    +     2.2e-16   62.3   5.7  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1723 31204192 31205041 31204185 31205061 34962339    +     3.8e-16   61.5   8.1  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1608    1723 30660069 30660184 30660049 30660204 34448576    +     3.1e-07   32.0   3.6  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1590 30659339 30659725 30659330 30659745 34448576    +     1.7e-06   29.5   7.3  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1547    1715 31201329 31201473 31201315 31201488 34962339    +     8.1e-05   24.0   9.6  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1546    1699 29059448 29059577 29059439 29059582 32079372    +     0.00058   21.1   5.6  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1545    1698 30656844 30656973 30656834 30656977 34448576    +     0.00098   20.4   5.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euphorbia_helioscopia/assembly/curated/ddEupHeli1.1/ddEupHeli1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Euphorbia_helioscopia/Euphorbia_helioscopia_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Euphorbia_helioscopia/assembly/curated/ddEupHeli1.1/ddEupHeli1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:00 2026
+# [ok]

@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3255    3445 80193553 80193357 80193568 80193331 108595700    -     1.9e-15   59.0   0.3  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2973    3241 80194192 80193921 80194212 80193899 108595700    -     1.6e-12   49.3   1.1  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2050    2316 80196183 80195911 80196213 80195891 108595700    -       1e-06   30.0   0.9  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2781    2900 80194660 80194541 80194681 80194521 108595700    -     1.1e-05   26.7   2.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Bazzania_trilobata/assembly/curated/cjBazTril2.1/cjBazTril2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Bazzania_trilobata/Bazzania_trilobata_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/non-vascular-plants/Bazzania_trilobata/assembly/curated/cjBazTril2.1/cjBazTril2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:14 2026
+# [ok]

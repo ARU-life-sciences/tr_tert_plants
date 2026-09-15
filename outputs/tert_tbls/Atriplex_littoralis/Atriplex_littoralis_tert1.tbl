@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2777    3240 55902252 55901741 55902272 55901721 78831799    -     8.3e-30  106.4  12.3  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3238    3443 55900188 55899977 55900207 55899940 78831799    -     7.5e-24   86.7   5.0  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1763    2321 55903832 55903244 55903851 55903224 78831799    -     1.3e-18   69.3  23.1  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 55899591 55899321 55899611 55899319 78831799    -     1.1e-11   46.3  10.1  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2374    2636 55903089 55902839 55903110 55902818 78831799    -     5.4e-07   30.7  11.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Atriplex_littoralis/assembly/curated/dcAtrLitt1.1/dcAtrLitt1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Atriplex_littoralis/Atriplex_littoralis_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Atriplex_littoralis/assembly/curated/dcAtrLitt1.1/dcAtrLitt1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:54 2026
+# [ok]

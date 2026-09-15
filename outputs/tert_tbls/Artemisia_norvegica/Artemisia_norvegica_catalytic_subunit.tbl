@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2521    3029 92671472 92670983 92671482 92670963 421720312    -     5.7e-34  122.8  24.3  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3231 92670902 92670694 92670909 92670681 421720312    -     1.8e-21   81.3   8.6  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1551    2355 92672735 92671940 92672755 92671918 421720312    -     1.5e-17   68.3  35.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3563 92669623 92669355 92669631 92669353 421720312    -     2.7e-05   27.6   7.1  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              475     622 92674612 92674462 92674633 92674441 421720312    -     3.9e-05   27.1   2.4  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              475     579 92677308 92677204 92677329 92677183 421720312    -        0.12   15.6   4.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Artemisia_norvegica/assembly/curated/daArtNorv1.1/daArtNorv1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Artemisia_norvegica/Artemisia_norvegica_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Artemisia_norvegica/assembly/curated/daArtNorv1.1/daArtNorv1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:41:23 2026
+# [ok]

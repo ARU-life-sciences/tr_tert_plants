@@ -1,0 +1,15 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2772    3242 4009808 4009281 4009829 4009261 25762381    -       1e-27   98.6   2.0  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3245    3453 4008957 4008746 4008971 4008721 25762381    -     6.5e-17   62.7   3.4  -
+SUPER_10             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1755    2163 4011359 4010930 4011369 4010909 25762381    -       2e-08   34.6   3.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Nogopterium_gracile/assembly/curated/cbNogGrac3.1/cbNogGrac3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Nogopterium_gracile/Nogopterium_gracile_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/non-vascular-plants/Nogopterium_gracile/assembly/curated/cbNogGrac3.1/cbNogGrac3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:50 2026
+# [ok]

@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2543    3029 20298803 20299319 20298783 20299337 26945649    +     6.6e-31  108.4  23.5  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3097    3229 20299498 20299630 20299477 20299650 26945649    +       7e-14   51.9   7.2  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2392 20297423 20298251 20297416 20298271 26945649    +     4.1e-11   42.7  28.4  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3353    3444 20299875 20299966 20299853 20299984 26945649    +        0.17   10.8   4.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Cardamine_amara/assembly/curated/ddCarAmar1.1/ddCarAmar1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Cardamine_amara/Cardamine_amara_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Cardamine_amara/assembly/curated/ddCarAmar1.1/ddCarAmar1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:50 2026
+# [ok]

@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              233    1457   4852242   4850259   4852244   4850243 293821766    -     4.3e-87  298.1  61.0  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1812   4850082   4849337   4850102   4849336 293821766    -     4.7e-22   82.4  17.3  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              348     644 233946050 233946351 233946030 233946355 400054948    +     1.6e-08   37.6  18.6  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1561    1703 233945724 233945848 233945703 233945868 400054948    +       0.053   16.0   9.4  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1562    1701   4852359   4852238   4852380   4852236 293821766    -        0.47   12.8   6.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Vicia_lathyroides/assembly/curated/drVicLath1.1/drVicLath1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Vicia_lathyroides/Vicia_lathyroides_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Vicia_lathyroides/assembly/curated/drVicLath1.1/drVicLath1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:03 2026
+# [ok]

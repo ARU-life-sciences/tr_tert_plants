@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1546    2404 49129304 49130269 49129292 49130289 64171545    +     4.2e-40  141.6  39.3  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2570    3029 49132170 49132695 49132146 49132709 64171545    +     3.6e-39  138.5  13.7  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3230 49134836 49135044 49134823 49135064 64171545    +       3e-19   72.4   9.0  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3287    3563 49135761 49136034 49135746 49136036 64171545    +     4.3e-05   25.4   5.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Campanula_latifolia/assembly/curated/daCamLati1.1/daCamLati1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Campanula_latifolia/Campanula_latifolia_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Campanula_latifolia/assembly/curated/daCamLati1.1/daCamLati1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:03 2026
+# [ok]

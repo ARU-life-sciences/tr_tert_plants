@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3253    3443 21817430 21817626 21817410 21817658 46294555    +     1.1e-16   62.1   2.3  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1750    2163 21814681 21815073 21814662 21815093 46294555    +     1.5e-13   51.7   7.0  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2981    3238 21816907 21817167 21816888 21817188 46294555    +     1.2e-10   42.0   1.9  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2782    2900 21816432 21816550 21816411 21816570 46294555    +      0.0025   17.7   2.7  -
+SUPER_4              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2386    2561 21815671 21815846 21815651 21815855 46294555    +         4.5    6.9   2.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Blasia_pusilla/assembly/curated/cmBlaPusi2.1/cmBlaPusi2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Blasia_pusilla/Blasia_pusilla_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/non-vascular-plants/Blasia_pusilla/assembly/curated/cmBlaPusi2.1/cmBlaPusi2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:25 2026
+# [ok]

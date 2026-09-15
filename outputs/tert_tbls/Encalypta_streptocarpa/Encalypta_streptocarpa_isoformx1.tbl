@@ -1,0 +1,15 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1212    1549 3119535 3120261 3119526 3120286 34375664    +     2.6e-16   60.9   3.8  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              336     771 3118111 3118695 3118104 3118702 34375664    +     1.8e-10   41.5   2.2  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              974    1109 3119267 3119417 3119264 3119438 34375664    +     7.4e-06   26.2   1.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Encalypta_streptocarpa/assembly/curated/cbEncStre1.1/cbEncStre1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Encalypta_streptocarpa/Encalypta_streptocarpa_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/non-vascular-plants/Encalypta_streptocarpa/assembly/curated/cbEncStre1.1/cbEncStre1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:51 2026
+# [ok]

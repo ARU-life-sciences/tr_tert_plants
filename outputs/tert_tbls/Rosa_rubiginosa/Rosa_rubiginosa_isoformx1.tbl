@@ -1,0 +1,25 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1484 1999719 2001736 1999705 2001756 58462656    +     8.8e-96  326.7  60.0  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1484 1736604 1738625 1736587 1738645 58560866    +     2.1e-95  325.5  56.9  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1484 2036163 2038155 2036149 2038175 71180431    +     7.7e-94  320.3  58.5  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              231    1484 1888977 1890993 1888963 1891013 71929161    +     4.1e-93  317.9  58.7  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1722 2038392 2039014 2038372 2039034 71180431    +       4e-33  119.0  10.2  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1722 1891230 1891852 1891213 1891872 71929161    +     4.3e-33  118.9  10.4  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1722 1738869 1739521 1738849 1739541 58560866    +     5.7e-33  118.5  10.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1459    1722 2001980 2002631 2001960 2002652 58462656    +     3.8e-32  115.7  10.5  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1689 1888843 1888971 1888828 1888976 71929161    +      0.0011   21.4   7.1  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1689 2036029 2036157 2036014 2036162 71180431    +      0.0011   21.4   7.1  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1689 1736470 1736598 1736455 1736602 58560866    +      0.0013   21.2   7.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1537    1689 1999585 1999713 1999570 1999717 58462656    +      0.0013   21.2   7.2  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              557     716 1733252 1733360 1733231 1733380 58560866    +         9.6    8.3   2.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Rosa_rubiginosa/assembly/curated/drRosRubi1.1/drRosRubi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Rosa_rubiginosa/Rosa_rubiginosa_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Rosa_rubiginosa/assembly/curated/drRosRubi1.1/drRosRubi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:51 2026
+# [ok]

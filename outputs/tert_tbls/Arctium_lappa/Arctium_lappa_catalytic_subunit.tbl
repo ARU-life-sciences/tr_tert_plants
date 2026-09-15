@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2522    3029 161941115 161941672 161941102 161941678 178914421    +     7.2e-41  144.6  16.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3231 161942368 161942577 161942360 161942598 178914421    +     5.3e-20   75.4   5.9  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1526    2112 161939403 161940022 161939383 161940039 178914421    +     4.8e-18   68.9  20.9  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2168    2363 161940180 161940375 161940163 161940394 178914421    +     6.9e-10   41.8   9.8  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3294    3563 161942998 161943264 161942977 161943266 178914421    +     5.8e-06   28.8   6.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Arctium_lappa/assembly/curated/daArcLapp1.1/daArcLapp1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Arctium_lappa/Arctium_lappa_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Arctium_lappa/assembly/curated/daArcLapp1.1/daArcLapp1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:31 2026
+# [ok]

@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              974    1701  4768632  4770227  4768630  4770247 27373505    +     7.6e-28  100.2   5.4  -
+SUPER_17             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              975    1701  4646331  4647903  4646328  4647923 28331092    +     6.9e-27   97.1   5.4  -
+SUPER_1              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1303    1549 46333335 46334001 46333315 46334011 77683953    +     4.6e-11   44.6   2.3  -
+SUPER_17             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              332     461  4645417  4645557  4645388  4645577 28331092    +     1.5e-08   36.2   2.3  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              332     461  4767724  4767860  4767691  4767870 27373505    +     2.4e-08   35.6   2.6  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1488    1549 16933479 16933331 16933499 16933311 74616754    -      0.0069   17.5   1.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Bryum_knowltonii/assembly/curated/cbBryKnow1.1/cbBryKnow1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Bryum_knowltonii/Bryum_knowltonii_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/non-vascular-plants/Bryum_knowltonii/assembly/curated/cbBryKnow1.1/cbBryKnow1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:58 2026
+# [ok]

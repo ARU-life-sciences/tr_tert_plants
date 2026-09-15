@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2969    3241 22042583 22042302 22042605 22042282 30847924    -     1.7e-15   58.1   6.9  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3291    3434 22041871 22041728 22041930 22041710 30847924    -     7.8e-15   55.9   3.7  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2756    2942 22043009 22042815 22043022 22042795 30847924    -     8.5e-11   42.5   6.4  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3290    3434 16370449 16370305 16370493 16370285 18683313    -     1.3e-07   31.9  10.9  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2751    2989 16371924 16371681 16371931 16371458 18683313    -     1.4e-07   31.8  33.2  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1756    2163 22044602 22044168 22044623 22044147 30847924    -     3.9e-05   23.7   5.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Sphagnum_squarrosum/assembly/curated/csSphSqua2.1/csSphSqua2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Sphagnum_squarrosum/Sphagnum_squarrosum_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/non-vascular-plants/Sphagnum_squarrosum/assembly/curated/csSphSqua2.1/csSphSqua2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:02 2026
+# [ok]

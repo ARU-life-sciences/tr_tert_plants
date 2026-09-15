@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2976    3242 5580105 5580380 5580091 5580417 61999393    +     1.5e-15   58.7   2.8  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3299    3431 5580677 5580809 5580653 5580829 61999393    +     1.3e-10   42.3   5.9  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1737    2164 5578498 5578958 5578477 5578978 61999393    +     3.9e-08   34.0   4.9  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2756    2900 5579762 5579906 5579742 5579926 61999393    +      0.0075   16.5   4.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Polytrichastrum_alpinum/assembly/curated/cbPolAlpi2.1/cbPolAlpi2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Polytrichastrum_alpinum/Polytrichastrum_alpinum_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/non-vascular-plants/Polytrichastrum_alpinum/assembly/curated/cbPolAlpi2.1/cbPolAlpi2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:12 2026
+# [ok]

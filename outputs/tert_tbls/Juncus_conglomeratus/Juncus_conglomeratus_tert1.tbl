@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1741    2599 7983259 7984189 7983245 7984212 11763296    +       9e-43  147.9  63.0  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2753    3238 7984472 7984951 7984458 7984971 11763296    +     3.9e-41  142.5  31.0  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3235    3503 7985083 7985354 7985076 7985373 11763296    +     3.6e-19   69.6  18.1  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3770 7986077 7986351 7986057 7986352 11763296    +       2e-13   50.5  16.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/monocots/Juncus_conglomeratus/assembly/curated/lpJunCong1.1/lpJunCong1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Juncus_conglomeratus/Juncus_conglomeratus_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/monocots/Juncus_conglomeratus/assembly/curated/lpJunCong1.1/lpJunCong1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:16 2026
+# [ok]

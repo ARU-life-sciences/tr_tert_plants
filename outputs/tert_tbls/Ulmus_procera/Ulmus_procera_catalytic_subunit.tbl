@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_14_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2533    3029 6711001 6710481 6711013 6710460 93649095    -     1.4e-38  137.0  20.8  -
+SUPER_14_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3022    3228 6709770 6709561 6709780 6709540 93649095    -     1.2e-22   84.1   7.3  -
+SUPER_14_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2129 6712370 6711738 6712389 6711718 93649095    -     5.1e-21   78.7  32.1  -
+SUPER_14_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2170    2339 6711598 6711428 6711614 6711407 93649095    -     4.1e-07   32.5  13.4  -
+SUPER_14_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563 6709189 6708928 6709210 6708926 93649095    -     1.9e-06   30.3   7.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ulmus_procera/assembly/curated/drUlmProc1.1/drUlmProc1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Ulmus_procera/Ulmus_procera_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Ulmus_procera/assembly/curated/drUlmProc1.1/drUlmProc1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:50 2026
+# [ok]

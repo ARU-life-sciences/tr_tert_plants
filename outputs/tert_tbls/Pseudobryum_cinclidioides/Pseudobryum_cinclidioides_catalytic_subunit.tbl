@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2556    3033 7200547 7201077 7200512 7201097 151545321    +     1.7e-20   76.0   2.9  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3034    3238 7201496 7201702 7201482 7201711 151545321    +     3.4e-16   61.8   2.4  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1839    1966 7199490 7199618 7199470 7199638 151545321    +     1.9e-06   29.4   2.3  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3270    3454 7202162 7202340 7202123 7202360 151545321    +     4.9e-06   28.0   5.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Pseudobryum_cinclidioides/assembly/curated/cbPseCinc1.1/cbPseCinc1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Pseudobryum_cinclidioides/Pseudobryum_cinclidioides_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/non-vascular-plants/Pseudobryum_cinclidioides/assembly/curated/cbPseCinc1.1/cbPseCinc1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:04 2026
+# [ok]

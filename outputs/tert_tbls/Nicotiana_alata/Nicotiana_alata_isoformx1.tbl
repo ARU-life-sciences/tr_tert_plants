@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              951    1812 91233684 91232599 91233711 91232598 175317672    -    1.2e-185  624.6  28.1  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              218     956 62171400 62172237 62171392 62172245 175317672    +      9e-163  548.8  33.7  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              929    1460 62172724 62173584 62172701 62173597 175317672    +    9.9e-136  459.1  15.7  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1458    1812 62173941 62174722 62173934 62174723 175317672    +     1.2e-86  296.3  15.2  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -                2     218 62166970 62167313 62166969 62167712 175317672    +     2.1e-47  166.2   4.7  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              701     951 91255685 91255387 91255701 91255326 175317672    -     2.6e-38  136.1   9.7  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1448    1683 62171216 62171401 62171190 62171403 175317672    +     1.5e-18   70.6   2.8  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              127     389 62162892 62163180 62162890 62163197 175317672    +     5.9e-15   58.6   0.9  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              553     797 62166504 62166675 62166500 62166695 175317672    +     1.2e-12   51.0   6.2  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              378     482 62165925 62166004 62165905 62166018 175317672    +     0.00035   22.9   2.8  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              804     947 62168973 62169096 62168952 62169116 175317672    +        0.56   12.3   1.9  -
+SUPER_5_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              479     553 62166347 62166413 62166329 62166426 175317672    +         3.9    9.5   0.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Nicotiana_alata/assembly/curated/daNicAlat1.1/daNicAlat1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Nicotiana_alata/Nicotiana_alata_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Nicotiana_alata/assembly/curated/daNicAlat1.1/daNicAlat1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:46 2026
+# [ok]

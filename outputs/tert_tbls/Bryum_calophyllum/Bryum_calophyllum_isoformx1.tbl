@@ -1,0 +1,19 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              974    1701 3199966 3201559 3199964 3201572 22535883    +     1.1e-27  100.0   4.7  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              974    1701 3076115 3074529 3076117 3074509 21425003    -     1.7e-27   99.3   6.7  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              974    1465 3613342 3612873 3613344 3612857 23954050    -     1.5e-18   69.6   3.8  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              335     766 3199066 3199547 3199044 3199564 22535883    +     1.4e-08   36.6   2.1  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              333     758 3077016 3076543 3077044 3076523 21425003    -     1.8e-08   36.3   2.4  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              333     758 3614243 3613770 3614271 3613750 23954050    -     2.2e-08   35.9   2.7  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1488    1701 3612449 3611702 3612478 3611682 23954050    -     1.8e-06   29.6   2.1  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Bryum_calophyllum/assembly/curated/cbBryCalo1.1/cbBryCalo1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Bryum_calophyllum/Bryum_calophyllum_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/non-vascular-plants/Bryum_calophyllum/assembly/curated/cbBryCalo1.1/cbBryCalo1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:37:57 2026
+# [ok]

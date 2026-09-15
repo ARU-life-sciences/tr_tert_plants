@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3032 4520004 4519457 4520029 4519443 28436890    -     3.7e-23   83.7   1.8  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3085    3238 4519086 4518928 4519118 4518921 28436890    -       8e-15   56.0   3.5  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1839    1966 4521209 4521081 4521229 4521067 28436890    -     4.6e-08   33.6   1.2  -
+SUPER_9              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3477 4518757 4518585 4518777 4518573 28436890    -     4.4e-06   27.0   4.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Leucodon_sciuroides/assembly/curated/cbLeuSciu3.1/cbLeuSciu3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Leucodon_sciuroides/Leucodon_sciuroides_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/non-vascular-plants/Leucodon_sciuroides/assembly/curated/cbLeuSciu3.1/cbLeuSciu3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:16 2026
+# [ok]

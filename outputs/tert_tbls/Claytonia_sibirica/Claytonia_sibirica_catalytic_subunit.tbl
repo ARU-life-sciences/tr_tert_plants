@@ -1,0 +1,17 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2519    3030 129390883 129391420 129390872 129391436 283374440    +     8.2e-28  101.1  12.7  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3090    3232 129392148 129392290 129392127 129392306 283374440    +     1.5e-21   80.4   3.6  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1553    2121 129389644 129390206 129389624 129390216 283374440    +       2e-21   79.9  24.3  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3389    3563 129392652 129392826 129392632 129392828 283374440    +     1.7e-09   40.3   4.1  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2174    2354 129390358 129390538 129390338 129390559 283374440    +      0.0036   19.3  11.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Claytonia_sibirica/assembly/curated/dcClaSibi1.1/dcClaSibi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Claytonia_sibirica/Claytonia_sibirica_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Claytonia_sibirica/assembly/curated/dcClaSibi1.1/dcClaSibi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:31 2026
+# [ok]

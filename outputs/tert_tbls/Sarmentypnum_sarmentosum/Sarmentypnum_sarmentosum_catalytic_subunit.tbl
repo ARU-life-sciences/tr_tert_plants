@@ -1,0 +1,16 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2534    3032 9588471 9589028 9588451 9589033 29356430    +     1.9e-22   81.3   2.8  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3033    3238 9589300 9589507 9589291 9589515 29356430    +     5.8e-16   59.8   2.5  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1839    1965 9587266 9587393 9587245 9587408 29356430    +     2.6e-08   34.4   1.4  -
+SUPER_6              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3454 9589677 9589827 9589657 9589847 29356430    +       8e-05   22.8   5.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Sarmentypnum_sarmentosum/assembly/curated/cbSarSarm3.1/cbSarSarm3.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Sarmentypnum_sarmentosum/Sarmentypnum_sarmentosum_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/non-vascular-plants/Sarmentypnum_sarmentosum/assembly/curated/cbSarSarm3.1/cbSarSarm3.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:35 2026
+# [ok]

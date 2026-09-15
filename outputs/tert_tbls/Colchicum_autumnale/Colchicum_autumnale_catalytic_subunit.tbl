@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1543    2391 19708374 19707450 19708395 19707423 75114542    -     4.1e-60  209.8  42.2  -
+SUPER_39             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1545    2392 20341191 20340266 20341211 20340239 51743211    -     2.4e-59  207.2  42.9  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2763    3029 19674619 19674353 19674630 19674333 75114542    -     1.8e-31  114.7  17.2  -
+SUPER_39             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2762    3029 20322409 20322142 20322427 20322122 51743211    -       2e-31  114.6  16.1  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3027    3298 19673793 19673519 19673800 19673498 75114542    -     1.3e-27  102.0  11.2  -
+SUPER_39             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3027    3298 20321598 20321324 20321605 20321304 51743211    -     1.5e-27  101.7  11.7  -
+SUPER_2              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3027    3298 48310743 48311017 48310723 48311037 200135348    +     2.3e-26   97.8  10.8  -
+SUPER_39             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3564 20311484 20311212 20311504 20311211 51743211    -     5.5e-13   53.4   7.4  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3564 19662585 19662313 19662605 19662312 75114542    -       1e-11   49.2   6.9  -
+SUPER_39             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2545    2700 20322863 20322708 20322883 20322685 51743211    -     0.00025   24.6  10.0  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2545    2701 19675074 19674918 19675094 19674895 75114542    -      0.0013   22.3   8.6  -
+SUPER_22             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              473     589 19843829 19843713 19843850 19843690 75114542    -        0.08   16.3   7.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/monocots/Colchicum_autumnale/assembly/curated/llColAutu1.1/llColAutu1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Colchicum_autumnale/Colchicum_autumnale_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/monocots/Colchicum_autumnale/assembly/curated/llColAutu1.1/llColAutu1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:42:03 2026
+# [ok]

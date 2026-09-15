@@ -1,0 +1,25 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2586    3041 34476251 34475775 34476271 34475755 37678048    -     3.7e-30  106.5  19.1  -
+HAP1_SCAFFOLD_2880   -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2607    3034    27849    28286    27829    28308    30811    +       5e-22   79.5  16.6  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2607    3034 34529474 34529911 34529454 34529933 37678048    +     2.9e-21   77.0  17.5  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3088    3228 34475186 34475046 34475207 34475038 37678048    -     2.8e-18   67.1   5.4  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    1963 34477658 34477281 34477668 34477270 37678048    -     8.3e-15   55.5  17.2  -
+HAP1_SCAFFOLD_2880   -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    1963    26944    27320    26934    27331    30811    +     7.7e-09   35.7  21.6  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1550    1963 34528569 34528945 34528559 34528956 37678048    +     7.5e-08   32.5  21.0  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2170    2374 34476977 34476768 34476997 34476753 37678048    -     1.8e-05   24.6  13.2  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3370    3560 34474453 34474264 34474475 34474259 37678048    -     1.8e-05   24.6   1.9  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              475     599 34522318 34522451 34522298 34522471 37678048    +        0.14   11.6   3.5  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              475     599 34480651 34480518 34480671 34480498 37678048    -        0.14   11.6   3.5  -
+HAP1_SCAFFOLD_2880   -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              477     599    23354    23485    23334    23505    30811    +        0.32   10.4   2.8  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -              477     599 34524977 34525108 34524957 34525128 37678048    +        0.32   10.4   2.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Veronica_filiformis/assembly/curated/daVerFili1.1/daVerFili1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Veronica_filiformis/Veronica_filiformis_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Veronica_filiformis/assembly/curated/daVerFili1.1/daVerFili1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:41 2026
+# [ok]

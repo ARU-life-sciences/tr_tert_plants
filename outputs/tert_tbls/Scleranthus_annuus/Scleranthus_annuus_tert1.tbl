@@ -1,0 +1,30 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2776    3240 50492161 50491652 50492181 50491631 62332761    -     6.8e-25   91.3  18.1  -
+SUPER_16_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2777    3239 58919041 58918552 58919061 58918530 72534998    -     5.4e-23   85.0  19.5  -
+SUPER_14_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2777    3239 64170993 64171500 64170973 64171520 73425096    +     8.9e-22   81.0  20.5  -
+SUPER_14_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3232    3441 64172113 64172328 64172093 64172352 73425096    +     1.5e-20   76.9   3.2  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3233    3441 50490987 50490773 50491006 50490749 62332761    -     1.2e-19   74.0   2.4  -
+SUPER_16_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3234    3440 58917945 58917733 58917955 58917709 72534998    -     1.2e-19   73.9   2.0  -
+SUPER_14_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1746    2179 64169185 64169615 64169165 64169636 73425096    +     5.4e-17   65.1  16.9  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2171 50493974 50493550 50493994 50493529 62332761    -     1.4e-13   53.8  12.5  -
+SUPER_8_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1816    2164 78193653 78194002 78193631 78194031 78486209    +     1.1e-10   44.2  18.0  -
+SUPER_14_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3492    3769 64172848 64173124 64172828 64173126 73425096    +     1.6e-10   43.7   6.8  -
+SUPER_16_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3498    3769 58917192 58916941 58917212 58916939 72534998    -     1.7e-07   33.6  10.0  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3499    3769 50490236 50489969 50490256 50489967 62332761    -       8e-07   31.4   6.5  -
+SUPER_16_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1765    2157 58920724 58920352 58920743 58920330 72534998    -     0.00027   23.0  20.0  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2356    2549 50493257 50493064 50493265 50493040 62332761    -      0.0005   22.1  11.6  -
+SUPER_8_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1763    2162 78196206 78195826 78196226 78195806 78486209    -      0.0009   21.2  23.7  -
+SUPER_14_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2354    2601 64169883 64170130 64169874 64170166 73425096    +      0.0072   18.3  12.5  -
+SUPER_16_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1562    1655 58922380 58922281 58922399 58922270 72534998    -         5.4    8.7   2.4  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1562    1655 50495751 50495652 50495771 50495642 62332761    -         5.8    8.6   2.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Scleranthus_annuus/assembly/curated/dcSclAnnu1.1/dcSclAnnu1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Scleranthus_annuus/Scleranthus_annuus_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Scleranthus_annuus/assembly/curated/dcSclAnnu1.1/dcSclAnnu1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:40:58 2026
+# [ok]

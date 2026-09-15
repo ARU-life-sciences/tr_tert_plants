@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2540    3029 27182848 27182290 27182864 27182270 28693381    -     4.1e-40  140.2  18.5  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2004 27186283 27185801 27186303 27185781 28693381    -     3.7e-19   70.7  26.7  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3091    3233 27181291 27181149 27181313 27181129 28693381    -     1.3e-16   62.2   6.3  -
+SUPER_11_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2863    3029 21235427 21235596 21235415 21235616 21789277    +     1.3e-12   48.9   6.2  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2162    2407 27185536 27185290 27185554 27185270 28693381    -     7.4e-10   39.8  14.1  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3388    3563 27180394 27180219 27180415 27180217 28693381    -     1.3e-06   29.0   7.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Vitis_vinifera/assembly/curated/drVitVini1.1/drVitVini1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Vitis_vinifera/Vitis_vinifera_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Vitis_vinifera/assembly/curated/drVitVini1.1/drVitVini1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:50 2026
+# [ok]

@@ -1,0 +1,24 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3029 24874716 24874192 24874743 24874186 45170548    -     3.9e-40  141.9  18.3  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3029 23951099 23950575 23951126 23950569 43781470    -     4.9e-40  141.5  19.0  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3029 25054909 25054380 25054936 25054374 44290896    -     4.1e-39  138.5  18.3  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1537    2375 24876666 24875699 24876686 24875679 45170548    -     4.4e-26   95.2  34.8  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1537    2375 25056858 25055891 25056878 25055871 44290896    -     4.4e-26   95.2  34.8  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1537    2372 23953045 23952081 23953065 23952059 43781470    -     7.6e-25   91.1  34.8  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3091    3231 25054054 25053914 25054062 25053899 44290896    -     2.6e-14   56.1   9.1  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3091    3231 24873866 24873726 24873875 24873711 45170548    -     3.9e-14   55.6   9.3  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3091    3231 23950249 23950109 23950258 23950094 43781470    -     5.7e-14   55.0   9.9  -
+HAP2_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3291    3563 24873526 24873257 24873546 24873255 45170548    -     3.5e-12   49.1   8.0  -
+HAP3_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3291    3563 23949909 23949640 23949929 23949638 43781470    -     3.5e-12   49.1   8.0  -
+HAP4_SUPER_4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3291    3563 25053714 25053445 25053734 25053443 44290896    -     3.5e-12   49.1   8.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Galium_boreale/assembly/curated/daGalBore1.1/daGalBore1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Galium_boreale/Galium_boreale_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Galium_boreale/assembly/curated/daGalBore1.1/daGalBore1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:06 2026
+# [ok]

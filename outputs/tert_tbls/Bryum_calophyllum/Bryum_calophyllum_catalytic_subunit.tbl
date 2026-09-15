@@ -1,0 +1,26 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3033 3613335 3612873 3613364 3612858 23954050    -     3.6e-23   85.0   4.0  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3033 3199973 3200435 3199946 3200453 22535883    +     8.7e-23   83.7   3.4  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3033 3076108 3075646 3076137 3075627 21425003    -     3.4e-22   81.7   3.9  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3083    3238 3200819 3200970 3200798 3200975 22535883    +     1.1e-13   53.5   4.7  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3083    3238 3612434 3612283 3612455 3612279 23954050    -     2.4e-13   52.4   3.7  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3083    3238 3075261 3075110 3075281 3075106 21425003    -     3.5e-13   51.8   4.6  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1826    1953 3077016 3076889 3077036 3076869 21425003    -     7.2e-06   27.5   1.8  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1826    1953 3614243 3614116 3614263 3614096 23954050    -     9.6e-06   27.1   2.1  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3472 3201410 3201577 3201402 3201584 22535883    +     1.8e-05   26.2   7.1  -
+SUPER_23             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1826    1953 3199064 3199191 3199044 3199211 22535883    +     0.00014   23.3   1.8  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3454 3611851 3611701 3611863 3611681 23954050    -     0.00015   23.2   7.3  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3292    3454 3074678 3074528 3074690 3074508 21425003    -     0.00015   23.2   7.3  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2170    2346 3613824 3613645 3613844 3613635 23954050    -         4.4    8.4   1.5  -
+SUPER_27             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2170    2346 3076597 3076418 3076617 3076408 21425003    -         4.4    8.4   1.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/non-vascular-plants/Bryum_calophyllum/assembly/curated/cbBryCalo1.1/cbBryCalo1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Bryum_calophyllum/Bryum_calophyllum_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/non-vascular-plants/Bryum_calophyllum/assembly/curated/cbBryCalo1.1/cbBryCalo1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:38:40 2026
+# [ok]

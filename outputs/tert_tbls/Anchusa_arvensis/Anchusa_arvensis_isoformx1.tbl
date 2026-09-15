@@ -1,0 +1,20 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              234    1812 539315701 539313576 539315715 539313575 590674217    -    4.1e-102  350.7  60.8  -
+SUPER_8              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              233    1812   6800427   6802457   6800424   6802458 677352792    +    8.5e-100  343.0  61.5  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              233    1812 415975717 415978238 415975713 415978239 421313387    +     1.3e-99  342.4  60.7  -
+SUPER_15             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              324    1085 553706843 553708139 553706823 553708154 561139135    +     1.1e-42  153.6  24.3  -
+SUPER_3              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              324    1085 459428849 459427552 459428869 459427537 790103739    -     2.5e-42  152.4  23.9  -
+SUPER_15             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              324    1114 553412366 553411114 553412386 553411095 561139135    -     2.8e-40  145.7  23.8  -
+SUPER_11             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1423    1554 301502221 301502459 301502200 301502480 590674217    +     6.8e-06   31.6   5.9  -
+SUPER_14             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1409    1546 274663105 274663333 274663081 274663354 566116510    +        0.11   17.7   6.8  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Anchusa_arvensis/assembly/curated/daAncArve1.1/daAncArve1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Anchusa_arvensis/Anchusa_arvensis_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Anchusa_arvensis/assembly/curated/daAncArve1.1/daAncArve1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:42:49 2026
+# [ok]

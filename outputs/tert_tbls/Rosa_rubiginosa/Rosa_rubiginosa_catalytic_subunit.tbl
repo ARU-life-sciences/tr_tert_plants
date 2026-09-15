@@ -1,0 +1,32 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3030  2037595  2038137  2037575  2038157 71180431    +     9.2e-41  144.4  17.8  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3030  1738064  1738607  1738044  1738627 58560866    +     3.4e-40  142.5  16.3  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3030  2001175  2001718  2001156  2001738 58462656    +       7e-40  141.5  17.8  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2544    3030  1890432  1890975  1890412  1890995 71929161    +     1.9e-39  140.0  17.5  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3232  2038390  2038600  2038384  2038608 71180431    +     1.4e-20   77.4   7.8  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3232  1738867  1739077  1738861  1739085 58560866    +     1.4e-20   77.4   7.8  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3229  1891228  1891435  1891222  1891446 71929161    +     4.9e-20   75.6   8.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3025    3232  2001978  2002188  2001972  2002196 58462656    +     3.1e-19   72.9   8.1  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2120  2036054  2036658  2036033  2036671 71180431    +     2.9e-18   69.7  27.9  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2120  1736495  1737099  1736474  1737108 58560866    +       3e-18   69.7  27.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2120  1999610  2000214  1999589  2000223 58462656    +       3e-18   69.7  27.2  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2120  1888868  1889472  1888847  1889481 71929161    +     7.9e-18   68.3  27.2  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  1739337  1739610  1739331  1739612 58560866    +     2.6e-08   36.6  12.4  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  2038830  2039103  2038826  2039105 71180431    +     4.3e-08   35.9  12.2  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  2002447  2002720  2002441  2002722 58462656    +     4.5e-08   35.9  11.5  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3290    3563  1891668  1891941  1891662  1891943 71929161    +     5.5e-08   35.6  12.1  -
+SUPER_18             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2177    2383  1889631  1889837  1889618  1889861 71929161    +     7.4e-05   25.2  11.8  -
+SUPER_24             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2177    2387  1737258  1737468  1737245  1737490 58560866    +      0.0007   22.0  11.4  -
+SUPER_19             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2177    2383  2036817  2037023  2036804  2037047 71180431    +     0.00091   21.6  11.5  -
+SUPER_5              -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2177    2383  2000373  2000579  2000360  2000601 58462656    +      0.0019   20.6  12.9  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Rosa_rubiginosa/assembly/curated/drRosRubi1.1/drRosRubi1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Rosa_rubiginosa/Rosa_rubiginosa_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Rosa_rubiginosa/assembly/curated/drRosRubi1.1/drRosRubi1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:55 2026
+# [ok]

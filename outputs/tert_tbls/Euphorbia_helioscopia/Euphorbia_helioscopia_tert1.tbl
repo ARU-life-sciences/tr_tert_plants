@@ -1,0 +1,25 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2755    3238 29061428 29061977 29061407 29061997 32079372    +     1.3e-27   99.4  16.7  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2755    3238 31203364 31203913 31203343 31203933 34962339    +     5.7e-27   97.3  19.8  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2755    3238 30658510 30659059 30658489 30659079 34448576    +     8.9e-27   96.6  18.8  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2549 30656846 30657762 30656836 30657783 34448576    +     1.6e-21   79.2  40.6  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2549 29059449 29060365 29059433 29060386 32079372    +     6.4e-21   77.2  38.2  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3298    3504 29062338 29062547 29062298 29062564 32079372    +     6.2e-18   67.3   7.4  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3298    3504 31204261 31204470 31204220 31204484 34962339    +     6.7e-18   67.2   8.6  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3298    3504 30659408 30659617 30659367 30659637 34448576    +     9.8e-18   66.6   8.2  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1761    2212 31201343 31201809 31201323 31201829 34962339    +     5.8e-15   57.4  22.9  -
+SUPER_21_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3496    3769 29062940 29063213 29062920 29063215 32079372    +     2.8e-06   28.6  12.2  -
+SUPER_20_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3769 30660003 30660275 30659982 30660277 34448576    +     3.3e-06   28.4  12.3  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3497    3769 31204860 31205132 31204839 31205134 34962339    +     1.5e-05   26.2  11.6  -
+SUPER_19_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2383    2549 31202079 31202245 31202059 31202266 34962339    +     0.00012   23.2  12.0  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Euphorbia_helioscopia/assembly/curated/ddEupHeli1.1/ddEupHeli1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Euphorbia_helioscopia/Euphorbia_helioscopia_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Euphorbia_helioscopia/assembly/curated/ddEupHeli1.1/ddEupHeli1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:12 2026
+# [ok]

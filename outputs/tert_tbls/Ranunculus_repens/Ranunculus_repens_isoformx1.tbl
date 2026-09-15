@@ -1,0 +1,23 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              219    1460 237988491 237990153 237988483 237990174 622365147    +     3.7e-67  234.0  40.0  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              220    1460 298876981 298875321 298876984 298875300 463822155    -     3.1e-66  230.9  39.0  -
+SUPER_11_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1208    1460 230057668 230057937 230057655 230057957 491461453    +     7.8e-17   67.1  10.9  -
+SUPER_2_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1450    1702 237990571 237991082 237990553 237991102 622365147    +     1.3e-15   63.0  13.9  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1450    1702 298875003 298874492 298875023 298874472 463822155    -     2.4e-14   58.9  13.2  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1225    1460 254903616 254903362 254903636 254903342 567927559    -       6e-13   54.2   9.5  -
+SUPER_6_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1476    1700 254902951 254902451 254902974 254902439 567927559    -     1.1e-06   33.5  12.4  -
+SUPER_11_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1208    1296 229873591 229873696 229873577 229873729 491461453    +       3e-06   32.0   5.3  -
+SUPER_11_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1475    1582 230058723 230059039 230058715 230059049 491461453    +      0.0067   20.9   3.6  -
+SUPER_15_HAP1        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1546    1725 298877095 298876940 298877108 298876939 463822155    -       0.016   19.7   6.9  -
+SUPER_2_HAP1         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1546    1725 237988378 237988533 237988365 237988534 622365147    +       0.023   19.1   7.3  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Ranunculus_repens/assembly/curated/dmRanRepe1.1/dmRanRepe1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Ranunculus_repens/Ranunculus_repens_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/dicots/Ranunculus_repens/assembly/curated/dmRanRepe1.1/dmRanRepe1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:41:03 2026
+# [ok]

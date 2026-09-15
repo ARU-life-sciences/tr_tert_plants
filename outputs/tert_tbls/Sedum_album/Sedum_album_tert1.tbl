@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_16B_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2755    3769 4495114 4493886 4495128 4493884 10667124    -     1.6e-60  208.3  24.4  -
+SUPER_16C_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2779    3769 5793782 5794981 5793761 5794983 10419986    +     3.1e-58  200.7  25.6  -
+SUPER_16A_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2779    3769 3983602 3984810 3983581 3984812 8321944    +     5.4e-58  199.9  23.7  -
+SUPER_16C_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2594 5792503 5793455 5792490 5793497 10419986    +     1.5e-21   78.9  33.5  -
+SUPER_16A_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2617 3982325 3983300 3982313 3983320 8321944    +     2.3e-18   68.4  32.0  -
+SUPER_16B_HAP1       -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1747    2617 4496370 4495395 4496383 4495375 10667124    -     4.4e-15   57.4  34.5  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm
+# Target file:     /data/tol/data/darwin/dicots/Sedum_album/assembly/curated/drSedAlbu1.1/drSedAlbu1.hap1.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Sedum_album/Sedum_album_tert1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/tert1.hmm /data/tol/data/darwin/dicots/Sedum_album/assembly/curated/drSedAlbu1.1/drSedAlbu1.hap1.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:27 2026
+# [ok]

@@ -1,0 +1,30 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2423 10240382 10239496 10240403 10239489 15710022    -     2.9e-34  121.6  22.2  -
+SUPER_28_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2575    3029  3618384  3618883  3618363  3618902 16926962    +     4.2e-32  114.5   6.6  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2423 15931288 15930405 15931305 15930398 19870852    -     3.9e-31  111.3  15.5  -
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2575    3029 10239121 10238622 10239141 10238602 15710022    -       5e-31  110.9   6.8  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2575    3029 15930030 15929528 15930058 15929514 19870852    -     7.1e-31  110.4   5.8  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1553    2423 10999952 11000834 10999944 11000840 19870852    +     9.2e-31  110.0  15.7  -
+SUPER_28_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1552    2423  3617013  3617896  3616997  3617903 16926962    +     2.7e-30  108.5  15.0  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2574    3029 11003284 11003784 11003264 11003804 19870852    +     3.1e-29  105.0   6.8  -
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2575    3029  3520073  3520564  3520052  3520575 15710022    +       2e-26   95.7   8.8  -
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3225  3520714  3520916  3520708  3520924 15710022    +     9.3e-17   63.6   4.2  -
+SUPER_28_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3225  3618999  3619201  3618997  3619209 16926962    +     1.5e-16   62.9   4.0  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3225 15929411 15929209 15929415 15929201 19870852    -     2.8e-16   62.0   4.3  -
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3225 10238506 10238304 10238510 10238296 15710022    -     3.1e-16   61.8   4.1  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3225 11003900 11004102 11003896 11004110 19870852    +       1e-14   56.8   5.2  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3391    3564 15928964 15928791 15928987 15928790 19870852    -     3.5e-07   31.8   8.3  -
+SUPER_26_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3390    3563 10238020 10237847 10238042 10237845 15710022    -     1.2e-06   30.0   8.2  -
+SUPER_28_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3391    3563  3619507  3619679  3619484  3619681 16926962    +     1.4e-06   29.8   8.7  -
+SUPER_17_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3391    3563 11004406 11004578 11004383 11004580 19870852    +     2.1e-05   25.9   8.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Mimulus_peregrinus/assembly/curated/daMimPere1.1/daMimPere1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Mimulus_peregrinus/Mimulus_peregrinus_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Mimulus_peregrinus/assembly/curated/daMimPere1.1/daMimPere1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:00 2026
+# [ok]

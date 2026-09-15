@@ -1,0 +1,23 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_1_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              951    1465 162275653 162276161 162275607 162276181 395946401    +     9.1e-28  102.4  26.1  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              717    1466 138287912 138286441 138287982 138286421 320461582    -     1.9e-27  101.3  36.0  -
+SUPER_1_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              677    1464 212127039 212125604 212127349 212125599 395946401    -     5.1e-27  100.0  54.9  -
+SUPER_10_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              870    1423 183278495 183278987 183278472 183279000 245065119    +     9.1e-18   69.3  19.4  -
+SUPER_10_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              952    1465 148351446 148351907 148351426 148351911 245065119    +     2.9e-15   61.0  19.6  -
+SUPER_10_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1499    1702 183290532 183290945 183290488 183290962 245065119    +     1.2e-13   55.6   0.0  -
+SUPER_1_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1500    1702 162276819 162277279 162276778 162277293 395946401    +     2.7e-12   51.2   0.0  -
+SUPER_4_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1500    1702 138285803 138285201 138285844 138285191 320461582    -     1.2e-11   49.0   0.0  -
+SUPER_1_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1500    1702 212124950 212124424 212124991 212124414 395946401    -     3.1e-11   47.6   0.3  -
+SUPER_10_HAP2        -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1500    1702 148352547 148353018 148352506 148353031 245065119    +     3.1e-07   34.4   0.1  -
+SUPER_1_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              345     474 162274117 162274246 162274084 162274267 395946401    +         2.4   11.5   8.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm
+# Target file:     /data/tol/data/darwin/monocots/Festuca_heterophylla/assembly/curated/lpFesHete1.1/lpFesHete1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Festuca_heterophylla/Festuca_heterophylla_isoformx1.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/isoform_X1_tert.hmm /data/tol/data/darwin/monocots/Festuca_heterophylla/assembly/curated/lpFesHete1.1/lpFesHete1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:39:25 2026
+# [ok]

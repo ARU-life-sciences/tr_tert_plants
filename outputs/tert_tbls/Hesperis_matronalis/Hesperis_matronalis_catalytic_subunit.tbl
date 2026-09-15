@@ -1,0 +1,23 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to   alifrom    ali to   envfrom    env to    sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------   -------   -------   -------   -------   ------- ------ --------- ------ ----- ---------------------
+SUPER_2_HAP3         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2578    3029 646080107 646080573 646080087 646080593 731874900    +     1.3e-31  116.5  16.4  -
+SUPER_2_HAP4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2578    3029 479125153 479124687 479125173 479124667 757015288    -     1.4e-31  116.3  15.9  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2578    3031 588902035 588902503 588902015 588902523 764799762    +     2.4e-31  115.6  16.1  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3085    3443 588902633 588903061 588902606 588903071 764799762    +     3.4e-18   71.9  12.1  -
+SUPER_2_HAP3         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3081    3228 646080709 646080856 646080684 646080877 731874900    +     5.1e-14   58.0   4.3  -
+SUPER_2_HAP4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3081    3228 479124551 479124404 479124576 479124383 757015288    -     5.1e-14   58.0   4.3  -
+SUPER_2_HAP4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2384 479126280 479125430 479126292 479125403 757015288    -     2.7e-09   42.4  27.2  -
+SUPER_2_HAP3         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2385 646078980 646079831 646078969 646079857 731874900    +     8.9e-09   40.7  27.0  -
+SUPER_2_HAP2         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1532    2340 588900908 588901717 588900897 588901738 764799762    +       1e-07   37.2  24.4  -
+SUPER_2_HAP3         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3351    3443 646081063 646081155 646081043 646081173 731874900    +        0.36   15.4   4.4  -
+SUPER_2_HAP4         -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3351    3443 479124197 479124105 479124217 479124087 757015288    -        0.36   15.4   4.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     /data/tol/data/darwin/dicots/Hesperis_matronalis/assembly/curated/ddHesMatr1.1/ddHesMatr1.hap2.1.primary.fa.gz
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/outputs/tert_tbls/Hesperis_matronalis/Hesperis_matronalis_catalytic_subunit.tbl --dna --cpu 20 /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert/inputs/clusters/catalytic_subunit_tert.hmm /data/tol/data/darwin/dicots/Hesperis_matronalis/assembly/curated/ddHesMatr1.1/ddHesMatr1.hap2.1.primary.fa.gz 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Tue Sep 15 08:48:41 2026
+# [ok]
