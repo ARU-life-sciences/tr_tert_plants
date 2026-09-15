@@ -10,11 +10,16 @@ after resolving two more cross-cutting gaps: the haplotype-phasing
 redundancy screen (real but narrow - 8/331 species affected, only 1 of
 the 44 headline differing sets) and the orientation-ambiguity question
 (resolved as a strand-convention artifact, not a biological anomaly -
-see "Specific to #3/#4" below). Written to answer: what are the headline
-results, what's still needed before this is publication-ready, and
-which files/notes back each result.
+see "Specific to #3/#4" below), plus the multiple-testing correction,
+pure-rotation correction, and `GAP_THRESHOLD` sensitivity check (all
+DONE, see #6/#3/#4 below). Updated again 2026-09-15: manuscript scope
+decided (one paper, not 2-3), and a major new related-work paper found
+(Závodník et al. - see below, materially revises the novelty framing).
+Written to answer: what are the headline results, what's still needed
+before this is publication-ready, and which files/notes back each
+result.
 
-## Related work (read 2026-09-14 - changes framing, not headline validity)
+## Related work (read 2026-09-14, 2026-09-15 - changes framing, not headline validity)
 
 - **Fajkus et al. 2019, NAR** ("Telomerase RNAs in land plants") - the
   paper our own TR HMM is seeded from (confirmed: `inputs/TR.fasta`
@@ -46,15 +51,48 @@ which files/notes back each result.
   proposed mechanism is DNA-level recombination between G-/C-rich
   strands, NOT TR-paralog-driven (Chenopodium wasn't checked for TR
   duplication) - a genuine competing hypothesis we haven't ruled out.
+- **Závodník et al.** (read 2026-09-15; exact journal/year not yet
+  confirmed - shares methodology/covariance model with Fajkus et al.
+  2021, likely same group) - the single most directly relevant paper
+  found so far, more so than Kumawat or Belyayev. Screened ~986
+  Tracheophyta genomes with Infernal/covariance models (comparable raw
+  scale to our own ~330-700 species) and built a large table of species
+  with multiple TR paralogs whose templates predict different telomere
+  motifs, validating a curated subset (~20-40 species) with FISH,
+  BAL31-TRF, and TRAP+sequencing. Their proposed model (Fig. 1): TR
+  duplication -> relaxed selection on the redundant copy -> mutation
+  accumulates -> a transitional "mixed telomere" phase (both ancestral
+  and mutant motifs coexisting) -> resolved by either selection
+  (pseudogenize/repair the mutant, revert to ancestral) or genetic drift
+  (mutant motif replaces ancestral, completing a transition) - a more
+  complete, directly citable theoretical frame than Kumawat's simpler
+  retain-if-functional/pseudogenize-if-not dichotomy; worth adopting as
+  our interpretive lens. Most relevant to headline #6: FISH typing of
+  mixed-telomere species into three spatial patterns (high-colocalization
+  "mixed", low-colocalization/partial segregation, single-motif), and -
+  independently, via PacBio long reads, a completely different sequencing
+  technology from ours - *Fagopyrum tataricum*'s two telomere motifs form
+  "intermingled" arrays with **no homogeneous stretches of either motif**,
+  essentially the same phenomenon as our regular-alternation/candidate-HOR
+  finding. Also links TR *transcript abundance* (RT-qPCR), not just gene
+  copy number, to which motif dominates the real telomere in Fagopyrum -
+  a more mechanistically direct version of our "TR-copy-count doesn't
+  predict telomere dominance" finding.
 
-**Net effect on framing**: the core mechanism (TR mutation -> telomere
-change) and the core pattern (paralog divergence -> heterogeneous
-telomere) are now independently demonstrated elsewhere, so the paper's
-novelty has to be pitched as generality/scale/synthesis (a
-~330-700-species, purely computational test of phenomena previously
-shown only in single-genus wet-lab studies, PLUS the first direct link
-between specific paralog sequence and specific array structure/block
-size - neither prior paper did that combination), not first discovery.
+**Net effect on framing - revised again after Závodník et al.**: raw
+scale is no longer a strong novelty claim on its own (Závodník et al.
+already screened a comparable number of genomes). What remains
+genuinely distinctive: (1) a fully computational, exhaustive,
+base-pair-resolved confirmation across *every* chromosome end for
+*every* species with paralog divergence in our dataset, vs their
+curated wet-lab validation of ~20-40 selected species; (2) critically,
+**a formally statistically-tested comparison against a matched
+TR-identical control group** (our Fisher's-exact 6/44-vs-0/62 regular-
+alternation result) - nothing like this exists in any of the four
+related papers, whose structural characterizations are qualitative/
+descriptive, case-by-case, not a dataset-wide hypothesis test against a
+proper null. Lead the paper with the controlled-comparison result, not
+with sample size.
 
 ## Headline results
 
@@ -118,9 +156,15 @@ size - neither prior paper did that combination), not first discovery.
    robust and should be treated as suggestive only, not reported with the
    same confidence). This is the first direct evidence tying the
    fine-grained alternating pattern specifically to TR paralog
-   divergence, not just generic recombination noise - something neither
-   Kumawat et al. nor Belyayev et al. could test, since neither had both
-   groups to compare.
+   divergence, not just generic recombination noise - something none of
+   Kumawat et al., Belyayev et al., or Závodník et al. could test, since
+   none had both a TR-divergent and TR-identical group to compare
+   (Závodník et al. independently found the same qualitative pattern -
+   PacBio-confirmed "intermingled," non-homogeneous dual-motif arrays in
+   *Fagopyrum tataricum* - via a different sequencing technology, which
+   is real, useful corroboration of the phenomenon itself, but their
+   characterization stays descriptive/case-by-case, not a statistical
+   test against a null).
    Also: 25/44 sets have a telomere-dominant sequence that differs from
    the TR-copy-count dominant. And a real methodological catch along the
    way: 6/55 "differing" variants across the dataset are pure phase reads
@@ -144,15 +188,22 @@ size - neither prior paper did that combination), not first discovery.
   replication.
 - No wet-lab validation anywhere (PCR, TRAP assay, Southern/FISH) -
   everything is computational.
-- Decide manuscript scope: this is plausibly 2-3 papers (Viscum loss;
-  Carlina repeat-switch; the dataset-wide fine-scale correlation as a
-  resource/methods paper), not one.
+- **DECIDED (2026-09-15): one paper**, not a 2-3 split. Viscum is
+  included as "what we have" (ongoing work elsewhere, not pursued
+  further here - see #1's gaps below) rather than built out into its
+  own paper; Carlina and the dataset-wide findings are folded into the
+  same manuscript.
 
 **Specific to #1 (Viscum):**
-- Check assembly completeness/QC in the relevant regions - need to rule
-  out "assembly gap" as an alternative to "genuinely absent."
-- No phylogenetic context (nearby parasitic/non-parasitic relatives) has
-  been added yet.
+- **Not being pursued further here** (per the one-paper scope decision
+  above) - Viscum work is ongoing elsewhere; this note reports what we
+  already have (no confident TR or TERT hit) as-is, not as a fully
+  worked-up standalone finding. The gaps below are real but out of scope
+  for now:
+  - Check assembly completeness/QC in the relevant regions - need to
+    rule out "assembly gap" as an alternative to "genuinely absent."
+  - No phylogenetic context (nearby parasitic/non-parasitic relatives)
+    has been added yet.
 
 **Specific to #2 (Carlina):**
 - Which locus (if any) is the *functional* copy is unresolved - 6 loci
