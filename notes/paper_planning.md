@@ -13,11 +13,12 @@ the 44 headline differing sets) and the orientation-ambiguity question
 see "Specific to #3/#4" below), plus the multiple-testing correction,
 pure-rotation correction, and `GAP_THRESHOLD` sensitivity check (all
 DONE, see #6/#3/#4 below). Updated again 2026-09-15: manuscript scope
-decided (one paper, not 2-3), and a major new related-work paper found
-(Závodník et al. - see below, materially revises the novelty framing).
-Written to answer: what are the headline results, what's still needed
-before this is publication-ready, and which files/notes back each
-result.
+decided (one paper, not 2-3), a major new related-work paper found
+(Závodník et al. - see below, materially revises the novelty framing),
+and a new candidate finding added (#7, `Epilobium_hirsutum` TERT loss -
+see `notes/epilobium_hirsutum_tert_absence.md`). Written to answer: what
+are the headline results, what's still needed before this is
+publication-ready, and which files/notes back each result.
 
 ## Related work (read 2026-09-14, 2026-09-15 - changes framing, not headline validity)
 
@@ -172,6 +173,19 @@ with sample size.
    point-mutant paralogs at all - naive position-wise comparison of these
    short, near-periodic motifs overstates how different two cores look
    unless corrected for cyclic rotation.
+7. **`Epilobium_hirsutum` shows a candidate localised TERT loss despite
+   an intact, telomere-confirmed TR** - a different pattern from Viscum
+   (#1: both components absent). No TERT hit by any of 3 HMM profiles or
+   tblastn, while TR is present (3 loci, one identical core) and already
+   confirmed to genuinely match the real telomere. A targeted synteny
+   check against its congener `E. ciliatum` (which has a strong,
+   unambiguous TERT hit) rules out assembly incompleteness: the genomic
+   neighbourhood around TERT maps cleanly to a specific, fully-resolved
+   (0% N's), mid-scaffold locus in `E. hirsutum` (87-93% flanking
+   identity) - but the ~8.5kb TERT gene body itself has zero detectable
+   sequence similarity there at any blastn stringency. Comparative-
+   genomic evidence only (same tier as Viscum), single congener, single
+   haplotype - see `notes/epilobium_hirsutum_tert_absence.md`.
 
 ## What's needed before this is paper-ready
 
@@ -316,6 +330,20 @@ with sample size.
   necessary and likely makes block/structure counts throughout this
   finding conservative (undercounts), not inflated - not corrected for.
 
+**Specific to #7 (Epilobium hirsutum TERT):**
+- Single congener comparison only - doesn't rule out TERT having moved
+  (large-scale rearrangement) rather than been deleted; a whole-genome
+  low-stringency TERT search hasn't been run to check for this.
+- Only one haplotype checked per species, and the two compared species
+  use different ones (`E. hirsutum` hap2, `E. ciliatum` hap1) - worth
+  confirming `E. hirsutum` hap1 agrees, if available.
+- No literature check for this species/genus (Onagraceae) at all.
+- Same evidentiary tier as Viscum (#1): comparative-genomic only, no
+  wet-lab validation.
+- Worth checking systematically whether other species in the dataset
+  show the same TR-present/TERT-absent pattern, rather than treating
+  this as a single isolated case - not yet done.
+
 ## Files backing each result
 
 | result | primary file(s) | note documenting it |
@@ -328,3 +356,4 @@ with sample size.
 | Telomere-independent prediction rule | `outputs/tr_repeat_correlation/all_species.tsv` (validation data), `src/predict_tr_template.py` | `notes/tr_template_boundary_prediction.md` |
 | Per-species array structure (clustering, true dominance, HOR candidates) + TR-identical control group | `outputs/tr_repeat_correlation/telomere_array_structure.tsv`, `telomere_array_structure_summary.tsv`, `core_template_variant_positions.tsv`, `identical_set_second_candidates.tsv`, `identical_set_array_structure.tsv`, `identical_set_array_structure_summary.tsv` | `notes/tr_core_template_array_structure.md` |
 | Organelle/cobiont data-QC fix (methods caveat, not a finding) | `inputs/dtol_plant_paths.txt`, `src/update_assembly_list.bash` | `notes/organelle_and_cobiont_assembly_pitfall.md` |
+| Epilobium hirsutum candidate TERT loss | `outputs/tert_tbls/Epilobium_hirsutum/*.tbl`, `outputs/tert_tblastn/Epilobium_hirsutum.tbl` (both empty), `outputs/synteny_checks/*` (synteny check), `src/check_gene_synteny_gap.py` | `notes/epilobium_hirsutum_tert_absence.md` |

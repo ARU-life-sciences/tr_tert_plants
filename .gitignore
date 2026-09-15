@@ -11,3 +11,7 @@ __pycache__/
 # outputs/tr_repeat_correlation/positional_confirmations.tsv (tracked);
 # regenerate the raw scans with src/confirm_repeat_positional.py if needed.
 /outputs/tr_repeat_correlation/positional/
+# blastn database files built by check_gene_synteny_gap.py - large (tens
+# of MB) and trivially regenerable from the genome assembly; the
+# meaningful output is the *_synteny_blastn.tsv hit table (tracked).
+/outputs/synteny_checks/*_db.*
