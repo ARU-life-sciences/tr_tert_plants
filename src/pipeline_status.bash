@@ -31,20 +31,38 @@ count_done () {
   echo "$n"
 }
 
+# TERT HMM search (run_tert_hmms.bash) writes 3 per-species files in a
+# per-species subdirectory, not one file matching a simple suffix - needs
+# its own check, matching that script's own skip-condition exactly.
+count_tert_hmm_done () {
+  local dir="${OUTPUT_DIR}/tert_tbls"
+  local n=0
+  while IFS=$'\t' read -r species _; do
+    [[ -z "$species" ]] && continue
+    local spp_dir="${dir}/${species}"
+    if [[ -s "${spp_dir}/${species}_isoformx1.tbl" && \
+          -s "${spp_dir}/${species}_catalytic_subunit.tbl" && \
+          -s "${spp_dir}/${species}_tert1.tbl" ]]; then
+      n=$((n + 1))
+    fi
+  done < "$ASSEMBLY_LIST"
+  echo "$n"
+}
+
+print_row () {
+  local name="$1" done_n="$2"
+  printf "%-38s %8s %8s\n" "$name" "$done_n" "$((total - done_n))"
+}
+
 echo "[pipeline_status] $total species in $ASSEMBLY_LIST"
 echo
 printf "%-38s %8s %8s\n" "stage" "done" "missing"
-for stage in \
-  "TR nhmmer|_all_tr_seqs_020226.tbl|${OUTPUT_DIR}/tr_tbls" \
-  "TERT tblastn|.tbl|${OUTPUT_DIR}/tert_tblastn" \
-  "TIDK|.tidk.tsv|${OUTPUT_DIR}/tidk" \
-  "TR domain extraction|.tsv|${OUTPUT_DIR}/tr_domains" \
-  "TR multi-locus extraction|.tsv|${OUTPUT_DIR}/tr_template_loci" \
-  ; do
-  IFS='|' read -r name suffix dir <<< "$stage"
-  done_n=$(count_done "$suffix" "$dir")
-  printf "%-38s %8s %8s\n" "$name" "$done_n" "$((total - done_n))"
-done
+print_row "TR nhmmer" "$(count_done "_all_tr_seqs_020226.tbl" "${OUTPUT_DIR}/tr_tbls")"
+print_row "TERT HMM (nhmmer)" "$(count_tert_hmm_done)"
+print_row "TERT tblastn" "$(count_done ".tbl" "${OUTPUT_DIR}/tert_tblastn")"
+print_row "TIDK" "$(count_done ".tidk.tsv" "${OUTPUT_DIR}/tidk")"
+print_row "TR domain extraction" "$(count_done ".tsv" "${OUTPUT_DIR}/tr_domains")"
+print_row "TR multi-locus extraction" "$(count_done ".tsv" "${OUTPUT_DIR}/tr_template_loci")"
 
 echo
 echo "Note: TR multi-locus extraction only applies to species with >=2 independent"

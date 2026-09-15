@@ -36,7 +36,7 @@ mkdir -p "$OUTBASE" "$LOGDIR"
 # LSF resources
 mbMem="${mbMem:-20000}"         # 20 GB default; override with mbMem=...
 nCPU="${nCPU:-20}"
-QUEUE="${QUEUE:-small}"
+QUEUE="${QUEUE:-normal}"  # 'small' queue no longer exists on this cluster
 
 echo "[run_tert_hmms] Using assembly list: $ASSEMBLY_LIST"
 echo "[run_tert_hmms] HMMs: "

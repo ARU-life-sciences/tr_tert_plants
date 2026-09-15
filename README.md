@@ -91,10 +91,34 @@ bash src/update_assembly_list.bash --apply
 # 3. Check what's left to run:
 bash src/pipeline_status.bash
 
-# 4. Run whichever per-stage scripts are needed (steps 3-11 above) - each
-#    one already skips species with existing output, so it's safe to just
-#    re-run them after step 1/2 and they'll only process what's new.
+# 4. Run the identification pipeline (wraps steps 3-11 above):
+bash src/run_id_pipeline.bash submit   # fires off the 4 LSF-backed search
+                                        # stages (TR nhmmer, TERT nhmmer,
+                                        # TERT tblastn, TIDK) for whatever's
+                                        # missing, then returns immediately -
+                                        # the jobs themselves run on LSF in
+                                        # the background (TERT tblastn in
+                                        # particular can take days per genome)
+
+# ...come back once TR nhmmer + TIDK have had time to finish...
+bash src/run_id_pipeline.bash status   # check progress
+bash src/run_id_pipeline.bash finish   # run the local extraction stages
+                                        # (get_all_tr_seqs, recreate_TR_hmm,
+                                        # run_extract_tr_domains,
+                                        # run_extract_tr_template_all_loci)
+                                        # for whatever's ready; safe to
+                                        # re-run later to pick up the rest
 ```
+
+Every stage script `run_id_pipeline.bash` calls already skips species with
+existing output, so all three of its modes (`submit`/`status`/`finish`) are
+safe to re-run at any time. It's split into two modes rather than one
+linear "run everything" script because the 4 search stages are LSF-async
+(they submit jobs and return, they don't wait for completion) while the
+extraction stages are local and need those jobs to have actually
+*finished*, not just been submitted - chaining them blindly would either
+block for days or run against incomplete data. See the script's header
+comment for the full reasoning.
 
 `update_assembly_list.bash` reports three categories: **NEW** species (not
 seen before - the common case), **CHANGED** (the recorded "latest" assembly
