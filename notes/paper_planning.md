@@ -16,9 +16,13 @@ DONE, see #6/#3/#4 below). Updated again 2026-09-15: manuscript scope
 decided (one paper, not 2-3), a major new related-work paper found
 (Závodník et al. - see below, materially revises the novelty framing),
 and a new candidate finding added (#7, `Epilobium_hirsutum` TERT loss -
-see `notes/epilobium_hirsutum_tert_absence.md`). Written to answer: what
-are the headline results, what's still needed before this is
-publication-ready, and which files/notes back each result.
+see `notes/epilobium_hirsutum_tert_absence.md`). Updated again same day
+after direct author feedback confirmed the Závodník et al. citation and
+flagged a specific new angle (chromosome-arm-specific variant
+segregation, not yet tested - see "Related work" and "Specific to #6"
+below). Written to answer: what are the headline results, what's still
+needed before this is publication-ready, and which files/notes back
+each result.
 
 ## Related work (read 2026-09-14, 2026-09-15 - changes framing, not headline validity)
 
@@ -52,10 +56,13 @@ publication-ready, and which files/notes back each result.
   proposed mechanism is DNA-level recombination between G-/C-rich
   strands, NOT TR-paralog-driven (Chenopodium wasn't checked for TR
   duplication) - a genuine competing hypothesis we haven't ruled out.
-- **Závodník et al.** (read 2026-09-15; exact journal/year not yet
-  confirmed - shares methodology/covariance model with Fajkus et al.
-  2021, likely same group) - the single most directly relevant paper
-  found so far, more so than Kumawat or Belyayev. Screened ~986
+- **Závodník et al. 2023, New Phytologist** - "Telomerase RNA gene
+  paralogs in plants - the usual pathway to unusual telomeres"
+  ([10.1111/nph.19110](https://doi.org/10.1111/nph.19110); full citation
+  confirmed 2026-09-15 directly by one of the authors, a collaborator on
+  this project, replying to an email summarising our findings - see
+  below). The single most directly relevant paper found so far, more so
+  than Kumawat or Belyayev. Screened ~986
   Tracheophyta genomes with Infernal/covariance models (comparable raw
   scale to our own ~330-700 species) and built a large table of species
   with multiple TR paralogs whose templates predict different telomere
@@ -94,6 +101,41 @@ related papers, whose structural characterizations are qualitative/
 descriptive, case-by-case, not a dataset-wide hypothesis test against a
 proper null. Lead the paper with the controlled-comparison result, not
 with sample size.
+
+**Direct author feedback (2026-09-15)**: one of the Závodník et al.
+authors replied to an email summarising this project's findings (see
+`notes/` for context - a draft was sketched in-session). Key points:
+- Confirms our results are broadly consistent with theirs, and frames
+  the relationship correctly: they worked with less genomic data
+  available at the time, ours is a broader/more robust re-test with a
+  larger, more recent dataset - matches the "generality/scale" framing
+  above, now with direct author buy-in rather than just our own
+  inference from reading the paper.
+- Terminology note: their paper (and by extension Kumawat et al. 2025)
+  uses ***Erythranthe*** for what Kumawat calls *Mimulus* (the genus has
+  been split; *Erythranthe* is the current name for the relevant
+  section) - worth using consistently if citing both papers together.
+- **A specific, expert-flagged open question, potentially a genuine new
+  angle for us**: in their data, the most interesting pattern was
+  chromosome-**arm**-specific segregation of two TR-supported telomere
+  motifs (their example: *Capsicum annuum*, their Fig. 4) - i.e. some
+  chromosome arms carry only one motif, others carry only the other,
+  with **no co-localisation** between them anywhere in the genome. They
+  explicitly note this "awaits mechanistic clarification" - an
+  acknowledged open problem in their own work, not something they
+  resolved.
+
+  **This is a real analysis gap in our own work so far.** Everything we
+  have (headline #6) tests presence/arrangement *within* a chromosome
+  end's array, or dataset-wide aggregate frequency - we have not yet
+  asked, for our own 44 differing sets, whether the two variants
+  partition cleanly by chromosome (arm-specific, no co-localisation) vs.
+  genuinely mix at the same termini. We likely already have (or could
+  cheaply regenerate) the per-chromosome-end presence/absence data
+  needed to test this directly and at dataset scale - something neither
+  Závodník et al. nor Kumawat et al. did systematically (they report it
+  as a qualitative observation in a handful of validated species, not a
+  dataset-wide statistic). Worth prioritising - not yet attempted.
 
 ## Headline results
 
@@ -276,6 +318,16 @@ with sample size.
   set. Needs validation on species/loci not used to derive the rule.
 
 **Specific to #6 (array structure):**
+- **NEW, expert-flagged, not yet attempted: chromosome-arm-specific
+  segregation.** Prompted by direct author feedback on Závodník et al.
+  2023 (see "Related work" above) - test whether, for our 44 differing
+  sets, the two variants partition by chromosome (arm-specific, no
+  co-localisation between them anywhere) vs. genuinely mix at the same
+  termini. Likely answerable from data we already have or can cheaply
+  regenerate (per-chromosome-end presence/absence from the exhaustive
+  walk) - would be a genuine, dataset-wide statistical test of a pattern
+  the original authors only observed qualitatively in a handful of
+  species. High priority - a real, expert-suggested novel angle.
 - **DONE (2026-09-14): identical-TR-copy control group.** 62 sets from
   60 species with fully identical TR copies, walked with the same
   exhaustive method using an independently tidk-discovered candidate.
