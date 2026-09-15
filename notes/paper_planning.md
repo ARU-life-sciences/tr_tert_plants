@@ -19,10 +19,14 @@ and a new candidate finding added (#7, `Epilobium_hirsutum` TERT loss -
 see `notes/epilobium_hirsutum_tert_absence.md`). Updated again same day
 after direct author feedback confirmed the Závodník et al. citation and
 flagged a specific new angle (chromosome-arm-specific variant
-segregation, not yet tested - see "Related work" and "Specific to #6"
-below). Written to answer: what are the headline results, what's still
-needed before this is publication-ready, and which files/notes back
-each result.
+segregation). Updated again 2026-09-16 with that chromosome-arm
+segregation test now run dataset-wide: does not replicate the author's
+clean Capsicum-like full segregation (0/44 fully segregated), but finds
+partial segregation is common (13/22 informative sets show the minor
+variant standing alone at some arms) alongside genuine co-localisation
+(9/22) - see "Specific to #6" below. Written to answer: what are the
+headline results, what's still needed before this is publication-ready,
+and which files/notes back each result.
 
 ## Related work (read 2026-09-14, 2026-09-15 - changes framing, not headline validity)
 
@@ -135,7 +139,15 @@ authors replied to an email summarising this project's findings (see
   needed to test this directly and at dataset scale - something neither
   Závodník et al. nor Kumawat et al. did systematically (they report it
   as a qualitative observation in a handful of validated species, not a
-  dataset-wide statistic). Worth prioritising - not yet attempted.
+  dataset-wide statistic).
+
+  **DONE (2026-09-16), see "Specific to #6" below for the full result.**
+  Short version: we do not replicate their clean Capsicum-like full
+  segregation anywhere in our 44 sets (0/44 fully segregated), but
+  partial segregation - the minor variant standing alone at some arms,
+  not just co-occurring with the dominant one - is common (13/22
+  informative sets), alongside genuine co-localisation (9/22). Worth
+  relaying back to them as a concrete, if partial, answer.
 
 ## Headline results
 
@@ -318,16 +330,36 @@ authors replied to an email summarising this project's findings (see
   set. Needs validation on species/loci not used to derive the rule.
 
 **Specific to #6 (array structure):**
-- **NEW, expert-flagged, not yet attempted: chromosome-arm-specific
-  segregation.** Prompted by direct author feedback on Závodník et al.
-  2023 (see "Related work" above) - test whether, for our 44 differing
-  sets, the two variants partition by chromosome (arm-specific, no
-  co-localisation between them anywhere) vs. genuinely mix at the same
-  termini. Likely answerable from data we already have or can cheaply
-  regenerate (per-chromosome-end presence/absence from the exhaustive
-  walk) - would be a genuine, dataset-wide statistical test of a pattern
-  the original authors only observed qualitatively in a handful of
-  species. High priority - a real, expert-suggested novel angle.
+- **DONE (2026-09-15/16): chromosome-arm-specific segregation.** Prompted
+  by direct author feedback on Závodník et al. 2023 (see "Related work"
+  above) - tested whether, for our 44 differing sets, the two variants
+  partition by chromosome end (arm-specific, no co-localisation) vs.
+  genuinely mix at the same termini, using the same exhaustive
+  per-chromosome-end walk + telomere-proper restriction as the rest of
+  #6. Result: **we do not replicate the clean arm-specific segregation
+  the author described qualitatively for Capsicum annuum.** Of 44 sets:
+  0/44 FULLY_SEGREGATED (no set had the minor variant appear at some arms
+  and *never* co-occur with the dominant variant at any arm), 9/44
+  FULLY_COLOCALISED, 5/44 ABSENT/TOO_FEW_TO_ASSESS (minor variant present
+  at <3 arms dataset-wide, not enough to classify). Restricting to the 22
+  sets with enough minor-variant occurrences to be informative, and
+  splitting the remaining "partial" bucket by whether the minor variant
+  ever stands alone at an arm (`SOME_SEGREGATION`, 13/22 = 59%) vs. only
+  ever co-occurs with the dominant variant when present
+  (`MINOR_NEVER_ALONE`, likely a frequency/power artifact rather than a
+  real colocalisation preference - not true segregation) vs. fully
+  co-localised (9/22 = 41%): partial segregation is common but *absolute*
+  segregation (Capsicum-like) is not observed anywhere in this dataset.
+  `Acaena_novae_zelandiae`, `Acaena_ovalifolia`, and `Lythrum_salicaria`
+  show the most balanced (Capsicum-like) mixing. Caveat: "arm" here means
+  chromosome end (no centromere annotation available to define true
+  cytogenetic arms), and the `MIN_MINOR_FOR_PATTERN=3` informativeness
+  threshold is an unvalidated judgment call. Worth reporting back to the
+  collaborator as a genuine, if partial, answer to their open question.
+  Script: `src/tr_chromosome_arm_segregation.py`. Output:
+  `outputs/tr_repeat_correlation/chromosome_arm_segregation.tsv`. Full
+  write-up: `tr_core_template_array_structure.md`'s new "Chromosome-arm
+  segregation" section.
 - **DONE (2026-09-14): identical-TR-copy control group.** 62 sets from
   60 species with fully identical TR copies, walked with the same
   exhaustive method using an independently tidk-discovered candidate.

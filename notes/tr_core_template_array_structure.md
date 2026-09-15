@@ -397,6 +397,69 @@ an identical-copy locus that passed into the control group (4 have no
 other core-length group at all; the other 2's identical-copy group
 didn't produce a viable independent candidate from tidk).
 
+## Chromosome-arm segregation: does either variant "own" specific arms?
+
+Prompted directly by a Závodník et al. 2023 (New Phytologist,
+[10.1111/nph.19110](https://doi.org/10.1111/nph.19110)) author, replying
+to an email summarising this project's findings: in their data, the most
+interesting pattern in a few species (their example: *Capsicum annuum*,
+their Fig. 4) was **chromosome-arm-specific segregation** of two
+TR-supported telomere motifs - some arms carry only one motif, others
+only the other, with *no co-localisation* anywhere in the genome. They
+flagged this as awaiting mechanistic clarification, observed
+qualitatively in a handful of validated species, not tested
+systematically.
+
+This is a different question from everything else in this note: not
+"is there structure within one array" but "does each chromosome END
+(= one arm's telomere) carry the telomere-dominant variant only, the
+minor variant only, or both together?" `tr_chromosome_arm_segregation.py`
+reuses the exact same exhaustive per-chromosome-end walk and
+telomere-proper restriction, but classifies each arm instead of each
+array's internal arrangement.
+
+**Result: the strict Závodník pattern (zero co-localisation anywhere)
+was not found in any of our 44 sets** - but a real, weaker form of
+segregation is common:
+
+| pattern | sets | meaning |
+|---|---|---|
+| FULLY_SEGREGATED | 0/44 | every informative arm is exclusively one variant or the other - the Závodník pattern |
+| SOME_SEGREGATION | 13/44 | the minor variant stands alone at >=1 arm *and* co-locates with the dominant at >=1 other arm - genuine partial segregation |
+| MINOR_NEVER_ALONE | 17/44 | the minor variant is real and confirmed, but at every arm where it appears the dominant is also there - never arm-exclusive |
+| FULLY_COLOCALISED | 9/44 | every informative arm carries both variants together - the opposite extreme, and notably overlaps heavily with the regular-alternation/candidate-HOR set (4 of 6 regular-alternation species land here) |
+| ABSENT / TOO_FEW_TO_ASSESS | 5/44 | no real minor-variant presence, or too little data (<3 total occurrences) to classify |
+
+Restricting to the 22 sets where minor-variant presence is common enough
+to be genuinely informative about this question (excluding the 17
+`MINOR_NEVER_ALONE` sets, which are underpowered for distinguishing
+segregation from colocalisation - the dominant is present at nearly
+every arm regardless, so minor essentially never gets the chance to
+appear alone): **13/22 (59%) show at least some real segregation, 9/22
+(41%) show complete colocalisation, and 0/22 show the strict "never
+mixed" pattern.**
+
+`Acaena_novae_zelandiae`, `Acaena_ovalifolia`, and `Lythrum_salicaria`
+show the most balanced segregation (roughly equal numbers of
+dominant-only, minor-only, and both-present arms) - the closest analogues
+in our dataset to the *Capsicum annuum* pattern described, short of
+complete separation.
+
+**Reading**: this doesn't replicate Závodník et al.'s most striking
+observation - within our own 44-set sample, no case shows the extreme
+"never co-localised" pattern - but it does give the first dataset-wide,
+quantified answer to the underlying question rather than a handful of
+case studies: partial arm-based segregation is a real, common
+phenomenon (30% of informative sets), genuine full segregation appears
+to be rare-to-absent at this sample size, and complete mixing
+(FULLY_COLOCALISED) is roughly as common as partial segregation. Whether
+`Capsicum annuum`-style complete segregation requires conditions our
+44-set sample doesn't happen to include (a specific evolutionary stage,
+lineage, or degree of divergence) or is genuinely rare across land
+plants generally isn't resolved by this - a larger, more targeted
+follow-up (or extending the check to the TR-identical control group's
+own second-candidate presence pattern, not yet done) would help.
+
 ## Caveats
 
 - **`GAP_THRESHOLD` (50bp) for the telomere-proper boundary is a tunable
@@ -460,6 +523,16 @@ didn't produce a viable independent candidate from tidk).
   or satellite repeat near some chromosome ends) could still pass that
   filter without being a true "derivative monomer" of the canonical
   repeat - not fully ruled out for every one of the 62 control sets.
+- **"Arm" in the chromosome-arm segregation analysis means chromosome
+  END** (5' or 3' extraction terminus), not a cytogenetically-defined arm
+  relative to a centromere position - we don't have centromere
+  annotations to check this against. For a roughly metacentric
+  chromosome the two should correspond directly; for a strongly
+  acrocentric one they might not. The `MIN_MINOR_FOR_PATTERN=3` threshold
+  (need >=3 total minor-variant occurrences dataset-wide before
+  classifying a pattern at all) is a judgment call, not validated -
+  loosening or tightening it would shift some sets between
+  `TOO_FEW_TO_ASSESS` and a real pattern.
 
 ## Reproducing
 
@@ -494,4 +567,10 @@ python3 src/tr_core_template_array_structure_summary.py outputs/tr_repeat_correl
 
 # One-off illustrative render of a specific chromosome-end:
 python3 src/walk_terminal_repeat_array.py Centaurium_intermedium SUPER_1_HAP1 3prime CCTAAACC AACCCTAA --window 300
+
+# Chromosome-arm segregation test (does either variant "own" specific arms,
+# as one Zavodnik et al. author reported qualitatively for Capsicum annuum?
+# - see the section above):
+python3 src/tr_chromosome_arm_segregation.py outputs/tr_repeat_correlation/core_template_variant_positions.tsv \
+  outputs/tr_repeat_correlation/positional 5000 outputs/tr_repeat_correlation/chromosome_arm_segregation.tsv
 ```
